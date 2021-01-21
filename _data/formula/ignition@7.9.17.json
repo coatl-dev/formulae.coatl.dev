@@ -1,0 +1,72 @@
+{
+    "name": "ignition@7.9.17",
+    "full_name": "coatl-dev/coatl-dev/ignition@7.9.17",
+    "oldname": null,
+    "aliases": [
+  
+    ],
+    "versioned_formulae": [
+  
+    ],
+    "desc": "Unlimited Platform for SCADA and so much more",
+    "license": "IASLA",
+    "homepage": "https://inductiveautomation.com/",
+    "versions": {
+      "stable": "7.9.17",
+      "head": null,
+      "bottle": false
+    },
+    "urls": {
+      "stable": {
+        "url": "https://files.inductiveautomation.com/release/ia/build7.9.17/20210105-1428/zip-installers/Ignition-osx-7.9.17.zip",
+        "tag": null,
+        "revision": null
+      }
+    },
+    "revision": 0,
+    "version_scheme": 0,
+    "bottle": false,
+    "keg_only": false,
+    "bottle_disabled": true,
+    "options": [
+  
+    ],
+    "build_dependencies": [
+  
+    ],
+    "core_dependencies": [
+      "openjdk@8"
+    ],
+    "dependencies": [
+
+    ],
+    "recommended_dependencies": [
+  
+    ],
+    "optional_dependencies": [
+  
+    ],
+    "uses_from_macos": [
+  
+    ],
+    "requirements": [
+  
+    ],
+    "conflicts_with": [
+  
+    ],
+    "caveats": "To have launchd start coatl-dev/coatl-dev/ignition@7.9.17 now and restart at login:\n  brew services start coatl-dev/coatl-dev/ignition@7.9.17\n",
+    "installed": [
+  
+    ],
+    "linked_keg": null,
+    "pinned": false,
+    "outdated": false,
+    "deprecated": false,
+    "deprecation_date": null,
+    "deprecation_reason": null,
+    "disabled": false,
+    "disable_date": null,
+    "disable_reason": null
+  }
+  

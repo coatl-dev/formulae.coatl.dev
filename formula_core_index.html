@@ -1,0 +1,20 @@
+---
+title: homebrew-core
+layout: default
+permalink: /formula-core/
+---
+<p>This is a listing of all packages available from the <a href="{{ site.taps.core.remote }}">{{ site.taps.core.repo }} tap</a> via the <a href="https://brew.sh">Homebrew</a> package manager for macOS.</p>
+
+<h2><a href="https://formulae.brew.sh/api/formula.json"><code>/api/formula.json</code> (JSON API)</a></h2>
+
+<table>
+    {%- assign sorted_formulae = site.data.formula-core | sort -%}
+    {%- for f in sorted_formulae -%}
+    <tr>
+        {%- assign formula = f[1] -%}
+        {%- assign formula_path = "formula-core" -%}
+        {%- include formula.html formula_path=formula_path formula=formula -%}
+    </tr>
+    {%- endfor -%}
+</table>
+<footer id="border-no-bottom">Last updated: {{ "today" | date: "%F %R" }}</footer>

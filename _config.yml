@@ -1,0 +1,50 @@
+title: coatl.dev Formulae
+description: coatl-dev's Homebrew package index
+
+remote_theme: Homebrew/brew.sh
+
+exclude:
+  - bin
+  - script
+  - CNAME
+  - LICENSE.txt
+  - Rakefile
+  - README.md
+  - Gemfile*
+  - vendor
+
+plugins:
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+permalink: :title
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: https://brew.sh/assets/img/homebrew-256x256.png
+      search_name: Homebrew Formulae
+      search_site: formulae
+
+taps:
+  coatl-dev:
+    repo: coatl-dev
+    name: coatl-dev/coatl-dev
+    fullname: coatl-dev/homebrew-coatl-dev
+    remote: https://github.com/coatl-dev/homebrew-coatl-dev
+  core:
+    repo: core
+    name: Homebrew/core
+    fullname: Homebrew/homebrew-core
+    remote: https://github.com/Homebrew/homebrew-core
+
+logo: https://brew.sh/assets/img/homebrew-256x256.png
+
+forkme_nwo: Homebrew/formulae.brew.sh
+
+twitter:
+  username: __coatldev__

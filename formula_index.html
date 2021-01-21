@@ -1,0 +1,17 @@
+---
+title: coatl-dev
+layout: default
+permalink: /formula/
+---
+<p>This is a listing of all packages available from the <a href="{{ site.taps.coatl-dev.remote }}">{{ site.taps.coatl-dev.repo }} tap</a> via the <a href="https://brew.sh">Homebrew</a> package manager for macOS.</p>
+
+<table>
+    {%- assign sorted_formulae = site.data.formula | sort -%}
+    {%- for f in sorted_formulae -%}
+    <tr>
+        {%- assign formula = f[1] -%}
+        {%- include formula.html formula=formula -%}
+    </tr>
+    {%- endfor -%}
+</table>
+<footer id="border-no-bottom">Last updated: {{ "today" | date: "%F %R" }}</footer>
