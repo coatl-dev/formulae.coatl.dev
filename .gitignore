@@ -5,9 +5,8 @@ _site/
 .jekyll-metadata
 vendor
 
-# Beautiful Jekyll
+# Gemfile
 Gemfile.lock
-beautiful-jekyll-theme-*.gem
 
 # macOS
 # General
