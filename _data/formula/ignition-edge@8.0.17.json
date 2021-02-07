@@ -6,13 +6,14 @@
 
   ],
   "versioned_formulae": [
-
+    "ignition-edge@8.1.2",
+    "ignition-edge@8.1.1"
   ],
   "desc": "Unlimited Platform for SCADA and so much more",
-  "license": "IASLA",
+  "license": "Cannot Represent",
   "homepage": "https://inductiveautomation.com/",
   "versions": {
-    "stable": "Edge 8.0.17",
+    "stable": "8.0.17",
     "head": null,
     "bottle": false
   },
@@ -25,7 +26,8 @@
   },
   "revision": 0,
   "version_scheme": 0,
-  "bottle": false,
+  "bottle": {
+  },
   "keg_only": false,
   "bottle_disabled": true,
   "options": [

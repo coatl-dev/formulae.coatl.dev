@@ -6,7 +6,8 @@
 
   ],
   "versioned_formulae": [
-
+    "jython@2.7.2",
+    "jython@2.7.1"
   ],
   "desc": "Python implementation written in Java (successor to JPython)",
   "license": "Cannot Represent",
@@ -25,9 +26,10 @@
   },
   "revision": 0,
   "version_scheme": 0,
-  "bottle": false,
+  "bottle": {
+  },
   "keg_only": false,
-  "bottle_disabled": true,
+  "bottle_disabled": false,
   "options": [
 
   ],

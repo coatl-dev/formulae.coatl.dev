@@ -6,7 +6,8 @@
 
   ],
   "versioned_formulae": [
-
+    "jython@2.7.2",
+    "jython@2.5.3"
   ],
   "desc": "Python implementation written in Java (successor to JPython)",
   "license": "Cannot Represent",
@@ -25,9 +26,10 @@
   },
   "revision": 0,
   "version_scheme": 0,
-  "bottle": false,
+  "bottle": {
+  },
   "keg_only": false,
-  "bottle_disabled": true,
+  "bottle_disabled": false,
   "options": [
 
   ],
@@ -54,9 +56,21 @@
   ],
   "caveats": null,
   "installed": [
+    {
+      "version": "2.7.1",
+      "used_options": [
 
+      ],
+      "built_as_bottle": false,
+      "poured_from_bottle": false,
+      "runtime_dependencies": [
+
+      ],
+      "installed_as_dependency": false,
+      "installed_on_request": true
+    }
   ],
-  "linked_keg": null,
+  "linked_keg": "2.7.1",
   "pinned": false,
   "outdated": false,
   "deprecated": false,
