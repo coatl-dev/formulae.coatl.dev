@@ -1,5 +1,11 @@
 
 <div class="install">
+    <span class="label">Tap command: </span>
+    <div class="copyable">
+        {%- highlight bash -%} brew tap {{site.taps.coatl-dev.name}} {%- endhighlight -%}
+    </div>
+</div>
+<div class="install">
     <span class="label">Install command: </span>
     <div class="copyable">
         {%- highlight bash -%} brew install{{include.modifier}} {{include.item}} {%- endhighlight -%}
