@@ -44,47 +44,66 @@ permalink: :title
 
 
 <p>Bottle (binary package)
-    {%- assign bottles = false -%}
-    {%- if f.bottle_disabled %} not required, support provided for all supported Homebrew platforms.
-    {%- elsif formula_path == "formula-linux" -%}
-        {%- if f.bottle.stable.files.x86_64_linux %} installation support provided for Linux platforms:
-            {%- assign bottles = true -%}
-        {%- else %} not available on this platform.
-        {%- endif -%}
-    {%- elsif f.bottle.stable %} installation support provided for macOS releases:
+{%- assign bottles = false -%}
+{%- if f.bottle_disabled %} not required, support provided for all supported Homebrew platforms.
+{%- elsif formula_path == "formula-linux" -%}
+    {%- if f.bottle.stable.files.x86_64_linux %} installation support provided for Linux platforms:
         {%- assign bottles = true -%}
     {%- else %} not available on this platform.
-    {%- endif -%}</p>
-{%- if bottles %}
+    {%- endif -%}
+{%- elsif f.bottle.stable %} installation support provided for macOS releases:
+    {%- assign bottles = true -%}
+{%- else %} not available on this platform.
+{%- endif -%}</p>
+
+{%- if bottles -%}
+    {%- assign arm64_bottle_count = 0 -%}
+    {%- assign intel_bottle_count = 0 -%}
+    {%- for b in f.bottle.stable.files -%}
+        {%- if b[0] contains "arm64_" -%}
+            {%- assign arm64_bottle_count = arm64_bottle_count | plus: 1 -%}
+        {%- else -%}
+            {%- assign intel_bottle_count = intel_bottle_count | plus: 1 -%}
+        {%- endif -%}
+    {%- endfor %}
 <table>
-    <tr>
-        <td><strong>Intel x86_64</strong></td>
-        <td style="text-transform:capitalize;">
-            {%- assign subsequent = false -%}
-            {%- for b in f.bottle.stable.files -%}
-                {%- unless b[0] contains "arm64_" or formula_path == "formula-linux" and b[0] != "x86_64_linux" -%}
-                    {%- if subsequent -%}, {% endif -%}
-                    {{ b[0] | replace: "x86_64", "64-bit" | replace: "_", "&nbsp;" }}
-                    {%- assign subsequent = true -%}
-                {%- endunless -%}
-            {%- endfor -%}
-        </td>
-    </tr>
-    {%- unless formula_path == "formula-linux" %}
-    <tr>
-        <td><strong>Apple Silicon</strong></td>
-        <td style="text-transform:capitalize;">
-            {%- assign subsequent = false -%}
-            {%- for b in f.bottle.stable.files -%}
-                {%- if b[0] contains "arm64_" -%}
-                    {%- if subsequent -%}, {% endif -%}
-                    {{ b[0] | remove_first: "arm64_" | replace: "_", "&nbsp;" }}
-                    {%- assign subsequent = true -%}
+    {%- assign subsequent = false -%}
+    {%- for b in f.bottle.stable.files -%}
+        {%- unless b[0] contains "arm64_" %}
+        <tr>
+            {%- unless subsequent -%}
+                <th rowspan="{{ intel_bottle_count }}" scope="rowgroup">Intel</th>
+            {%- endunless %}
+            <td scope="row" style="text-transform:capitalize;">
+                {{ b[0] | replace: "x86_64", "64-bit" | replace: "_", "&nbsp;" }}
+                {%- assign subsequent = true -%}
+            </td>
+            <td>✅</td>
+        </tr>
+        {%- endunless -%}
+    {%- endfor -%}
+    <tr><th colspan="3"></th></tr>
+    {%- assign subsequent = false -%}
+    {%- for b in f.bottle.stable.files -%}
+        {%- if b[0] contains "arm64_" %}
+        <tr>
+            {%- unless subsequent -%}
+            <th rowspan="{{ arm64_bottle_count }}" scope="rowgroup">
+                {%- if formula_path == "formula-linux" -%}
+                    ARM64
+                {%- else -%}
+                    Apple Silicon
                 {%- endif -%}
-            {%- endfor -%}
-        </td>
-    </tr>
-    {%- endunless %}
+            </th>
+            {%- endunless %}
+            <td scope="row" style="text-transform:capitalize;">
+                {{ b[0] | remove_first: "arm64_" | replace: "_", "&nbsp;" }}
+                {%- assign subsequent = true -%}
+            </td>
+            <td>✅</td>
+        </tr>
+        {%- endif -%}
+    {%- endfor %}
 </table>
 {%- endif %}
 
@@ -193,7 +212,7 @@ permalink: :title
 </table>
 {%- endif %}
 
-<!-- {%- if formula_path == "formula-core" -%}
+<!--
 <p>Analytics:</p>
 <table>
 {%- if formula_path == "formula-linux" -%}
@@ -254,4 +273,4 @@ permalink: :title
     {%- endif -%}
 {%- endfor %}
 </table>
-{%- endif %} -->
+-->

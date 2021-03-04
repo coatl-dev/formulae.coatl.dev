@@ -39,8 +39,11 @@
   "build_dependencies": [
 
   ],
-  "dependencies": [
+  "core_dependencies": [
     "openjdk@8"
+  ],
+  "dependencies": [
+
   ],
   "recommended_dependencies": [
 
