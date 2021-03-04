@@ -1,6 +1,7 @@
 {
   "name": "jython@2.7.1",
   "full_name": "coatl-dev/coatl-dev/jython@2.7.1",
+  "tap": "coatl-dev/coatl-dev",
   "oldname": null,
   "aliases": [
 

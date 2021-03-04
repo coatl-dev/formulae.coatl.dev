@@ -1,11 +1,13 @@
 {
   "name": "ignition@7.9.17",
   "full_name": "coatl-dev/coatl-dev/ignition@7.9.17",
+  "tap": "coatl-dev/coatl-dev",
   "oldname": null,
   "aliases": [
 
   ],
   "versioned_formulae": [
+    "ignition@8.1.3",
     "ignition@8.1.2",
     "ignition@8.1.1",
     "ignition@8.0.17"
@@ -37,11 +39,8 @@
   "build_dependencies": [
 
   ],
-  "core_dependencies": [
-    "openjdk@8"
-  ],
   "dependencies": [
-
+    "openjdk@8"
   ],
   "recommended_dependencies": [
 
@@ -58,7 +57,7 @@
   "conflicts_with": [
 
   ],
-  "caveats": "To have launchd start coatl-dev/coatl-dev/ignition@7.9.17 now and restart at login:\n  brew services start coatl-dev/coatl-dev/ignition@7.9.17\n",
+  "caveats": null,
   "installed": [
 
   ],

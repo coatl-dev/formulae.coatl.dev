@@ -1,11 +1,13 @@
 {
   "name": "ignition-edge@8.1.2",
   "full_name": "coatl-dev/coatl-dev/ignition-edge@8.1.2",
+  "tap": "coatl-dev/coatl-dev",
   "oldname": null,
   "aliases": [
 
   ],
   "versioned_formulae": [
+    "ignition-edge@8.1.3",
     "ignition-edge@8.1.1",
     "ignition-edge@8.0.17"
   ],
@@ -54,7 +56,7 @@
   "conflicts_with": [
 
   ],
-  "caveats": "To have launchd start coatl-dev/coatl-dev/ignition-edge@8.1.2 now and restart at login:\n  brew services start coatl-dev/coatl-dev/ignition-edge@8.1.2\n",
+  "caveats": null,
   "installed": [
 
   ],

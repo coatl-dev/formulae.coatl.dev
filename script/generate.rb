@@ -1,6 +1,6 @@
 #!/usr/bin/env brew ruby
-formula_dir = ARGV.first
-tap_name = ARGV.second
+formula_dir = "formula"
+tap_name = "coatl-dev/coatl-dev"
 
 # formula_dir = os == "mac" ? "formula" : "formula-linux"
 tap = Tap.fetch(tap_name)
