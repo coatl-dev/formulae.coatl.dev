@@ -19,6 +19,7 @@ tap.formula_names.each do |n|
       "freetype",
       "freetype2",
       "libpng",
+      "m4",
       "openjdk@8",
       "openjdk@11",
       "pkg-config"].include?(n)
