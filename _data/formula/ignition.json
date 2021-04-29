@@ -7,6 +7,7 @@
     "ignition@8.1"
   ],
   "versioned_formulae": [
+    "ignition@8.1.5",
     "ignition@8.1.4",
     "ignition@8.1.3",
     "ignition@8.1.2",
@@ -18,13 +19,13 @@
   "license": "Cannot Represent",
   "homepage": "https://inductiveautomation.com/",
   "versions": {
-    "stable": "8.1.4",
+    "stable": "8.1.5",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://files.inductiveautomation.com/release/ia/8.1.4/20210401-0932/Ignition-osx-8.1.4.zip",
+      "url": "https://files.inductiveautomation.com/release/ia/8.1.5/20210428-1014/Ignition-osx-8.1.5.zip",
       "tag": null,
       "revision": null
     }
@@ -62,7 +63,7 @@
   "caveats": "The data and logs folders have been symlinked to:\n  data: $(brew --prefix)/etc/ignition\n  logs: $(brew --prefix)/var/ignition\n",
   "installed": [
     {
-      "version": "8.1.4",
+      "version": "8.1.5",
       "used_options": [
 
       ],
@@ -75,7 +76,7 @@
       "installed_on_request": true
     }
   ],
-  "linked_keg": "8.1.4",
+  "linked_keg": "8.1.5",
   "pinned": false,
   "outdated": false,
   "deprecated": false,
