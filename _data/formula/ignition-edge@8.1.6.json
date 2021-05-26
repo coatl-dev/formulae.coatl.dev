@@ -1,30 +1,30 @@
 {
-  "name": "ignition-edge@8.0.17",
-  "full_name": "coatl-dev/coatl-dev/ignition-edge@8.0.17",
+  "name": "ignition-edge@8.1.6",
+  "full_name": "coatl-dev/coatl-dev/ignition-edge@8.1.6",
   "tap": "coatl-dev/coatl-dev",
   "oldname": null,
   "aliases": [
 
   ],
   "versioned_formulae": [
-    "ignition-edge@8.1.6",
     "ignition-edge@8.1.5",
     "ignition-edge@8.1.4",
     "ignition-edge@8.1.3",
     "ignition-edge@8.1.2",
-    "ignition-edge@8.1.1"
+    "ignition-edge@8.1.1",
+    "ignition-edge@8.0.17"
   ],
   "desc": "Unlimited Platform for SCADA and so much more",
   "license": "Cannot Represent",
   "homepage": "https://inductiveautomation.com/",
   "versions": {
-    "stable": "8.0.17",
+    "stable": "8.1.6",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://files.inductiveautomation.com/release/ia/8.0.17/20201112-1050/Ignition-Edge-osx-8.0.17.zip",
+      "url": "https://files.inductiveautomation.com/release/ia/8.1.6/20210525-1228/Ignition-Edge-osx-8.1.6.zip",
       "tag": null,
       "revision": null
     }

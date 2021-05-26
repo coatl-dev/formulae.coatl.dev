@@ -6,7 +6,7 @@ tap_name = "coatl-dev/coatl-dev"
 tap = Tap.fetch(tap_name)
 
 directories = ["_data/#{formula_dir}", "api/#{formula_dir}", "#{formula_dir}"]
-# FileUtils.rm_rf directories + ["_data/#{formula_dir}_canonical.json"]
+FileUtils.rm_rf directories + ["_data/#{formula_dir}_canonical.json"]
 FileUtils.mkdir_p directories
 
 json_template = IO.read "_api_formula.json.in"
