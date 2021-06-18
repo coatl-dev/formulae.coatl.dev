@@ -7,15 +7,8 @@
     "ignition@8.1"
   ],
   "versioned_formulae": [
-    "ignition@8.1.7",
-    "ignition@8.1.6",
-    "ignition@8.1.5",
-    "ignition@8.1.4",
-    "ignition@8.1.3",
-    "ignition@8.1.2",
-    "ignition@8.1.1",
-    "ignition@8.0.17",
-    "ignition@7.9.17"
+    "ignition@8.0",
+    "ignition@7.9"
   ],
   "desc": "Unlimited Platform for SCADA and so much more",
   "license": "Cannot Represent",
