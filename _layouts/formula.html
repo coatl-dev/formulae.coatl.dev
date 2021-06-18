@@ -38,7 +38,10 @@ permalink: :title
 {%- assign api = site.taps.coatl-dev.api %}
 {%- assign remote = site.taps.coatl-dev.remote %}
 {%- endif -%}
-<p><a href="{{ api }}/formula/{{ f.name }}.json"><code>api/formula/{{ f.name }}.json</code> (JSON API)</a></p>
+<p><a href="{{ api }}/formula/{{ f.name }}.json"><code>/api/formula/{{ f.name }}.json</code> (JSON API)</a></p>
+{%- if formula_path == "formula-core" %}
+<p><a href="{{ api }}/bottle/{{ f.name }}.json"><code>/api/bottle/{{ f.name }}.json</code> (Bottle JSON API)</a></p>
+{%- endif -%}
 <p><a target="_blank" href="{{ remote }}/blob/HEAD/Formula/{{ f.name }}.rb">Formula code</a> on GitHub</p>
 
 
