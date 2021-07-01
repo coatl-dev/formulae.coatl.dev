@@ -13,13 +13,13 @@
   "license": "Cannot Represent",
   "homepage": "https://inductiveautomation.com/",
   "versions": {
-    "stable": "7.9.17",
+    "stable": "7.9.18",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://files.inductiveautomation.com/release/ia/build7.9.17/20210105-1428/zip-installers/Ignition-osx-7.9.17.zip",
+      "url": "https://files.inductiveautomation.com/release/ia/build7.9.18/20210629-1315/zip-installers/Ignition-osx-7.9.18.zip",
       "tag": null,
       "revision": null
     }
