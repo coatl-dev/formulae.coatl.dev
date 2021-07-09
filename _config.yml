@@ -37,12 +37,16 @@ taps:
     fullname: coatl-dev/homebrew-coatl-dev
     remote: https://github.com/coatl-dev/homebrew-coatl-dev
     api: https://formulae.coatl.dev/api
+    bottle_dir: bottle
+    formula_dir: formula
   core:
     repo: core
     name: Homebrew/core
     fullname: Homebrew/homebrew-core
     remote: https://github.com/Homebrew/homebrew-core
-    api: https://formulae.brew.sh/api
+    api: https://formulae.coatl.dev/api
+    bottle_dir: bottle-core
+    formula_dir: formula-core
 
 logo: https://brew.sh/assets/img/homebrew-256x256.png
 
