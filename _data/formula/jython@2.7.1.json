@@ -57,21 +57,9 @@
   ],
   "caveats": null,
   "installed": [
-    {
-      "version": "2.7.1",
-      "used_options": [
 
-      ],
-      "built_as_bottle": false,
-      "poured_from_bottle": false,
-      "runtime_dependencies": [
-
-      ],
-      "installed_as_dependency": false,
-      "installed_on_request": true
-    }
   ],
-  "linked_keg": "2.7.1",
+  "linked_keg": null,
   "pinned": false,
   "outdated": false,
   "deprecated": false,
