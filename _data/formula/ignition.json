@@ -14,13 +14,13 @@
   "license": "Cannot Represent",
   "homepage": "https://inductiveautomation.com/",
   "versions": {
-    "stable": "8.1.13",
+    "stable": "8.1.15",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://files.inductiveautomation.com/release/ia/8.1.13/20211221-0852/Ignition-osx-8.1.13.zip",
+      "url": "https://files.inductiveautomation.com/release/ia/8.1.15/20220301-1426/Ignition-macOs-x86-64-8.1.15.zip",
       "tag": null,
       "revision": null
     }
@@ -59,7 +59,7 @@
   "caveats": "The data and logs folders have been symlinked to:\n  data: $(brew --prefix)/etc/ignition\n  logs: $(brew --prefix)/var/ignition\n",
   "installed": [
     {
-      "version": "8.1.13",
+      "version": "8.1.15",
       "used_options": [
 
       ],
@@ -72,8 +72,8 @@
       "installed_on_request": true
     }
   ],
-  "linked_keg": "8.1.13",
-  "pinned": true,
+  "linked_keg": "8.1.15",
+  "pinned": false,
   "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
