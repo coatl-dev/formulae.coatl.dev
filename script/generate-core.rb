@@ -26,6 +26,7 @@ tap.formula_names.each do |n|
       "m4",
       "openjdk@8",
       "openjdk@11",
+      "openjdk@17", 
       "pkg-config"].include?(n)
     f = Formulary.factory(n)
     IO.write("_data/#{formula_dir}/#{f.name.tr("+", "_")}.json", "#{JSON.pretty_generate(f.to_hash)}\n")
