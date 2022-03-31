@@ -24,6 +24,7 @@ tap.formula_names.each do |n|
       "freetype2",
       "libpng",
       "m4",
+      "openjdk",
       "openjdk@8",
       "openjdk@11",
       "openjdk@17", 
