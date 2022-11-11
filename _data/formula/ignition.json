@@ -7,22 +7,22 @@
     "ignition@8.1"
   ],
   "versioned_formulae": [
-    "ignition@8.0",
     "ignition@7.9"
   ],
   "desc": "Unlimited Platform for SCADA and so much more",
   "license": "Cannot Represent",
   "homepage": "https://inductiveautomation.com/",
   "versions": {
-    "stable": "8.1.20",
+    "stable": "8.1.22",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://files.inductiveautomation.com/release/ia/8.1.20/20220823-1339/Ignition-macOs-x86-64-8.1.20.zip",
+      "url": "https://files.inductiveautomation.com/release/ia/8.1.22/20221101-1006/Ignition-macOs-x86-64-8.1.22.zip",
       "tag": null,
-      "revision": null
+      "revision": null,
+      "checksum": "352cae52f8c0b3298cb59d2efef8134cd0d1ab3d2bf613d9644c30dae54d0c80"
     }
   },
   "revision": 0,
@@ -38,6 +38,9 @@
 
   ],
   "dependencies": [
+
+  ],
+  "test_dependencies": [
 
   ],
   "recommended_dependencies": [
@@ -58,12 +61,13 @@
   "caveats": "The data and logs folders have been symlinked to:\n  data: $(brew --prefix)/etc/ignition\n  logs: $(brew --prefix)/var/ignition\n",
   "installed": [
     {
-      "version": "8.1.20",
+      "version": "8.1.22",
       "used_options": [
 
       ],
       "built_as_bottle": false,
       "poured_from_bottle": false,
+      "time": 1667400986,
       "runtime_dependencies": [
 
       ],
@@ -71,7 +75,7 @@
       "installed_on_request": true
     }
   ],
-  "linked_keg": "8.1.20",
+  "linked_keg": "8.1.22",
   "pinned": false,
   "outdated": false,
   "deprecated": false,

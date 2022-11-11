@@ -7,7 +7,7 @@
 
   ],
   "versioned_formulae": [
-    "ignition@8.0"
+
   ],
   "desc": "Unlimited Platform for SCADA and so much more",
   "license": "Cannot Represent",
@@ -21,7 +21,8 @@
     "stable": {
       "url": "https://files.inductiveautomation.com/release/ia/build7.9.21/20220726-1323/zip-installers/Ignition-osx-7.9.21.zip",
       "tag": null,
-      "revision": null
+      "revision": null,
+      "checksum": "1ebbb8f35e4811637166213490702912cead0f78e1356b4508bfc81ee2f1cb8c"
     }
   },
   "revision": 0,
@@ -40,6 +41,9 @@
     "openjdk@8"
   ],
   "dependencies": [
+
+  ],
+  "test_dependencies": [
 
   ],
   "recommended_dependencies": [

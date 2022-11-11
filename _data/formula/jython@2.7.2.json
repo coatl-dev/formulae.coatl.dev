@@ -22,7 +22,8 @@
     "stable": {
       "url": "https://search.maven.org/remotecontent?filepath=org/python/jython-installer/2.7.2/jython-installer-2.7.2.jar",
       "tag": null,
-      "revision": null
+      "revision": null,
+      "checksum": "36e40609567ce020a1de0aaffe45e0b68571c278c14116f52e58cc652fb71552"
     }
   },
   "revision": 0,
@@ -38,6 +39,9 @@
 
   ],
   "dependencies": [
+
+  ],
+  "test_dependencies": [
 
   ],
   "recommended_dependencies": [
@@ -57,9 +61,22 @@
   ],
   "caveats": null,
   "installed": [
+    {
+      "version": "2.7.2",
+      "used_options": [
 
+      ],
+      "built_as_bottle": false,
+      "poured_from_bottle": false,
+      "time": 1664203875,
+      "runtime_dependencies": [
+
+      ],
+      "installed_as_dependency": false,
+      "installed_on_request": true
+    }
   ],
-  "linked_keg": null,
+  "linked_keg": "2.7.2",
   "pinned": false,
   "outdated": false,
   "deprecated": false,
