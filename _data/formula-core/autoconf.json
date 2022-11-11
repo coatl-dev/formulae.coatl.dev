@@ -22,7 +22,8 @@
     "stable": {
       "url": "https://ftp.gnu.org/gnu/autoconf/autoconf-2.71.tar.gz",
       "tag": null,
-      "revision": null
+      "revision": null,
+      "checksum": "431075ad0bf529ef13cb41e9042c542381103e80015686222b8a9d4abef42a1c"
     }
   },
   "revision": 0,
@@ -32,6 +33,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/autoconf/blobs/sha256:a3d366c98b0da7a0a4f352eef49af9d612ac7aea4ffe420d49ff12bd90007415",
+          "sha256": "a3d366c98b0da7a0a4f352eef49af9d612ac7aea4ffe420d49ff12bd90007415"
+        },
         "arm64_monterey": {
           "cellar": ":any_skip_relocation",
           "url": "https://ghcr.io/v2/homebrew/core/autoconf/blobs/sha256:a3d366c98b0da7a0a4f352eef49af9d612ac7aea4ffe420d49ff12bd90007415",
@@ -101,25 +107,9 @@
   ],
   "caveats": null,
   "installed": [
-    {
-      "version": "2.71",
-      "used_options": [
 
-      ],
-      "built_as_bottle": true,
-      "poured_from_bottle": true,
-      "runtime_dependencies": [
-        {
-          "full_name": "m4",
-          "version": "1.4.19",
-          "declared_directly": true
-        }
-      ],
-      "installed_as_dependency": false,
-      "installed_on_request": true
-    }
   ],
-  "linked_keg": "2.71",
+  "linked_keg": null,
   "pinned": false,
   "outdated": false,
   "deprecated": false,

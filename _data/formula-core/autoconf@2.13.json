@@ -21,7 +21,8 @@
     "stable": {
       "url": "https://ftp.gnu.org/gnu/autoconf/autoconf-2.13.tar.gz",
       "tag": null,
-      "revision": null
+      "revision": null,
+      "checksum": "f0611136bee505811e9ca11ca7ac188ef5323a8e2ef19cffd3edb3cf08fd791e"
     }
   },
   "revision": 0,
@@ -31,6 +32,11 @@
       "rebuild": 1,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/autoconf/2.13/blobs/sha256:e8ff0982e2d5057b15802e26a9bfb14144f42d4d59683ea9233de0348309298e",
+          "sha256": "e8ff0982e2d5057b15802e26a9bfb14144f42d4d59683ea9233de0348309298e"
+        },
         "arm64_monterey": {
           "cellar": ":any_skip_relocation",
           "url": "https://ghcr.io/v2/homebrew/core/autoconf/2.13/blobs/sha256:e8ff0982e2d5057b15802e26a9bfb14144f42d4d59683ea9233de0348309298e",

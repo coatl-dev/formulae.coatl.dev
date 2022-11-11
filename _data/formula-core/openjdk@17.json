@@ -14,53 +14,59 @@
   "license": "GPL-2.0-only with Classpath-exception-2.0",
   "homepage": "https://openjdk.java.net/",
   "versions": {
-    "stable": "17.0.4.1",
+    "stable": "17.0.5",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/openjdk/jdk17u/archive/jdk-17.0.4.1-ga.tar.gz",
+      "url": "https://github.com/openjdk/jdk17u/archive/jdk-17.0.5-ga.tar.gz",
       "tag": null,
-      "revision": null
+      "revision": null,
+      "checksum": "a3a72a1897b6c01a68307a80a3b987114b7722f2541debd018e362a7c0917b85"
     }
   },
   "revision": 0,
   "version_scheme": 0,
   "bottle": {
     "stable": {
-      "rebuild": 1,
+      "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:0ad3ce7237dbc948aa314be7cebcc729c30bcd8eef08277fa464287f9211c426",
+          "sha256": "0ad3ce7237dbc948aa314be7cebcc729c30bcd8eef08277fa464287f9211c426"
+        },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:1d3bce24b901740bfc5188098e42ffb3e4f0ae726e5e4765c080d94e5ff307c1",
-          "sha256": "1d3bce24b901740bfc5188098e42ffb3e4f0ae726e5e4765c080d94e5ff307c1"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:0e2244e35a350256474b6eb6e03d11af5c0270ab7ca4e6bc710c6273cb087b24",
+          "sha256": "0e2244e35a350256474b6eb6e03d11af5c0270ab7ca4e6bc710c6273cb087b24"
         },
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:639b4618c5e5aec72c23cda168df1e5637a78983fad123a3e2e3f79d2b1b20ce",
-          "sha256": "639b4618c5e5aec72c23cda168df1e5637a78983fad123a3e2e3f79d2b1b20ce"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:911d64028e026092ce9f8f4b1a7d3c95bd7d631941d057afd5fec646a5e968d1",
+          "sha256": "911d64028e026092ce9f8f4b1a7d3c95bd7d631941d057afd5fec646a5e968d1"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:fc82fca72aa6ca5dc75805749629ad881495490b8c6303a9945f3ebe37a52a42",
-          "sha256": "fc82fca72aa6ca5dc75805749629ad881495490b8c6303a9945f3ebe37a52a42"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:c1ac28437f8c07409f386e1a3d4d1738fc70b80081579efb64dd6e831a2d78fc",
+          "sha256": "c1ac28437f8c07409f386e1a3d4d1738fc70b80081579efb64dd6e831a2d78fc"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:a0094328c3f251df4df3c45b09b5a8ff4522d2cde104250d1655023227af29fa",
-          "sha256": "a0094328c3f251df4df3c45b09b5a8ff4522d2cde104250d1655023227af29fa"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:b9093c0c83b7964496208e4abb8805c335f2c8fc916c85148c08324c64e26a10",
+          "sha256": "b9093c0c83b7964496208e4abb8805c335f2c8fc916c85148c08324c64e26a10"
         },
         "catalina": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:f544a6b95da930f405d4e8e43b4936881cd3d4933335eef2e67a316bff2712a8",
-          "sha256": "f544a6b95da930f405d4e8e43b4936881cd3d4933335eef2e67a316bff2712a8"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:9e21c33ba30e623252df8f74a33b8db56d61753a56f1c3c2aa9891f174152439",
+          "sha256": "9e21c33ba30e623252df8f74a33b8db56d61753a56f1c3c2aa9891f174152439"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:e011cb11b64ec57f7171410716fa447ce0cb28d488875c40a12e98637828e541",
-          "sha256": "e011cb11b64ec57f7171410716fa447ce0cb28d488875c40a12e98637828e541"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:75bfd5b65e8718cc6f2818a78d5d279520901f6f049fcbcbe9928304220b7e60",
+          "sha256": "75bfd5b65e8718cc6f2818a78d5d279520901f6f049fcbcbe9928304220b7e60"
         }
       }
     }

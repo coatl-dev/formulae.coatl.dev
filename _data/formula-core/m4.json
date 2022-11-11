@@ -21,7 +21,8 @@
     "stable": {
       "url": "https://ftp.gnu.org/gnu/m4/m4-1.4.19.tar.xz",
       "tag": null,
-      "revision": null
+      "revision": null,
+      "checksum": "63aede5c6d33b6d9b13511cd0be2cac046f2e70fd0a07aa9573a04a82783af96"
     }
   },
   "revision": 0,
@@ -31,6 +32,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/m4/blobs/sha256:11308abe8d607be35da9e88a1d789f191914bf043bca4fdde2b50a6cbf1713cc",
+          "sha256": "11308abe8d607be35da9e88a1d789f191914bf043bca4fdde2b50a6cbf1713cc"
+        },
         "arm64_monterey": {
           "cellar": ":any_skip_relocation",
           "url": "https://ghcr.io/v2/homebrew/core/m4/blobs/sha256:8e9fa0d7d946f7c38e1a6f596aab3169d2440fccd34ec321b9a032d903ec951c",
@@ -103,19 +109,7 @@
   ],
   "caveats": null,
   "installed": [
-    {
-      "version": "1.4.19",
-      "used_options": [
 
-      ],
-      "built_as_bottle": true,
-      "poured_from_bottle": true,
-      "runtime_dependencies": [
-
-      ],
-      "installed_as_dependency": true,
-      "installed_on_request": false
-    }
   ],
   "linked_keg": null,
   "pinned": false,
