@@ -19,10 +19,10 @@
   },
   "urls": {
     "stable": {
-      "url": "https://files.inductiveautomation.com/release/ia/8.1.22/20221101-1006/Ignition-macOs-x86-64-8.1.22.zip",
+      "url": "https://files.inductiveautomation.com/release/ia/8.1.22/20221101-1006/Ignition-linux-x86-64-8.1.22.zip",
       "tag": null,
       "revision": null,
-      "checksum": "352cae52f8c0b3298cb59d2efef8134cd0d1ab3d2bf613d9644c30dae54d0c80"
+      "checksum": "327fee6568ac46c0f4bf513b209113ae0d299bea074c0f621dcc5ff241243f4b"
     }
   },
   "revision": 0,
@@ -67,7 +67,7 @@
       ],
       "built_as_bottle": false,
       "poured_from_bottle": false,
-      "time": 1667400986,
+      "time": 1670544857,
       "runtime_dependencies": [
 
       ],
@@ -76,7 +76,7 @@
     }
   ],
   "linked_keg": "8.1.22",
-  "pinned": false,
+  "pinned": true,
   "outdated": false,
   "deprecated": false,
   "deprecation_date": null,

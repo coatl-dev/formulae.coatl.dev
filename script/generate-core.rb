@@ -1,4 +1,4 @@
-#!/usr/bin/env brew ruby
+#!/usr/bin/env -S brew ruby
 os = "mac"
 formula_dir = "formula-core"
 bottle_dir = "bottle"
@@ -27,7 +27,7 @@ tap.formula_names.each do |n|
       "openjdk",
       "openjdk@8",
       "openjdk@11",
-      "openjdk@17", 
+      "openjdk@17",
       "pkg-config"].include?(n)
     f = Formulary.factory(n)
     IO.write("_data/#{formula_dir}/#{f.name.tr("+", "_")}.json", "#{JSON.pretty_generate(f.to_hash)}\n")

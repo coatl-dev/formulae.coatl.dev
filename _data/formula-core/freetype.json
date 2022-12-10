@@ -47,6 +47,11 @@
           "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:deb09510fb83adf76d9bb0d4ac4a3d3a2ddfff0d0154e09d3719edb73b058278",
           "sha256": "deb09510fb83adf76d9bb0d4ac4a3d3a2ddfff0d0154e09d3719edb73b058278"
         },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:845ec00b1ba8e57841751de476e9f706536ed54c5d38fa10e8c0b0329a69b5f1",
+          "sha256": "845ec00b1ba8e57841751de476e9f706536ed54c5d38fa10e8c0b0329a69b5f1"
+        },
         "monterey": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:3d4afd3f040571ea464c7afc010be38faf77665f919a79f557369d2eceee13d1",
@@ -79,7 +84,9 @@
 
   ],
   "dependencies": [
-    "libpng"
+    "libpng",
+    "bzip2",
+    "zlib"
   ],
   "test_dependencies": [
 
@@ -102,9 +109,36 @@
   ],
   "caveats": null,
   "installed": [
+    {
+      "version": "2.12.1",
+      "used_options": [
 
+      ],
+      "built_as_bottle": true,
+      "poured_from_bottle": true,
+      "time": 1669681006,
+      "runtime_dependencies": [
+        {
+          "full_name": "zlib",
+          "version": "1.2.13",
+          "declared_directly": true
+        },
+        {
+          "full_name": "libpng",
+          "version": "1.6.39",
+          "declared_directly": true
+        },
+        {
+          "full_name": "bzip2",
+          "version": "1.0.8",
+          "declared_directly": true
+        }
+      ],
+      "installed_as_dependency": true,
+      "installed_on_request": false
+    }
   ],
-  "linked_keg": null,
+  "linked_keg": "2.12.1",
   "pinned": false,
   "outdated": false,
   "deprecated": false,

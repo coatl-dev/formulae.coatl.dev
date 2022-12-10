@@ -1,4 +1,4 @@
-#!/usr/bin/env brew ruby
+#!/usr/bin/env -S brew ruby
 formula_dir = "formula"
 tap_name = "coatl-dev/coatl-dev"
 
