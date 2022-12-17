@@ -13,16 +13,16 @@
   "license": "Cannot Represent",
   "homepage": "https://inductiveautomation.com/",
   "versions": {
-    "stable": "8.1.22",
+    "stable": "8.1.23",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://files.inductiveautomation.com/release/ia/8.1.22/20221101-1006/Ignition-linux-x86-64-8.1.22.zip",
+      "url": "https://files.inductiveautomation.com/release/ia/8.1.23/20221213-0907/Ignition-macOs-x86-64-8.1.23.zip",
       "tag": null,
       "revision": null,
-      "checksum": "327fee6568ac46c0f4bf513b209113ae0d299bea074c0f621dcc5ff241243f4b"
+      "checksum": "4ecbe3d31ae453825061e6d44e53c4a7958e54691ba04852a6a6cf977bcccbb3"
     }
   },
   "revision": 0,
@@ -60,23 +60,10 @@
   ],
   "caveats": "The data and logs folders have been symlinked to:\n  data: $(brew --prefix)/etc/ignition\n  logs: $(brew --prefix)/var/ignition\n",
   "installed": [
-    {
-      "version": "8.1.22",
-      "used_options": [
 
-      ],
-      "built_as_bottle": false,
-      "poured_from_bottle": false,
-      "time": 1670544857,
-      "runtime_dependencies": [
-
-      ],
-      "installed_as_dependency": false,
-      "installed_on_request": true
-    }
   ],
-  "linked_keg": "8.1.22",
-  "pinned": true,
+  "linked_keg": null,
+  "pinned": false,
   "outdated": false,
   "deprecated": false,
   "deprecation_date": null,

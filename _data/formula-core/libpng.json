@@ -106,26 +106,9 @@
   ],
   "caveats": null,
   "installed": [
-    {
-      "version": "1.6.39",
-      "used_options": [
 
-      ],
-      "built_as_bottle": true,
-      "poured_from_bottle": true,
-      "time": 1669681005,
-      "runtime_dependencies": [
-        {
-          "full_name": "zlib",
-          "version": "1.2.13",
-          "declared_directly": true
-        }
-      ],
-      "installed_as_dependency": true,
-      "installed_on_request": false
-    }
   ],
-  "linked_keg": "1.6.39",
+  "linked_keg": null,
   "pinned": false,
   "outdated": false,
   "deprecated": false,
