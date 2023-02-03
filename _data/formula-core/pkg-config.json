@@ -123,12 +123,12 @@
       ],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1671233173,
+      "time": 1671463846,
       "runtime_dependencies": [
 
       ],
       "installed_as_dependency": true,
-      "installed_on_request": false
+      "installed_on_request": true
     }
   ],
   "linked_keg": "0.29.2_3",
@@ -139,5 +139,6 @@
   "deprecation_reason": null,
   "disabled": false,
   "disable_date": null,
-  "disable_reason": null
+  "disable_reason": null,
+  "tap_git_head": "08637e57abc875603d4f8043024886a8c41a4b8e"
 }

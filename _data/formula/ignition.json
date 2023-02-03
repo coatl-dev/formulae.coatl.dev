@@ -13,16 +13,16 @@
   "license": "Cannot Represent",
   "homepage": "https://inductiveautomation.com/",
   "versions": {
-    "stable": "8.1.23",
+    "stable": "8.1.24",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://files.inductiveautomation.com/release/ia/8.1.23/20221213-0907/Ignition-macOs-x86-64-8.1.23.zip",
+      "url": "https://files.inductiveautomation.com/release/ia/8.1.24/20230112-0850/Ignition-macOs-x86-64-8.1.24.zip",
       "tag": null,
       "revision": null,
-      "checksum": "4ecbe3d31ae453825061e6d44e53c4a7958e54691ba04852a6a6cf977bcccbb3"
+      "checksum": "fc2abb7f600ba7238c84fed4fba875da9d83c035845ff22de920514c52c43e0c"
     }
   },
   "revision": 0,
@@ -70,5 +70,6 @@
   "deprecation_reason": null,
   "disabled": false,
   "disable_date": null,
-  "disable_reason": null
+  "disable_reason": null,
+  "tap_git_head": "1d4540ae8993f62bf4dd952964681e0582ca8816"
 }

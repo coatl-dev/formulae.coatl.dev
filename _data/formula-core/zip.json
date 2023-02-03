@@ -80,7 +80,7 @@
       }
     }
   },
-  "keg_only": false,
+  "keg_only": true,
   "keg_only_reason": {
     "reason": ":provided_by_macos",
     "explanation": ""
@@ -92,7 +92,7 @@
 
   ],
   "dependencies": [
-    "bzip2"
+
   ],
   "test_dependencies": [
 
@@ -124,5 +124,6 @@
   "deprecation_reason": null,
   "disabled": false,
   "disable_date": null,
-  "disable_reason": null
+  "disable_reason": null,
+  "tap_git_head": "08637e57abc875603d4f8043024886a8c41a4b8e"
 }

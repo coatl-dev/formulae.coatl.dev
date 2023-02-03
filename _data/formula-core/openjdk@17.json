@@ -14,59 +14,59 @@
   "license": "GPL-2.0-only with Classpath-exception-2.0",
   "homepage": "https://openjdk.java.net/",
   "versions": {
-    "stable": "17.0.5",
+    "stable": "17.0.6",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/openjdk/jdk17u/archive/jdk-17.0.5-ga.tar.gz",
+      "url": "https://github.com/openjdk/jdk17u/archive/jdk-17.0.6-ga.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "a3a72a1897b6c01a68307a80a3b987114b7722f2541debd018e362a7c0917b85"
+      "checksum": "f1d1c29ff5ac8254dc81d1635d60f658b6f2b790476acab836ddcb488c8c7fbe"
     }
   },
   "revision": 0,
   "version_scheme": 0,
   "bottle": {
     "stable": {
-      "rebuild": 1,
+      "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:566d9586e90fc9f0cc3796788557e925dac1f4740870e75e3d6443c829f4bc42",
-          "sha256": "566d9586e90fc9f0cc3796788557e925dac1f4740870e75e3d6443c829f4bc42"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:aea96c54a5b8ca246bf78c973875468e16c5c3f4f5bd33ec10cc0a60df266351",
+          "sha256": "aea96c54a5b8ca246bf78c973875468e16c5c3f4f5bd33ec10cc0a60df266351"
         },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:97a7577c516e2a23c0c6a2f195f23f5014fd2aa21b84503a07a8dbdd95889a97",
-          "sha256": "97a7577c516e2a23c0c6a2f195f23f5014fd2aa21b84503a07a8dbdd95889a97"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:b0e627aab96ed8386ba6b491a1d106d75aad6e308c08cc2508f221a328dbd142",
+          "sha256": "b0e627aab96ed8386ba6b491a1d106d75aad6e308c08cc2508f221a328dbd142"
         },
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:9622f533acaceda168d8f934c9db17d39287ecada94d4133221355c4648953ca",
-          "sha256": "9622f533acaceda168d8f934c9db17d39287ecada94d4133221355c4648953ca"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:26f64efbd24285f57fa865ca2d6191ca1f32a91ccebbb1059a6215d210955988",
+          "sha256": "26f64efbd24285f57fa865ca2d6191ca1f32a91ccebbb1059a6215d210955988"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:ff335f31da3df5c713607b25b81673fad376cc1bf33a23d1fc8cd961f8e40ecf",
-          "sha256": "ff335f31da3df5c713607b25b81673fad376cc1bf33a23d1fc8cd961f8e40ecf"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:65498361fe3061ca11035b4eab6ced3b5b357c930e2b8433149e0a3081cecd3d",
+          "sha256": "65498361fe3061ca11035b4eab6ced3b5b357c930e2b8433149e0a3081cecd3d"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:d4c45935c0f1edaecd0a695a24268fb265fbd83eb108d8d03645bad34f916169",
-          "sha256": "d4c45935c0f1edaecd0a695a24268fb265fbd83eb108d8d03645bad34f916169"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:53f26e134fcaae7fe55d5c3e479a8d0131dc39e71f8e19023bcf8ace1367f85a",
+          "sha256": "53f26e134fcaae7fe55d5c3e479a8d0131dc39e71f8e19023bcf8ace1367f85a"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:d60c7b04fb0e8695015519d773238ad6eeccf2fb1265f6add47fcdc9f7633b09",
-          "sha256": "d60c7b04fb0e8695015519d773238ad6eeccf2fb1265f6add47fcdc9f7633b09"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:c271123715c7d281b2e39e9f2586caf177350a8dc5380d334fc81be53066e895",
+          "sha256": "c271123715c7d281b2e39e9f2586caf177350a8dc5380d334fc81be53066e895"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:85db60921d8edf43af2eb8dea4e6d3ba29486bc1972e473afd6fdbd442b704db",
-          "sha256": "85db60921d8edf43af2eb8dea4e6d3ba29486bc1972e473afd6fdbd442b704db"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:f7dd141cfe0d740cfbf302d94dd4a3329cccdf16678c5110638efe4eb5930a02",
+          "sha256": "f7dd141cfe0d740cfbf302d94dd4a3329cccdf16678c5110638efe4eb5930a02"
         }
       }
     }
@@ -88,20 +88,7 @@
     "harfbuzz",
     "jpeg-turbo",
     "libpng",
-    "little-cms2",
-    "cups",
-    "unzip",
-    "zip",
-    "zlib",
-    "alsa-lib",
-    "fontconfig",
-    "freetype",
-    "libx11",
-    "libxext",
-    "libxrandr",
-    "libxrender",
-    "libxt",
-    "libxtst"
+    "little-cms2"
   ],
   "test_dependencies": [
 
@@ -132,7 +119,7 @@
   "conflicts_with": [
 
   ],
-  "caveats": null,
+  "caveats": "For the system Java wrappers to find this JDK, symlink it with\n  sudo ln -sfn $(brew --prefix)/opt/openjdk@17/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-17.jdk\n",
   "installed": [
 
   ],
@@ -144,5 +131,6 @@
   "deprecation_reason": null,
   "disabled": false,
   "disable_date": null,
-  "disable_reason": null
+  "disable_reason": null,
+  "tap_git_head": "08637e57abc875603d4f8043024886a8c41a4b8e"
 }

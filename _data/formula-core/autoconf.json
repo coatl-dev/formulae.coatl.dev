@@ -90,8 +90,7 @@
 
   ],
   "dependencies": [
-    "m4",
-    "perl"
+    "m4"
   ],
   "test_dependencies": [
 
@@ -120,46 +119,11 @@
       ],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1671233173,
+      "time": 1672334219,
       "runtime_dependencies": [
         {
           "full_name": "m4",
           "version": "1.4.19",
-          "declared_directly": true
-        },
-        {
-          "full_name": "ca-certificates",
-          "version": "2022-10-11",
-          "declared_directly": false
-        },
-        {
-          "full_name": "openssl@1.1",
-          "version": "1.1.1s",
-          "declared_directly": false
-        },
-        {
-          "full_name": "berkeley-db",
-          "version": "18.1.40",
-          "declared_directly": false
-        },
-        {
-          "full_name": "gdbm",
-          "version": "1.23",
-          "declared_directly": false
-        },
-        {
-          "full_name": "expat",
-          "version": "2.5.0",
-          "declared_directly": false
-        },
-        {
-          "full_name": "libxcrypt",
-          "version": "4.4.33",
-          "declared_directly": false
-        },
-        {
-          "full_name": "perl",
-          "version": "5.36.0",
           "declared_directly": true
         }
       ],
@@ -175,5 +139,6 @@
   "deprecation_reason": null,
   "disabled": false,
   "disable_date": null,
-  "disable_reason": null
+  "disable_reason": null,
+  "tap_git_head": "08637e57abc875603d4f8043024886a8c41a4b8e"
 }
