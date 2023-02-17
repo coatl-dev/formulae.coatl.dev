@@ -23,6 +23,10 @@
       "tag": null,
       "revision": null,
       "checksum": "f03ccb40b087d1e30940a40e0141dcbba263f39974c20eb9f2521066c9c6c908"
+    },
+    "head": {
+      "url": "https://github.com/OpenPrinting/cups.git",
+      "branch": "master"
     }
   },
   "revision": 0,
@@ -121,5 +125,14 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "tap_git_head": "08637e57abc875603d4f8043024886a8c41a4b8e"
+  "tap_git_head": "1655c17518c96f9f5c4819b95cbe51539d30d3e9",
+  "variations": {
+    "x86_64_linux": {
+      "dependencies": [
+        "krb5",
+        "zlib",
+        "gnutls"
+      ]
+    }
+  }
 }

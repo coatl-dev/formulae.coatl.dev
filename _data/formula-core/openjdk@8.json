@@ -101,7 +101,7 @@
   "conflicts_with": [
 
   ],
-  "caveats": "For the system Java wrappers to find this JDK, symlink it with\n  sudo ln -sfn $(brew --prefix)/opt/openjdk@8/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-8.jdk\n",
+  "caveats": "For the system Java wrappers to find this JDK, symlink it with\n  sudo ln -sfn $HOMEBREW_PREFIX/opt/openjdk@8/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-8.jdk\n",
   "installed": [
 
   ],
@@ -114,5 +114,71 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "tap_git_head": "08637e57abc875603d4f8043024886a8c41a4b8e"
+  "tap_git_head": "1655c17518c96f9f5c4819b95cbe51539d30d3e9",
+  "variations": {
+    "arm64_big_sur": {
+      "build_dependencies": [
+        "autoconf",
+        "pkg-config"
+      ]
+    },
+    "big_sur": {
+      "build_dependencies": [
+        "autoconf",
+        "pkg-config"
+      ]
+    },
+    "catalina": {
+      "build_dependencies": [
+        "autoconf",
+        "pkg-config"
+      ]
+    },
+    "mojave": {
+      "build_dependencies": [
+        "autoconf",
+        "pkg-config"
+      ]
+    },
+    "high_sierra": {
+      "build_dependencies": [
+        "autoconf",
+        "pkg-config"
+      ]
+    },
+    "sierra": {
+      "build_dependencies": [
+        "autoconf",
+        "pkg-config"
+      ]
+    },
+    "el_capitan": {
+      "build_dependencies": [
+        "autoconf",
+        "pkg-config"
+      ]
+    },
+    "x86_64_linux": {
+      "build_dependencies": [
+        "autoconf",
+        "pkg-config"
+      ],
+      "dependencies": [
+        "freetype",
+        "giflib",
+        "cups",
+        "unzip",
+        "zip",
+        "alsa-lib",
+        "fontconfig",
+        "libx11",
+        "libxext",
+        "libxrandr",
+        "libxrender",
+        "libxt",
+        "libxtst"
+      ],
+      "caveats": null
+    }
+  }
 }

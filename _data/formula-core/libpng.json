@@ -23,6 +23,10 @@
       "tag": null,
       "revision": null,
       "checksum": "1f4696ce70b4ee5f85f1e1623dc1229b210029fa4b7aee573df3e2ba7b036937"
+    },
+    "head": {
+      "url": "https://github.com/glennrp/libpng.git",
+      "branch": "libpng16"
     }
   },
   "revision": 0,
@@ -117,5 +121,7 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "tap_git_head": "08637e57abc875603d4f8043024886a8c41a4b8e"
+  "tap_git_head": "1655c17518c96f9f5c4819b95cbe51539d30d3e9",
+  "variations": {
+  }
 }

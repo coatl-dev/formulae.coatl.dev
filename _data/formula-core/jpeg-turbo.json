@@ -13,16 +13,20 @@
   "license": "IJG",
   "homepage": "https://www.libjpeg-turbo.org/",
   "versions": {
-    "stable": "2.1.5",
+    "stable": "2.1.5.1",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://downloads.sourceforge.net/project/libjpeg-turbo/2.1.5/libjpeg-turbo-2.1.5.tar.gz",
+      "url": "https://downloads.sourceforge.net/project/libjpeg-turbo/2.1.5.1/libjpeg-turbo-2.1.5.1.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "bc12bc9dce55300c6bf4342bc233bcc26bd38bf289eedf147360d731c668ddaf"
+      "checksum": "2fdc3feb6e9deb17adec9bafa3321419aa19f8f4e5dea7bf8486844ca22207bf"
+    },
+    "head": {
+      "url": "https://github.com/libjpeg-turbo/libjpeg-turbo.git",
+      "branch": "main"
     }
   },
   "revision": 0,
@@ -34,38 +38,38 @@
       "files": {
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:d00e1ed5362087315ba0d537102311e6d8432c5cbe9296697141a02d53a6cdbe",
-          "sha256": "d00e1ed5362087315ba0d537102311e6d8432c5cbe9296697141a02d53a6cdbe"
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:24657182233e7669e645d675a7a954f277510c9de37fdbeedbeee777246cdaea",
+          "sha256": "24657182233e7669e645d675a7a954f277510c9de37fdbeedbeee777246cdaea"
         },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:3a3c98f98547a73ed8a7d63df80d2693b090157c23b284e4cdc768984e17ebbb",
-          "sha256": "3a3c98f98547a73ed8a7d63df80d2693b090157c23b284e4cdc768984e17ebbb"
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:844f7f6b0883d91c6e5f16c2c752d05566cea571def6f262b580c6d35a928e14",
+          "sha256": "844f7f6b0883d91c6e5f16c2c752d05566cea571def6f262b580c6d35a928e14"
         },
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:3f665c70d244ee7db9619b5ac7523f1a5f77d5a983280751fb4e7e727173026e",
-          "sha256": "3f665c70d244ee7db9619b5ac7523f1a5f77d5a983280751fb4e7e727173026e"
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:9f88f50b6fb148d2edc5dd9138ee78e9d9c1a0f075e311b3a1398c6e43ca07df",
+          "sha256": "9f88f50b6fb148d2edc5dd9138ee78e9d9c1a0f075e311b3a1398c6e43ca07df"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:c42a466d35b221dceeb01f1d2533c861a2e0c711e8e9e8586d840a44b3da2a23",
-          "sha256": "c42a466d35b221dceeb01f1d2533c861a2e0c711e8e9e8586d840a44b3da2a23"
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:776ff10759a35f1ad39676e3a77ee25d88ae4d50fe31935fdba0fe197e455962",
+          "sha256": "776ff10759a35f1ad39676e3a77ee25d88ae4d50fe31935fdba0fe197e455962"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:b3ac7986c12826bbdc6e9eb512d2edcc26ae53ddd1e977e1d97c9dc28dbd0054",
-          "sha256": "b3ac7986c12826bbdc6e9eb512d2edcc26ae53ddd1e977e1d97c9dc28dbd0054"
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:203e5e3e6f9f53e16f532d9019c16c88dcbc411a06cc29a98e4e993f64377e0f",
+          "sha256": "203e5e3e6f9f53e16f532d9019c16c88dcbc411a06cc29a98e4e993f64377e0f"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:c72bd1ef2c9ea4d6bc68809ee29536b9044243a3f48d682eab784b3919e66505",
-          "sha256": "c72bd1ef2c9ea4d6bc68809ee29536b9044243a3f48d682eab784b3919e66505"
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:88632579a1730a7be4ad57d23e46b54c522d2ae511c9184fae81612fc349e596",
+          "sha256": "88632579a1730a7be4ad57d23e46b54c522d2ae511c9184fae81612fc349e596"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:5b9c322a9fb4658e1c0d97bb3c53ea0dbd4be116d66ea4c8e12f3bc214e76c01",
-          "sha256": "5b9c322a9fb4658e1c0d97bb3c53ea0dbd4be116d66ea4c8e12f3bc214e76c01"
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:04d6d5a7ca948d8dc163f5a1f163ef097b63266a41e5dbddd88f41918d3a3698",
+          "sha256": "04d6d5a7ca948d8dc163f5a1f163ef097b63266a41e5dbddd88f41918d3a3698"
         }
       }
     }
@@ -112,5 +116,61 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "tap_git_head": "08637e57abc875603d4f8043024886a8c41a4b8e"
+  "tap_git_head": "1655c17518c96f9f5c4819b95cbe51539d30d3e9",
+  "variations": {
+    "ventura": {
+      "build_dependencies": [
+        "cmake",
+        "nasm"
+      ]
+    },
+    "monterey": {
+      "build_dependencies": [
+        "cmake",
+        "nasm"
+      ]
+    },
+    "big_sur": {
+      "build_dependencies": [
+        "cmake",
+        "nasm"
+      ]
+    },
+    "catalina": {
+      "build_dependencies": [
+        "cmake",
+        "nasm"
+      ]
+    },
+    "mojave": {
+      "build_dependencies": [
+        "cmake",
+        "nasm"
+      ]
+    },
+    "high_sierra": {
+      "build_dependencies": [
+        "cmake",
+        "nasm"
+      ]
+    },
+    "sierra": {
+      "build_dependencies": [
+        "cmake",
+        "nasm"
+      ]
+    },
+    "el_capitan": {
+      "build_dependencies": [
+        "cmake",
+        "nasm"
+      ]
+    },
+    "x86_64_linux": {
+      "build_dependencies": [
+        "cmake",
+        "nasm"
+      ]
+    }
+  }
 }

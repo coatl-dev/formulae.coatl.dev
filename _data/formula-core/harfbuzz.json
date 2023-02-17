@@ -13,19 +13,23 @@
   "license": "MIT",
   "homepage": "https://github.com/harfbuzz/harfbuzz",
   "versions": {
-    "stable": "6.0.0",
+    "stable": "7.0.0",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/harfbuzz/harfbuzz/archive/6.0.0.tar.gz",
+      "url": "https://github.com/harfbuzz/harfbuzz/archive/7.0.0.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "6d753948587db3c7c3ba8cc4f8e6bf83f5c448d2591a9f7ec306467f3a4fe4fa"
+      "checksum": "770dace6561ae11de5838e5dc0ec5e95978b2c029aaee00389856a7ca65b43d9"
+    },
+    "head": {
+      "url": "https://github.com/harfbuzz/harfbuzz.git",
+      "branch": "main"
     }
   },
-  "revision": 1,
+  "revision": 0,
   "version_scheme": 0,
   "bottle": {
     "stable": {
@@ -34,38 +38,38 @@
       "files": {
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:469d30da77414cc94994cf99cb6c3d1809db910bc20433edca00523d00bd845f",
-          "sha256": "469d30da77414cc94994cf99cb6c3d1809db910bc20433edca00523d00bd845f"
+          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:d66276adf78f850d0e298feeb456808026e7f08caf68121d22ba0c745f3dca93",
+          "sha256": "d66276adf78f850d0e298feeb456808026e7f08caf68121d22ba0c745f3dca93"
         },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:3ab807f3fa8c6a64af82fa41fafcc5c4004f1c9ca39770fb62d8d0b1bfe2124c",
-          "sha256": "3ab807f3fa8c6a64af82fa41fafcc5c4004f1c9ca39770fb62d8d0b1bfe2124c"
+          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:84bc6793bbe8d7cad1a3159f6ace6a323351fa13229497ff13fb2713c62d0881",
+          "sha256": "84bc6793bbe8d7cad1a3159f6ace6a323351fa13229497ff13fb2713c62d0881"
         },
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:f49cbdaf697a44b1c0cd68e31dc6386d411e4ba84fac37d42ba14d7a39726335",
-          "sha256": "f49cbdaf697a44b1c0cd68e31dc6386d411e4ba84fac37d42ba14d7a39726335"
+          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:537e88dde210dc5acbac464ea77022f682888dc20eba5b56eff0460f0fe9d43e",
+          "sha256": "537e88dde210dc5acbac464ea77022f682888dc20eba5b56eff0460f0fe9d43e"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:ec10d542f19647d096f9467ea02df118bc246ad6b9962abd628f0df2df2b79b1",
-          "sha256": "ec10d542f19647d096f9467ea02df118bc246ad6b9962abd628f0df2df2b79b1"
+          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:44fbf885cb02f2aa54f3a45d0d1035cc50394d93f2853596a62a2315dc560422",
+          "sha256": "44fbf885cb02f2aa54f3a45d0d1035cc50394d93f2853596a62a2315dc560422"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:0459ed5214d1ec678d8e9c32d14eaeda53ca741ea71b78f49d27ffd1828f79b2",
-          "sha256": "0459ed5214d1ec678d8e9c32d14eaeda53ca741ea71b78f49d27ffd1828f79b2"
+          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:14cc957df44fa13294363ec8bd7f3d345d8436477ddaa583c214bd779180181e",
+          "sha256": "14cc957df44fa13294363ec8bd7f3d345d8436477ddaa583c214bd779180181e"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:3b6d029e79c56ce81ba55b159226744e743625b934f066b59454d38eaa7b1328",
-          "sha256": "3b6d029e79c56ce81ba55b159226744e743625b934f066b59454d38eaa7b1328"
+          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:80fb3bcccc78d7ac1005d5abd0f5f8ec94f191442fe74c753ffd57e5f03cee7d",
+          "sha256": "80fb3bcccc78d7ac1005d5abd0f5f8ec94f191442fe74c753ffd57e5f03cee7d"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:72c99f2108ade75e4da6c8d58bc9e8e31d258eb0f82a472d8ed19e6132b4e41d",
-          "sha256": "72c99f2108ade75e4da6c8d58bc9e8e31d258eb0f82a472d8ed19e6132b4e41d"
+          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:f98fd6903479d9af00a9871a061926d338075104703236f4bcc43d0e85e09899",
+          "sha256": "f98fd6903479d9af00a9871a061926d338075104703236f4bcc43d0e85e09899"
         }
       }
     }
@@ -121,5 +125,7 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "tap_git_head": "08637e57abc875603d4f8043024886a8c41a4b8e"
+  "tap_git_head": "1655c17518c96f9f5c4819b95cbe51539d30d3e9",
+  "variations": {
+  }
 }
