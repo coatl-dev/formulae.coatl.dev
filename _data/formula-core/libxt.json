@@ -111,6 +111,12 @@
   "conflicts_with": [
 
   ],
+  "conflicts_with_reasons": [
+
+  ],
+  "link_overwrite": [
+
+  ],
   "caveats": null,
   "installed": [
 
@@ -124,7 +130,10 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "tap_git_head": "1655c17518c96f9f5c4819b95cbe51539d30d3e9",
+  "tap_git_head": "388cf58311b12654b7392950ec3f1e6082b38564",
+  "ruby_source_checksum": {
+    "sha256": "d3d4c904afbc80edda5328782e0fe970f6a4fac82de8191b4264126689274a8d"
+  },
   "variations": {
   }
 }

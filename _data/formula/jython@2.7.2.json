@@ -59,6 +59,12 @@
   "conflicts_with": [
 
   ],
+  "conflicts_with_reasons": [
+
+  ],
+  "link_overwrite": [
+
+  ],
   "caveats": null,
   "installed": [
     {
@@ -86,6 +92,9 @@
   "disable_date": null,
   "disable_reason": null,
   "tap_git_head": "cc2e0dea413a5de18e23c97246689efd7a43b280",
+  "ruby_source_checksum": {
+    "sha256": "0e8506e0527a59309937f77584f7c13be0cef9f878751c6f0ea1f1d6e83036d5"
+  },
   "variations": {
   }
 }

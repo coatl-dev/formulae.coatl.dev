@@ -119,6 +119,12 @@
   "conflicts_with": [
 
   ],
+  "conflicts_with_reasons": [
+
+  ],
+  "link_overwrite": [
+
+  ],
   "caveats": "For the system Java wrappers to find this JDK, symlink it with\n  sudo ln -sfn $HOMEBREW_PREFIX/opt/openjdk@17/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-17.jdk\n",
   "installed": [
 
@@ -132,7 +138,10 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "tap_git_head": "1655c17518c96f9f5c4819b95cbe51539d30d3e9",
+  "tap_git_head": "388cf58311b12654b7392950ec3f1e6082b38564",
+  "ruby_source_checksum": {
+    "sha256": "80d4118513941d28587cd13761c1cc0503d2339f0f5a11221758fef8964e0ae3"
+  },
   "variations": {
     "x86_64_linux": {
       "dependencies": [
