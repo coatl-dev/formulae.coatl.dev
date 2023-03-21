@@ -1,0 +1,190 @@
+{
+  "name": "emscripten",
+  "full_name": "emscripten",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "LLVM bytecode to JavaScript compiler",
+  "license": "Apache-2.0 and (Apache-2.0 with LLVM-exception) and (MIT or NCSA)",
+  "homepage": "https://emscripten.org/",
+  "versions": {
+    "stable": "3.1.34",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/emscripten-core/emscripten/archive/3.1.34.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "fd798d6b7f139aa84b5566473f5e12bd6dafc7b671910804829384fa92a907b9"
+    },
+    "head": {
+      "url": "https://github.com/emscripten-core/emscripten.git",
+      "branch": "main"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:16b4ea79ce13f4cb2dea1493ad965daf774109822a0fafd4afad3a65812cdf3c",
+          "sha256": "16b4ea79ce13f4cb2dea1493ad965daf774109822a0fafd4afad3a65812cdf3c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:629aae2226fed66ce1469d341f89cbc21e48739c503b4f3dd2e80b0d8824de1f",
+          "sha256": "629aae2226fed66ce1469d341f89cbc21e48739c503b4f3dd2e80b0d8824de1f"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:4e78ab5a228e35ee0ffa15edd8d0fd78f4f8e6f1693e3c7e8364152c2b7ed7ac",
+          "sha256": "4e78ab5a228e35ee0ffa15edd8d0fd78f4f8e6f1693e3c7e8364152c2b7ed7ac"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:7c78dda06050e76c35aab52d9df4b2c7d32cab09d50f0fad20bbad01ae534ddf",
+          "sha256": "7c78dda06050e76c35aab52d9df4b2c7d32cab09d50f0fad20bbad01ae534ddf"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:cedc41fc1a223912b4951a2e5aadb93b13dcf187298116a7f3df3704150aafaa",
+          "sha256": "cedc41fc1a223912b4951a2e5aadb93b13dcf187298116a7f3df3704150aafaa"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:69fcd32934778a26652d9694a1d324d4033fcde90ba1ccae14a11195017d71fa",
+          "sha256": "69fcd32934778a26652d9694a1d324d4033fcde90ba1ccae14a11195017d71fa"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:370f65a033fb6ffa2b46dff62435c84e1436a8fadb1002cd87e4a449803084f9",
+          "sha256": "370f65a033fb6ffa2b46dff62435c84e1436a8fadb1002cd87e4a449803084f9"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "node",
+    "python@3.11",
+    "yuicompressor",
+    "openjdk"
+  ],
+  "test_dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "conflicts_with_reasons": [
+
+  ],
+  "link_overwrite": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "tap_git_head": "388cf58311b12654b7392950ec3f1e6082b38564",
+  "ruby_source_checksum": {
+    "sha256": "81b175cf465689c131164d2b1143e1990d036aed5ed8dcecde088daf7e4e1f53"
+  },
+  "variations": {
+    "ventura": {
+      "dependencies": [
+        "node",
+        "python@3.11",
+        "yuicompressor"
+      ]
+    },
+    "monterey": {
+      "dependencies": [
+        "node",
+        "python@3.11",
+        "yuicompressor"
+      ]
+    },
+    "big_sur": {
+      "dependencies": [
+        "node",
+        "python@3.11",
+        "yuicompressor"
+      ]
+    },
+    "catalina": {
+      "dependencies": [
+        "node",
+        "python@3.11",
+        "yuicompressor"
+      ]
+    },
+    "mojave": {
+      "dependencies": [
+        "node",
+        "python@3.11",
+        "yuicompressor"
+      ]
+    },
+    "high_sierra": {
+      "dependencies": [
+        "node",
+        "python@3.11",
+        "yuicompressor"
+      ]
+    },
+    "sierra": {
+      "dependencies": [
+        "node",
+        "python@3.11",
+        "yuicompressor"
+      ]
+    },
+    "el_capitan": {
+      "dependencies": [
+        "node",
+        "python@3.11",
+        "yuicompressor"
+      ]
+    }
+  }
+}

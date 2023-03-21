@@ -1,0 +1,203 @@
+{
+  "name": "python@3.10",
+  "full_name": "python@3.10",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+    "python@3.11",
+    "python@3.9",
+    "python@3.8",
+    "python@3.7"
+  ],
+  "desc": "Interpreted, interactive, object-oriented programming language",
+  "license": "Python-2.0",
+  "homepage": "https://www.python.org/",
+  "versions": {
+    "stable": "3.10.10",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.python.org/ftp/python/3.10.10/Python-3.10.10.tgz",
+      "tag": null,
+      "revision": null,
+      "checksum": "fba64559dde21ebdc953e4565e731573bb61159de8e4d4cedee70fb1196f610d"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.10/blobs/sha256:8901fd702a2bba8c37514beab8a3c44bf13a5443d4478ee75ddbaaf124ccab4e",
+          "sha256": "8901fd702a2bba8c37514beab8a3c44bf13a5443d4478ee75ddbaaf124ccab4e"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.10/blobs/sha256:6655163e389898197777099b8e8b463fa3ef914654d64e6cc6ec5d017fca0920",
+          "sha256": "6655163e389898197777099b8e8b463fa3ef914654d64e6cc6ec5d017fca0920"
+        },
+        "arm64_big_sur": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.10/blobs/sha256:b4cbbac05a433478499340df196f201e0a00152643126985f0cd1458c92bcc3a",
+          "sha256": "b4cbbac05a433478499340df196f201e0a00152643126985f0cd1458c92bcc3a"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.10/blobs/sha256:39b7f883d92f4093862c1eecac37b14dd800a75950a1011bf63fc5ebd74a126f",
+          "sha256": "39b7f883d92f4093862c1eecac37b14dd800a75950a1011bf63fc5ebd74a126f"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.10/blobs/sha256:a62a75c24c0cd82d342ae59ea12686b0938dbc57f3c23ae4d458d66e5dd6dfb8",
+          "sha256": "a62a75c24c0cd82d342ae59ea12686b0938dbc57f3c23ae4d458d66e5dd6dfb8"
+        },
+        "big_sur": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.10/blobs/sha256:c03d868ab5d46ff2fde13c9be9395bca7eba492002d04a299e9514068ee6508b",
+          "sha256": "c03d868ab5d46ff2fde13c9be9395bca7eba492002d04a299e9514068ee6508b"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.10/blobs/sha256:f01aa14bb2ae227a242290438e91f12d07812a84beb744b0b33e5f1f9ee70f2f",
+          "sha256": "f01aa14bb2ae227a242290438e91f12d07812a84beb744b0b33e5f1f9ee70f2f"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "gdbm",
+    "mpdecimal",
+    "openssl@1.1",
+    "readline",
+    "sqlite",
+    "xz"
+  ],
+  "test_dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+    "bzip2",
+    "expat",
+    "libffi",
+    "libxcrypt",
+    "ncurses",
+    "unzip",
+    "zlib"
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "conflicts_with_reasons": [
+
+  ],
+  "link_overwrite": [
+
+  ],
+  "caveats": "Python has been installed as\n  $HOMEBREW_PREFIX/bin/python3.10\n\nUnversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to\n`python3.10`, `python3.10-config`, `pip3.10` etc., respectively, have been installed into\n  $HOMEBREW_PREFIX/opt/python@3.10/libexec/bin\n\nYou can install Python packages with\n  pip3.10 install <package>\nThey will install into the site-package directory\n  $HOMEBREW_PREFIX/lib/python3.10/site-packages\n\ntkinter is no longer included with this formula, but it is available separately:\n  brew install python-tk@3.10\n\nIf you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:\n  brew install python3\n\nSee: https://docs.brew.sh/Homebrew-and-Python\n",
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "tap_git_head": "388cf58311b12654b7392950ec3f1e6082b38564",
+  "ruby_source_checksum": {
+    "sha256": "2bba4c9f630b24a8dc58b520a5b19103c7d6558c7766769a03a359a1e0fce56f"
+  },
+  "variations": {
+    "mojave": {
+      "dependencies": [
+        "gdbm",
+        "mpdecimal",
+        "openssl@1.1",
+        "readline",
+        "sqlite",
+        "xz",
+        "libffi"
+      ]
+    },
+    "high_sierra": {
+      "dependencies": [
+        "gdbm",
+        "mpdecimal",
+        "openssl@1.1",
+        "readline",
+        "sqlite",
+        "xz",
+        "libffi"
+      ]
+    },
+    "sierra": {
+      "dependencies": [
+        "gdbm",
+        "mpdecimal",
+        "openssl@1.1",
+        "readline",
+        "sqlite",
+        "xz",
+        "libffi"
+      ]
+    },
+    "el_capitan": {
+      "dependencies": [
+        "gdbm",
+        "mpdecimal",
+        "openssl@1.1",
+        "readline",
+        "sqlite",
+        "xz",
+        "libffi"
+      ]
+    },
+    "x86_64_linux": {
+      "dependencies": [
+        "gdbm",
+        "mpdecimal",
+        "openssl@1.1",
+        "readline",
+        "sqlite",
+        "xz",
+        "bzip2",
+        "expat",
+        "libffi",
+        "libxcrypt",
+        "ncurses",
+        "unzip",
+        "zlib",
+        "libnsl"
+      ]
+    }
+  }
+}

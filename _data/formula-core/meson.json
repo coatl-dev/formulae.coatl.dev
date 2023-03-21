@@ -1,0 +1,102 @@
+{
+  "name": "meson",
+  "full_name": "meson",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Fast and user friendly build system",
+  "license": "Apache-2.0",
+  "homepage": "https://mesonbuild.com/",
+  "versions": {
+    "stable": "1.0.1",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/mesonbuild/meson/releases/download/1.0.1/meson-1.0.1.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "d926b730de6f518728cc7c57bc5e701667bae0c3522f9e369427b2cc7839d3c1"
+    },
+    "head": {
+      "url": "https://github.com/mesonbuild/meson.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/meson/blobs/sha256:4b2d869546148ebfd74dcca907620acb794b7bdf153da89f450933bd8cb80e0e",
+          "sha256": "4b2d869546148ebfd74dcca907620acb794b7bdf153da89f450933bd8cb80e0e"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+    "ninja",
+    "python@3.11"
+  ],
+  "test_dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "conflicts_with_reasons": [
+
+  ],
+  "link_overwrite": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "tap_git_head": "388cf58311b12654b7392950ec3f1e6082b38564",
+  "ruby_source_checksum": {
+    "sha256": "6b46b78db22a950e785bfc94225bc19b6ffd415ddf9577bd79ca4d183bc36fed"
+  },
+  "variations": {
+  }
+}

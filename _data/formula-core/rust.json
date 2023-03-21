@@ -1,0 +1,135 @@
+{
+  "name": "rust",
+  "full_name": "rust",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Safe, concurrent, practical language",
+  "license": "Apache-2.0 or MIT",
+  "homepage": "https://www.rust-lang.org/",
+  "versions": {
+    "stable": "1.68.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://static.rust-lang.org/dist/rustc-1.68.0-src.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "eaf4d8b19f23a232a4770fb53ab5e7acdedec11da1d02b0e5d491ca92ca96d62"
+    },
+    "head": {
+      "url": "https://github.com/rust-lang/rust.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:ae58d4c911aaac006c1e5765d1c26792b0e315baee7820b89855437f4575ed7a",
+          "sha256": "ae58d4c911aaac006c1e5765d1c26792b0e315baee7820b89855437f4575ed7a"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:6591e1dd9bb5b1c6a270cb528a6bcc8d6b6292e26ed6dd293814c9401673f00b",
+          "sha256": "6591e1dd9bb5b1c6a270cb528a6bcc8d6b6292e26ed6dd293814c9401673f00b"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:35e3b4aa082aecfd11790c0b8a19da0e49006307d7c2ff1d5a692ba8809f031e",
+          "sha256": "35e3b4aa082aecfd11790c0b8a19da0e49006307d7c2ff1d5a692ba8809f031e"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:dddb960c1817fe21c6aec3657adab84bc0c4abce0fa0b3853984bc3e0f599685",
+          "sha256": "dddb960c1817fe21c6aec3657adab84bc0c4abce0fa0b3853984bc3e0f599685"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:c51fc46ddbd831952769132b0061ab9a3b772725b47e818ac7281b8874b861d3",
+          "sha256": "c51fc46ddbd831952769132b0061ab9a3b772725b47e818ac7281b8874b861d3"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:5102f90d8519188de5bf007e601ea39d4d0c2925de262de6e5a08c1da4bf9424",
+          "sha256": "5102f90d8519188de5bf007e601ea39d4d0c2925de262de6e5a08c1da4bf9424"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:7bcaca800dce8da426bc0bfe0d41c0323fd72526a92a22beb3a50a3dad93ccba",
+          "sha256": "7bcaca800dce8da426bc0bfe0d41c0323fd72526a92a22beb3a50a3dad93ccba"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [
+
+  ],
+  "build_dependencies": [
+    "cmake",
+    "ninja",
+    "python@3.11"
+  ],
+  "dependencies": [
+    "openssl@3",
+    "pkg-config"
+  ],
+  "test_dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+    "curl",
+    "zlib"
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "conflicts_with_reasons": [
+
+  ],
+  "link_overwrite": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "tap_git_head": "388cf58311b12654b7392950ec3f1e6082b38564",
+  "ruby_source_checksum": {
+    "sha256": "e0751e634981bb1ab8e9a76095b176394f369810e98f1a2c129f3e041e914f6a"
+  },
+  "variations": {
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "name": "docutils",
+  "full_name": "docutils",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Text processing system for reStructuredText",
+  "license": "Public Domain and BSD-2-Clause and GPL-3.0-or-later and Python-2.0",
+  "homepage": "https://docutils.sourceforge.io",
+  "versions": {
+    "stable": "0.19",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/docutils/docutils/0.19/docutils-0.19.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "33995a6753c30b7f577febfc2c50411fec6aac7f7ffeb7c4cfe5991072dcf9e6"
+    }
+  },
+  "revision": 1,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docutils/blobs/sha256:80e64efdb51243a4399e19e4dbf5efe01b855a7cad82ca79c0c6026042f7a00c",
+          "sha256": "80e64efdb51243a4399e19e4dbf5efe01b855a7cad82ca79c0c6026042f7a00c"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docutils/blobs/sha256:239c9ea68fe0bc3940a3d174291a0733b53b4e1f402e4dc01f7bd5c8636e7e71",
+          "sha256": "239c9ea68fe0bc3940a3d174291a0733b53b4e1f402e4dc01f7bd5c8636e7e71"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docutils/blobs/sha256:83621062b81476f5f69e79a6c49e8844cde4e4ee09610ee5442885f4c9884c35",
+          "sha256": "83621062b81476f5f69e79a6c49e8844cde4e4ee09610ee5442885f4c9884c35"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docutils/blobs/sha256:263354453fe6a41c646d4d9b637f71fa5b09ee1d0eb528f1d4b5b5c5d5fe4b72",
+          "sha256": "263354453fe6a41c646d4d9b637f71fa5b09ee1d0eb528f1d4b5b5c5d5fe4b72"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docutils/blobs/sha256:78cc9b7a63475dbe082ccd086bfc0eddddbdbca02a27123b07da1d2e8ae30950",
+          "sha256": "78cc9b7a63475dbe082ccd086bfc0eddddbdbca02a27123b07da1d2e8ae30950"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docutils/blobs/sha256:ab3bed820073b8a9bc4d85e4636d22398409bf96698df94fff362470e0bcf8c9",
+          "sha256": "ab3bed820073b8a9bc4d85e4636d22398409bf96698df94fff362470e0bcf8c9"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/docutils/blobs/sha256:31492425c7858c04dd45cfd52cbc464b6c0eec51490863ce420d0aae247ddfd6",
+          "sha256": "31492425c7858c04dd45cfd52cbc464b6c0eec51490863ce420d0aae247ddfd6"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+    "python@3.11"
+  ],
+  "test_dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "conflicts_with_reasons": [
+
+  ],
+  "link_overwrite": [
+
+  ],
+  "caveats": null,
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "tap_git_head": "388cf58311b12654b7392950ec3f1e6082b38564",
+  "ruby_source_checksum": {
+    "sha256": "f631d0adc4a9bdc9d9aa999dd0f3e1a8e271e92c9d69f18a5a66743591f47cfc"
+  },
+  "variations": {
+  }
+}
