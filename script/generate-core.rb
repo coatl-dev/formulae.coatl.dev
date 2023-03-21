@@ -28,7 +28,7 @@ tap.formula_names.each do |n|
       "fontconfig",
       "freetype",
       "freetype2",
-      "gbbm",
+      "gdbm",
       "gettext",
       "giflib",
       "glib",
