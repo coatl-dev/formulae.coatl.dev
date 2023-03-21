@@ -1,0 +1,137 @@
+{
+  "name": "cmake",
+  "full_name": "cmake",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "aliases": [
+
+  ],
+  "versioned_formulae": [
+
+  ],
+  "desc": "Cross-platform make",
+  "license": "BSD-3-Clause",
+  "homepage": "https://www.cmake.org/",
+  "versions": {
+    "stable": "3.26.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/Kitware/CMake/releases/download/v3.26.0/cmake-3.26.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "checksum": "4256613188857e95700621f7cdaaeb954f3546a9249e942bc2f9b3c26e381365"
+    },
+    "head": {
+      "url": "https://gitlab.kitware.com/cmake/cmake.git",
+      "branch": "master"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:3c39c077ead3f8ccc94727c275ac16af5f75a088844df034d10b34ad85dfb8bf",
+          "sha256": "3c39c077ead3f8ccc94727c275ac16af5f75a088844df034d10b34ad85dfb8bf"
+        },
+        "arm64_monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:6fb143b21a378921ee86e61d0cf77584e42ead38076f92ea1ebb57dcefb6b85d",
+          "sha256": "6fb143b21a378921ee86e61d0cf77584e42ead38076f92ea1ebb57dcefb6b85d"
+        },
+        "arm64_big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:714058b6941002393dcadcefb13f5b16ae094724c734977cc6a2dcf2db5484ae",
+          "sha256": "714058b6941002393dcadcefb13f5b16ae094724c734977cc6a2dcf2db5484ae"
+        },
+        "ventura": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:96a930fa2836355c767057f336521113f419f51c2444ec0cb095a6776170997e",
+          "sha256": "96a930fa2836355c767057f336521113f419f51c2444ec0cb095a6776170997e"
+        },
+        "monterey": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:ca050ee8541df0df30c3b06bcce0b8be0a37fc16dcfc83fe2c29dd6bf13b8643",
+          "sha256": "ca050ee8541df0df30c3b06bcce0b8be0a37fc16dcfc83fe2c29dd6bf13b8643"
+        },
+        "big_sur": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:5175a6fee503ce7cd67fd6d23ea589995ac1d0eb8114756315a106b8261affda",
+          "sha256": "5175a6fee503ce7cd67fd6d23ea589995ac1d0eb8114756315a106b8261affda"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:a71c04366f7b5fd26d49bd683ae3a2cab717967085fd60ffa8bc8c802a9f9c48",
+          "sha256": "a71c04366f7b5fd26d49bd683ae3a2cab717967085fd60ffa8bc8c802a9f9c48"
+        }
+      }
+    }
+  },
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [
+
+  ],
+  "build_dependencies": [
+
+  ],
+  "dependencies": [
+
+  ],
+  "test_dependencies": [
+
+  ],
+  "recommended_dependencies": [
+
+  ],
+  "optional_dependencies": [
+
+  ],
+  "uses_from_macos": [
+    "ncurses"
+  ],
+  "requirements": [
+
+  ],
+  "conflicts_with": [
+
+  ],
+  "conflicts_with_reasons": [
+
+  ],
+  "link_overwrite": [
+
+  ],
+  "caveats": "To install the CMake documentation, run:\n  brew install cmake-docs\n",
+  "installed": [
+
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "tap_git_head": "388cf58311b12654b7392950ec3f1e6082b38564",
+  "ruby_source_checksum": {
+    "sha256": "1a32bad12341da0f20ef4deba1164b2b079b96fc35efb5996b4b46968be1b11a"
+  },
+  "variations": {
+    "x86_64_linux": {
+      "dependencies": [
+        "ncurses",
+        "openssl@3"
+      ]
+    }
+  }
+}
