@@ -4,9 +4,11 @@
   "tap": "homebrew/core",
   "oldname": null,
   "aliases": [
-    "openssl"
+    "openssl",
+    "openssl@3.1"
   ],
   "versioned_formulae": [
+    "openssl@3.0",
     "openssl@1.1"
   ],
   "desc": "Cryptography and SSL/TLS Toolkit",
@@ -138,9 +140,10 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "tap_git_head": "388cf58311b12654b7392950ec3f1e6082b38564",
+  "service": null,
+  "tap_git_head": "6d48e9da44e70962ca17f56374fe42087afa5d02",
   "ruby_source_checksum": {
-    "sha256": "610e66acc243e8faabb854d595fa1706a1b22a507218949f47611c13b4a7dad2"
+    "sha256": "e253a1ed2473311244876afcd9dd61041c3c888c15f5e3431e383c6e8b64b24b"
   },
   "variations": {
     "x86_64_linux": {

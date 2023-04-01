@@ -132,7 +132,8 @@
   "disabled": true,
   "disable_date": "2022-04-30",
   "disable_reason": "unsupported",
-  "tap_git_head": "388cf58311b12654b7392950ec3f1e6082b38564",
+  "service": null,
+  "tap_git_head": "6d48e9da44e70962ca17f56374fe42087afa5d02",
   "ruby_source_checksum": {
     "sha256": "c74bd049d395072e99160434588f17d6224f17527611ad9ffc8a1e5db5d71c27"
   },
