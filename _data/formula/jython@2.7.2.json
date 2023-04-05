@@ -74,7 +74,7 @@
       ],
       "built_as_bottle": false,
       "poured_from_bottle": false,
-      "time": 1671464950,
+      "time": 1679465575,
       "runtime_dependencies": [
 
       ],
@@ -91,7 +91,8 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "tap_git_head": "cc2e0dea413a5de18e23c97246689efd7a43b280",
+  "service": null,
+  "tap_git_head": "2e7f58c2648287a026555ffaa0e4e4cd0116460d",
   "ruby_source_checksum": {
     "sha256": "0e8506e0527a59309937f77584f7c13be0cef9f878751c6f0ea1f1d6e83036d5"
   },
