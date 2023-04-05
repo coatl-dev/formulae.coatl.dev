@@ -113,7 +113,7 @@
   "disable_date": "2022-07-31",
   "disable_reason": "unsupported",
   "service": null,
-  "tap_git_head": "6d48e9da44e70962ca17f56374fe42087afa5d02",
+  "tap_git_head": "7bfcbcfa57365584c4a7c509a47c78d0c2717073",
   "ruby_source_checksum": {
     "sha256": "ac4a8e1dfcdf966423e081b8c98920666901202385b014bfb5995237b598c068"
   },
