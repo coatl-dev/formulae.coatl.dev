@@ -125,10 +125,11 @@
   "disable_date": "2023-06-27",
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "7bfcbcfa57365584c4a7c509a47c78d0c2717073",
+  "tap_git_head": "59745a263742d72cd7d1062b4ef33a847b31fda1",
   "ruby_source_checksum": {
-    "sha256": "5dd5d673056d04dfae80a72005bcfa55e442aa9de5d03817fdbba374f40e8ba4"
+    "sha256": "f8626f2a14fb4cf46806d651589fcfbf830e2197d8631b408c62bc75534b8ba2"
   },
+  "ruby_source_path": "Formula/python@3.7.rb",
   "variations": {
     "x86_64_linux": {
       "dependencies": [

@@ -133,10 +133,11 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "7bfcbcfa57365584c4a7c509a47c78d0c2717073",
+  "tap_git_head": "59745a263742d72cd7d1062b4ef33a847b31fda1",
   "ruby_source_checksum": {
-    "sha256": "a434d590327dce175abdbca004ba1a31c7ebcf05497664e55cada40cba3e9948"
+    "sha256": "3ed4102f23b8c0ad1330ab04a7e00de27e03876da4acfab6c7d3f3874f121d83"
   },
+  "ruby_source_path": "Formula/python@3.9.rb",
   "variations": {
     "mojave": {
       "dependencies": [

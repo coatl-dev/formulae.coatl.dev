@@ -141,10 +141,11 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "7bfcbcfa57365584c4a7c509a47c78d0c2717073",
+  "tap_git_head": "59745a263742d72cd7d1062b4ef33a847b31fda1",
   "ruby_source_checksum": {
     "sha256": "e253a1ed2473311244876afcd9dd61041c3c888c15f5e3431e383c6e8b64b24b"
   },
+  "ruby_source_path": "Formula/openssl@3.rb",
   "variations": {
     "x86_64_linux": {
       "keg_only_reason": {

@@ -134,10 +134,11 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "7bfcbcfa57365584c4a7c509a47c78d0c2717073",
+  "tap_git_head": "59745a263742d72cd7d1062b4ef33a847b31fda1",
   "ruby_source_checksum": {
     "sha256": "ecd9514a7d1f6ed9ecb749ed5d80ff3eae1de0d9ea9971559a2d82537e51dce5"
   },
+  "ruby_source_path": "Formula/lua@5.3.rb",
   "variations": {
     "x86_64_linux": {
       "build_dependencies": [

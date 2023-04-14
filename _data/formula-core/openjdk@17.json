@@ -139,10 +139,11 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "7bfcbcfa57365584c4a7c509a47c78d0c2717073",
+  "tap_git_head": "59745a263742d72cd7d1062b4ef33a847b31fda1",
   "ruby_source_checksum": {
     "sha256": "80d4118513941d28587cd13761c1cc0503d2339f0f5a11221758fef8964e0ae3"
   },
+  "ruby_source_path": "Formula/openjdk@17.rb",
   "variations": {
     "x86_64_linux": {
       "dependencies": [

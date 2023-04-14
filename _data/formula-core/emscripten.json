@@ -126,10 +126,11 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "7bfcbcfa57365584c4a7c509a47c78d0c2717073",
+  "tap_git_head": "59745a263742d72cd7d1062b4ef33a847b31fda1",
   "ruby_source_checksum": {
     "sha256": "b6f4d9e1fd1127e9f3368b012aa63c701eb281a04f2239f7ecd66da290665e47"
   },
+  "ruby_source_path": "Formula/emscripten.rb",
   "variations": {
     "ventura": {
       "dependencies": [
