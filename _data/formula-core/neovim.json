@@ -135,9 +135,9 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "59745a263742d72cd7d1062b4ef33a847b31fda1",
+  "tap_git_head": "a24274cab3e929831c262e4f2c9d4dbf9e3405ba",
   "ruby_source_checksum": {
-    "sha256": "8155a0accfff2b04a8e7b86e7067a0c8cc7da1270c485854a4368c2948f2f2fb"
+    "sha256": "0a8881c59fb18bf6618a323f791fb3ca3becf2787a1b768d5d9a622e44c1fb89"
   },
   "ruby_source_path": "Formula/neovim.rb",
   "variations": {

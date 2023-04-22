@@ -13,16 +13,16 @@
   "license": "Apache-2.0 and (Apache-2.0 with LLVM-exception) and (MIT or NCSA)",
   "homepage": "https://emscripten.org/",
   "versions": {
-    "stable": "3.1.35",
+    "stable": "3.1.36",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/emscripten-core/emscripten/archive/3.1.35.tar.gz",
+      "url": "https://github.com/emscripten-core/emscripten/archive/3.1.36.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "61530cf2d51fe00bfad9b0c5d14fd310fc3cffe00de423764dc9839d62071bcb"
+      "checksum": "829bfcbda97f52b998484e0edd4da29342ff514b57239fd325586818c87cd40a"
     },
     "head": {
       "url": "https://github.com/emscripten-core/emscripten.git",
@@ -38,38 +38,38 @@
       "files": {
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:ba91fed246f1ef286d9b89a14f016780a18522f6d46831b4794c6fb6ab09060a",
-          "sha256": "ba91fed246f1ef286d9b89a14f016780a18522f6d46831b4794c6fb6ab09060a"
+          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:e66f91ee1114afde7bb1e04d89efa279fffb779747ce6152713fb49a516c6719",
+          "sha256": "e66f91ee1114afde7bb1e04d89efa279fffb779747ce6152713fb49a516c6719"
         },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:23a82d903360001f1186b51ec35e9db5fab987f34803e360013f2ca829c625d9",
-          "sha256": "23a82d903360001f1186b51ec35e9db5fab987f34803e360013f2ca829c625d9"
+          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:e0712de80fa030fa20a3d28c5eb9f65ff56ae1fc5417763b372b3da59bf491b9",
+          "sha256": "e0712de80fa030fa20a3d28c5eb9f65ff56ae1fc5417763b372b3da59bf491b9"
         },
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:dd3c2a16ba94d678f0c48514eb4e983ce214546daa3ac774421fd5018c55fe07",
-          "sha256": "dd3c2a16ba94d678f0c48514eb4e983ce214546daa3ac774421fd5018c55fe07"
+          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:1b066d333fe47c22cf151e7328cf8c96985d5e2ebb3e94f7b9dec852e661bf56",
+          "sha256": "1b066d333fe47c22cf151e7328cf8c96985d5e2ebb3e94f7b9dec852e661bf56"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:63215dcc6098a32d3cde7f577e8c3046d78c01d51abb13ea7f2032ae5b9bcd1c",
-          "sha256": "63215dcc6098a32d3cde7f577e8c3046d78c01d51abb13ea7f2032ae5b9bcd1c"
+          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:4b51898e24e3383214e4b9e9bcd2b7fd60304f3359dc68766787f7fef3eef2ef",
+          "sha256": "4b51898e24e3383214e4b9e9bcd2b7fd60304f3359dc68766787f7fef3eef2ef"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:5106f35b0bcbb3cbb092bad153bc2e242219ab3313036f7e18e82b9b4798d7ab",
-          "sha256": "5106f35b0bcbb3cbb092bad153bc2e242219ab3313036f7e18e82b9b4798d7ab"
+          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:519d783e245f7ac10b952619dc5540e008fa45ab45d7316c659c923e30c8535d",
+          "sha256": "519d783e245f7ac10b952619dc5540e008fa45ab45d7316c659c923e30c8535d"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:79d44a71453d8a990453a8e7ac52582b548307d0c785c1be07b653653cd41b99",
-          "sha256": "79d44a71453d8a990453a8e7ac52582b548307d0c785c1be07b653653cd41b99"
+          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:a1361498b2c50db37cc04fe071ff33f0622376846dabbee3e0f23376d5d34093",
+          "sha256": "a1361498b2c50db37cc04fe071ff33f0622376846dabbee3e0f23376d5d34093"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:77ba573b6c156451f65f161225659f14b0af4b127042e23dd1e9d047e25b2ebf",
-          "sha256": "77ba573b6c156451f65f161225659f14b0af4b127042e23dd1e9d047e25b2ebf"
+          "url": "https://ghcr.io/v2/homebrew/core/emscripten/blobs/sha256:2617fb0cee5fe209bbd47ab66a98c5dbeb7c9e66008ce4df976c8d44829e3a6e",
+          "sha256": "2617fb0cee5fe209bbd47ab66a98c5dbeb7c9e66008ce4df976c8d44829e3a6e"
         }
       }
     }
@@ -126,9 +126,9 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "59745a263742d72cd7d1062b4ef33a847b31fda1",
+  "tap_git_head": "a24274cab3e929831c262e4f2c9d4dbf9e3405ba",
   "ruby_source_checksum": {
-    "sha256": "b6f4d9e1fd1127e9f3368b012aa63c701eb281a04f2239f7ecd66da290665e47"
+    "sha256": "45fc0578a63ad2c103f41f077995dc3d9b1821e4b5e1480e0d6b22afaf2f6a87"
   },
   "ruby_source_path": "Formula/emscripten.rb",
   "variations": {

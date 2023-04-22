@@ -130,7 +130,7 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "59745a263742d72cd7d1062b4ef33a847b31fda1",
+  "tap_git_head": "a24274cab3e929831c262e4f2c9d4dbf9e3405ba",
   "ruby_source_checksum": {
     "sha256": "8ec641d9961172edb6e5c7ccae27f0c0469243bec7cab006f5b1108f2ea06a44"
   },
