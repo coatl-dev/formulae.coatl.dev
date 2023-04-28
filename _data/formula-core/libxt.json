@@ -3,6 +3,9 @@
   "full_name": "libxt",
   "tap": "homebrew/core",
   "oldname": null,
+  "oldnames": [
+
+  ],
   "aliases": [
 
   ],
@@ -121,7 +124,7 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "a24274cab3e929831c262e4f2c9d4dbf9e3405ba",
+  "tap_git_head": "cdb0e0978a90d0bdd542cec94f7f8056aebe5d05",
   "ruby_source_checksum": {
     "sha256": "b53a078c1ae70f957efc136c7f2f0947a7d9867b5b098265a99f7e403861968d"
   },

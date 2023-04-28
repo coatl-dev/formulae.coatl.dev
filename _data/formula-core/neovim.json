@@ -3,6 +3,9 @@
   "full_name": "neovim",
   "tap": "homebrew/core",
   "oldname": null,
+  "oldnames": [
+
+  ],
   "aliases": [
     "nvim"
   ],
@@ -135,7 +138,7 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "a24274cab3e929831c262e4f2c9d4dbf9e3405ba",
+  "tap_git_head": "cdb0e0978a90d0bdd542cec94f7f8056aebe5d05",
   "ruby_source_checksum": {
     "sha256": "0a8881c59fb18bf6618a323f791fb3ca3becf2787a1b768d5d9a622e44c1fb89"
   },

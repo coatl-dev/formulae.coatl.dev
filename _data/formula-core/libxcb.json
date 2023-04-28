@@ -3,6 +3,9 @@
   "full_name": "libxcb",
   "tap": "homebrew/core",
   "oldname": null,
+  "oldnames": [
+
+  ],
   "aliases": [
 
   ],
@@ -122,7 +125,7 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "a24274cab3e929831c262e4f2c9d4dbf9e3405ba",
+  "tap_git_head": "cdb0e0978a90d0bdd542cec94f7f8056aebe5d05",
   "ruby_source_checksum": {
     "sha256": "9caa39c8e7aeb66dae8ca238bb06e01c9224178228a85f0dbd53bd812cc4fe12"
   },

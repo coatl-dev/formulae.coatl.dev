@@ -3,6 +3,9 @@
   "full_name": "libxdmcp",
   "tap": "homebrew/core",
   "oldname": null,
+  "oldnames": [
+
+  ],
   "aliases": [
 
   ],
@@ -119,7 +122,7 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "a24274cab3e929831c262e4f2c9d4dbf9e3405ba",
+  "tap_git_head": "cdb0e0978a90d0bdd542cec94f7f8056aebe5d05",
   "ruby_source_checksum": {
     "sha256": "6ccdea2779a35564139f32b7b6583a619623005eae696098e3e28eee35b558ed"
   },

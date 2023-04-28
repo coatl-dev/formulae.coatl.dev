@@ -3,6 +3,9 @@
   "full_name": "node@14",
   "tap": "homebrew/core",
   "oldname": null,
+  "oldnames": [
+
+  ],
   "aliases": [
 
   ],
@@ -133,7 +136,7 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "a24274cab3e929831c262e4f2c9d4dbf9e3405ba",
+  "tap_git_head": "cdb0e0978a90d0bdd542cec94f7f8056aebe5d05",
   "ruby_source_checksum": {
     "sha256": "8acb39e417c96ff0baf683d60a327de5bbc217a44784ab86e1972089eae94cf0"
   },

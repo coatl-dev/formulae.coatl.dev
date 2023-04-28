@@ -3,6 +3,9 @@
   "full_name": "lua@5.1",
   "tap": "homebrew/core",
   "oldname": "lua51",
+  "oldnames": [
+    "lua51"
+  ],
   "aliases": [
 
   ],
@@ -144,7 +147,7 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "a24274cab3e929831c262e4f2c9d4dbf9e3405ba",
+  "tap_git_head": "cdb0e0978a90d0bdd542cec94f7f8056aebe5d05",
   "ruby_source_checksum": {
     "sha256": "08c6cdeaddff60df3f20d428bff0e052af1dd2506fe336332a1b9d5d1527fbca"
   },

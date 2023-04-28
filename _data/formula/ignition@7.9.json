@@ -3,6 +3,9 @@
   "full_name": "coatl-dev/coatl-dev/ignition@7.9",
   "tap": "coatl-dev/coatl-dev",
   "oldname": null,
+  "oldnames": [
+
+  ],
   "aliases": [
 
   ],
@@ -81,10 +84,11 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "2e7f58c2648287a026555ffaa0e4e4cd0116460d",
+  "tap_git_head": "2f3629ed5e47a7b7c836163a0fc7b82da2863af6",
   "ruby_source_checksum": {
     "sha256": "b35699f14a89fb5c1855a8473c1a8f49eb2be612332d567690f113bef2f25c7a"
   },
+  "ruby_source_path": "Formula/ignition@7.9.rb",
   "variations": {
   }
 }

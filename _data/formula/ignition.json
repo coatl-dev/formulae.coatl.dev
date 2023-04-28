@@ -3,6 +3,9 @@
   "full_name": "coatl-dev/coatl-dev/ignition",
   "tap": "coatl-dev/coatl-dev",
   "oldname": null,
+  "oldnames": [
+
+  ],
   "aliases": [
     "ignition@8.1"
   ],
@@ -13,16 +16,16 @@
   "license": "Cannot Represent",
   "homepage": "https://inductiveautomation.com/",
   "versions": {
-    "stable": "8.1.26",
+    "stable": "8.1.27",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://files.inductiveautomation.com/release/ia/8.1.26/20230323-0920/Ignition-macOs-x86-64-8.1.26.zip",
+      "url": "https://files.inductiveautomation.com/release/ia/8.1.27/20230425-0954/Ignition-macOs-x86-64-8.1.27.zip",
       "tag": null,
       "revision": null,
-      "checksum": "2125636f510c8b1656bec2e70368567d97f2af339411e6e1bf46a58f1ca65e95"
+      "checksum": "0877cf60ad450d3e8cf378774633a50d073b2565d20109d3a74696b9b59cf02a"
     }
   },
   "revision": 0,
@@ -67,13 +70,13 @@
   "caveats": "The data and logs folders have been symlinked to:\n  data: $HOMEBREW_PREFIX/etc/ignition\n  logs: $HOMEBREW_PREFIX/var/ignition\n",
   "installed": [
     {
-      "version": "8.1.26",
+      "version": "8.1.27",
       "used_options": [
 
       ],
       "built_as_bottle": false,
       "poured_from_bottle": false,
-      "time": 1679779804,
+      "time": 1682487129,
       "runtime_dependencies": [
 
       ],
@@ -81,7 +84,7 @@
       "installed_on_request": true
     }
   ],
-  "linked_keg": "8.1.26",
+  "linked_keg": "8.1.27",
   "pinned": false,
   "outdated": false,
   "deprecated": false,
@@ -91,10 +94,11 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "2e7f58c2648287a026555ffaa0e4e4cd0116460d",
+  "tap_git_head": "2f3629ed5e47a7b7c836163a0fc7b82da2863af6",
   "ruby_source_checksum": {
-    "sha256": "8ef72c00346bcb5f707ac1bf7fd9f3b0736f98c1a66fac8e686fee4f3599079d"
+    "sha256": "c26803813bb005503e377a8eef29e280d84f00d5b84c98b763391a4cc302b46a"
   },
+  "ruby_source_path": "Formula/ignition.rb",
   "variations": {
   }
 }

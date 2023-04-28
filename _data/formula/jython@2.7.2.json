@@ -3,6 +3,9 @@
   "full_name": "coatl-dev/coatl-dev/jython@2.7.2",
   "tap": "coatl-dev/coatl-dev",
   "oldname": null,
+  "oldnames": [
+
+  ],
   "aliases": [
 
   ],
@@ -74,7 +77,7 @@
       ],
       "built_as_bottle": false,
       "poured_from_bottle": false,
-      "time": 1679465575,
+      "time": 1681541344,
       "runtime_dependencies": [
 
       ],
@@ -92,10 +95,11 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "2e7f58c2648287a026555ffaa0e4e4cd0116460d",
+  "tap_git_head": "2f3629ed5e47a7b7c836163a0fc7b82da2863af6",
   "ruby_source_checksum": {
     "sha256": "0e8506e0527a59309937f77584f7c13be0cef9f878751c6f0ea1f1d6e83036d5"
   },
+  "ruby_source_path": "Formula/jython@2.7.2.rb",
   "variations": {
   }
 }
