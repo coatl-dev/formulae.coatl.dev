@@ -144,11 +144,11 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "cdb0e0978a90d0bdd542cec94f7f8056aebe5d05",
+  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
+  "ruby_source_path": "Formula/libtool.rb",
   "ruby_source_checksum": {
     "sha256": "a678eb3fbd427a8d2fec20ae2fc46e649012be23cf7aa995efb90567560164b7"
   },
-  "ruby_source_path": "Formula/libtool.rb",
   "variations": {
   }
 }

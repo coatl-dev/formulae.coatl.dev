@@ -12,7 +12,6 @@
   "versioned_formulae": [
     "node@18",
     "node@16",
-    "node@12",
     "node@10"
   ],
   "desc": "Platform built on V8 to build network applications",
@@ -129,18 +128,18 @@
   "linked_keg": null,
   "pinned": false,
   "outdated": false,
-  "deprecated": false,
+  "deprecated": true,
   "deprecation_date": "2023-04-30",
-  "deprecation_reason": null,
+  "deprecation_reason": "unsupported",
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "cdb0e0978a90d0bdd542cec94f7f8056aebe5d05",
+  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
+  "ruby_source_path": "Formula/node@14.rb",
   "ruby_source_checksum": {
     "sha256": "8acb39e417c96ff0baf683d60a327de5bbc217a44784ab86e1972089eae94cf0"
   },
-  "ruby_source_path": "Formula/node@14.rb",
   "variations": {
     "arm64_big_sur": {
       "dependencies": [

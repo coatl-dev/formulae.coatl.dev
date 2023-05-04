@@ -137,11 +137,11 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "cdb0e0978a90d0bdd542cec94f7f8056aebe5d05",
+  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
+  "ruby_source_path": "Formula/autoconf@2.13.rb",
   "ruby_source_checksum": {
     "sha256": "a4657f10608e0458d1ef309c3b9ffd181ff370b78dd92ece3e348180d514840f"
   },
-  "ruby_source_path": "Formula/autoconf@2.13.rb",
   "variations": {
   }
 }

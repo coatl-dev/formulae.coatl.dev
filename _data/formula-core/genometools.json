@@ -123,11 +123,11 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "cdb0e0978a90d0bdd542cec94f7f8056aebe5d05",
+  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
+  "ruby_source_path": "Formula/genometools.rb",
   "ruby_source_checksum": {
     "sha256": "bef5e4b07e7cdcfa53454755dfad63babd6a1db08fafa145faba95137060869c"
   },
-  "ruby_source_path": "Formula/genometools.rb",
   "variations": {
     "x86_64_linux": {
       "build_dependencies": [

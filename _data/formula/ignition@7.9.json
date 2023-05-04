@@ -85,10 +85,10 @@
   "disable_reason": null,
   "service": null,
   "tap_git_head": "2f3629ed5e47a7b7c836163a0fc7b82da2863af6",
+  "ruby_source_path": "Formula/ignition@7.9.rb",
   "ruby_source_checksum": {
     "sha256": "b35699f14a89fb5c1855a8473c1a8f49eb2be612332d567690f113bef2f25c7a"
   },
-  "ruby_source_path": "Formula/ignition@7.9.rb",
   "variations": {
   }
 }

@@ -135,11 +135,11 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "cdb0e0978a90d0bdd542cec94f7f8056aebe5d05",
+  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
+  "ruby_source_path": "Formula/xz.rb",
   "ruby_source_checksum": {
     "sha256": "cbe96d76898d0610c3c516bc6a0bd7b79cbc74e2c1780d1eb42c0a7c1af72fe5"
   },
-  "ruby_source_path": "Formula/xz.rb",
   "variations": {
   }
 }

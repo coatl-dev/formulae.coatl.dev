@@ -133,11 +133,11 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "cdb0e0978a90d0bdd542cec94f7f8056aebe5d05",
+  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
+  "ruby_source_path": "Formula/unzip.rb",
   "ruby_source_checksum": {
     "sha256": "67162391d835d2de1ca4fecca504a0a26598b0ce4eeff637243bcdec84976834"
   },
-  "ruby_source_path": "Formula/unzip.rb",
   "variations": {
   }
 }

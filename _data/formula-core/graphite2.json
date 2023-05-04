@@ -141,11 +141,11 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "cdb0e0978a90d0bdd542cec94f7f8056aebe5d05",
+  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
+  "ruby_source_path": "Formula/graphite2.rb",
   "ruby_source_checksum": {
     "sha256": "55ab761024f693d2591438dd96a7c14f3b6660f115cd01975999a357611ce108"
   },
-  "ruby_source_path": "Formula/graphite2.rb",
   "variations": {
     "x86_64_linux": {
       "build_dependencies": [

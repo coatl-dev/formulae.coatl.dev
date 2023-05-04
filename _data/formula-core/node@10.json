@@ -12,8 +12,7 @@
   "versioned_formulae": [
     "node@18",
     "node@16",
-    "node@14",
-    "node@12"
+    "node@14"
   ],
   "desc": "Platform built on V8 to build network applications",
   "license": "MIT",
@@ -116,11 +115,11 @@
   "disable_date": "2022-07-31",
   "disable_reason": "unsupported",
   "service": null,
-  "tap_git_head": "cdb0e0978a90d0bdd542cec94f7f8056aebe5d05",
+  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
+  "ruby_source_path": "Formula/node@10.rb",
   "ruby_source_checksum": {
     "sha256": "ac4a8e1dfcdf966423e081b8c98920666901202385b014bfb5995237b598c068"
   },
-  "ruby_source_path": "Formula/node@10.rb",
   "variations": {
   }
 }

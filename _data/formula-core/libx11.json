@@ -125,11 +125,11 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "cdb0e0978a90d0bdd542cec94f7f8056aebe5d05",
+  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
+  "ruby_source_path": "Formula/libx11.rb",
   "ruby_source_checksum": {
     "sha256": "29231c5764e933dffe221057b9eb27f8664a2d27f4f6ae805b6a3eff3c00cdca"
   },
-  "ruby_source_path": "Formula/libx11.rb",
   "variations": {
   }
 }

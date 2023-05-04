@@ -98,11 +98,11 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "cdb0e0978a90d0bdd542cec94f7f8056aebe5d05",
+  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
+  "ruby_source_path": "Formula/pygments.rb",
   "ruby_source_checksum": {
     "sha256": "f84bf897702a58c83c767493a5a9e9db6aa867df4ed8b4a3f51c2a0626c9fb4d"
   },
-  "ruby_source_path": "Formula/pygments.rb",
   "variations": {
   }
 }

@@ -12,7 +12,6 @@
   "versioned_formulae": [
     "node@16",
     "node@14",
-    "node@12",
     "node@10"
   ],
   "desc": "Platform built on V8 to build network applications",
@@ -135,11 +134,11 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "cdb0e0978a90d0bdd542cec94f7f8056aebe5d05",
+  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
+  "ruby_source_path": "Formula/node@18.rb",
   "ruby_source_checksum": {
     "sha256": "c155f6b1185c59d78d2add93f4ab306337e52f2cc12af78972fe517c828343c0"
   },
-  "ruby_source_path": "Formula/node@18.rb",
   "variations": {
     "mojave": {
       "dependencies": [

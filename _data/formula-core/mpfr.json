@@ -126,11 +126,11 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "cdb0e0978a90d0bdd542cec94f7f8056aebe5d05",
-  "ruby_source_checksum": {
-    "sha256": "e73080d8e15f881ef847701a9494b91dae8c3940cb7cb6ec03c0667b5b4c95ed"
-  },
+  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
   "ruby_source_path": "Formula/mpfr.rb",
+  "ruby_source_checksum": {
+    "sha256": "e3c8237b1200ff29680d62ab2932c1ba15ad5476dff72076084ef3ce9b71ddea"
+  },
   "variations": {
   }
 }

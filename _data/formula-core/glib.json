@@ -132,11 +132,11 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "cdb0e0978a90d0bdd542cec94f7f8056aebe5d05",
+  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
+  "ruby_source_path": "Formula/glib.rb",
   "ruby_source_checksum": {
     "sha256": "7153a57e9018f4969a95faa670ea6597a3ecdfa0dd85ab006b52d28469c4b8ef"
   },
-  "ruby_source_path": "Formula/glib.rb",
   "variations": {
     "mojave": {
       "dependencies": [

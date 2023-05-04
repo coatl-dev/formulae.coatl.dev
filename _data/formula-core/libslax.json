@@ -152,11 +152,11 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "cdb0e0978a90d0bdd542cec94f7f8056aebe5d05",
+  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
+  "ruby_source_path": "Formula/libslax.rb",
   "ruby_source_checksum": {
     "sha256": "c48a9f18a368aea83ce5c5f9138cec1803427d20fd3786cd84fd790b3ffd1008"
   },
-  "ruby_source_path": "Formula/libslax.rb",
   "variations": {
   }
 }
