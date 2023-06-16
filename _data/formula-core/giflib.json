@@ -125,9 +125,22 @@
   ],
   "caveats": null,
   "installed": [
+    {
+      "version": "5.2.1",
+      "used_options": [
 
+      ],
+      "built_as_bottle": true,
+      "poured_from_bottle": true,
+      "time": 1685340304,
+      "runtime_dependencies": [
+
+      ],
+      "installed_as_dependency": true,
+      "installed_on_request": false
+    }
   ],
-  "linked_keg": null,
+  "linked_keg": "5.2.1",
   "pinned": false,
   "outdated": false,
   "deprecated": false,
@@ -137,7 +150,7 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
+  "tap_git_head": "e788b647a16c227cc25ccf3fd083bddbfb511f9f",
   "ruby_source_path": "Formula/giflib.rb",
   "ruby_source_checksum": {
     "sha256": "71040b7b87f2a06610d1cbbd7a7bc898e57a2976268de65edc30cb7fcf5d1bed"

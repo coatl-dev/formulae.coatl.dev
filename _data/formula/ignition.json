@@ -16,16 +16,16 @@
   "license": "Cannot Represent",
   "homepage": "https://inductiveautomation.com/",
   "versions": {
-    "stable": "8.1.27",
+    "stable": "8.1.28",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://files.inductiveautomation.com/release/ia/8.1.27/20230425-0954/Ignition-macOs-x86-64-8.1.27.zip",
+      "url": "https://files.inductiveautomation.com/release/ia/8.1.28/20230601-1114/Ignition-macOs-x86-64-8.1.28.zip",
       "tag": null,
       "revision": null,
-      "checksum": "0877cf60ad450d3e8cf378774633a50d073b2565d20109d3a74696b9b59cf02a"
+      "checksum": "29668bd012cf6d621d2cad863dbc8145b789007efb37f0d6af0859c6fd168fef"
     }
   },
   "revision": 0,
@@ -70,13 +70,13 @@
   "caveats": "The data and logs folders have been symlinked to:\n  data: $HOMEBREW_PREFIX/etc/ignition\n  logs: $HOMEBREW_PREFIX/var/ignition\n",
   "installed": [
     {
-      "version": "8.1.27",
+      "version": "8.1.28",
       "used_options": [
 
       ],
       "built_as_bottle": false,
       "poured_from_bottle": false,
-      "time": 1682487129,
+      "time": 1685732489,
       "runtime_dependencies": [
 
       ],
@@ -84,7 +84,7 @@
       "installed_on_request": true
     }
   ],
-  "linked_keg": "8.1.27",
+  "linked_keg": "8.1.28",
   "pinned": false,
   "outdated": false,
   "deprecated": false,
@@ -94,10 +94,10 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "2f3629ed5e47a7b7c836163a0fc7b82da2863af6",
+  "tap_git_head": "f40c5699914edb946381f943c866aac5ec4f7754",
   "ruby_source_path": "Formula/ignition.rb",
   "ruby_source_checksum": {
-    "sha256": "c26803813bb005503e377a8eef29e280d84f00d5b84c98b763391a4cc302b46a"
+    "sha256": "1daeb8cafafd4b7d71e04f2bf8a2d5cb459feb4366eaf0333ff394c941869db8"
   },
   "variations": {
   }

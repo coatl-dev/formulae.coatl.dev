@@ -16,16 +16,16 @@
   "license": "LGPL-2.1-or-later",
   "homepage": "https://www.alsa-project.org/",
   "versions": {
-    "stable": "1.2.8",
+    "stable": "1.2.9",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://www.alsa-project.org/files/pub/lib/alsa-lib-1.2.8.tar.bz2",
+      "url": "https://www.alsa-project.org/files/pub/lib/alsa-lib-1.2.9.tar.bz2",
       "tag": null,
       "revision": null,
-      "checksum": "1ab01b74e33425ca99c2e36c0844fd6888273193bd898240fe8f93accbcbf347"
+      "checksum": "dc9c643fdc4ccfd0572cc685858dd41e08afb583f30460b317e4188275f615b2"
     }
   },
   "revision": 0,
@@ -37,8 +37,8 @@
       "files": {
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/alsa-lib/blobs/sha256:44e14c69433a21ad25dd124877b53349c7ece387f1a66b1184be770e5a0580f6",
-          "sha256": "44e14c69433a21ad25dd124877b53349c7ece387f1a66b1184be770e5a0580f6"
+          "url": "https://ghcr.io/v2/homebrew/core/alsa-lib/blobs/sha256:3ccd8d2162aaaf5fd81ddaad0b5def06fb3053245b6b7ee77019e1620502ad7b",
+          "sha256": "3ccd8d2162aaaf5fd81ddaad0b5def06fb3053245b6b7ee77019e1620502ad7b"
         }
       }
     }
@@ -100,10 +100,10 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
+  "tap_git_head": "e788b647a16c227cc25ccf3fd083bddbfb511f9f",
   "ruby_source_path": "Formula/alsa-lib.rb",
   "ruby_source_checksum": {
-    "sha256": "d3a79e4dbdcbb3ac6ed5b39875311f1bff373ff03be70b81defa61abab8e3067"
+    "sha256": "8a24cbd83883514c9377acea372961f482ea30d41ecc446955cd3dfbcf4b36ac"
   },
   "variations": {
   }

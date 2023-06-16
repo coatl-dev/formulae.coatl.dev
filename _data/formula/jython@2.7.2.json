@@ -95,7 +95,7 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "2f3629ed5e47a7b7c836163a0fc7b82da2863af6",
+  "tap_git_head": "f40c5699914edb946381f943c866aac5ec4f7754",
   "ruby_source_path": "Formula/jython@2.7.2.rb",
   "ruby_source_checksum": {
     "sha256": "0e8506e0527a59309937f77584f7c13be0cef9f878751c6f0ea1f1d6e83036d5"

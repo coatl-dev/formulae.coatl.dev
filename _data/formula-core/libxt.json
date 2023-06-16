@@ -124,7 +124,7 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
+  "tap_git_head": "e788b647a16c227cc25ccf3fd083bddbfb511f9f",
   "ruby_source_path": "Formula/libxt.rb",
   "ruby_source_checksum": {
     "sha256": "b53a078c1ae70f957efc136c7f2f0947a7d9867b5b098265a99f7e403861968d"

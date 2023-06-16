@@ -124,19 +124,19 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
+  "tap_git_head": "e788b647a16c227cc25ccf3fd083bddbfb511f9f",
   "ruby_source_path": "Formula/openjdk@8.rb",
   "ruby_source_checksum": {
     "sha256": "2e4967e2ac645c9c79ca98c38fb94a7f2aca1261eac29218ccb3049c98edf9ee"
   },
   "variations": {
-    "arm64_big_sur": {
+    "big_sur": {
       "build_dependencies": [
         "autoconf",
         "pkg-config"
       ]
     },
-    "big_sur": {
+    "arm64_big_sur": {
       "build_dependencies": [
         "autoconf",
         "pkg-config"

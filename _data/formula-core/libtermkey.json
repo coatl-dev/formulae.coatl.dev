@@ -128,7 +128,7 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
+  "tap_git_head": "e788b647a16c227cc25ccf3fd083bddbfb511f9f",
   "ruby_source_path": "Formula/libtermkey.rb",
   "ruby_source_checksum": {
     "sha256": "fbca051dde6f37cc9fddc2eba9d4be88eba9e960527036559c5a10dd18f76670"

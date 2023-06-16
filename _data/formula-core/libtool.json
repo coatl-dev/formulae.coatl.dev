@@ -115,26 +115,9 @@
   ],
   "caveats": "All commands have been installed with the prefix \"g\".\nIf you need to use these commands with their normal names, you\ncan add a \"gnubin\" directory to your PATH from your bashrc like:\n  PATH=\"$HOMEBREW_PREFIX/opt/libtool/libexec/gnubin:$PATH\"\n",
   "installed": [
-    {
-      "version": "2.4.7",
-      "used_options": [
 
-      ],
-      "built_as_bottle": true,
-      "poured_from_bottle": true,
-      "time": 1671463844,
-      "runtime_dependencies": [
-        {
-          "full_name": "m4",
-          "version": "1.4.19",
-          "declared_directly": true
-        }
-      ],
-      "installed_as_dependency": true,
-      "installed_on_request": false
-    }
   ],
-  "linked_keg": "2.4.7",
+  "linked_keg": null,
   "pinned": false,
   "outdated": false,
   "deprecated": false,
@@ -144,7 +127,7 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
+  "tap_git_head": "e788b647a16c227cc25ccf3fd083bddbfb511f9f",
   "ruby_source_path": "Formula/libtool.rb",
   "ruby_source_checksum": {
     "sha256": "a678eb3fbd427a8d2fec20ae2fc46e649012be23cf7aa995efb90567560164b7"

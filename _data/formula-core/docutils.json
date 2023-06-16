@@ -16,59 +16,29 @@
   "license": "Public Domain and BSD-2-Clause and GPL-3.0-or-later and Python-2.0",
   "homepage": "https://docutils.sourceforge.io",
   "versions": {
-    "stable": "0.19",
+    "stable": "0.20.1",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://downloads.sourceforge.net/project/docutils/docutils/0.19/docutils-0.19.tar.gz",
+      "url": "https://downloads.sourceforge.net/project/docutils/docutils/0.20.1/docutils-0.20.1.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "33995a6753c30b7f577febfc2c50411fec6aac7f7ffeb7c4cfe5991072dcf9e6"
+      "checksum": "f08a4e276c3a1583a86dce3e34aba3fe04d02bba2dd51ed16106244e8a923e3b"
     }
   },
-  "revision": 1,
+  "revision": 0,
   "version_scheme": 0,
   "bottle": {
     "stable": {
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
-        "arm64_ventura": {
+        "all": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/docutils/blobs/sha256:80e64efdb51243a4399e19e4dbf5efe01b855a7cad82ca79c0c6026042f7a00c",
-          "sha256": "80e64efdb51243a4399e19e4dbf5efe01b855a7cad82ca79c0c6026042f7a00c"
-        },
-        "arm64_monterey": {
-          "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/docutils/blobs/sha256:239c9ea68fe0bc3940a3d174291a0733b53b4e1f402e4dc01f7bd5c8636e7e71",
-          "sha256": "239c9ea68fe0bc3940a3d174291a0733b53b4e1f402e4dc01f7bd5c8636e7e71"
-        },
-        "arm64_big_sur": {
-          "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/docutils/blobs/sha256:83621062b81476f5f69e79a6c49e8844cde4e4ee09610ee5442885f4c9884c35",
-          "sha256": "83621062b81476f5f69e79a6c49e8844cde4e4ee09610ee5442885f4c9884c35"
-        },
-        "ventura": {
-          "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/docutils/blobs/sha256:263354453fe6a41c646d4d9b637f71fa5b09ee1d0eb528f1d4b5b5c5d5fe4b72",
-          "sha256": "263354453fe6a41c646d4d9b637f71fa5b09ee1d0eb528f1d4b5b5c5d5fe4b72"
-        },
-        "monterey": {
-          "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/docutils/blobs/sha256:78cc9b7a63475dbe082ccd086bfc0eddddbdbca02a27123b07da1d2e8ae30950",
-          "sha256": "78cc9b7a63475dbe082ccd086bfc0eddddbdbca02a27123b07da1d2e8ae30950"
-        },
-        "big_sur": {
-          "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/docutils/blobs/sha256:ab3bed820073b8a9bc4d85e4636d22398409bf96698df94fff362470e0bcf8c9",
-          "sha256": "ab3bed820073b8a9bc4d85e4636d22398409bf96698df94fff362470e0bcf8c9"
-        },
-        "x86_64_linux": {
-          "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/docutils/blobs/sha256:31492425c7858c04dd45cfd52cbc464b6c0eec51490863ce420d0aae247ddfd6",
-          "sha256": "31492425c7858c04dd45cfd52cbc464b6c0eec51490863ce420d0aae247ddfd6"
+          "url": "https://ghcr.io/v2/homebrew/core/docutils/blobs/sha256:ea0e9988733ecd494fb9b5ec6479f25eeb11718f1614fc92f0174f44acc913bb",
+          "sha256": "ea0e9988733ecd494fb9b5ec6479f25eeb11718f1614fc92f0174f44acc913bb"
         }
       }
     }
@@ -122,10 +92,10 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
+  "tap_git_head": "e788b647a16c227cc25ccf3fd083bddbfb511f9f",
   "ruby_source_path": "Formula/docutils.rb",
   "ruby_source_checksum": {
-    "sha256": "f631d0adc4a9bdc9d9aa999dd0f3e1a8e271e92c9d69f18a5a66743591f47cfc"
+    "sha256": "ce1cb9e3eb3f1433f69e4ffd4e1adf595bcd98788952a8f156d86148908ef0f5"
   },
   "variations": {
   }

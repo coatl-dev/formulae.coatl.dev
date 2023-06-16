@@ -113,9 +113,41 @@
   ],
   "caveats": null,
   "installed": [
+    {
+      "version": "1.8.4",
+      "used_options": [
 
+      ],
+      "built_as_bottle": true,
+      "poured_from_bottle": true,
+      "time": 1685340351,
+      "runtime_dependencies": [
+        {
+          "full_name": "xorgproto",
+          "version": "2022.2",
+          "declared_directly": true
+        },
+        {
+          "full_name": "libxau",
+          "version": "1.0.11",
+          "declared_directly": false
+        },
+        {
+          "full_name": "libxdmcp",
+          "version": "1.1.4",
+          "declared_directly": false
+        },
+        {
+          "full_name": "libxcb",
+          "version": "1.15",
+          "declared_directly": true
+        }
+      ],
+      "installed_as_dependency": true,
+      "installed_on_request": false
+    }
   ],
-  "linked_keg": null,
+  "linked_keg": "1.8.4",
   "pinned": false,
   "outdated": false,
   "deprecated": false,
@@ -125,7 +157,7 @@
   "disable_date": null,
   "disable_reason": null,
   "service": null,
-  "tap_git_head": "544b5b66b795f557d9536114ee08abd3a2dc5134",
+  "tap_git_head": "e788b647a16c227cc25ccf3fd083bddbfb511f9f",
   "ruby_source_path": "Formula/libx11.rb",
   "ruby_source_checksum": {
     "sha256": "29231c5764e933dffe221057b9eb27f8664a2d27f4f6ae805b6a3eff3c00cdca"
