@@ -96,6 +96,7 @@ tap.formula_names.each do |n|
       "openjdk@17",
       "openssl@1.1",
       "openssl@3",
+      "openssl@3.0",
       "page",
       "pango",
       "pcre2",
