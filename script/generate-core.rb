@@ -67,6 +67,7 @@ tap.formula_names.each do |n|
       "libxt",
       "libxtst",
       "little-cms2",
+      "lpeg",
       "lua",
       "lua@5.1",
       "lua@5.3",
