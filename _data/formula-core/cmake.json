@@ -131,7 +131,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "ea26d1acf2d7f559c6530ea509c0e984ef83982d",
+  "tap_git_head": "7a05180a726ced64e92044b2e2135ed3ac2178da",
   "ruby_source_path": "Formula/cmake.rb",
   "ruby_source_checksum": {
     "sha256": "dea78310519ef6954df149340e5f6cb78c4683e50941c6ff7fbb04925a36a726"

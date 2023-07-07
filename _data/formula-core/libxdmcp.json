@@ -126,7 +126,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "ea26d1acf2d7f559c6530ea509c0e984ef83982d",
+  "tap_git_head": "7a05180a726ced64e92044b2e2135ed3ac2178da",
   "ruby_source_path": "Formula/libxdmcp.rb",
   "ruby_source_checksum": {
     "sha256": "6ccdea2779a35564139f32b7b6583a619623005eae696098e3e28eee35b558ed"
