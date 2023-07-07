@@ -55,6 +55,9 @@
   "uses_from_macos": [
 
   ],
+  "uses_from_macos_bounds": [
+
+  ],
   "requirements": [
 
   ],
@@ -93,6 +96,7 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
+  "post_install_defined": true,
   "service": null,
   "tap_git_head": "f40c5699914edb946381f943c866aac5ec4f7754",
   "ruby_source_path": "Formula/ignition.rb",

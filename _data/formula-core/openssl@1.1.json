@@ -76,8 +76,8 @@
   },
   "keg_only": true,
   "keg_only_reason": {
-    "reason": ":shadowed_by_macos",
-    "explanation": "macOS provides LibreSSL"
+    "reason": ":versioned_formula",
+    "explanation": ""
   },
   "options": [
 
@@ -98,6 +98,9 @@
 
   ],
   "uses_from_macos": [
+
+  ],
+  "uses_from_macos_bounds": [
 
   ],
   "requirements": [
@@ -142,11 +145,12 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
+  "post_install_defined": true,
   "service": null,
-  "tap_git_head": "e788b647a16c227cc25ccf3fd083bddbfb511f9f",
+  "tap_git_head": "ea26d1acf2d7f559c6530ea509c0e984ef83982d",
   "ruby_source_path": "Formula/openssl@1.1.rb",
   "ruby_source_checksum": {
-    "sha256": "a02e6314a4f54324214a57e101764c0d9f13a09c5cdc550a91341f55c2a791a8"
+    "sha256": "748a86c55260e25e6634e9a4c48c86719b7c91377bf9b24e441650e9e628c636"
   },
   "variations": {
   }

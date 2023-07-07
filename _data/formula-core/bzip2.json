@@ -99,6 +99,9 @@
   "uses_from_macos": [
 
   ],
+  "uses_from_macos_bounds": [
+
+  ],
   "requirements": [
 
   ],
@@ -124,8 +127,9 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
+  "post_install_defined": false,
   "service": null,
-  "tap_git_head": "e788b647a16c227cc25ccf3fd083bddbfb511f9f",
+  "tap_git_head": "ea26d1acf2d7f559c6530ea509c0e984ef83982d",
   "ruby_source_path": "Formula/bzip2.rb",
   "ruby_source_checksum": {
     "sha256": "3d0eade590de1bd0e38e9c3c668550fa0fab9167cbd8aa9412beb8d4d54d2c82"

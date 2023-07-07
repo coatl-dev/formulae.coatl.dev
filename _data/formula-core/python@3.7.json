@@ -94,6 +94,21 @@
     "xz",
     "zlib"
   ],
+  "uses_from_macos_bounds": [
+    {
+    },
+    {
+      "since": "catalina"
+    },
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    }
+  ],
   "requirements": [
     {
       "name": "arch",
@@ -102,6 +117,9 @@
       "version": "x86_64",
       "contexts": [
 
+      ],
+      "specs": [
+        "stable"
       ]
     }
   ],
@@ -121,14 +139,15 @@
   "linked_keg": null,
   "pinned": false,
   "outdated": false,
-  "deprecated": true,
+  "deprecated": false,
   "deprecation_date": null,
-  "deprecation_reason": "deprecated_upstream",
-  "disabled": false,
+  "deprecation_reason": null,
+  "disabled": true,
   "disable_date": "2023-06-27",
-  "disable_reason": null,
+  "disable_reason": "deprecated_upstream",
+  "post_install_defined": true,
   "service": null,
-  "tap_git_head": "e788b647a16c227cc25ccf3fd083bddbfb511f9f",
+  "tap_git_head": "ea26d1acf2d7f559c6530ea509c0e984ef83982d",
   "ruby_source_path": "Formula/python@3.7.rb",
   "ruby_source_checksum": {
     "sha256": "7cb04be3050647f549298accb61cdcc19c02fed7a98b331f5685225ce3b64188"
@@ -142,11 +161,6 @@
         "readline",
         "sqlite",
         "xz",
-        "bzip2",
-        "libffi",
-        "libxcrypt",
-        "ncurses",
-        "zlib",
         "libnsl"
       ]
     }

@@ -101,6 +101,14 @@
     "libffi",
     "python"
   ],
+  "uses_from_macos_bounds": [
+    {
+      "since": "catalina"
+    },
+    {
+      "since": "catalina"
+    }
+  ],
   "requirements": [
 
   ],
@@ -120,31 +128,9 @@
   ],
   "caveats": null,
   "installed": [
-    {
-      "version": "2.76.3",
-      "used_options": [
 
-      ],
-      "built_as_bottle": true,
-      "poured_from_bottle": true,
-      "time": 1685340339,
-      "runtime_dependencies": [
-        {
-          "full_name": "pcre2",
-          "version": "10.42",
-          "declared_directly": true
-        },
-        {
-          "full_name": "gettext",
-          "version": "0.21.1",
-          "declared_directly": true
-        }
-      ],
-      "installed_as_dependency": true,
-      "installed_on_request": false
-    }
   ],
-  "linked_keg": "2.76.3",
+  "linked_keg": null,
   "pinned": false,
   "outdated": false,
   "deprecated": false,
@@ -153,50 +139,17 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
+  "post_install_defined": true,
   "service": null,
-  "tap_git_head": "e788b647a16c227cc25ccf3fd083bddbfb511f9f",
+  "tap_git_head": "ea26d1acf2d7f559c6530ea509c0e984ef83982d",
   "ruby_source_path": "Formula/glib.rb",
   "ruby_source_checksum": {
     "sha256": "ee792d0206107eb9a8ce690aeea092496752555b1129ca800e07efc09233a63d"
   },
   "variations": {
-    "mojave": {
-      "dependencies": [
-        "pcre2",
-        "libffi",
-        "python",
-        "gettext"
-      ]
-    },
-    "high_sierra": {
-      "dependencies": [
-        "pcre2",
-        "libffi",
-        "python",
-        "gettext"
-      ]
-    },
-    "sierra": {
-      "dependencies": [
-        "pcre2",
-        "libffi",
-        "python",
-        "gettext"
-      ]
-    },
-    "el_capitan": {
-      "dependencies": [
-        "pcre2",
-        "libffi",
-        "python",
-        "gettext"
-      ]
-    },
     "x86_64_linux": {
       "dependencies": [
         "pcre2",
-        "libffi",
-        "python",
         "dbus",
         "util-linux"
       ]

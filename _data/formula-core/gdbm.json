@@ -101,6 +101,9 @@
   "uses_from_macos": [
 
   ],
+  "uses_from_macos_bounds": [
+
+  ],
   "requirements": [
 
   ],
@@ -139,8 +142,9 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
+  "post_install_defined": false,
   "service": null,
-  "tap_git_head": "e788b647a16c227cc25ccf3fd083bddbfb511f9f",
+  "tap_git_head": "ea26d1acf2d7f559c6530ea509c0e984ef83982d",
   "ruby_source_path": "Formula/gdbm.rb",
   "ruby_source_checksum": {
     "sha256": "64ddc791b34a32109076ac13c5233b0dfadd2f7a8b3ce51dcf5efd68d6924660"

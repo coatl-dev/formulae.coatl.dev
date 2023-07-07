@@ -111,6 +111,10 @@
       "unzip": "build"
     }
   ],
+  "uses_from_macos_bounds": [
+    {
+    }
+  ],
   "requirements": [
 
   ],
@@ -136,17 +140,15 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
+  "post_install_defined": false,
   "service": null,
-  "tap_git_head": "e788b647a16c227cc25ccf3fd083bddbfb511f9f",
+  "tap_git_head": "ea26d1acf2d7f559c6530ea509c0e984ef83982d",
   "ruby_source_path": "Formula/lua@5.3.rb",
   "ruby_source_checksum": {
     "sha256": "ecd9514a7d1f6ed9ecb749ed5d80ff3eae1de0d9ea9971559a2d82537e51dce5"
   },
   "variations": {
     "x86_64_linux": {
-      "build_dependencies": [
-        "unzip"
-      ],
       "dependencies": [
         "readline"
       ]

@@ -33,7 +33,7 @@
       "checksum": "85c37a265e5c9dd9f75b35f954e31fbfc10383162417285e30ad25cc073a0d63"
     }
   },
-  "revision": 0,
+  "revision": 1,
   "version_scheme": 0,
   "bottle": {
     "stable": {
@@ -42,38 +42,38 @@
       "files": {
         "arm64_ventura": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:7901ada4e383cb20a39728ce65f3c6642de4525f55f7a49a4e9bb7ab261f6cb9",
-          "sha256": "7901ada4e383cb20a39728ce65f3c6642de4525f55f7a49a4e9bb7ab261f6cb9"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:014abdd7f97a02a42a6fdfe8ee527d359b24901903480628212489a5f570b09f",
+          "sha256": "014abdd7f97a02a42a6fdfe8ee527d359b24901903480628212489a5f570b09f"
         },
         "arm64_monterey": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:39483f9f8b10710846863cec7da43987b21ee445b636ed5d6407f9771b8ad04c",
-          "sha256": "39483f9f8b10710846863cec7da43987b21ee445b636ed5d6407f9771b8ad04c"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:5458959e262a06738bee89023d404a35a03fbde1c682255e33d4e32f8eb6a570",
+          "sha256": "5458959e262a06738bee89023d404a35a03fbde1c682255e33d4e32f8eb6a570"
         },
         "arm64_big_sur": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:fa7e6b8296f14a7d4c03787e83908ad9554a149ee0db1079df5c998b01c1459d",
-          "sha256": "fa7e6b8296f14a7d4c03787e83908ad9554a149ee0db1079df5c998b01c1459d"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:eb3fbd888d2a2683cb07eb5d5176812d9e26370a0e422584fa663b4eec98dacf",
+          "sha256": "eb3fbd888d2a2683cb07eb5d5176812d9e26370a0e422584fa663b4eec98dacf"
         },
         "ventura": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:b0df9e62dded2ce44e9362a2fa7b678f03748c47a4c76709c5213f4c2c1d4c38",
-          "sha256": "b0df9e62dded2ce44e9362a2fa7b678f03748c47a4c76709c5213f4c2c1d4c38"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:c97986e611c3c5e092be2ad70876fe99c7c7c23c8e7e63caaac6274512fbf657",
+          "sha256": "c97986e611c3c5e092be2ad70876fe99c7c7c23c8e7e63caaac6274512fbf657"
         },
         "monterey": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:c81561af71f6a3200cd6b2dee2780ea4739a5464c162da2b763dc90fac694760",
-          "sha256": "c81561af71f6a3200cd6b2dee2780ea4739a5464c162da2b763dc90fac694760"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:fa258abf25b4f4bd6dcb7586a04faee606e07e6e480ff3dd2f04afc3db4c7a9f",
+          "sha256": "fa258abf25b4f4bd6dcb7586a04faee606e07e6e480ff3dd2f04afc3db4c7a9f"
         },
         "big_sur": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:ed4aa0200f84405f037f6655ea3186b95cb948f5a5649ddf2b3c5542f3433a85",
-          "sha256": "ed4aa0200f84405f037f6655ea3186b95cb948f5a5649ddf2b3c5542f3433a85"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:aeaf5d77ce1aad2cd39e7acebb78076bd0417459ff4825e1377a3bcee1f4b098",
+          "sha256": "aeaf5d77ce1aad2cd39e7acebb78076bd0417459ff4825e1377a3bcee1f4b098"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:eaaf141be701e2aaad732c1afaa33b623f11c8f479d50d03a9c4b4d0349f55be",
-          "sha256": "eaaf141be701e2aaad732c1afaa33b623f11c8f479d50d03a9c4b4d0349f55be"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:7e8892393a9df0437e1ada50c011df549867348fe12e998d8d659da77379aa07",
+          "sha256": "7e8892393a9df0437e1ada50c011df549867348fe12e998d8d659da77379aa07"
         }
       }
     }
@@ -88,7 +88,7 @@
   ],
   "dependencies": [
     "mpdecimal",
-    "openssl@1.1",
+    "openssl@3",
     "sqlite",
     "xz"
   ],
@@ -110,6 +110,25 @@
     "ncurses",
     "unzip",
     "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+      "since": "catalina"
+    },
+    {
+    },
+    {
+    },
+    {
+    },
+    {
+    }
   ],
   "requirements": [
 
@@ -150,63 +169,20 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
+  "post_install_defined": true,
   "service": null,
-  "tap_git_head": "e788b647a16c227cc25ccf3fd083bddbfb511f9f",
+  "tap_git_head": "ea26d1acf2d7f559c6530ea509c0e984ef83982d",
   "ruby_source_path": "Formula/python@3.11.rb",
   "ruby_source_checksum": {
-    "sha256": "8dd9e19fbc816293869034eab774b133842857bb706ddb05075cc9f58be66579"
+    "sha256": "cbd9b5afb91e0f606d7555fb5873e0faaed59dc1f117c274b3a92f84c7f7eb5f"
   },
   "variations": {
-    "mojave": {
-      "dependencies": [
-        "mpdecimal",
-        "openssl@1.1",
-        "sqlite",
-        "xz",
-        "libffi"
-      ]
-    },
-    "high_sierra": {
-      "dependencies": [
-        "mpdecimal",
-        "openssl@1.1",
-        "sqlite",
-        "xz",
-        "libffi"
-      ]
-    },
-    "sierra": {
-      "dependencies": [
-        "mpdecimal",
-        "openssl@1.1",
-        "sqlite",
-        "xz",
-        "libffi"
-      ]
-    },
-    "el_capitan": {
-      "dependencies": [
-        "mpdecimal",
-        "openssl@1.1",
-        "sqlite",
-        "xz",
-        "libffi"
-      ]
-    },
     "x86_64_linux": {
       "dependencies": [
         "mpdecimal",
-        "openssl@1.1",
+        "openssl@3",
         "sqlite",
         "xz",
-        "bzip2",
-        "expat",
-        "libedit",
-        "libffi",
-        "libxcrypt",
-        "ncurses",
-        "unzip",
-        "zlib",
         "berkeley-db@5",
         "libnsl"
       ]

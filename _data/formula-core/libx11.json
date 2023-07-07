@@ -16,16 +16,16 @@
   "license": "MIT",
   "homepage": "https://www.x.org/",
   "versions": {
-    "stable": "1.8.4",
+    "stable": "1.8.6",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://www.x.org/archive/individual/lib/libX11-1.8.4.tar.gz",
+      "url": "https://www.x.org/archive/individual/lib/libX11-1.8.6.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "efd3a3a43c1f177edc2c205bedb0719b6648203595e54c0b83a32576aeaca7cd"
+      "checksum": "5ff0d26c94d82ebb94a944b9f1f55cd01b9713fd461fe93f62f3527ce14ad94e"
     }
   },
   "revision": 0,
@@ -37,38 +37,38 @@
       "files": {
         "arm64_ventura": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:e6df4fc6bb84dd64a2f2c68d474c415de2a0fa0aac85ff4e650a56c0d739463e",
-          "sha256": "e6df4fc6bb84dd64a2f2c68d474c415de2a0fa0aac85ff4e650a56c0d739463e"
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:12634191390f2feaad802e2c98dbee1274f688d1348ba7319462340defe2d07d",
+          "sha256": "12634191390f2feaad802e2c98dbee1274f688d1348ba7319462340defe2d07d"
         },
         "arm64_monterey": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:5da752047f0745a2628343aa2f313f4544b13d0643ff796ae079fcc4d3203a63",
-          "sha256": "5da752047f0745a2628343aa2f313f4544b13d0643ff796ae079fcc4d3203a63"
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:4899cff98c20b47226c7817b898132f9c9c68da2cb4b7b5176efc442a0030bde",
+          "sha256": "4899cff98c20b47226c7817b898132f9c9c68da2cb4b7b5176efc442a0030bde"
         },
         "arm64_big_sur": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:91e5e9c3b7becc85dd159b7998b35a727ae2317ddc69791e5d4f4e0de9724fe2",
-          "sha256": "91e5e9c3b7becc85dd159b7998b35a727ae2317ddc69791e5d4f4e0de9724fe2"
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:5411fb6d4c702ee5413af825418e6157ca45f3d855710bcfc644bb0476cd207a",
+          "sha256": "5411fb6d4c702ee5413af825418e6157ca45f3d855710bcfc644bb0476cd207a"
         },
         "ventura": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:44e791ead3f697bb6fc7bc368b202bf0b72370f65fbef8a35ae7f97bb4057e00",
-          "sha256": "44e791ead3f697bb6fc7bc368b202bf0b72370f65fbef8a35ae7f97bb4057e00"
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:da763d80a33ebfbac8064a9528d9e7ccde2a4527dc48f80a003166c7dd4021bf",
+          "sha256": "da763d80a33ebfbac8064a9528d9e7ccde2a4527dc48f80a003166c7dd4021bf"
         },
         "monterey": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:f8dcffa69f82057a0c93cd570fa0f14a06c0a13b0380cac5b616536f482c67a2",
-          "sha256": "f8dcffa69f82057a0c93cd570fa0f14a06c0a13b0380cac5b616536f482c67a2"
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:2c4826ba65ab97f4d201a5624cc675fbefd563a831fab866c8966b32c89f3e17",
+          "sha256": "2c4826ba65ab97f4d201a5624cc675fbefd563a831fab866c8966b32c89f3e17"
         },
         "big_sur": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:858c07647c7acb5fb6a4693b1511968bb933f98a1f58a160a446214df243e177",
-          "sha256": "858c07647c7acb5fb6a4693b1511968bb933f98a1f58a160a446214df243e177"
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:e321aa3d735de0a2f4f7b2d5c6dde6184cc8590c348c3d1dd773fac892db6ecd",
+          "sha256": "e321aa3d735de0a2f4f7b2d5c6dde6184cc8590c348c3d1dd773fac892db6ecd"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:5b47168c3429621d90970b2eb620b20a2dee315655b484b5a914241d9d562740",
-          "sha256": "5b47168c3429621d90970b2eb620b20a2dee315655b484b5a914241d9d562740"
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:6b4be1e7e026639d80f2541fc72cf0caf8b15670efdab3abc1cd4b291f486910",
+          "sha256": "6b4be1e7e026639d80f2541fc72cf0caf8b15670efdab3abc1cd4b291f486910"
         }
       }
     }
@@ -99,6 +99,9 @@
   "uses_from_macos": [
 
   ],
+  "uses_from_macos_bounds": [
+
+  ],
   "requirements": [
 
   ],
@@ -113,41 +116,9 @@
   ],
   "caveats": null,
   "installed": [
-    {
-      "version": "1.8.4",
-      "used_options": [
 
-      ],
-      "built_as_bottle": true,
-      "poured_from_bottle": true,
-      "time": 1685340351,
-      "runtime_dependencies": [
-        {
-          "full_name": "xorgproto",
-          "version": "2022.2",
-          "declared_directly": true
-        },
-        {
-          "full_name": "libxau",
-          "version": "1.0.11",
-          "declared_directly": false
-        },
-        {
-          "full_name": "libxdmcp",
-          "version": "1.1.4",
-          "declared_directly": false
-        },
-        {
-          "full_name": "libxcb",
-          "version": "1.15",
-          "declared_directly": true
-        }
-      ],
-      "installed_as_dependency": true,
-      "installed_on_request": false
-    }
   ],
-  "linked_keg": "1.8.4",
+  "linked_keg": null,
   "pinned": false,
   "outdated": false,
   "deprecated": false,
@@ -156,11 +127,12 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
+  "post_install_defined": false,
   "service": null,
-  "tap_git_head": "e788b647a16c227cc25ccf3fd083bddbfb511f9f",
+  "tap_git_head": "ea26d1acf2d7f559c6530ea509c0e984ef83982d",
   "ruby_source_path": "Formula/libx11.rb",
   "ruby_source_checksum": {
-    "sha256": "29231c5764e933dffe221057b9eb27f8664a2d27f4f6ae805b6a3eff3c00cdca"
+    "sha256": "bc622627072cfa74dfdcd6b199b1c020c813eab5b8f4712b5f7fdcee65209f69"
   },
   "variations": {
   }
