@@ -16,16 +16,16 @@
   "license": "MIT",
   "homepage": "https://luajit.org/luajit.html",
   "versions": {
-    "stable": "2.1.0-beta3-20230612.1",
+    "stable": "2.1.0-beta3-20230709.3",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/LuaJIT/LuaJIT/archive/ff6c496ba1b51ed360065cbc5259f62becd70daa.tar.gz",
+      "url": "https://github.com/LuaJIT/LuaJIT/archive/8fbd576fb9414a5fa70dfa6069733d3416a78269.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "04987c9de9ce0e5bd0c9555e91529cd7a5e9f10eea8af4d1555346ee0f44dc2b"
+      "checksum": "a1bb0c22aa58c5fcaf4f8397723fada43a8ef5ec81d703bf3afa56b564507e16"
     },
     "head": {
       "url": "https://luajit.org/git/luajit-2.0.git",
@@ -41,38 +41,38 @@
       "files": {
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:8106cbac614bb70a7333a95b253c95bec2c945d7f8448851662c6de0df980ddc",
-          "sha256": "8106cbac614bb70a7333a95b253c95bec2c945d7f8448851662c6de0df980ddc"
+          "url": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:462d5bdd10151a37207044c7f0ceb627d5a30bf727fcf612b4e0ae7a0f93ec0c",
+          "sha256": "462d5bdd10151a37207044c7f0ceb627d5a30bf727fcf612b4e0ae7a0f93ec0c"
         },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:2f737de06830f5c4f5e3942cc913579d1a51764e69f1a537059d2f27728527bb",
-          "sha256": "2f737de06830f5c4f5e3942cc913579d1a51764e69f1a537059d2f27728527bb"
+          "url": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:0cd08df0f9da84866708e21944a284596cc61865ad572f1485a86f5160b2f5be",
+          "sha256": "0cd08df0f9da84866708e21944a284596cc61865ad572f1485a86f5160b2f5be"
         },
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:18a528059be4037d4e69648c12a729cd4c0750727e72b45778d57ea16e29d1b3",
-          "sha256": "18a528059be4037d4e69648c12a729cd4c0750727e72b45778d57ea16e29d1b3"
+          "url": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:33f6c13243ffbc3696221c2ba618f0cfb6d7e557c3da3bc8b1f25034a093ca92",
+          "sha256": "33f6c13243ffbc3696221c2ba618f0cfb6d7e557c3da3bc8b1f25034a093ca92"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:2dbf3ca52129b54b3edeb89df549434fc0bc42bb1e49d72504fcc1d316bd665d",
-          "sha256": "2dbf3ca52129b54b3edeb89df549434fc0bc42bb1e49d72504fcc1d316bd665d"
+          "url": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:1a29c75417ec9885b8bf99a8e09ee9e1ccd8dceb709d762bfdf37084fa5c8b80",
+          "sha256": "1a29c75417ec9885b8bf99a8e09ee9e1ccd8dceb709d762bfdf37084fa5c8b80"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:fe9c8861f72e869e9174ea894f9a4361e2a3f2f57ed280b92732e165819af75e",
-          "sha256": "fe9c8861f72e869e9174ea894f9a4361e2a3f2f57ed280b92732e165819af75e"
+          "url": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:c399eebc6f474711da1ba29a88a314ac487d23e565787d7d4472dc21b064c81f",
+          "sha256": "c399eebc6f474711da1ba29a88a314ac487d23e565787d7d4472dc21b064c81f"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:fbd76215acdbd7ba500a82fde8c1331c729fbb874b0550928ace7be2bbb9ed94",
-          "sha256": "fbd76215acdbd7ba500a82fde8c1331c729fbb874b0550928ace7be2bbb9ed94"
+          "url": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:ef6210f01267cbf61e51b44f1cbc02fd4732e4d14283ed65dc45b3d3b77b99dc",
+          "sha256": "ef6210f01267cbf61e51b44f1cbc02fd4732e4d14283ed65dc45b3d3b77b99dc"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:862782a053a86fc9f51372bcdda71db78b09687e3d70e150f6bcae5cc81c069b",
-          "sha256": "862782a053a86fc9f51372bcdda71db78b09687e3d70e150f6bcae5cc81c069b"
+          "url": "https://ghcr.io/v2/homebrew/core/luajit/blobs/sha256:929b7b53a1c638b66330154508645bd8d703c88fffab75225b41d7834068a9eb",
+          "sha256": "929b7b53a1c638b66330154508645bd8d703c88fffab75225b41d7834068a9eb"
         }
       }
     }
@@ -130,10 +130,10 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "7a05180a726ced64e92044b2e2135ed3ac2178da",
+  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
   "ruby_source_path": "Formula/luajit.rb",
   "ruby_source_checksum": {
-    "sha256": "e21c32ed8a4f56f92dd4637a90d050a535dc3e0df2e3de47cf017aff6a6cb19c"
+    "sha256": "57f6ec728356d78202cebebf720c827d9da53ca9ca98186a3035ea2f17a9d84d"
   },
   "variations": {
   }

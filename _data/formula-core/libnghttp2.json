@@ -16,16 +16,16 @@
   "license": "MIT",
   "homepage": "https://nghttp2.org/",
   "versions": {
-    "stable": "1.54.0",
+    "stable": "1.55.0",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/nghttp2/nghttp2/releases/download/v1.54.0/nghttp2-1.54.0.tar.gz",
+      "url": "https://github.com/nghttp2/nghttp2/releases/download/v1.55.0/nghttp2-1.55.0.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "890cb0761d2fac570f0aa7bce085cd7d3c77bcfd56510456b6ea0278cde812f0"
+      "checksum": "1e2d802c19041bc16c1bcc48d13858beb39f4ea64c0dfe3f04bfac6de970329d"
     },
     "head": {
       "url": "https://github.com/nghttp2/nghttp2.git",
@@ -41,38 +41,38 @@
       "files": {
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:6cf8b32982c49da3773729b84d205660591fdad185e2b1a5f267ebd498b60622",
-          "sha256": "6cf8b32982c49da3773729b84d205660591fdad185e2b1a5f267ebd498b60622"
+          "url": "https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:0b951dd0e759a2c34b650d233782f635b2eb09726252c0871f7bea1aa948a296",
+          "sha256": "0b951dd0e759a2c34b650d233782f635b2eb09726252c0871f7bea1aa948a296"
         },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:a5511497c40184a45ddb6877473344b04d91e95845652a22492f3a2a37ad01fb",
-          "sha256": "a5511497c40184a45ddb6877473344b04d91e95845652a22492f3a2a37ad01fb"
+          "url": "https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:07faea1d9427138272deedb9dd2dca8e475688723dbf8dae046f94337050e263",
+          "sha256": "07faea1d9427138272deedb9dd2dca8e475688723dbf8dae046f94337050e263"
         },
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:b6adaa155ed3f753a9ad733b049b15f44af47f6185d9addb5b3b38c2dd09291f",
-          "sha256": "b6adaa155ed3f753a9ad733b049b15f44af47f6185d9addb5b3b38c2dd09291f"
+          "url": "https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:ac4e5d7854960776bfb063868e72413ce81f6f45188a7c67c76f7eef56867a8c",
+          "sha256": "ac4e5d7854960776bfb063868e72413ce81f6f45188a7c67c76f7eef56867a8c"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:6af7160a98f7d5f4c18327a71e54dc55c6d136d16634204ddd235d16e9cae4bd",
-          "sha256": "6af7160a98f7d5f4c18327a71e54dc55c6d136d16634204ddd235d16e9cae4bd"
+          "url": "https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:fbe9bbf0133bcc67905ea1cf34398e10c52a3b8ac33febd9525738bec17897d9",
+          "sha256": "fbe9bbf0133bcc67905ea1cf34398e10c52a3b8ac33febd9525738bec17897d9"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:ba1941480c90f1feed2e0c003a8e994b113dae2f0457ec867a519ed11a4c0c85",
-          "sha256": "ba1941480c90f1feed2e0c003a8e994b113dae2f0457ec867a519ed11a4c0c85"
+          "url": "https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:8b084a745cf8b2f61c90b8202958be836a2d8059b0395ff8fccaeee730f7708b",
+          "sha256": "8b084a745cf8b2f61c90b8202958be836a2d8059b0395ff8fccaeee730f7708b"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:b10846f727343d773f1d54b95005fe8d363a8691dd2d59944eacda5301f76d1e",
-          "sha256": "b10846f727343d773f1d54b95005fe8d363a8691dd2d59944eacda5301f76d1e"
+          "url": "https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:98f76ead2796a7a8cb1f212d1dc5b311b89163c1fdd3746218648e492fccf8e8",
+          "sha256": "98f76ead2796a7a8cb1f212d1dc5b311b89163c1fdd3746218648e492fccf8e8"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:c5ea523e4a8618aae652c01e9695ab274571e13f2db926910202dea089d7336d",
-          "sha256": "c5ea523e4a8618aae652c01e9695ab274571e13f2db926910202dea089d7336d"
+          "url": "https://ghcr.io/v2/homebrew/core/libnghttp2/blobs/sha256:2c3d5aeb060b9edeb1e7ef5cc61cf60c6eee26d951598be73d1da82a8e7bc20c",
+          "sha256": "2c3d5aeb060b9edeb1e7ef5cc61cf60c6eee26d951598be73d1da82a8e7bc20c"
         }
       }
     }
@@ -124,13 +124,13 @@
   "caveats": null,
   "installed": [
     {
-      "version": "1.54.0",
+      "version": "1.55.0",
       "used_options": [
 
       ],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1686440348,
+      "time": 1689371186,
       "runtime_dependencies": [
 
       ],
@@ -138,7 +138,7 @@
       "installed_on_request": false
     }
   ],
-  "linked_keg": "1.54.0",
+  "linked_keg": "1.55.0",
   "pinned": false,
   "outdated": false,
   "deprecated": false,
@@ -149,10 +149,10 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "7a05180a726ced64e92044b2e2135ed3ac2178da",
+  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
   "ruby_source_path": "Formula/libnghttp2.rb",
   "ruby_source_checksum": {
-    "sha256": "22d9ba08ffa3e18edf4fa42e9eca4cf0ed2f11f2038bbf84da026eabd5100e90"
+    "sha256": "84d5d25a53fea4b04607e297baf6a7bafa1880387b0e9bde732189f0a00e914c"
   },
   "head_dependencies": {
     "build_dependencies": [
