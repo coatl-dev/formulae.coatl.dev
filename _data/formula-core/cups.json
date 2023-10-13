@@ -3,9 +3,6 @@
   "full_name": "cups",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
 
   ],
@@ -16,16 +13,16 @@
   "license": "Apache-2.0",
   "homepage": "https://github.com/OpenPrinting/cups",
   "versions": {
-    "stable": "2.4.6",
+    "stable": "2.4.2",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/OpenPrinting/cups/releases/download/v2.4.6/cups-2.4.6-source.tar.gz",
+      "url": "https://github.com/OpenPrinting/cups/releases/download/v2.4.2/cups-2.4.2-source.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "58e970cf1955e1cc87d0847c32526d9c2ccee335e5f0e3882b283138ba0e7262"
+      "checksum": "f03ccb40b087d1e30940a40e0141dcbba263f39974c20eb9f2521066c9c6c908"
     },
     "head": {
       "url": "https://github.com/OpenPrinting/cups.git",
@@ -41,43 +38,48 @@
       "files": {
         "arm64_ventura": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/cups/blobs/sha256:5097ac6de3fcd9c2da3bd4f09c01714d73761c0399c8695592d6534cdf23c6e8",
-          "sha256": "5097ac6de3fcd9c2da3bd4f09c01714d73761c0399c8695592d6534cdf23c6e8"
+          "url": "https://ghcr.io/v2/homebrew/core/cups/blobs/sha256:5d0ea4e86f40eb3650034723cbe4786a0accca7f5904e710840ac52ec463239d",
+          "sha256": "5d0ea4e86f40eb3650034723cbe4786a0accca7f5904e710840ac52ec463239d"
         },
         "arm64_monterey": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/cups/blobs/sha256:65d0e5f4ba75438cca64d341adca30d9d1bfc4867358421cb74fa375b94a7e69",
-          "sha256": "65d0e5f4ba75438cca64d341adca30d9d1bfc4867358421cb74fa375b94a7e69"
+          "url": "https://ghcr.io/v2/homebrew/core/cups/blobs/sha256:a360d94c115ce0cac86323656ff6f2d616677c896714b45ee8a2c649c9656ddb",
+          "sha256": "a360d94c115ce0cac86323656ff6f2d616677c896714b45ee8a2c649c9656ddb"
         },
         "arm64_big_sur": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/cups/blobs/sha256:f0b6128fddf54ec1069c32a9b83788457f377a0b09dc256b6464f4f2161560ae",
-          "sha256": "f0b6128fddf54ec1069c32a9b83788457f377a0b09dc256b6464f4f2161560ae"
+          "url": "https://ghcr.io/v2/homebrew/core/cups/blobs/sha256:225203fd3c07bfc63c8f62e1b96b0280f8c46ae2a89e5b71e6601f7ac52c0d23",
+          "sha256": "225203fd3c07bfc63c8f62e1b96b0280f8c46ae2a89e5b71e6601f7ac52c0d23"
         },
         "ventura": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/cups/blobs/sha256:1bd88a31dd6fc3292cf4df626b6531c05b1a35fb35c4e219950710df939da85f",
-          "sha256": "1bd88a31dd6fc3292cf4df626b6531c05b1a35fb35c4e219950710df939da85f"
+          "url": "https://ghcr.io/v2/homebrew/core/cups/blobs/sha256:0a97f59205a79c3a6d7b7c9c24d7785771a47006fa163b24a425d889a66c3973",
+          "sha256": "0a97f59205a79c3a6d7b7c9c24d7785771a47006fa163b24a425d889a66c3973"
         },
         "monterey": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/cups/blobs/sha256:9f9324ad8a39f8d3d4863a044107290e8933b9e8b091dbe5d32bc5d490db5c35",
-          "sha256": "9f9324ad8a39f8d3d4863a044107290e8933b9e8b091dbe5d32bc5d490db5c35"
+          "url": "https://ghcr.io/v2/homebrew/core/cups/blobs/sha256:89fa9e072be7515c437434a26730ec894667e1b119f05a98fbe7886199813ee6",
+          "sha256": "89fa9e072be7515c437434a26730ec894667e1b119f05a98fbe7886199813ee6"
         },
         "big_sur": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/cups/blobs/sha256:f52e62e443641e19a167ced1e76969c45486a513b4fed8bdc33cc80f1203dc36",
-          "sha256": "f52e62e443641e19a167ced1e76969c45486a513b4fed8bdc33cc80f1203dc36"
+          "url": "https://ghcr.io/v2/homebrew/core/cups/blobs/sha256:11581b74fed3b8d938fd5f2e68525f6d49243f2f33ed4f9db63e0db606b80bd4",
+          "sha256": "11581b74fed3b8d938fd5f2e68525f6d49243f2f33ed4f9db63e0db606b80bd4"
+        },
+        "catalina": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cups/blobs/sha256:7d19825e56b4c035d4faddf4b63d9c5b5ae437b277026a2bb3fb9cc664f221b9",
+          "sha256": "7d19825e56b4c035d4faddf4b63d9c5b5ae437b277026a2bb3fb9cc664f221b9"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/cups/blobs/sha256:841f335903bfdd8a6e2e4fc4db73a0f261f581d59bbd3f3a98acb5e83507f699",
-          "sha256": "841f335903bfdd8a6e2e4fc4db73a0f261f581d59bbd3f3a98acb5e83507f699"
+          "url": "https://ghcr.io/v2/homebrew/core/cups/blobs/sha256:867dfd79e4892f864af88677c5ca2ba33b6623ec648d8139bcb5d55e004275b1",
+          "sha256": "867dfd79e4892f864af88677c5ca2ba33b6623ec648d8139bcb5d55e004275b1"
         }
       }
     }
   },
-  "keg_only": true,
+  "keg_only": false,
   "keg_only_reason": {
     "reason": ":provided_by_macos",
     "explanation": ""
@@ -89,7 +91,9 @@
 
   ],
   "dependencies": [
-
+    "krb5",
+    "zlib",
+    "gnutls"
   ],
   "test_dependencies": [
 
@@ -104,22 +108,10 @@
     "krb5",
     "zlib"
   ],
-  "uses_from_macos_bounds": [
-    {
-    },
-    {
-    }
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
-
-  ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
 
   ],
   "caveats": null,
@@ -135,17 +127,61 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": false,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/cups.rb",
-  "ruby_source_checksum": {
-    "sha256": "fb21861a8da0137b5b85e145a48bed40a0ab406c8a08130c14c50144f5173bb0"
-  },
+  "tap_git_head": null,
   "variations": {
-    "x86_64_linux": {
+    "arm64_ventura": {
       "dependencies": [
-        "openssl@3"
+
+      ]
+    },
+    "arm64_monterey": {
+      "dependencies": [
+
+      ]
+    },
+    "arm64_big_sur": {
+      "dependencies": [
+
+      ]
+    },
+    "ventura": {
+      "dependencies": [
+
+      ]
+    },
+    "monterey": {
+      "dependencies": [
+
+      ]
+    },
+    "big_sur": {
+      "dependencies": [
+
+      ]
+    },
+    "catalina": {
+      "dependencies": [
+
+      ]
+    },
+    "mojave": {
+      "dependencies": [
+
+      ]
+    },
+    "high_sierra": {
+      "dependencies": [
+
+      ]
+    },
+    "sierra": {
+      "dependencies": [
+
+      ]
+    },
+    "el_capitan": {
+      "dependencies": [
+
       ]
     }
   }

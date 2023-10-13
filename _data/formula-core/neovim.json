@@ -3,9 +3,6 @@
   "full_name": "neovim",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
     "nvim"
   ],
@@ -16,16 +13,16 @@
   "license": "Apache-2.0",
   "homepage": "https://neovim.io/",
   "versions": {
-    "stable": "0.9.1",
+    "stable": "0.8.3",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/neovim/neovim/archive/v0.9.1.tar.gz",
+      "url": "https://github.com/neovim/neovim/archive/v0.8.3.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "8db17c2a1f4776dcda00e59489ea0d98ba82f7d1a8ea03281d640e58d8a3a00e"
+      "checksum": "adf45ff160e1d89f519b6114732eba03485ae469beb27919b0f7a4f6b44233c1"
     },
     "head": {
       "url": "https://github.com/neovim/neovim.git",
@@ -41,38 +38,38 @@
       "files": {
         "arm64_ventura": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:ca207194a6ed07851c3a36293e32c37e879365f2ad2731f450455da1bec9d7a4",
-          "sha256": "ca207194a6ed07851c3a36293e32c37e879365f2ad2731f450455da1bec9d7a4"
+          "url": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:c8a5997c58714fb6175d271979b1acb1d11d19e31be524550b07163391838f66",
+          "sha256": "c8a5997c58714fb6175d271979b1acb1d11d19e31be524550b07163391838f66"
         },
         "arm64_monterey": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:85795a3a28506df3c7d281d9f9fe1d1f2d50c3834e7287bb17d86d80cbe67f3d",
-          "sha256": "85795a3a28506df3c7d281d9f9fe1d1f2d50c3834e7287bb17d86d80cbe67f3d"
+          "url": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:961d4a54534a2ed39f87c8b8bdac67bdbb4b6116dc5dbbc53baca91192e81634",
+          "sha256": "961d4a54534a2ed39f87c8b8bdac67bdbb4b6116dc5dbbc53baca91192e81634"
         },
         "arm64_big_sur": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:ec4415c980e03abb98631cf6d701bf02eb31430b696de11915900ab2daebb9e0",
-          "sha256": "ec4415c980e03abb98631cf6d701bf02eb31430b696de11915900ab2daebb9e0"
+          "url": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:464b92b856d7c7309e3003099e331a91d44063f1f65802cfa322c72b7a334cef",
+          "sha256": "464b92b856d7c7309e3003099e331a91d44063f1f65802cfa322c72b7a334cef"
         },
         "ventura": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:70888c68b7413575337a00a044b17a1a06e8948b6b3fa3317a99f66ea6f03f58",
-          "sha256": "70888c68b7413575337a00a044b17a1a06e8948b6b3fa3317a99f66ea6f03f58"
+          "url": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:a4ec5583a25b7bd9c1db17e77424150df34545dab3698bc14890eb650c315e42",
+          "sha256": "a4ec5583a25b7bd9c1db17e77424150df34545dab3698bc14890eb650c315e42"
         },
         "monterey": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:3993bd104e748db9b4f1b2994082d570ebb84ff4facaaeb66ce9d20647613a09",
-          "sha256": "3993bd104e748db9b4f1b2994082d570ebb84ff4facaaeb66ce9d20647613a09"
+          "url": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:ed46e61e96fdfdb3921187fc7aa634c0edacd4712b11c284579d6dff1dd5483f",
+          "sha256": "ed46e61e96fdfdb3921187fc7aa634c0edacd4712b11c284579d6dff1dd5483f"
         },
         "big_sur": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:fe91386e1a0e9cddb90b13b3998f8f1e293d74f1a4a411b7b6e122771ae3ade7",
-          "sha256": "fe91386e1a0e9cddb90b13b3998f8f1e293d74f1a4a411b7b6e122771ae3ade7"
+          "url": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:21a5aa079253e8d242b1afa7fcd90bbffc52436a38150c664a07ea0a339d32a9",
+          "sha256": "21a5aa079253e8d242b1afa7fcd90bbffc52436a38150c664a07ea0a339d32a9"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:17a892c8ecfd1206aa894663b6d68a7dea4767b4b323afd76263e9aafe3fa673",
-          "sha256": "17a892c8ecfd1206aa894663b6d68a7dea4767b4b323afd76263e9aafe3fa673"
+          "url": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:595efaa25e5cc775e1a6c51523e6d0aa1a20d851023d2660ffd4e21b4efd9e9c",
+          "sha256": "595efaa25e5cc775e1a6c51523e6d0aa1a20d851023d2660ffd4e21b4efd9e9c"
         }
       }
     }
@@ -83,10 +80,10 @@
 
   ],
   "build_dependencies": [
-    "luarocks",
     "cmake",
-    "lpeg",
-    "pkg-config"
+    "luarocks",
+    "pkg-config",
+    "unzip"
   ],
   "dependencies": [
     "gettext",
@@ -97,7 +94,8 @@
     "luv",
     "msgpack",
     "tree-sitter",
-    "unibilium"
+    "unibilium",
+    "libnsl"
   ],
   "test_dependencies": [
 
@@ -113,20 +111,10 @@
       "unzip": "build"
     }
   ],
-  "uses_from_macos_bounds": [
-    {
-    }
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
-
-  ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
 
   ],
   "caveats": null,
@@ -142,52 +130,14 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": false,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/neovim.rb",
-  "ruby_source_checksum": {
-    "sha256": "d17458c926f6f1049ab91b055f895e7a46b15ab86fd300a6f9e4a51595e28042"
-  },
-  "head_dependencies": {
-    "build_dependencies": [
-      "cmake",
-      "lpeg",
-      "pkg-config"
-    ],
-    "dependencies": [
-      "lpeg",
-      "gettext",
-      "libtermkey",
-      "libuv",
-      "libvterm",
-      "luajit",
-      "luv",
-      "msgpack",
-      "tree-sitter",
-      "unibilium"
-    ],
-    "test_dependencies": [
-
-    ],
-    "recommended_dependencies": [
-
-    ],
-    "optional_dependencies": [
-
-    ],
-    "uses_from_macos": [
-      {
-        "unzip": "build"
-      }
-    ],
-    "uses_from_macos_bounds": [
-      {
-      }
-    ]
-  },
+  "tap_git_head": null,
   "variations": {
-    "x86_64_linux": {
+    "arm64_ventura": {
+      "build_dependencies": [
+        "cmake",
+        "luarocks",
+        "pkg-config"
+      ],
       "dependencies": [
         "gettext",
         "libtermkey",
@@ -197,47 +147,188 @@
         "luv",
         "msgpack",
         "tree-sitter",
-        "unibilium",
-        "libnsl"
+        "unibilium"
+      ]
+    },
+    "arm64_monterey": {
+      "build_dependencies": [
+        "cmake",
+        "luarocks",
+        "pkg-config"
       ],
-      "head_dependencies": {
-        "build_dependencies": [
-          "cmake",
-          "lpeg",
-          "pkg-config"
-        ],
-        "dependencies": [
-          "lpeg",
-          "gettext",
-          "libtermkey",
-          "libuv",
-          "libvterm",
-          "luajit",
-          "luv",
-          "msgpack",
-          "tree-sitter",
-          "unibilium",
-          "libnsl"
-        ],
-        "test_dependencies": [
-
-        ],
-        "recommended_dependencies": [
-
-        ],
-        "optional_dependencies": [
-
-        ],
-        "uses_from_macos": [
-          {
-            "unzip": "build"
-          }
-        ],
-        "uses_from_macos_bounds": [
-          {
-          }
-        ]
-      }
+      "dependencies": [
+        "gettext",
+        "libtermkey",
+        "libuv",
+        "libvterm",
+        "luajit",
+        "luv",
+        "msgpack",
+        "tree-sitter",
+        "unibilium"
+      ]
+    },
+    "arm64_big_sur": {
+      "build_dependencies": [
+        "cmake",
+        "luarocks",
+        "pkg-config"
+      ],
+      "dependencies": [
+        "gettext",
+        "libtermkey",
+        "libuv",
+        "libvterm",
+        "luajit",
+        "luv",
+        "msgpack",
+        "tree-sitter",
+        "unibilium"
+      ]
+    },
+    "ventura": {
+      "build_dependencies": [
+        "cmake",
+        "luarocks",
+        "pkg-config"
+      ],
+      "dependencies": [
+        "gettext",
+        "libtermkey",
+        "libuv",
+        "libvterm",
+        "luajit",
+        "luv",
+        "msgpack",
+        "tree-sitter",
+        "unibilium"
+      ]
+    },
+    "monterey": {
+      "build_dependencies": [
+        "cmake",
+        "luarocks",
+        "pkg-config"
+      ],
+      "dependencies": [
+        "gettext",
+        "libtermkey",
+        "libuv",
+        "libvterm",
+        "luajit",
+        "luv",
+        "msgpack",
+        "tree-sitter",
+        "unibilium"
+      ]
+    },
+    "big_sur": {
+      "build_dependencies": [
+        "cmake",
+        "luarocks",
+        "pkg-config"
+      ],
+      "dependencies": [
+        "gettext",
+        "libtermkey",
+        "libuv",
+        "libvterm",
+        "luajit",
+        "luv",
+        "msgpack",
+        "tree-sitter",
+        "unibilium"
+      ]
+    },
+    "catalina": {
+      "build_dependencies": [
+        "cmake",
+        "luarocks",
+        "pkg-config"
+      ],
+      "dependencies": [
+        "gettext",
+        "libtermkey",
+        "libuv",
+        "libvterm",
+        "luajit",
+        "luv",
+        "msgpack",
+        "tree-sitter",
+        "unibilium"
+      ]
+    },
+    "mojave": {
+      "build_dependencies": [
+        "cmake",
+        "luarocks",
+        "pkg-config"
+      ],
+      "dependencies": [
+        "gettext",
+        "libtermkey",
+        "libuv",
+        "libvterm",
+        "luajit",
+        "luv",
+        "msgpack",
+        "tree-sitter",
+        "unibilium"
+      ]
+    },
+    "high_sierra": {
+      "build_dependencies": [
+        "cmake",
+        "luarocks",
+        "pkg-config"
+      ],
+      "dependencies": [
+        "gettext",
+        "libtermkey",
+        "libuv",
+        "libvterm",
+        "luajit",
+        "luv",
+        "msgpack",
+        "tree-sitter",
+        "unibilium"
+      ]
+    },
+    "sierra": {
+      "build_dependencies": [
+        "cmake",
+        "luarocks",
+        "pkg-config"
+      ],
+      "dependencies": [
+        "gettext",
+        "libtermkey",
+        "libuv",
+        "libvterm",
+        "luajit",
+        "luv",
+        "msgpack",
+        "tree-sitter",
+        "unibilium"
+      ]
+    },
+    "el_capitan": {
+      "build_dependencies": [
+        "cmake",
+        "luarocks",
+        "pkg-config"
+      ],
+      "dependencies": [
+        "gettext",
+        "libtermkey",
+        "libuv",
+        "libvterm",
+        "luajit",
+        "luv",
+        "msgpack",
+        "tree-sitter",
+        "unibilium"
+      ]
     }
   }
 }

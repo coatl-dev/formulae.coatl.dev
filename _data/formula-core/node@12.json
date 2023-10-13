@@ -1,6 +1,6 @@
 {
-  "name": "node@14",
-  "full_name": "node@14",
+  "name": "node@12",
+  "full_name": "node@12",
   "tap": "homebrew/core",
   "oldname": null,
   "aliases": [
@@ -9,23 +9,23 @@
   "versioned_formulae": [
     "node@18",
     "node@16",
-    "node@12",
+    "node@14",
     "node@10"
   ],
   "desc": "Platform built on V8 to build network applications",
   "license": "MIT",
   "homepage": "https://nodejs.org/",
   "versions": {
-    "stable": "14.21.2",
+    "stable": "12.22.12",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://nodejs.org/dist/v14.21.2/node-v14.21.2.tar.xz",
+      "url": "https://nodejs.org/dist/v12.22.12/node-v12.22.12.tar.xz",
       "tag": null,
       "revision": null,
-      "checksum": "d8f09a0f16773a77613c3817606f6d455624992d9c43443aca15e91807a1ff03"
+      "checksum": "bc42b7f8495b9bfc7f7850dd180bb02a5bdf139cc232b8c6f02a6967e20714f2"
     }
   },
   "revision": 1,
@@ -37,38 +37,38 @@
       "files": {
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/node/14/blobs/sha256:42f3d06c547f9d1c73979bf34a66364c4eec90c2b3c17433fc6afebb63c42f98",
-          "sha256": "42f3d06c547f9d1c73979bf34a66364c4eec90c2b3c17433fc6afebb63c42f98"
+          "url": "https://ghcr.io/v2/homebrew/core/node/12/blobs/sha256:045359c8f591ca97d2f4ab9f6348cd456331c03f68cb88913fc7724145fb76ec",
+          "sha256": "045359c8f591ca97d2f4ab9f6348cd456331c03f68cb88913fc7724145fb76ec"
         },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/node/14/blobs/sha256:75733880dc1f2e3a76cda9fca3a449fd26bbef581a0fbce655b6603c4b068b6b",
-          "sha256": "75733880dc1f2e3a76cda9fca3a449fd26bbef581a0fbce655b6603c4b068b6b"
+          "url": "https://ghcr.io/v2/homebrew/core/node/12/blobs/sha256:080b711a20d34d0272b737fe0b764afe8e0339c6cf298faee8397a4870ac3b7d",
+          "sha256": "080b711a20d34d0272b737fe0b764afe8e0339c6cf298faee8397a4870ac3b7d"
         },
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/node/14/blobs/sha256:7a678ae3eb7ebb268d4d45fd290d1654ac83cacf7a488e8c18d36ad0ed1a1b62",
-          "sha256": "7a678ae3eb7ebb268d4d45fd290d1654ac83cacf7a488e8c18d36ad0ed1a1b62"
-        },
-        "ventura": {
-          "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/node/14/blobs/sha256:e35dac899c8956b73bf7e47a973b19db6c30d454b403d89b31e27488dacc82a2",
-          "sha256": "e35dac899c8956b73bf7e47a973b19db6c30d454b403d89b31e27488dacc82a2"
+          "url": "https://ghcr.io/v2/homebrew/core/node/12/blobs/sha256:535bf5c436d07b3078237460cba937124540b3fa92c4123a290b24fed6e0a0d9",
+          "sha256": "535bf5c436d07b3078237460cba937124540b3fa92c4123a290b24fed6e0a0d9"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/node/14/blobs/sha256:3e7a94eca081c7a4e5ca14dc06012fcdf166b61a008cb322c890300fd9d81e46",
-          "sha256": "3e7a94eca081c7a4e5ca14dc06012fcdf166b61a008cb322c890300fd9d81e46"
+          "url": "https://ghcr.io/v2/homebrew/core/node/12/blobs/sha256:a9f6e355460a7eaa9309ae1ba8332040a51409ce3dd462ca957b80ff45c65c42",
+          "sha256": "a9f6e355460a7eaa9309ae1ba8332040a51409ce3dd462ca957b80ff45c65c42"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/node/14/blobs/sha256:50c2db74fa22da796ca51b2816ee05aeb9b33280ded088ac61fa22903afa1593",
-          "sha256": "50c2db74fa22da796ca51b2816ee05aeb9b33280ded088ac61fa22903afa1593"
+          "url": "https://ghcr.io/v2/homebrew/core/node/12/blobs/sha256:1f790b5c3a7cb07599d61e61be28a076d3980b14f14939d2e3f29daf5f9f4d9e",
+          "sha256": "1f790b5c3a7cb07599d61e61be28a076d3980b14f14939d2e3f29daf5f9f4d9e"
+        },
+        "catalina": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/node/12/blobs/sha256:a9544a2762f1c2fd862c44cebc867cd2e3ad97836229d5228ac4340bbd0301be",
+          "sha256": "a9544a2762f1c2fd862c44cebc867cd2e3ad97836229d5228ac4340bbd0301be"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/node/14/blobs/sha256:83dc3488d1df8c391298ed3b4e24cc0ed2770cb26baf726017b35c7fc1b8b585",
-          "sha256": "83dc3488d1df8c391298ed3b4e24cc0ed2770cb26baf726017b35c7fc1b8b585"
+          "url": "https://ghcr.io/v2/homebrew/core/node/12/blobs/sha256:744c889c42c289732d392589d369c3c462ee83579c863375c0ec745c1e7de10a",
+          "sha256": "744c889c42c289732d392589d369c3c462ee83579c863375c0ec745c1e7de10a"
         }
       }
     }
@@ -84,7 +84,7 @@
   "build_dependencies": [
     "xz",
     "pkg-config",
-    "python@3.10"
+    "python@3.9"
   ],
   "dependencies": [
     "brotli",
@@ -93,8 +93,8 @@
     "libnghttp2",
     "libuv",
     "openssl@1.1",
-    "zlib",
-    "python@3.10"
+    "python",
+    "zlib"
   ],
   "test_dependencies": [
     "xz"
@@ -106,6 +106,7 @@
 
   ],
   "uses_from_macos": [
+    "python",
     "zlib"
   ],
   "requirements": [
@@ -124,9 +125,9 @@
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
-  "disabled": false,
-  "disable_date": null,
-  "disable_reason": null,
+  "disabled": true,
+  "disable_date": "2022-04-30",
+  "disable_reason": "unsupported",
   "tap_git_head": null,
   "variations": {
     "arm64_ventura": {
@@ -137,8 +138,7 @@
         "libnghttp2",
         "libuv",
         "openssl@1.1",
-        "macos-term-size",
-        "python@3.10"
+        "macos-term-size"
       ]
     },
     "arm64_monterey": {
@@ -149,8 +149,7 @@
         "libnghttp2",
         "libuv",
         "openssl@1.1",
-        "macos-term-size",
-        "python@3.10"
+        "macos-term-size"
       ]
     },
     "arm64_big_sur": {
@@ -172,8 +171,7 @@
         "libnghttp2",
         "libuv",
         "openssl@1.1",
-        "macos-term-size",
-        "python@3.10"
+        "macos-term-size"
       ]
     },
     "monterey": {
@@ -184,8 +182,7 @@
         "libnghttp2",
         "libuv",
         "openssl@1.1",
-        "macos-term-size",
-        "python@3.10"
+        "macos-term-size"
       ]
     },
     "big_sur": {

@@ -3,9 +3,6 @@
   "full_name": "tcl-tk",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
 
   ],
@@ -28,7 +25,7 @@
       "checksum": "43a1fae7412f61ff11de2cfd05d28cfc3a73762f354a417c62370a54e2caf066"
     }
   },
-  "revision": 4,
+  "revision": 0,
   "version_scheme": 0,
   "bottle": {
     "stable": {
@@ -37,55 +34,68 @@
       "files": {
         "arm64_ventura": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/tcl-tk/blobs/sha256:08b0adf64e7ed72c3665cd7ccf6551456c2d2682b88449f7dce9beb3e1856d71",
-          "sha256": "08b0adf64e7ed72c3665cd7ccf6551456c2d2682b88449f7dce9beb3e1856d71"
+          "url": "https://ghcr.io/v2/homebrew/core/tcl-tk/blobs/sha256:53300b4a5e2d7ef71b25b5ecb7b1b20ae435234dd114d2163e643d5857b1de21",
+          "sha256": "53300b4a5e2d7ef71b25b5ecb7b1b20ae435234dd114d2163e643d5857b1de21"
         },
         "arm64_monterey": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/tcl-tk/blobs/sha256:be50577af5dd5c8f77bfcbd81869674e2ce667cf3e0d5968ef3c915cca5133cc",
-          "sha256": "be50577af5dd5c8f77bfcbd81869674e2ce667cf3e0d5968ef3c915cca5133cc"
+          "url": "https://ghcr.io/v2/homebrew/core/tcl-tk/blobs/sha256:c5878a4780414050c132dfd8cefaf7f009d8809f55ee3049dd7122a54e50dea9",
+          "sha256": "c5878a4780414050c132dfd8cefaf7f009d8809f55ee3049dd7122a54e50dea9"
         },
         "arm64_big_sur": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/tcl-tk/blobs/sha256:57112c61bc5c52d3652d30c7126b298f79f58a44095330c027f9d29542ff9516",
-          "sha256": "57112c61bc5c52d3652d30c7126b298f79f58a44095330c027f9d29542ff9516"
+          "url": "https://ghcr.io/v2/homebrew/core/tcl-tk/blobs/sha256:4cab30160b2e7d926c52ad639c53a1471844b114a15cd19b414829615385ad67",
+          "sha256": "4cab30160b2e7d926c52ad639c53a1471844b114a15cd19b414829615385ad67"
         },
         "ventura": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/tcl-tk/blobs/sha256:738d5d6f51520dedb90df80b618d15b46d2deee4bcd6ba71b4159d685d9362f1",
-          "sha256": "738d5d6f51520dedb90df80b618d15b46d2deee4bcd6ba71b4159d685d9362f1"
+          "url": "https://ghcr.io/v2/homebrew/core/tcl-tk/blobs/sha256:afd13198b0dbcc0eb4352614129f1cb06a614cea6d7417fefea3e62b852c4935",
+          "sha256": "afd13198b0dbcc0eb4352614129f1cb06a614cea6d7417fefea3e62b852c4935"
         },
         "monterey": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/tcl-tk/blobs/sha256:1be828e596499e7b91372b48d5b7b9e50e12bf059fc166064a282dd7586513b0",
-          "sha256": "1be828e596499e7b91372b48d5b7b9e50e12bf059fc166064a282dd7586513b0"
+          "url": "https://ghcr.io/v2/homebrew/core/tcl-tk/blobs/sha256:e175685883ef770c7220b5c0b3058acd61dedddc8bbefae348828b68cbeb6514",
+          "sha256": "e175685883ef770c7220b5c0b3058acd61dedddc8bbefae348828b68cbeb6514"
         },
         "big_sur": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/tcl-tk/blobs/sha256:d16ee53ec43dfeba443cd720d5131deb0591b8e568e20db4a7b4ac876296f14a",
-          "sha256": "d16ee53ec43dfeba443cd720d5131deb0591b8e568e20db4a7b4ac876296f14a"
+          "url": "https://ghcr.io/v2/homebrew/core/tcl-tk/blobs/sha256:3d0f9ac84a5a01f5d9d241005b6fa93e1a4f356b329dd56746242ff402649d7f",
+          "sha256": "3d0f9ac84a5a01f5d9d241005b6fa93e1a4f356b329dd56746242ff402649d7f"
+        },
+        "catalina": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/tcl-tk/blobs/sha256:9a0d3538f62527944ea7905d32532ad8239f6a6dd45f94742a3b2cb72d9f1c10",
+          "sha256": "9a0d3538f62527944ea7905d32532ad8239f6a6dd45f94742a3b2cb72d9f1c10"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/tcl-tk/blobs/sha256:b8ab6476e3ab5577f3b426ff7ce3906478b5147c1bbf3684ad65d58f7282fb24",
-          "sha256": "b8ab6476e3ab5577f3b426ff7ce3906478b5147c1bbf3684ad65d58f7282fb24"
+          "url": "https://ghcr.io/v2/homebrew/core/tcl-tk/blobs/sha256:7183c92a7b716deaf436a4a468c6866936a9f1f2b145516c7e6d83f323369da0",
+          "sha256": "7183c92a7b716deaf436a4a468c6866936a9f1f2b145516c7e6d83f323369da0"
         }
       }
     }
   },
   "keg_only": false,
-  "keg_only_reason": null,
+  "keg_only_reason": {
+    "reason": ":provided_by_macos",
+    "explanation": ""
+  },
   "options": [
 
   ],
   "build_dependencies": [
-
+    "freetype",
+    "pkg-config",
+    "xz"
   ],
   "dependencies": [
-    "openssl@3"
+    "openssl@1.1",
+    "zlib",
+    "libx11",
+    "libxext"
   ],
   "test_dependencies": [
-
+    "xz"
   ],
   "recommended_dependencies": [
 
@@ -96,49 +106,17 @@
   "uses_from_macos": [
     "zlib"
   ],
-  "uses_from_macos_bounds": [
-    {
-    }
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
     "page"
   ],
-  "conflicts_with_reasons": [
-    "both install `page` binaries"
-  ],
-  "link_overwrite": [
-
-  ],
   "caveats": "The sqlite3_analyzer binary is in the `sqlite-analyzer` formula.\n",
   "installed": [
-    {
-      "version": "8.6.13_4",
-      "used_options": [
 
-      ],
-      "built_as_bottle": true,
-      "poured_from_bottle": true,
-      "time": 1687852381,
-      "runtime_dependencies": [
-        {
-          "full_name": "ca-certificates",
-          "version": "2023-05-30",
-          "declared_directly": false
-        },
-        {
-          "full_name": "openssl@3",
-          "version": "3.1.1",
-          "declared_directly": true
-        }
-      ],
-      "installed_as_dependency": false,
-      "installed_on_request": true
-    }
   ],
-  "linked_keg": "8.6.13_4",
+  "linked_keg": null,
   "pinned": false,
   "outdated": false,
   "deprecated": false,
@@ -147,23 +125,127 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": false,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/tcl-tk.rb",
-  "ruby_source_checksum": {
-    "sha256": "cb3ae515fe91199f56dca2dd6566f12dff6908e653793e7bdafa2f6f34b652df"
-  },
+  "tap_git_head": null,
   "variations": {
-    "x86_64_linux": {
+    "arm64_ventura": {
       "build_dependencies": [
-        "freetype",
-        "pkg-config"
+        "xz"
       ],
       "dependencies": [
-        "openssl@3",
-        "libx11",
-        "libxext"
+        "openssl@1.1"
+      ],
+      "conflicts_with": [
+
+      ]
+    },
+    "arm64_monterey": {
+      "build_dependencies": [
+        "xz"
+      ],
+      "dependencies": [
+        "openssl@1.1"
+      ],
+      "conflicts_with": [
+
+      ]
+    },
+    "arm64_big_sur": {
+      "build_dependencies": [
+        "xz"
+      ],
+      "dependencies": [
+        "openssl@1.1"
+      ],
+      "conflicts_with": [
+
+      ]
+    },
+    "ventura": {
+      "build_dependencies": [
+        "xz"
+      ],
+      "dependencies": [
+        "openssl@1.1"
+      ],
+      "conflicts_with": [
+
+      ]
+    },
+    "monterey": {
+      "build_dependencies": [
+        "xz"
+      ],
+      "dependencies": [
+        "openssl@1.1"
+      ],
+      "conflicts_with": [
+
+      ]
+    },
+    "big_sur": {
+      "build_dependencies": [
+        "xz"
+      ],
+      "dependencies": [
+        "openssl@1.1"
+      ],
+      "conflicts_with": [
+
+      ]
+    },
+    "catalina": {
+      "build_dependencies": [
+        "xz"
+      ],
+      "dependencies": [
+        "openssl@1.1"
+      ],
+      "conflicts_with": [
+
+      ]
+    },
+    "mojave": {
+      "build_dependencies": [
+        "xz"
+      ],
+      "dependencies": [
+        "openssl@1.1"
+      ],
+      "conflicts_with": [
+
+      ]
+    },
+    "high_sierra": {
+      "build_dependencies": [
+        "xz"
+      ],
+      "dependencies": [
+        "openssl@1.1"
+      ],
+      "conflicts_with": [
+
+      ]
+    },
+    "sierra": {
+      "build_dependencies": [
+        "xz"
+      ],
+      "dependencies": [
+        "openssl@1.1"
+      ],
+      "conflicts_with": [
+
+      ]
+    },
+    "el_capitan": {
+      "build_dependencies": [
+        "xz"
+      ],
+      "dependencies": [
+        "openssl@1.1"
+      ],
+      "conflicts_with": [
+
       ]
     }
   }

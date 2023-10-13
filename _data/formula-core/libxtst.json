@@ -3,9 +3,6 @@
   "full_name": "libxtst",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
 
   ],
@@ -103,19 +100,10 @@
   "uses_from_macos": [
 
   ],
-  "uses_from_macos_bounds": [
-
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
-
-  ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
 
   ],
   "caveats": null,
@@ -131,13 +119,7 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": false,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/libxtst.rb",
-  "ruby_source_checksum": {
-    "sha256": "fcdff76b9c5a0842b7f510511f15ef73c78d75b5db1cb0d41b010e4666c59865"
-  },
+  "tap_git_head": null,
   "variations": {
   }
 }

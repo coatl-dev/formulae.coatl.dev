@@ -3,9 +3,6 @@
   "full_name": "docutils",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
 
   ],
@@ -16,29 +13,29 @@
   "license": "Public Domain and BSD-2-Clause and GPL-3.0-or-later and Python-2.0",
   "homepage": "https://docutils.sourceforge.io",
   "versions": {
-    "stable": "0.20.1",
+    "stable": "0.19",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://downloads.sourceforge.net/project/docutils/docutils/0.20.1/docutils-0.20.1.tar.gz",
+      "url": "https://downloads.sourceforge.net/project/docutils/docutils/0.19/docutils-0.19.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "f08a4e276c3a1583a86dce3e34aba3fe04d02bba2dd51ed16106244e8a923e3b"
+      "checksum": "33995a6753c30b7f577febfc2c50411fec6aac7f7ffeb7c4cfe5991072dcf9e6"
     }
   },
   "revision": 0,
   "version_scheme": 0,
   "bottle": {
     "stable": {
-      "rebuild": 0,
+      "rebuild": 2,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "all": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/docutils/blobs/sha256:ea0e9988733ecd494fb9b5ec6479f25eeb11718f1614fc92f0174f44acc913bb",
-          "sha256": "ea0e9988733ecd494fb9b5ec6479f25eeb11718f1614fc92f0174f44acc913bb"
+          "url": "https://ghcr.io/v2/homebrew/core/docutils/blobs/sha256:137618cfdeedcb9cdb104c8ac7ba4e17d1f08dafc0ebabdddfe6f18dde061793",
+          "sha256": "137618cfdeedcb9cdb104c8ac7ba4e17d1f08dafc0ebabdddfe6f18dde061793"
         }
       }
     }
@@ -66,19 +63,10 @@
   "uses_from_macos": [
 
   ],
-  "uses_from_macos_bounds": [
-
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
-
-  ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
 
   ],
   "caveats": null,
@@ -94,13 +82,7 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": false,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/docutils.rb",
-  "ruby_source_checksum": {
-    "sha256": "ce1cb9e3eb3f1433f69e4ffd4e1adf595bcd98788952a8f156d86148908ef0f5"
-  },
+  "tap_git_head": null,
   "variations": {
   }
 }

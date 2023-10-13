@@ -3,9 +3,6 @@
   "full_name": "msgpack",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
     "msgpack-c"
   ],
@@ -16,16 +13,16 @@
   "license": "BSL-1.0",
   "homepage": "https://msgpack.org/",
   "versions": {
-    "stable": "6.0.0",
+    "stable": "5.0.0",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/msgpack/msgpack-c/releases/download/c-6.0.0/msgpack-c-6.0.0.tar.gz",
+      "url": "https://github.com/msgpack/msgpack-c/releases/download/c-5.0.0/msgpack-c-5.0.0.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "3654f5e2c652dc52e0a993e270bb57d5702b262703f03771c152bba51602aeba"
+      "checksum": "eb6d77f32dbaaae9174d96cacfe02af30bf1ea329c45018074cd95ac6e6fa6e5"
     },
     "head": {
       "url": "https://github.com/msgpack/msgpack-c.git",
@@ -41,38 +38,38 @@
       "files": {
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:e41b85a88da3012d8a7819799333410558cca1ef59663fda84718be0856002e6",
-          "sha256": "e41b85a88da3012d8a7819799333410558cca1ef59663fda84718be0856002e6"
+          "url": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:7e65889bade2f78f3373705054899204cee0231846d4bebe6eae1d39e05b3b60",
+          "sha256": "7e65889bade2f78f3373705054899204cee0231846d4bebe6eae1d39e05b3b60"
         },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:1d14abff9537f4d85dee74c10ce6f73fafa8e8719c5be05bfda9a836cbe732ad",
-          "sha256": "1d14abff9537f4d85dee74c10ce6f73fafa8e8719c5be05bfda9a836cbe732ad"
+          "url": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:fa335fc10a2e2f18dbcee140395b16a993a748962b6587f2ad876369a9594608",
+          "sha256": "fa335fc10a2e2f18dbcee140395b16a993a748962b6587f2ad876369a9594608"
         },
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:f3842a4dd94cf91e0259f5cf95e325314c664fe5b68b0a15d1a45739096b62e9",
-          "sha256": "f3842a4dd94cf91e0259f5cf95e325314c664fe5b68b0a15d1a45739096b62e9"
+          "url": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:66990bdf0c267d1d690402de218ee96673151185c9a13966f034ef99944524dd",
+          "sha256": "66990bdf0c267d1d690402de218ee96673151185c9a13966f034ef99944524dd"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:7abad795d8f0b89d7927db89147ba2a5273e04cdfdcda30d9bc402fef4352ce6",
-          "sha256": "7abad795d8f0b89d7927db89147ba2a5273e04cdfdcda30d9bc402fef4352ce6"
+          "url": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:86ac3464c6d3916e87608abd01ae38a41ad482bffded92c5ecc0dc439ae93c72",
+          "sha256": "86ac3464c6d3916e87608abd01ae38a41ad482bffded92c5ecc0dc439ae93c72"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:7b02d0690b3ca73cacf020eb6de303370b7d6def89b9769f0bd18222722e4903",
-          "sha256": "7b02d0690b3ca73cacf020eb6de303370b7d6def89b9769f0bd18222722e4903"
+          "url": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:0539ae4c5aca3dc551fdf8b84687da544e3167ce64d5402147a4ac5a6c0fe807",
+          "sha256": "0539ae4c5aca3dc551fdf8b84687da544e3167ce64d5402147a4ac5a6c0fe807"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:e422e0f9f84e2fa558e75e5145abcba59ef61c72dacdf757eb185694a58c08a7",
-          "sha256": "e422e0f9f84e2fa558e75e5145abcba59ef61c72dacdf757eb185694a58c08a7"
+          "url": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:614bb9b2d4a9af0fa98d88866356ebf6a59b8b82cf92353b323a548e3b8d781d",
+          "sha256": "614bb9b2d4a9af0fa98d88866356ebf6a59b8b82cf92353b323a548e3b8d781d"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:d3dfeade8b72c260d4745892f254ceb72535502293f6ddd04d04f19cb7affa35",
-          "sha256": "d3dfeade8b72c260d4745892f254ceb72535502293f6ddd04d04f19cb7affa35"
+          "url": "https://ghcr.io/v2/homebrew/core/msgpack/blobs/sha256:fa3ec3a41319a0480e6842e0fb766aad89fa81b4a5b48fd9179ace88582c8320",
+          "sha256": "fa3ec3a41319a0480e6842e0fb766aad89fa81b4a5b48fd9179ace88582c8320"
         }
       }
     }
@@ -100,19 +97,10 @@
   "uses_from_macos": [
 
   ],
-  "uses_from_macos_bounds": [
-
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
-
-  ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
 
   ],
   "caveats": null,
@@ -128,13 +116,7 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": false,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/msgpack.rb",
-  "ruby_source_checksum": {
-    "sha256": "6638591bc81446d8778adad54c0ea03b3b54c45e537448fafc79dd22e356f898"
-  },
+  "tap_git_head": null,
   "variations": {
   }
 }

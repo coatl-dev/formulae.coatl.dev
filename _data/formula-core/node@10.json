@@ -3,16 +3,14 @@
   "full_name": "node@10",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
 
   ],
   "versioned_formulae": [
     "node@18",
     "node@16",
-    "node@14"
+    "node@14",
+    "node@12"
   ],
   "desc": "Platform built on V8 to build network applications",
   "license": "MIT",
@@ -64,13 +62,14 @@
 
   ],
   "build_dependencies": [
+    "xz",
     "pkg-config"
   ],
   "dependencies": [
     "icu4c"
   ],
   "test_dependencies": [
-
+    "xz"
   ],
   "recommended_dependencies": [
 
@@ -81,9 +80,6 @@
   "uses_from_macos": [
 
   ],
-  "uses_from_macos_bounds": [
-
-  ],
   "requirements": [
     {
       "name": "macos",
@@ -92,19 +88,10 @@
       "version": null,
       "contexts": [
 
-      ],
-      "specs": [
-        "stable"
       ]
     }
   ],
   "conflicts_with": [
-
-  ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
 
   ],
   "caveats": null,
@@ -120,13 +107,7 @@
   "disabled": true,
   "disable_date": "2022-07-31",
   "disable_reason": "unsupported",
-  "post_install_defined": true,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/node@10.rb",
-  "ruby_source_checksum": {
-    "sha256": "ac4a8e1dfcdf966423e081b8c98920666901202385b014bfb5995237b598c068"
-  },
+  "tap_git_head": null,
   "variations": {
   }
 }

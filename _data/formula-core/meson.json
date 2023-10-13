@@ -3,9 +3,6 @@
   "full_name": "meson",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
 
   ],
@@ -16,16 +13,16 @@
   "license": "Apache-2.0",
   "homepage": "https://mesonbuild.com/",
   "versions": {
-    "stable": "1.1.1",
+    "stable": "1.0.0",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/mesonbuild/meson/releases/download/1.1.1/meson-1.1.1.tar.gz",
+      "url": "https://github.com/mesonbuild/meson/releases/download/1.0.0/meson-1.0.0.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "d04b541f97ca439fb82fab7d0d480988be4bd4e62563a5ca35fadb5400727b1c"
+      "checksum": "aa50a4ba4557c25e7d48446abfde857957dcdf58385fffbe670ba0e8efacce05"
     },
     "head": {
       "url": "https://github.com/mesonbuild/meson.git",
@@ -41,8 +38,8 @@
       "files": {
         "all": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/meson/blobs/sha256:75c008baf121ada9182e84db582a9d826efef83d6daa6bb4ddbcec47f2f5feb0",
-          "sha256": "75c008baf121ada9182e84db582a9d826efef83d6daa6bb4ddbcec47f2f5feb0"
+          "url": "https://ghcr.io/v2/homebrew/core/meson/blobs/sha256:17d37236c5897dce15263e14c94dbb779525a19db7ba86d2a4ca7d80147ed8e5",
+          "sha256": "17d37236c5897dce15263e14c94dbb779525a19db7ba86d2a4ca7d80147ed8e5"
         }
       }
     }
@@ -71,19 +68,10 @@
   "uses_from_macos": [
 
   ],
-  "uses_from_macos_bounds": [
-
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
-
-  ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
 
   ],
   "caveats": null,
@@ -99,13 +87,7 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": false,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/meson.rb",
-  "ruby_source_checksum": {
-    "sha256": "cc54aa400644b2856147ef66e9358e41306ef1b9583042b40c7b321b38ce6662"
-  },
+  "tap_git_head": null,
   "variations": {
   }
 }

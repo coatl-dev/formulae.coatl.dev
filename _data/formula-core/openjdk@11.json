@@ -3,9 +3,6 @@
   "full_name": "openjdk@11",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
     "java11"
   ],
@@ -17,16 +14,16 @@
   "license": "GPL-2.0-only",
   "homepage": "https://openjdk.java.net/",
   "versions": {
-    "stable": "11.0.19",
+    "stable": "11.0.18",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/openjdk/jdk11u/archive/refs/tags/jdk-11.0.19-ga.tar.gz",
+      "url": "https://github.com/openjdk/jdk11u/archive/refs/tags/jdk-11.0.18-ga.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "5077e9713e59ccf92fbe58b9bb63e18294fb2110df644f476638e1528e5dfd46"
+      "checksum": "c0560c3480e7ded2a59d783ddf2cb624a44ece9d3036f4a7a7575d597b18fb2e"
     }
   },
   "revision": 0,
@@ -38,38 +35,38 @@
       "files": {
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:1bca4101ca2dc3aedfd920c05ffe5c574836a192ffffdcdf7474d97c818f819a",
-          "sha256": "1bca4101ca2dc3aedfd920c05ffe5c574836a192ffffdcdf7474d97c818f819a"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:05cd692e583b4fccba04c814b6304531c9bd1476996333392fd104fe8f96538a",
+          "sha256": "05cd692e583b4fccba04c814b6304531c9bd1476996333392fd104fe8f96538a"
         },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:bdd02ba57b1fef869bca1f123c273b34dbe1984eb8d8e95962eb90dacd5d556f",
-          "sha256": "bdd02ba57b1fef869bca1f123c273b34dbe1984eb8d8e95962eb90dacd5d556f"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:eb17ac97ee266055cfb1cef51a19913146ccba76cde635c7c505b6f898bc3ab9",
+          "sha256": "eb17ac97ee266055cfb1cef51a19913146ccba76cde635c7c505b6f898bc3ab9"
         },
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:929a29a68609b62ac5373245f13ff766a8148ceaccc0ce61a421e1bf7632116e",
-          "sha256": "929a29a68609b62ac5373245f13ff766a8148ceaccc0ce61a421e1bf7632116e"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:2d24c9d7959a2a7dcce671a8abc2b7a95b68a25434072e4e8f9c739290d3c43d",
+          "sha256": "2d24c9d7959a2a7dcce671a8abc2b7a95b68a25434072e4e8f9c739290d3c43d"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:24d306338e44c638d980a9d028514025a5ccae7970bc473afef0417405b5eaf5",
-          "sha256": "24d306338e44c638d980a9d028514025a5ccae7970bc473afef0417405b5eaf5"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:5a4ddc71e8adacdad1c0a56be7eff2cf9edf951523610ea4bc1fd9a9dc55f228",
+          "sha256": "5a4ddc71e8adacdad1c0a56be7eff2cf9edf951523610ea4bc1fd9a9dc55f228"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:d5a6dfc55086acfc311c0151114286358bf6bd3a66d1437cbacfd0a97e5a5e02",
-          "sha256": "d5a6dfc55086acfc311c0151114286358bf6bd3a66d1437cbacfd0a97e5a5e02"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:617fa70e78ead6459d1eb810fba7636a1fbfc045b256d1e2ca1ce1786303c9e8",
+          "sha256": "617fa70e78ead6459d1eb810fba7636a1fbfc045b256d1e2ca1ce1786303c9e8"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:bd53dfd5ee78e1083bb9f9468f7556b1b6c18a5d7e3204a16a3b9c31bc8ba8c5",
-          "sha256": "bd53dfd5ee78e1083bb9f9468f7556b1b6c18a5d7e3204a16a3b9c31bc8ba8c5"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:3a2110878daf46b2bbbebc28fb8ab6a76652490c8fc97ef293b275c5faa57f83",
+          "sha256": "3a2110878daf46b2bbbebc28fb8ab6a76652490c8fc97ef293b275c5faa57f83"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:b331e6cb6f09444c013faa2a51aab34bbc4774aa9cd75ded199eac2eca0fe36f",
-          "sha256": "b331e6cb6f09444c013faa2a51aab34bbc4774aa9cd75ded199eac2eca0fe36f"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:5138ec9740b3faa6dd8c8e50ea80b027f62f3a256a6b989970f2944a3ffd5e27",
+          "sha256": "5138ec9740b3faa6dd8c8e50ea80b027f62f3a256a6b989970f2944a3ffd5e27"
         }
       }
     }
@@ -91,7 +88,20 @@
     "harfbuzz",
     "jpeg-turbo",
     "libpng",
-    "little-cms2"
+    "little-cms2",
+    "cups",
+    "unzip",
+    "zip",
+    "zlib",
+    "alsa-lib",
+    "fontconfig",
+    "freetype",
+    "libx11",
+    "libxext",
+    "libxrandr",
+    "libxrender",
+    "libxt",
+    "libxtst"
   ],
   "test_dependencies": [
 
@@ -108,29 +118,13 @@
     "zip",
     "zlib"
   ],
-  "uses_from_macos_bounds": [
-    {
-    },
-    {
-    },
-    {
-    },
-    {
-    }
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
 
   ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
-
-  ],
-  "caveats": "For the system Java wrappers to find this JDK, symlink it with\n  sudo ln -sfn $HOMEBREW_PREFIX/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk\n",
+  "caveats": null,
   "installed": [
 
   ],
@@ -143,32 +137,117 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": false,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/openjdk@11.rb",
-  "ruby_source_checksum": {
-    "sha256": "df4f5549c183fafc9f72d982791f48e7bc5150355b9f207cfa874dcff474efa6"
-  },
+  "tap_git_head": null,
   "variations": {
-    "x86_64_linux": {
+    "arm64_ventura": {
       "dependencies": [
         "giflib",
         "harfbuzz",
         "jpeg-turbo",
         "libpng",
-        "little-cms2",
-        "alsa-lib",
-        "fontconfig",
-        "freetype",
-        "libx11",
-        "libxext",
-        "libxrandr",
-        "libxrender",
-        "libxt",
-        "libxtst"
+        "little-cms2"
       ],
-      "caveats": null
+      "caveats": "For the system Java wrappers to find this JDK, symlink it with\n  sudo ln -sfn $(brew --prefix)/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk\n"
+    },
+    "arm64_monterey": {
+      "dependencies": [
+        "giflib",
+        "harfbuzz",
+        "jpeg-turbo",
+        "libpng",
+        "little-cms2"
+      ],
+      "caveats": "For the system Java wrappers to find this JDK, symlink it with\n  sudo ln -sfn $(brew --prefix)/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk\n"
+    },
+    "arm64_big_sur": {
+      "dependencies": [
+        "giflib",
+        "harfbuzz",
+        "jpeg-turbo",
+        "libpng",
+        "little-cms2"
+      ],
+      "caveats": "For the system Java wrappers to find this JDK, symlink it with\n  sudo ln -sfn $(brew --prefix)/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk\n"
+    },
+    "ventura": {
+      "dependencies": [
+        "giflib",
+        "harfbuzz",
+        "jpeg-turbo",
+        "libpng",
+        "little-cms2"
+      ],
+      "caveats": "For the system Java wrappers to find this JDK, symlink it with\n  sudo ln -sfn $(brew --prefix)/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk\n"
+    },
+    "monterey": {
+      "dependencies": [
+        "giflib",
+        "harfbuzz",
+        "jpeg-turbo",
+        "libpng",
+        "little-cms2"
+      ],
+      "caveats": "For the system Java wrappers to find this JDK, symlink it with\n  sudo ln -sfn $(brew --prefix)/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk\n"
+    },
+    "big_sur": {
+      "dependencies": [
+        "giflib",
+        "harfbuzz",
+        "jpeg-turbo",
+        "libpng",
+        "little-cms2"
+      ],
+      "caveats": "For the system Java wrappers to find this JDK, symlink it with\n  sudo ln -sfn $(brew --prefix)/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk\n"
+    },
+    "catalina": {
+      "dependencies": [
+        "giflib",
+        "harfbuzz",
+        "jpeg-turbo",
+        "libpng",
+        "little-cms2"
+      ],
+      "caveats": "For the system Java wrappers to find this JDK, symlink it with\n  sudo ln -sfn $(brew --prefix)/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk\n"
+    },
+    "mojave": {
+      "dependencies": [
+        "giflib",
+        "harfbuzz",
+        "jpeg-turbo",
+        "libpng",
+        "little-cms2"
+      ],
+      "caveats": "For the system Java wrappers to find this JDK, symlink it with\n  sudo ln -sfn $(brew --prefix)/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk\n"
+    },
+    "high_sierra": {
+      "dependencies": [
+        "giflib",
+        "harfbuzz",
+        "jpeg-turbo",
+        "libpng",
+        "little-cms2"
+      ],
+      "caveats": "For the system Java wrappers to find this JDK, symlink it with\n  sudo ln -sfn $(brew --prefix)/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk\n"
+    },
+    "sierra": {
+      "dependencies": [
+        "giflib",
+        "harfbuzz",
+        "jpeg-turbo",
+        "libpng",
+        "little-cms2"
+      ],
+      "caveats": "For the system Java wrappers to find this JDK, symlink it with\n  sudo ln -sfn $(brew --prefix)/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk\n"
+    },
+    "el_capitan": {
+      "dependencies": [
+        "giflib",
+        "harfbuzz",
+        "jpeg-turbo",
+        "libpng",
+        "little-cms2"
+      ],
+      "caveats": "For the system Java wrappers to find this JDK, symlink it with\n  sudo ln -sfn $(brew --prefix)/opt/openjdk@11/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-11.jdk\n"
     }
   }
 }

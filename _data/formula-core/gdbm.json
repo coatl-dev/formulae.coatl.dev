@@ -3,9 +3,6 @@
   "full_name": "gdbm",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
 
   ],
@@ -101,39 +98,17 @@
   "uses_from_macos": [
 
   ],
-  "uses_from_macos_bounds": [
-
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
 
   ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
-
-  ],
   "caveats": null,
   "installed": [
-    {
-      "version": "1.23",
-      "used_options": [
 
-      ],
-      "built_as_bottle": true,
-      "poured_from_bottle": true,
-      "time": 1671471881,
-      "runtime_dependencies": [
-
-      ],
-      "installed_as_dependency": false,
-      "installed_on_request": true
-    }
   ],
-  "linked_keg": "1.23",
+  "linked_keg": null,
   "pinned": false,
   "outdated": false,
   "deprecated": false,
@@ -142,13 +117,7 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": false,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/gdbm.rb",
-  "ruby_source_checksum": {
-    "sha256": "64ddc791b34a32109076ac13c5233b0dfadd2f7a8b3ce51dcf5efd68d6924660"
-  },
+  "tap_git_head": null,
   "variations": {
   }
 }
