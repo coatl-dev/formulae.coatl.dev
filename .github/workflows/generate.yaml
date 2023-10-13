@@ -26,14 +26,18 @@ jobs:
           brew tap coatl-dev/coatl-dev
 
       - run: |
-          ./script/generate-core.rb
+          ./script/generate.rb
 
       - run: |
-          ./script/generate.rb
+          ./script/generate-core.rb
 
       - name: Detect changes
         id: git-diff
         uses: coatl-dev/actions/simple-git-diff@v0
+
+      - if: ${{ success() && steps.git-diff.outputs.diff == 'true' }}
+        run: |
+          brew install gnupg
 
       - name: Import GPG key
         if: ${{ success() && steps.git-diff.outputs.diff == 'true' }}
