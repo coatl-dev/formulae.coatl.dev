@@ -1,3 +1,5 @@
+name: generate-site
+
 on:
   workflow_dispatch:
 
