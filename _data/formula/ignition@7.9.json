@@ -37,8 +37,11 @@
   "build_dependencies": [
     "unzip"
   ],
-  "dependencies": [
+  "core-dependencies": [
     "openjdk@8"
+  ],
+  "dependencies": [
+
   ],
   "test_dependencies": [
     "unzip"
