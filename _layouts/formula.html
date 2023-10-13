@@ -146,8 +146,11 @@ permalink: :title
 {%- include formulae.html formula_path=formula_path formulae=f.dependencies description="Depends on" -%}
 {%- include formulae.html formula_path=formula_core_path formulae=f.core_dependencies description="Depends on" -%}
 {%- include formulae.html formula_path=formula_path formulae=f.recommended_dependencies description="Depends on recommended" -%}
+{%- include formulae.html formula_path=formula_path formulae=f.core_recommended_dependencies description="Depends on recommended" -%}
 {%- include formulae.html formula_path=formula_path formulae=f.optional_dependencies description="Depends on optionally" -%}
+{%- include formulae.html formula_path=formula_path formulae=f.core_optional_dependencies description="Depends on optionally" -%}
 {%- include formulae.html formula_path=formula_path formulae=f.build_dependencies description="Depends on when building from source" -%}
+{%- include formulae.html formula_path=formula_path formulae=f.core_build_dependencies description="Depends on when building from source" -%}
 
 {%- if f.requirements.size > 0 %}
 <p>Requires:
@@ -216,113 +219,3 @@ permalink: :title
     </tr>
 </table>
 {%- endif %}
-
-<!--
-<p>Analytics (macOS):</p>
-<table>
-{%- assign intervals = "30d, 90d, 365d" | split: ", " -%}
-{%- for interval in intervals -%}
-    {%- assign interval_days = interval | replace: "d", " days" -%}
-    <tr>
-        <th colspan="2">Installs ({{ interval_days }})</th>
-    </tr>
-    {%- for fa in site.data.analytics.install.homebrew-core[interval].formulae[full_name] -%}
-    <tr>
-        <td><code>{{ fa.formula }}</code></td>
-        <td class="number-data">{{ fa.count }}</td>
-    </tr>
-    {%- else -%}
-    <tr>
-        <td><code>{{ full_name }}</code></td>
-        <td class="number-data">0</td>
-    </tr>
-    {%- endfor -%}
-
-    <tr>
-        <th colspan="2">Installs on Request ({{ interval_days }})</th>
-    </tr>
-    {%- for fa in site.data.analytics.install-on-request.homebrew-core[interval].formulae[full_name] -%}
-    <tr>
-        <td><code>{{ fa.formula }}</code></td>
-        <td class="number-data">{{ fa.count }}</td>
-    </tr>
-    {%- else -%}
-    <tr>
-        <td><code>{{ full_name }}</code></td>
-        <td class="number-data">0</td>
-    </tr>
-    {%- endfor -%}
-
-    {%- if forloop.first -%}
-    <tr>
-        <th colspan="2">Build Errors ({{ interval_days }})</th>
-    </tr>
-        {%- for fa in site.data.analytics.build-error.homebrew-core[interval].formulae[full_name] -%}
-    <tr>
-        <td><code>{{ fa.formula }}</code></td>
-        <td class="number-data">{{ fa.count }}</td>
-    </tr>
-        {%- else -%}
-    <tr>
-        <td><code>{{ full_name }}</code></td>
-        <td class="number-data">0</td>
-    </tr>
-        {%- endfor -%}
-    {%- endif -%}
-{%- endfor %}
-</table>
-
-<p>Analytics (Linux):</p>
-<table>
-{%- assign intervals = "30d, 90d, 365d" | split: ", " -%}
-{%- for interval in intervals -%}
-    {%- assign interval_days = interval | replace: "d", " days" -%}
-    <tr>
-        <th colspan="2">Installs ({{ interval_days }})</th>
-    </tr>
-    {%- for fa in site.data.analytics-linux.install.homebrew-core[interval].formulae[full_name] -%}
-    <tr>
-        <td><code>{{ fa.formula }}</code></td>
-        <td class="number-data">{{ fa.count }}</td>
-    </tr>
-    {%- else -%}
-    <tr>
-        <td><code>{{ full_name }}</code></td>
-        <td class="number-data">0</td>
-    </tr>
-    {%- endfor -%}
-
-    <tr>
-        <th colspan="2">Installs on Request ({{ interval_days }})</th>
-    </tr>
-    {%- for fa in site.data.analytics-linux.install-on-request.homebrew-core[interval].formulae[full_name] -%}
-    <tr>
-        <td><code>{{ fa.formula }}</code></td>
-        <td class="number-data">{{ fa.count }}</td>
-    </tr>
-    {%- else -%}
-    <tr>
-        <td><code>{{ full_name }}</code></td>
-        <td class="number-data">0</td>
-    </tr>
-    {%- endfor -%}
-
-    {%- if forloop.first -%}
-    <tr>
-        <th colspan="2">Build Errors ({{ interval_days }})</th>
-    </tr>
-        {%- for fa in site.data.analytics-linux.build-error.homebrew-core[interval].formulae[full_name] -%}
-    <tr>
-        <td><code>{{ fa.formula }}</code></td>
-        <td class="number-data">{{ fa.count }}</td>
-    </tr>
-        {%- else -%}
-    <tr>
-        <td><code>{{ full_name }}</code></td>
-        <td class="number-data">0</td>
-    </tr>
-        {%- endfor -%}
-    {%- endif -%}
-{%- endfor %}
-</table>
--->
