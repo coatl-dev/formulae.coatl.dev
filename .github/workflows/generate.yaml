@@ -5,16 +5,12 @@ on:
 
 jobs:
   generate-site:
-    runs-on: macos-latest
+    runs-on: ubuntu-latest
+
+    container: homebrew/brew:3.6.21
 
     steps:
       - uses: actions/checkout@v4
-
-      - name: Use brew<4
-        run: |
-          cd "$(brew --prefix)"
-          git checkout 3.6.21
-          pushd
 
       - run: |
           ./script/generate-core.rb
