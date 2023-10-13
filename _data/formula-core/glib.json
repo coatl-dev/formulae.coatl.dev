@@ -3,9 +3,6 @@
   "full_name": "glib",
   "tap": "homebrew/core",
   "oldname": "glib-utils",
-  "oldnames": [
-    "glib-utils"
-  ],
   "aliases": [
 
   ],
@@ -16,16 +13,16 @@
   "license": "LGPL-2.1-or-later",
   "homepage": "https://developer.gnome.org/glib/",
   "versions": {
-    "stable": "2.76.4",
+    "stable": "2.74.5",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://download.gnome.org/sources/glib/2.76/glib-2.76.4.tar.xz",
+      "url": "https://download.gnome.org/sources/glib/2.74/glib-2.74.5.tar.xz",
       "tag": null,
       "revision": null,
-      "checksum": "5a5a191c96836e166a7771f7ea6ca2b0069c603c7da3cba1cd38d1694a395dda"
+      "checksum": "ceba83a5999ceb31a4c4fc9921207cb9ffffd2ab1d6ec03c162d3f608a5c14c8"
     }
   },
   "revision": 0,
@@ -37,38 +34,38 @@
       "files": {
         "arm64_ventura": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:e5995be18147cbc766ee495c2d142f79b80cc18ac95c8eb3bce6613bcad88fe3",
-          "sha256": "e5995be18147cbc766ee495c2d142f79b80cc18ac95c8eb3bce6613bcad88fe3"
+          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:dbc8e8fdf0da9f4df7b4a3f576dd55ec4fc7504b71dbdfebaf4c380cb556815b",
+          "sha256": "dbc8e8fdf0da9f4df7b4a3f576dd55ec4fc7504b71dbdfebaf4c380cb556815b"
         },
         "arm64_monterey": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:896c0dc8792c0b66bbe4f8d7ef1afb238cc5ec5497b6fdf6fdc6a41dd7ad9d22",
-          "sha256": "896c0dc8792c0b66bbe4f8d7ef1afb238cc5ec5497b6fdf6fdc6a41dd7ad9d22"
+          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:2e24a0b4583ef8929a1792db8aad7199c446a5977f34b4626e5a1397a99b7413",
+          "sha256": "2e24a0b4583ef8929a1792db8aad7199c446a5977f34b4626e5a1397a99b7413"
         },
         "arm64_big_sur": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:9bca4592885168e2b79af41bb2dd9eac3f8e457336e58e91b3bf241fd3ae2b49",
-          "sha256": "9bca4592885168e2b79af41bb2dd9eac3f8e457336e58e91b3bf241fd3ae2b49"
+          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:69a7d4a0a7351ffcc5b83023a03c254da1769823a1677905f6cdb7665b86b64c",
+          "sha256": "69a7d4a0a7351ffcc5b83023a03c254da1769823a1677905f6cdb7665b86b64c"
         },
         "ventura": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:7dba59479146a060f0cfeeb37672cb11acf014949af6aef9c48782b2587eaea9",
-          "sha256": "7dba59479146a060f0cfeeb37672cb11acf014949af6aef9c48782b2587eaea9"
+          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:1140c54047010217eedaa2521373d7d5f23e5da6b286ab6da8c8331c46d3125e",
+          "sha256": "1140c54047010217eedaa2521373d7d5f23e5da6b286ab6da8c8331c46d3125e"
         },
         "monterey": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:103917b687194137ace386368814aee50becd21a9b897f52074c1c2849afaeda",
-          "sha256": "103917b687194137ace386368814aee50becd21a9b897f52074c1c2849afaeda"
+          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:042c7d6a678ebde2d5d5915e8853e0542a41dfb38adfd728e52f4fd69e0b9169",
+          "sha256": "042c7d6a678ebde2d5d5915e8853e0542a41dfb38adfd728e52f4fd69e0b9169"
         },
         "big_sur": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:d9cda9c26e072c2bc98063ff2d2fa035a6438d8640644050b7aaa17aa695e0be",
-          "sha256": "d9cda9c26e072c2bc98063ff2d2fa035a6438d8640644050b7aaa17aa695e0be"
+          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:6fa06fbb8ca2dfca1f445886ca0210efa5ed2827e9f53c79aa74ee5c9bde345e",
+          "sha256": "6fa06fbb8ca2dfca1f445886ca0210efa5ed2827e9f53c79aa74ee5c9bde345e"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:a66ad2580fe4a040cb0c0d51b37772d6d8df4b5505e2d6f6d87c82471d7adcaa",
-          "sha256": "a66ad2580fe4a040cb0c0d51b37772d6d8df4b5505e2d6f6d87c82471d7adcaa"
+          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:62d6d95b1e212b4f115b7e82fe928831701a4078b0e1ea8cfee12e1541d4e4d8",
+          "sha256": "62d6d95b1e212b4f115b7e82fe928831701a4078b0e1ea8cfee12e1541d4e4d8"
         }
       }
     }
@@ -79,6 +76,7 @@
 
   ],
   "build_dependencies": [
+    "xz",
     "gettext",
     "meson",
     "ninja",
@@ -86,10 +84,12 @@
   ],
   "dependencies": [
     "pcre2",
-    "gettext"
+    "libffi",
+    "python",
+    "util-linux"
   ],
   "test_dependencies": [
-
+    "xz"
   ],
   "recommended_dependencies": [
 
@@ -101,30 +101,11 @@
     "libffi",
     "python"
   ],
-  "uses_from_macos_bounds": [
-    {
-      "since": "catalina"
-    },
-    {
-      "since": "catalina"
-    }
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
 
-  ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
-    "bin/gdbus-codegen",
-    "bin/glib-genmarshal",
-    "bin/glib-mkenums",
-    "bin/gtester-report",
-    "share/glib-2.0/codegen",
-    "share/glib-2.0/gdb"
   ],
   "caveats": null,
   "installed": [
@@ -139,19 +120,80 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": true,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/glib.rb",
-  "ruby_source_checksum": {
-    "sha256": "a665f85661dbf3099784d03195f2b4b1fdaa7e572d4bbfba65e7dd885daffc7c"
-  },
+  "tap_git_head": null,
   "variations": {
-    "x86_64_linux": {
+    "arm64_ventura": {
       "dependencies": [
         "pcre2",
-        "dbus",
-        "util-linux"
+        "gettext"
+      ]
+    },
+    "arm64_monterey": {
+      "dependencies": [
+        "pcre2",
+        "gettext"
+      ]
+    },
+    "arm64_big_sur": {
+      "dependencies": [
+        "pcre2",
+        "gettext"
+      ]
+    },
+    "ventura": {
+      "dependencies": [
+        "pcre2",
+        "gettext"
+      ]
+    },
+    "monterey": {
+      "dependencies": [
+        "pcre2",
+        "gettext"
+      ]
+    },
+    "big_sur": {
+      "dependencies": [
+        "pcre2",
+        "gettext"
+      ]
+    },
+    "catalina": {
+      "dependencies": [
+        "pcre2",
+        "gettext"
+      ]
+    },
+    "mojave": {
+      "dependencies": [
+        "pcre2",
+        "libffi",
+        "python",
+        "gettext"
+      ]
+    },
+    "high_sierra": {
+      "dependencies": [
+        "pcre2",
+        "libffi",
+        "python",
+        "gettext"
+      ]
+    },
+    "sierra": {
+      "dependencies": [
+        "pcre2",
+        "libffi",
+        "python",
+        "gettext"
+      ]
+    },
+    "el_capitan": {
+      "dependencies": [
+        "pcre2",
+        "libffi",
+        "python",
+        "gettext"
       ]
     }
   }

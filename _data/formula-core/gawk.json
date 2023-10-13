@@ -3,9 +3,6 @@
   "full_name": "gawk",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
 
   ],
@@ -16,23 +13,23 @@
   "license": "GPL-3.0-or-later",
   "homepage": "https://www.gnu.org/software/gawk/",
   "versions": {
-    "stable": "5.2.2",
+    "stable": "5.2.1",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://ftp.gnu.org/gnu/gawk/gawk-5.2.2.tar.xz",
+      "url": "https://ftp.gnu.org/gnu/gawk/gawk-5.2.1.tar.xz",
       "tag": null,
       "revision": null,
-      "checksum": "3c1fce1446b4cbee1cd273bd7ec64bc87d89f61537471cd3e05e33a965a250e9"
+      "checksum": "673553b91f9e18cc5792ed51075df8d510c9040f550a6f74e09c9add243a7e4f"
     },
     "head": {
       "url": "https://git.savannah.gnu.org/git/gawk.git",
       "branch": "master"
     }
   },
-  "revision": 0,
+  "revision": 1,
   "version_scheme": 0,
   "bottle": {
     "stable": {
@@ -41,38 +38,38 @@
       "files": {
         "arm64_ventura": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/gawk/blobs/sha256:65f1eef20c9020d64d6e664d556d3b55cba583c3e64986dff74833176de62129",
-          "sha256": "65f1eef20c9020d64d6e664d556d3b55cba583c3e64986dff74833176de62129"
+          "url": "https://ghcr.io/v2/homebrew/core/gawk/blobs/sha256:398affcca2ae34f356319c04675a1f9dac987fe93c24b7e44f3de0c3f2f80578",
+          "sha256": "398affcca2ae34f356319c04675a1f9dac987fe93c24b7e44f3de0c3f2f80578"
         },
         "arm64_monterey": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/gawk/blobs/sha256:6a22d40e0864a6bd67522c0c1ebcefb92a08d4370ca11f47fd505c6cc26a58c7",
-          "sha256": "6a22d40e0864a6bd67522c0c1ebcefb92a08d4370ca11f47fd505c6cc26a58c7"
+          "url": "https://ghcr.io/v2/homebrew/core/gawk/blobs/sha256:9b5790b804bb252baff6d8fd36c72346b976ae6620d0a611da8dd259fe280937",
+          "sha256": "9b5790b804bb252baff6d8fd36c72346b976ae6620d0a611da8dd259fe280937"
         },
         "arm64_big_sur": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/gawk/blobs/sha256:3d7e64fc455d1cb077101b6be42ae8e4e595a94a2325eb14f4b2278f6dd05009",
-          "sha256": "3d7e64fc455d1cb077101b6be42ae8e4e595a94a2325eb14f4b2278f6dd05009"
+          "url": "https://ghcr.io/v2/homebrew/core/gawk/blobs/sha256:d36c8dde904dbc42ab10935b328bf5826a520df6f9116b6027d76bb6825480f7",
+          "sha256": "d36c8dde904dbc42ab10935b328bf5826a520df6f9116b6027d76bb6825480f7"
         },
         "ventura": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/gawk/blobs/sha256:aff1e481cdfb6f23d99e951a3b3b7efcb628141856666eb5d70d824125959031",
-          "sha256": "aff1e481cdfb6f23d99e951a3b3b7efcb628141856666eb5d70d824125959031"
+          "url": "https://ghcr.io/v2/homebrew/core/gawk/blobs/sha256:3ac715c614601790fd8330232db1152ce43b7faf4360b86a6c4abd0fbd589042",
+          "sha256": "3ac715c614601790fd8330232db1152ce43b7faf4360b86a6c4abd0fbd589042"
         },
         "monterey": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/gawk/blobs/sha256:36a97b5d58be2e0f4c59dd0a408d6508e13ebad9ca83c72e60ce9a94cc2d2d1b",
-          "sha256": "36a97b5d58be2e0f4c59dd0a408d6508e13ebad9ca83c72e60ce9a94cc2d2d1b"
+          "url": "https://ghcr.io/v2/homebrew/core/gawk/blobs/sha256:5b8c20dceb9faf67e9527a55b80b1b6238f8f1dc43519c5cc1f8637bd2d5520b",
+          "sha256": "5b8c20dceb9faf67e9527a55b80b1b6238f8f1dc43519c5cc1f8637bd2d5520b"
         },
         "big_sur": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/gawk/blobs/sha256:dac1bf3984e01fe1dd3ed03ecb98116eeaaf631a2a15d9417b55c4e8dd7a8e73",
-          "sha256": "dac1bf3984e01fe1dd3ed03ecb98116eeaaf631a2a15d9417b55c4e8dd7a8e73"
+          "url": "https://ghcr.io/v2/homebrew/core/gawk/blobs/sha256:05e3e4bfe065797628bba4e0c5239cbd6392690259ff6f0eed0c58a1cd880422",
+          "sha256": "05e3e4bfe065797628bba4e0c5239cbd6392690259ff6f0eed0c58a1cd880422"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/gawk/blobs/sha256:5dff4bf12d6526e57e13d81cdc9fd5273d0c52a83418fefa5411e4a50634fa20",
-          "sha256": "5dff4bf12d6526e57e13d81cdc9fd5273d0c52a83418fefa5411e4a50634fa20"
+          "url": "https://ghcr.io/v2/homebrew/core/gawk/blobs/sha256:cbf9ec54861af080e96532c8591ca2e9cf1347f3bcfdb7f70c92c1e35dcf2c48",
+          "sha256": "cbf9ec54861af080e96532c8591ca2e9cf1347f3bcfdb7f70c92c1e35dcf2c48"
         }
       }
     }
@@ -83,7 +80,7 @@
 
   ],
   "build_dependencies": [
-
+    "xz"
   ],
   "dependencies": [
     "gettext",
@@ -91,7 +88,7 @@
     "readline"
   ],
   "test_dependencies": [
-
+    "xz"
   ],
   "recommended_dependencies": [
 
@@ -102,22 +99,13 @@
   "uses_from_macos": [
 
   ],
-  "uses_from_macos_bounds": [
-
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
-
+    "awk"
   ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
-
-  ],
-  "caveats": "GNU \"awk\" has been installed as \"gawk\".\nIf you need to use it as \"awk\", you can add a \"gnubin\" directory\nto your PATH from your ~/.bashrc and/or ~/.zshrc like:\n\n    PATH=\"$HOMEBREW_PREFIX/opt/gawk/libexec/gnubin:$PATH\"\n",
+  "caveats": null,
   "installed": [
 
   ],
@@ -130,22 +118,73 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": false,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/gawk.rb",
-  "ruby_source_checksum": {
-    "sha256": "a54df8c67625993149bfdcc9b1c70345a12a5dc51e07389d67b10a61deeab301"
-  },
+  "tap_git_head": null,
   "variations": {
-    "x86_64_linux": {
+    "arm64_ventura": {
       "conflicts_with": [
-        "awk"
+
       ],
-      "conflicts_with_reasons": [
-        "both install an `awk` executable"
+      "caveats": "GNU \"awk\" has been installed as \"gawk\".\nIf you need to use it as \"awk\", you can add a \"gnubin\" directory\nto your PATH from your ~/.bashrc and/or ~/.zshrc like:\n\n    PATH=\"$(brew --prefix)/opt/gawk/libexec/gnubin:$PATH\"\n"
+    },
+    "arm64_monterey": {
+      "conflicts_with": [
+
       ],
-      "caveats": null
+      "caveats": "GNU \"awk\" has been installed as \"gawk\".\nIf you need to use it as \"awk\", you can add a \"gnubin\" directory\nto your PATH from your ~/.bashrc and/or ~/.zshrc like:\n\n    PATH=\"$(brew --prefix)/opt/gawk/libexec/gnubin:$PATH\"\n"
+    },
+    "arm64_big_sur": {
+      "conflicts_with": [
+
+      ],
+      "caveats": "GNU \"awk\" has been installed as \"gawk\".\nIf you need to use it as \"awk\", you can add a \"gnubin\" directory\nto your PATH from your ~/.bashrc and/or ~/.zshrc like:\n\n    PATH=\"$(brew --prefix)/opt/gawk/libexec/gnubin:$PATH\"\n"
+    },
+    "ventura": {
+      "conflicts_with": [
+
+      ],
+      "caveats": "GNU \"awk\" has been installed as \"gawk\".\nIf you need to use it as \"awk\", you can add a \"gnubin\" directory\nto your PATH from your ~/.bashrc and/or ~/.zshrc like:\n\n    PATH=\"$(brew --prefix)/opt/gawk/libexec/gnubin:$PATH\"\n"
+    },
+    "monterey": {
+      "conflicts_with": [
+
+      ],
+      "caveats": "GNU \"awk\" has been installed as \"gawk\".\nIf you need to use it as \"awk\", you can add a \"gnubin\" directory\nto your PATH from your ~/.bashrc and/or ~/.zshrc like:\n\n    PATH=\"$(brew --prefix)/opt/gawk/libexec/gnubin:$PATH\"\n"
+    },
+    "big_sur": {
+      "conflicts_with": [
+
+      ],
+      "caveats": "GNU \"awk\" has been installed as \"gawk\".\nIf you need to use it as \"awk\", you can add a \"gnubin\" directory\nto your PATH from your ~/.bashrc and/or ~/.zshrc like:\n\n    PATH=\"$(brew --prefix)/opt/gawk/libexec/gnubin:$PATH\"\n"
+    },
+    "catalina": {
+      "conflicts_with": [
+
+      ],
+      "caveats": "GNU \"awk\" has been installed as \"gawk\".\nIf you need to use it as \"awk\", you can add a \"gnubin\" directory\nto your PATH from your ~/.bashrc and/or ~/.zshrc like:\n\n    PATH=\"$(brew --prefix)/opt/gawk/libexec/gnubin:$PATH\"\n"
+    },
+    "mojave": {
+      "conflicts_with": [
+
+      ],
+      "caveats": "GNU \"awk\" has been installed as \"gawk\".\nIf you need to use it as \"awk\", you can add a \"gnubin\" directory\nto your PATH from your ~/.bashrc and/or ~/.zshrc like:\n\n    PATH=\"$(brew --prefix)/opt/gawk/libexec/gnubin:$PATH\"\n"
+    },
+    "high_sierra": {
+      "conflicts_with": [
+
+      ],
+      "caveats": "GNU \"awk\" has been installed as \"gawk\".\nIf you need to use it as \"awk\", you can add a \"gnubin\" directory\nto your PATH from your ~/.bashrc and/or ~/.zshrc like:\n\n    PATH=\"$(brew --prefix)/opt/gawk/libexec/gnubin:$PATH\"\n"
+    },
+    "sierra": {
+      "conflicts_with": [
+
+      ],
+      "caveats": "GNU \"awk\" has been installed as \"gawk\".\nIf you need to use it as \"awk\", you can add a \"gnubin\" directory\nto your PATH from your ~/.bashrc and/or ~/.zshrc like:\n\n    PATH=\"$(brew --prefix)/opt/gawk/libexec/gnubin:$PATH\"\n"
+    },
+    "el_capitan": {
+      "conflicts_with": [
+
+      ],
+      "caveats": "GNU \"awk\" has been installed as \"gawk\".\nIf you need to use it as \"awk\", you can add a \"gnubin\" directory\nto your PATH from your ~/.bashrc and/or ~/.zshrc like:\n\n    PATH=\"$(brew --prefix)/opt/gawk/libexec/gnubin:$PATH\"\n"
     }
   }
 }

@@ -3,9 +3,6 @@
   "full_name": "coatl-dev/coatl-dev/ignition",
   "tap": "coatl-dev/coatl-dev",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
     "ignition@8.1"
   ],
@@ -16,16 +13,16 @@
   "license": "Cannot Represent",
   "homepage": "https://inductiveautomation.com/",
   "versions": {
-    "stable": "8.1.30",
+    "stable": "8.1.32",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://files.inductiveautomation.com/release/ia/8.1.30/20230714-0908/Ignition-macOs-x86-64-8.1.30.zip",
+      "url": "https://files.inductiveautomation.com/release/ia/8.1.32/20230912-1210/Ignition-linux-x86-64-8.1.32.zip",
       "tag": null,
       "revision": null,
-      "checksum": "72cea3ddedd34a62b6172fd45d3ecd819b30478194d94a00f112fece08cc7918"
+      "checksum": "d1a6f0fc06fa69cf28d71b2e5047b174c5a0282b8b604f82e4934e45a8884efc"
     }
   },
   "revision": 0,
@@ -38,13 +35,13 @@
 
   ],
   "build_dependencies": [
-
+    "unzip"
   ],
   "dependencies": [
 
   ],
   "test_dependencies": [
-
+    "unzip"
   ],
   "recommended_dependencies": [
 
@@ -55,39 +52,17 @@
   "uses_from_macos": [
 
   ],
-  "uses_from_macos_bounds": [
-
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
 
   ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
-
-  ],
-  "caveats": "The data and logs folders have been symlinked to:\n  data: $HOMEBREW_PREFIX/etc/ignition\n  logs: $HOMEBREW_PREFIX/var/ignition\n",
+  "caveats": "The data and logs folders have been symlinked to:\n  data: $(brew --prefix)/etc/ignition\n  logs: $(brew --prefix)/var/ignition\n",
   "installed": [
-    {
-      "version": "8.1.30",
-      "used_options": [
 
-      ],
-      "built_as_bottle": false,
-      "poured_from_bottle": false,
-      "time": 1689371197,
-      "runtime_dependencies": [
-
-      ],
-      "installed_as_dependency": false,
-      "installed_on_request": true
-    }
   ],
-  "linked_keg": "8.1.30",
+  "linked_keg": null,
   "pinned": false,
   "outdated": false,
   "deprecated": false,
@@ -96,13 +71,7 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": true,
-  "service": null,
-  "tap_git_head": "5fb275ced4afe173fd46b100169c92b06a300f7f",
-  "ruby_source_path": "Formula/ignition.rb",
-  "ruby_source_checksum": {
-    "sha256": "9ff441eaf21b4d39d619fa51cac405ea51f16a6aad9c7d443e509f924201ae2a"
-  },
+  "tap_git_head": "cf4a20030ebc3dccbf1d5559a884fb00db5940f6",
   "variations": {
   }
 }

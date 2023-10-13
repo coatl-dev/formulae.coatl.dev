@@ -3,9 +3,6 @@
   "full_name": "luv",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
 
   ],
@@ -16,16 +13,16 @@
   "license": "Apache-2.0",
   "homepage": "https://github.com/luvit/luv",
   "versions": {
-    "stable": "1.45.0-0",
+    "stable": "1.44.2-1",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/luvit/luv/archive/1.45.0-0.tar.gz",
+      "url": "https://github.com/luvit/luv/archive/1.44.2-1.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "97e89940f9eeaa8dfb34f1c19f80dd373299c42719d15228ec790f415d4e4965"
+      "checksum": "f8c69908e17ec8ab370253d1508e23deaecfc0c4752d2efb77e427e579501104"
     },
     "head": {
       "url": "https://github.com/luvit/luv.git",
@@ -41,38 +38,43 @@
       "files": {
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:bc38c2dbc804c17b0a4896f4723ded25e18c2a935363ecb65d1a28c6382442d6",
-          "sha256": "bc38c2dbc804c17b0a4896f4723ded25e18c2a935363ecb65d1a28c6382442d6"
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:7c8432625ecd382168eac3d0bc3615519528a8e338f8f33ee0c6761bf9f5dd65",
+          "sha256": "7c8432625ecd382168eac3d0bc3615519528a8e338f8f33ee0c6761bf9f5dd65"
         },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:7835da93f476691806ff0417a9ff5a7406843f0e4137b8dec0a764931108cfa6",
-          "sha256": "7835da93f476691806ff0417a9ff5a7406843f0e4137b8dec0a764931108cfa6"
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:1d5aaf149019d3d775b093efaa51fda452248eccf109e961325d0a8de917f947",
+          "sha256": "1d5aaf149019d3d775b093efaa51fda452248eccf109e961325d0a8de917f947"
         },
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:7cccaa909a9ecfbac491aaa0fc00d294d46d6fd3eea6b789e3dc607e73abb09f",
-          "sha256": "7cccaa909a9ecfbac491aaa0fc00d294d46d6fd3eea6b789e3dc607e73abb09f"
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:ce3cf05ca363a0978151a8f1ae096bb1d13d26718d2dfc25c3618e6156a4f6e2",
+          "sha256": "ce3cf05ca363a0978151a8f1ae096bb1d13d26718d2dfc25c3618e6156a4f6e2"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:c00db5a8ec11d0c36eb1052da3f44959f0f14378bb2a0737decbc4d400ba8da0",
-          "sha256": "c00db5a8ec11d0c36eb1052da3f44959f0f14378bb2a0737decbc4d400ba8da0"
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:f3b9a7e332ee5024fcac9edc7ca8a9a17811033d3c0cf7f972bb6252bd6d7051",
+          "sha256": "f3b9a7e332ee5024fcac9edc7ca8a9a17811033d3c0cf7f972bb6252bd6d7051"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:801b05eb51a0a988a21233a0230fa21ff135255e8253cf07e6aa5a08c5719424",
-          "sha256": "801b05eb51a0a988a21233a0230fa21ff135255e8253cf07e6aa5a08c5719424"
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:1644986934f6275f3f7f632e074cdc9866ad3c2b83661035cd99f5f7912831c9",
+          "sha256": "1644986934f6275f3f7f632e074cdc9866ad3c2b83661035cd99f5f7912831c9"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:fb2f8280793423f81065a62eec51b377062e8f50d1ffbdcd468150be632a80d4",
-          "sha256": "fb2f8280793423f81065a62eec51b377062e8f50d1ffbdcd468150be632a80d4"
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:4c93fce6a32d76a35e365d1fb23b08c3bcfaf0de2426f8490d38128c9d2d8781",
+          "sha256": "4c93fce6a32d76a35e365d1fb23b08c3bcfaf0de2426f8490d38128c9d2d8781"
+        },
+        "catalina": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:c2d5d6718df8309860cd392047a071770d3c298f29a441f4639d47d909cd873a",
+          "sha256": "c2d5d6718df8309860cd392047a071770d3c298f29a441f4639d47d909cd873a"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:32cc9dc86b05ccb035107f6836a9c7374792c4a1a2438eab15f104d9626b3a73",
-          "sha256": "32cc9dc86b05ccb035107f6836a9c7374792c4a1a2438eab15f104d9626b3a73"
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:4c1bd86d334299bd8b6af4f0d4080f2b5dab6033778e65a90424be090f10374b",
+          "sha256": "4c1bd86d334299bd8b6af4f0d4080f2b5dab6033778e65a90424be090f10374b"
         }
       }
     }
@@ -103,19 +105,10 @@
   "uses_from_macos": [
 
   ],
-  "uses_from_macos_bounds": [
-
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
-
-  ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
 
   ],
   "caveats": null,
@@ -131,13 +124,7 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": false,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/luv.rb",
-  "ruby_source_checksum": {
-    "sha256": "018f38d885fa1b0953c38e14a154aba28f7ed0e8d5ebe04659a7e0a162a39b24"
-  },
+  "tap_git_head": null,
   "variations": {
   }
 }

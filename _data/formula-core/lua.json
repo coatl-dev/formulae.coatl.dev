@@ -3,9 +3,6 @@
   "full_name": "lua",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
     "lua@5.4"
   ],
@@ -17,19 +14,19 @@
   "license": "MIT",
   "homepage": "https://www.lua.org/",
   "versions": {
-    "stable": "5.4.6",
+    "stable": "5.4.4",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://www.lua.org/ftp/lua-5.4.6.tar.gz",
+      "url": "https://www.lua.org/ftp/lua-5.4.4.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "7d5ea1b9cb6aa0b59ca3dde1c6adcb57ef83a1ba8e5432c0ecd06bf439b3ad88"
+      "checksum": "164c7849653b80ae67bec4b7473b884bf5cc8d2dca05653475ec2ed27b9ebf61"
     }
   },
-  "revision": 0,
+  "revision": 1,
   "version_scheme": 0,
   "bottle": {
     "stable": {
@@ -38,38 +35,43 @@
       "files": {
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/lua/blobs/sha256:8d0982a83cf18477e039858ae1d8b2393758f2d78a6bb3aaf14379af8973a5d9",
-          "sha256": "8d0982a83cf18477e039858ae1d8b2393758f2d78a6bb3aaf14379af8973a5d9"
+          "url": "https://ghcr.io/v2/homebrew/core/lua/blobs/sha256:c26caf8003f23124219d6f35ce9b49f39471d40d31527dd393ac2ffe5fd376c5",
+          "sha256": "c26caf8003f23124219d6f35ce9b49f39471d40d31527dd393ac2ffe5fd376c5"
         },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/lua/blobs/sha256:f2f26a580bc00fdb0babd48810eaa4eb8cdc9fb28706ff49e8c4178afac6ebf1",
-          "sha256": "f2f26a580bc00fdb0babd48810eaa4eb8cdc9fb28706ff49e8c4178afac6ebf1"
+          "url": "https://ghcr.io/v2/homebrew/core/lua/blobs/sha256:a68739b34434711be8213dd5f0b005675534967195b04b9c6ed2f60e05a362fe",
+          "sha256": "a68739b34434711be8213dd5f0b005675534967195b04b9c6ed2f60e05a362fe"
         },
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/lua/blobs/sha256:42984d1fbac9444e75a4713d62e28fef139dc539fdbc9ab260738c8bc153547c",
-          "sha256": "42984d1fbac9444e75a4713d62e28fef139dc539fdbc9ab260738c8bc153547c"
+          "url": "https://ghcr.io/v2/homebrew/core/lua/blobs/sha256:87f8fc36f2f97b92016304ae6d25bd197ed4f5275966c6cf1b28a1181cc20b64",
+          "sha256": "87f8fc36f2f97b92016304ae6d25bd197ed4f5275966c6cf1b28a1181cc20b64"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/lua/blobs/sha256:9b7170b3d84e70b9e89f356355744a277718ffcbee6a1b385ec6431d7ada2da2",
-          "sha256": "9b7170b3d84e70b9e89f356355744a277718ffcbee6a1b385ec6431d7ada2da2"
+          "url": "https://ghcr.io/v2/homebrew/core/lua/blobs/sha256:79410ebb95a2027d0785a52b9c02ef0bde46a0033c1be5fb4c97339e09e906a0",
+          "sha256": "79410ebb95a2027d0785a52b9c02ef0bde46a0033c1be5fb4c97339e09e906a0"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/lua/blobs/sha256:d3f55cd3b4122bfa85992aab125205041379f99879d90740d62f054498cba97d",
-          "sha256": "d3f55cd3b4122bfa85992aab125205041379f99879d90740d62f054498cba97d"
+          "url": "https://ghcr.io/v2/homebrew/core/lua/blobs/sha256:ef899efde91007b9c02f61a8fd4519893e271edb89c03f0c4a7f201f288dae1b",
+          "sha256": "ef899efde91007b9c02f61a8fd4519893e271edb89c03f0c4a7f201f288dae1b"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/lua/blobs/sha256:e16b7d9390a3906a71d419b840ff81486607dcf557d1c35a03aee2f4b20b538b",
-          "sha256": "e16b7d9390a3906a71d419b840ff81486607dcf557d1c35a03aee2f4b20b538b"
+          "url": "https://ghcr.io/v2/homebrew/core/lua/blobs/sha256:55abe1007284d39071736eff023495e1a483675586414ed8504cd9507ae0d67f",
+          "sha256": "55abe1007284d39071736eff023495e1a483675586414ed8504cd9507ae0d67f"
+        },
+        "catalina": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lua/blobs/sha256:c8cab606ce17da91d120b87f8efaddf80041e22ec601e10242fb543c805d4fbc",
+          "sha256": "c8cab606ce17da91d120b87f8efaddf80041e22ec601e10242fb543c805d4fbc"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/lua/blobs/sha256:035de73c3dd1a67be2767da79c1fea114132ccc8965c3536113e7477d3b70d42",
-          "sha256": "035de73c3dd1a67be2767da79c1fea114132ccc8965c3536113e7477d3b70d42"
+          "url": "https://ghcr.io/v2/homebrew/core/lua/blobs/sha256:a94fd6e24f1b0ba6bb6a0c849c2fbfa6acedde81ef3e2c12fb80dcda791f01e2",
+          "sha256": "a94fd6e24f1b0ba6bb6a0c849c2fbfa6acedde81ef3e2c12fb80dcda791f01e2"
         }
       }
     }
@@ -80,10 +82,10 @@
 
   ],
   "build_dependencies": [
-
+    "unzip"
   ],
   "dependencies": [
-
+    "readline"
   ],
   "test_dependencies": [
 
@@ -99,20 +101,10 @@
       "unzip": "build"
     }
   ],
-  "uses_from_macos_bounds": [
-    {
-    }
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
-
-  ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
 
   ],
   "caveats": "You may also want luarocks:\n  brew install luarocks\n",
@@ -128,17 +120,94 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": false,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/lua.rb",
-  "ruby_source_checksum": {
-    "sha256": "d62ea64641a016be72942f65d52ac575f3635271f5e3487dc454bbf5cfdae7cc"
-  },
+  "tap_git_head": null,
   "variations": {
-    "x86_64_linux": {
+    "arm64_ventura": {
+      "build_dependencies": [
+
+      ],
       "dependencies": [
-        "readline"
+
+      ]
+    },
+    "arm64_monterey": {
+      "build_dependencies": [
+
+      ],
+      "dependencies": [
+
+      ]
+    },
+    "arm64_big_sur": {
+      "build_dependencies": [
+
+      ],
+      "dependencies": [
+
+      ]
+    },
+    "ventura": {
+      "build_dependencies": [
+
+      ],
+      "dependencies": [
+
+      ]
+    },
+    "monterey": {
+      "build_dependencies": [
+
+      ],
+      "dependencies": [
+
+      ]
+    },
+    "big_sur": {
+      "build_dependencies": [
+
+      ],
+      "dependencies": [
+
+      ]
+    },
+    "catalina": {
+      "build_dependencies": [
+
+      ],
+      "dependencies": [
+
+      ]
+    },
+    "mojave": {
+      "build_dependencies": [
+
+      ],
+      "dependencies": [
+
+      ]
+    },
+    "high_sierra": {
+      "build_dependencies": [
+
+      ],
+      "dependencies": [
+
+      ]
+    },
+    "sierra": {
+      "build_dependencies": [
+
+      ],
+      "dependencies": [
+
+      ]
+    },
+    "el_capitan": {
+      "build_dependencies": [
+
+      ],
+      "dependencies": [
+
       ]
     }
   }

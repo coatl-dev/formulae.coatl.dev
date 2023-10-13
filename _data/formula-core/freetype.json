@@ -3,9 +3,6 @@
   "full_name": "freetype",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
     "freetype2"
   ],
@@ -16,16 +13,16 @@
   "license": "FTL",
   "homepage": "https://www.freetype.org/",
   "versions": {
-    "stable": "2.13.1",
+    "stable": "2.12.1",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://downloads.sourceforge.net/project/freetype/freetype2/2.13.1/freetype-2.13.1.tar.xz",
+      "url": "https://downloads.sourceforge.net/project/freetype/freetype2/2.12.1/freetype-2.12.1.tar.xz",
       "tag": null,
       "revision": null,
-      "checksum": "ea67e3b019b1104d1667aa274f5dc307d8cbd606b399bc32df308a77f1a564bf"
+      "checksum": "4766f20157cc4cf0cd292f80bf917f92d1c439b243ac3018debf6b9140c41a7f"
     }
   },
   "revision": 0,
@@ -37,38 +34,43 @@
       "files": {
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:87a44e9a361f9dcc531514c9e34b6da2893a4650c60419eed7331d8a92daa8a1",
-          "sha256": "87a44e9a361f9dcc531514c9e34b6da2893a4650c60419eed7331d8a92daa8a1"
+          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:f91e2b53f5f3753508ba81d17a01974285b90696033053837fbe20aac876883f",
+          "sha256": "f91e2b53f5f3753508ba81d17a01974285b90696033053837fbe20aac876883f"
         },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:99f7cb3ebf9309e1734391611c7fab4b2dfe48fe2b0dc484f2e0476b913e958e",
-          "sha256": "99f7cb3ebf9309e1734391611c7fab4b2dfe48fe2b0dc484f2e0476b913e958e"
+          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:3e190f2fa02702aa86e46cf33e7dde1d93e879f1de38f3d1b61e301f8367136d",
+          "sha256": "3e190f2fa02702aa86e46cf33e7dde1d93e879f1de38f3d1b61e301f8367136d"
         },
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:5aad113162129820c2926641a203db43139f0bf9dc2d7ae1b8f090ab29fb7011",
-          "sha256": "5aad113162129820c2926641a203db43139f0bf9dc2d7ae1b8f090ab29fb7011"
+          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:deb09510fb83adf76d9bb0d4ac4a3d3a2ddfff0d0154e09d3719edb73b058278",
+          "sha256": "deb09510fb83adf76d9bb0d4ac4a3d3a2ddfff0d0154e09d3719edb73b058278"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:872745894238fce7dba35a0add31b49b7c53150d9b7ee22a010104f0795895d2",
-          "sha256": "872745894238fce7dba35a0add31b49b7c53150d9b7ee22a010104f0795895d2"
+          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:845ec00b1ba8e57841751de476e9f706536ed54c5d38fa10e8c0b0329a69b5f1",
+          "sha256": "845ec00b1ba8e57841751de476e9f706536ed54c5d38fa10e8c0b0329a69b5f1"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:57eae05744e50fab0dd3860af6b683bce245a65721e11d745c771432c5df0629",
-          "sha256": "57eae05744e50fab0dd3860af6b683bce245a65721e11d745c771432c5df0629"
+          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:3d4afd3f040571ea464c7afc010be38faf77665f919a79f557369d2eceee13d1",
+          "sha256": "3d4afd3f040571ea464c7afc010be38faf77665f919a79f557369d2eceee13d1"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:ae5f6d23acb94cd01039a950cdcc99917641fbdb1171f5aa3c78bafc5317c3c4",
-          "sha256": "ae5f6d23acb94cd01039a950cdcc99917641fbdb1171f5aa3c78bafc5317c3c4"
+          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:69a5d61245af56e6b088986b16c6e5b842c3d4f5896c34e013341ca94f4a45d1",
+          "sha256": "69a5d61245af56e6b088986b16c6e5b842c3d4f5896c34e013341ca94f4a45d1"
+        },
+        "catalina": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:cafa6fee3a0ca54b1659f433667a145acef2c2d2061292d2f8bc088db7f0ea4f",
+          "sha256": "cafa6fee3a0ca54b1659f433667a145acef2c2d2061292d2f8bc088db7f0ea4f"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:07fec4ca74409c33e6d572a7027040a4acbd72527b4eb0a21e5d7e734fbcb7f0",
-          "sha256": "07fec4ca74409c33e6d572a7027040a4acbd72527b4eb0a21e5d7e734fbcb7f0"
+          "url": "https://ghcr.io/v2/homebrew/core/freetype/blobs/sha256:43be70d09e51402bb453d491d69021af20f0d0c5154092bd5571b365673d4e2f",
+          "sha256": "43be70d09e51402bb453d491d69021af20f0d0c5154092bd5571b365673d4e2f"
         }
       }
     }
@@ -79,13 +81,15 @@
 
   ],
   "build_dependencies": [
-    "pkg-config"
+    "xz"
   ],
   "dependencies": [
-    "libpng"
+    "libpng",
+    "bzip2",
+    "zlib"
   ],
   "test_dependencies": [
-
+    "xz"
   ],
   "recommended_dependencies": [
 
@@ -97,22 +101,10 @@
     "bzip2",
     "zlib"
   ],
-  "uses_from_macos_bounds": [
-    {
-    },
-    {
-    }
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
-
-  ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
 
   ],
   "caveats": null,
@@ -128,13 +120,7 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": false,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/freetype.rb",
-  "ruby_source_checksum": {
-    "sha256": "402906af158e8842181c956345faf04f83adc7d37b3de7deb0841d5349664e6d"
-  },
+  "tap_git_head": null,
   "variations": {
   }
 }

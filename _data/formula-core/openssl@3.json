@@ -3,34 +3,29 @@
   "full_name": "openssl@3",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
-    "openssl",
-    "openssl@3.1"
+    "openssl"
   ],
   "versioned_formulae": [
-    "openssl@3.0",
     "openssl@1.1"
   ],
   "desc": "Cryptography and SSL/TLS Toolkit",
   "license": "Apache-2.0",
   "homepage": "https://openssl.org/",
   "versions": {
-    "stable": "3.1.1",
+    "stable": "3.0.7",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://www.openssl.org/source/openssl-3.1.1.tar.gz",
+      "url": "https://www.openssl.org/source/openssl-3.0.7.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "b3aa61334233b852b63ddb048df181177c2c659eb9d4376008118f9c08d07674"
+      "checksum": "83049d042a260e696f62406ac5c08bf706fd84383f945cf21bd61e9ed95c396e"
     }
   },
-  "revision": 1,
+  "revision": 0,
   "version_scheme": 0,
   "bottle": {
     "stable": {
@@ -39,44 +34,52 @@
       "files": {
         "arm64_ventura": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:c4366444ddd5f55ff7dc1cb24a81c01f6ba946e255556af9c641da17142d472e",
-          "sha256": "c4366444ddd5f55ff7dc1cb24a81c01f6ba946e255556af9c641da17142d472e"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:5b3d605f5c1fcadfea094c5670091e4bec2b2de7c121874be166bc737ef64ccf",
+          "sha256": "5b3d605f5c1fcadfea094c5670091e4bec2b2de7c121874be166bc737ef64ccf"
         },
         "arm64_monterey": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:36b1a4b62c08bb2bf6cd013d952d26cb10bdee3306ae95178b86cd9d661363e0",
-          "sha256": "36b1a4b62c08bb2bf6cd013d952d26cb10bdee3306ae95178b86cd9d661363e0"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:aaa47bcc0e7727e655af43748c77f580b1379403010177aab47978b737180295",
+          "sha256": "aaa47bcc0e7727e655af43748c77f580b1379403010177aab47978b737180295"
         },
         "arm64_big_sur": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:6d2ec66dd29a9e5fb070c8c6f773ba9e5d50a4beef0bd96ee96e73c17a26c3bc",
-          "sha256": "6d2ec66dd29a9e5fb070c8c6f773ba9e5d50a4beef0bd96ee96e73c17a26c3bc"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:c84729c8726b7934f0a63d75fd2dce795c948f9b7ec29f9681f667de90b73f16",
+          "sha256": "c84729c8726b7934f0a63d75fd2dce795c948f9b7ec29f9681f667de90b73f16"
         },
         "ventura": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:a123a680d5fd22d094e2337101d3c8f8b8f78960c9ad4f07abbe3b025b8d36ff",
-          "sha256": "a123a680d5fd22d094e2337101d3c8f8b8f78960c9ad4f07abbe3b025b8d36ff"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:3fe02c4f33f395b1ff0af0e05fdac80ab09fc13e85236f33a2aecb105a83d996",
+          "sha256": "3fe02c4f33f395b1ff0af0e05fdac80ab09fc13e85236f33a2aecb105a83d996"
         },
         "monterey": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:7d21b114cdeb9c924f3efa5ba6e120c6a852b0c7be0dda71354f6704b02e4883",
-          "sha256": "7d21b114cdeb9c924f3efa5ba6e120c6a852b0c7be0dda71354f6704b02e4883"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:8501aeeab59c63a75dd14c1b836269a6effb08058ec7afb35313f954b40d78c3",
+          "sha256": "8501aeeab59c63a75dd14c1b836269a6effb08058ec7afb35313f954b40d78c3"
         },
         "big_sur": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:50c7448f726762394d63abe2722acee2a426d8fd1a8101504ad7c8dfc44bca31",
-          "sha256": "50c7448f726762394d63abe2722acee2a426d8fd1a8101504ad7c8dfc44bca31"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:a8231d898ef9e61de88fc916ed316e58862ef04f1f17563b2f6247fcc894247f",
+          "sha256": "a8231d898ef9e61de88fc916ed316e58862ef04f1f17563b2f6247fcc894247f"
+        },
+        "catalina": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:11f2d168758de4ac078c5799f2ce0fcc93e4f0c3d8b59e6f53eea700dfa02e83",
+          "sha256": "11f2d168758de4ac078c5799f2ce0fcc93e4f0c3d8b59e6f53eea700dfa02e83"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:1231b6b95a6c55e775258b4c19b3babbc504a065b984ec6df9d960cf7ffc947b",
-          "sha256": "1231b6b95a6c55e775258b4c19b3babbc504a065b984ec6df9d960cf7ffc947b"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:1c2ee30c067e2a81dfa1d4f539c91fa278816a45c5d59ff798ec437a5de82f9c",
+          "sha256": "1c2ee30c067e2a81dfa1d4f539c91fa278816a45c5d59ff798ec437a5de82f9c"
         }
       }
     }
   },
-  "keg_only": false,
-  "keg_only_reason": null,
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": "it conflicts with the `openssl@1.1` formula",
+    "explanation": ""
+  },
   "options": [
 
   ],
@@ -98,52 +101,17 @@
   "uses_from_macos": [
 
   ],
-  "uses_from_macos_bounds": [
-
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
 
   ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
-    "bin/c_rehash",
-    "bin/openssl",
-    "include/openssl/*",
-    "lib/libcrypto*",
-    "lib/libssl*",
-    "lib/pkgconfig/libcrypto.pc",
-    "lib/pkgconfig/libssl.pc",
-    "lib/pkgconfig/openssl.pc",
-    "share/doc/openssl/*",
-    "share/man/man*/*ssl"
-  ],
-  "caveats": "A CA file has been bootstrapped using certificates from the system\nkeychain. To add additional certificates, place .pem files in\n  $HOMEBREW_PREFIX/etc/openssl@3/certs\n\nand run\n  $HOMEBREW_PREFIX/opt/openssl@3/bin/c_rehash\n",
+  "caveats": "A CA file has been bootstrapped using certificates from the system\nkeychain. To add additional certificates, place .pem files in\n  $(brew --prefix)/etc/openssl@3/certs\n\nand run\n  $(brew --prefix)/opt/openssl@3/bin/c_rehash\n",
   "installed": [
-    {
-      "version": "3.1.1_1",
-      "used_options": [
 
-      ],
-      "built_as_bottle": true,
-      "poured_from_bottle": true,
-      "time": 1687996810,
-      "runtime_dependencies": [
-        {
-          "full_name": "ca-certificates",
-          "version": "2023-05-30",
-          "declared_directly": true
-        }
-      ],
-      "installed_as_dependency": false,
-      "installed_on_request": true
-    }
   ],
-  "linked_keg": "3.1.1_1",
+  "linked_keg": null,
   "pinned": false,
   "outdated": false,
   "deprecated": false,
@@ -152,13 +120,84 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": true,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/openssl@3.rb",
-  "ruby_source_checksum": {
-    "sha256": "8e8a9c348a823b82cb443b542f9178fd0e497d94c649afbf4cf2f8069ecf1e3e"
-  },
+  "tap_git_head": null,
   "variations": {
+    "arm64_ventura": {
+      "keg_only": false,
+      "keg_only_reason": {
+        "reason": ":shadowed_by_macos",
+        "explanation": "macOS provides LibreSSL"
+      }
+    },
+    "arm64_monterey": {
+      "keg_only": false,
+      "keg_only_reason": {
+        "reason": ":shadowed_by_macos",
+        "explanation": "macOS provides LibreSSL"
+      }
+    },
+    "arm64_big_sur": {
+      "keg_only": false,
+      "keg_only_reason": {
+        "reason": ":shadowed_by_macos",
+        "explanation": "macOS provides LibreSSL"
+      }
+    },
+    "ventura": {
+      "keg_only": false,
+      "keg_only_reason": {
+        "reason": ":shadowed_by_macos",
+        "explanation": "macOS provides LibreSSL"
+      }
+    },
+    "monterey": {
+      "keg_only": false,
+      "keg_only_reason": {
+        "reason": ":shadowed_by_macos",
+        "explanation": "macOS provides LibreSSL"
+      }
+    },
+    "big_sur": {
+      "keg_only": false,
+      "keg_only_reason": {
+        "reason": ":shadowed_by_macos",
+        "explanation": "macOS provides LibreSSL"
+      }
+    },
+    "catalina": {
+      "keg_only": false,
+      "keg_only_reason": {
+        "reason": ":shadowed_by_macos",
+        "explanation": "macOS provides LibreSSL"
+      }
+    },
+    "mojave": {
+      "keg_only": false,
+      "keg_only_reason": {
+        "reason": ":shadowed_by_macos",
+        "explanation": "macOS provides LibreSSL"
+      }
+    },
+    "high_sierra": {
+      "keg_only": false,
+      "keg_only_reason": {
+        "reason": ":shadowed_by_macos",
+        "explanation": "macOS provides LibreSSL"
+      }
+    },
+    "sierra": {
+      "keg_only": false,
+      "keg_only_reason": {
+        "reason": ":shadowed_by_macos",
+        "explanation": "macOS provides LibreSSL"
+      }
+    },
+    "el_capitan": {
+      "keg_only": false,
+      "keg_only_reason": {
+        "reason": ":shadowed_by_macos",
+        "explanation": "macOS provides LibreSSL"
+      }
+    }
   }
 }

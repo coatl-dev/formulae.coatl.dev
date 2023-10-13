@@ -3,9 +3,6 @@
   "full_name": "python@3.9",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
 
   ],
@@ -19,19 +16,19 @@
   "license": "Python-2.0",
   "homepage": "https://www.python.org/",
   "versions": {
-    "stable": "3.9.17",
+    "stable": "3.9.16",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://www.python.org/ftp/python/3.9.17/Python-3.9.17.tar.xz",
+      "url": "https://www.python.org/ftp/python/3.9.16/Python-3.9.16.tar.xz",
       "tag": null,
       "revision": null,
-      "checksum": "30ce057c44f283f8ed93606ccbdb8d51dd526bdc4c62cce5e0dc217bfa3e8cee"
+      "checksum": "22dddc099246dd2760665561e8adb7394ea0cc43a72684c6480f9380f7786439"
     }
   },
-  "revision": 1,
+  "revision": 0,
   "version_scheme": 0,
   "bottle": {
     "stable": {
@@ -40,38 +37,38 @@
       "files": {
         "arm64_ventura": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:cde9ee24a80f10c8a1798776626916cebbb29c44a7ee15c747ef0f59a23afcd4",
-          "sha256": "cde9ee24a80f10c8a1798776626916cebbb29c44a7ee15c747ef0f59a23afcd4"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:10c001463bfb8480b07a06d42151a199d0c8b2205f59946a2d77e96191ee7d1b",
+          "sha256": "10c001463bfb8480b07a06d42151a199d0c8b2205f59946a2d77e96191ee7d1b"
         },
         "arm64_monterey": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:9811dc1844613b46ec891ce9e93ae4dbb7daa3fec4a2bd8e9e440e898d1fde75",
-          "sha256": "9811dc1844613b46ec891ce9e93ae4dbb7daa3fec4a2bd8e9e440e898d1fde75"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:cba18cf1ef0bf77404e5532048bc3d86c7136a5b067c22742114b68bdc777bd2",
+          "sha256": "cba18cf1ef0bf77404e5532048bc3d86c7136a5b067c22742114b68bdc777bd2"
         },
         "arm64_big_sur": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:d23b0f26a2de1ccd5f3b0dadd0b45d9fca295e16b3a4ed54a0d6b71935f0facc",
-          "sha256": "d23b0f26a2de1ccd5f3b0dadd0b45d9fca295e16b3a4ed54a0d6b71935f0facc"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:275d925e9375c487df055a3ffce108735781821a9f37fd810cbdd3c09a49fc3e",
+          "sha256": "275d925e9375c487df055a3ffce108735781821a9f37fd810cbdd3c09a49fc3e"
         },
         "ventura": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:6b1f50029ca197a10fc838cce0d8c6ab4582288213fc1da2d3bc80370353d22a",
-          "sha256": "6b1f50029ca197a10fc838cce0d8c6ab4582288213fc1da2d3bc80370353d22a"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:06e42063af5803d934d891dbd15748ab156c54a567411822ab7e5d727a0a7a2a",
+          "sha256": "06e42063af5803d934d891dbd15748ab156c54a567411822ab7e5d727a0a7a2a"
         },
         "monterey": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:db100efbd01963a4bf4378dc49411bfd7bd0272fd7575caba33e7a912e1d38d1",
-          "sha256": "db100efbd01963a4bf4378dc49411bfd7bd0272fd7575caba33e7a912e1d38d1"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:f048ad5c291c14a3864312ca807024b95a02909a782dc5e3f2e05c28a7487294",
+          "sha256": "f048ad5c291c14a3864312ca807024b95a02909a782dc5e3f2e05c28a7487294"
         },
         "big_sur": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:6935a997cda8a3223c0099e8f4fe50ad3a539817c6c6f200b969c31938915707",
-          "sha256": "6935a997cda8a3223c0099e8f4fe50ad3a539817c6c6f200b969c31938915707"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:3e8b53506dc283aa31a22e5a5a206c3a559f3fcea4d1b0dbebaf7da21b28a4fc",
+          "sha256": "3e8b53506dc283aa31a22e5a5a206c3a559f3fcea4d1b0dbebaf7da21b28a4fc"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:b60dc509cb0faa8219deefc9543dfe66c6f58501b0b2cc387c7557293f6f2430",
-          "sha256": "b60dc509cb0faa8219deefc9543dfe66c6f58501b0b2cc387c7557293f6f2430"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:a18df25578c0a8b11d25d73cc29ecf9c569d0045197d63522c1da812e430eb77",
+          "sha256": "a18df25578c0a8b11d25d73cc29ecf9c569d0045197d63522c1da812e430eb77"
         }
       }
     }
@@ -82,18 +79,27 @@
 
   ],
   "build_dependencies": [
+    "xz",
     "pkg-config"
   ],
   "dependencies": [
     "gdbm",
     "mpdecimal",
-    "openssl@3",
+    "openssl@1.1",
     "readline",
     "sqlite",
-    "xz"
+    "xz",
+    "bzip2",
+    "expat",
+    "libffi",
+    "libxcrypt",
+    "ncurses",
+    "unzip",
+    "zlib",
+    "libnsl"
   ],
   "test_dependencies": [
-
+    "xz"
   ],
   "recommended_dependencies": [
 
@@ -110,36 +116,13 @@
     "unzip",
     "zlib"
   ],
-  "uses_from_macos_bounds": [
-    {
-    },
-    {
-    },
-    {
-      "since": "catalina"
-    },
-    {
-    },
-    {
-    },
-    {
-    },
-    {
-    }
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
 
   ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
-
-  ],
-  "caveats": "Python has been installed as\n  $HOMEBREW_PREFIX/bin/python3.9\n\nUnversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to\n`python3.9`, `python3.9-config`, `pip3.9` etc., respectively, have been installed into\n  $HOMEBREW_PREFIX/opt/python@3.9/libexec/bin\n\nYou can install Python packages with\n  pip3.9 install <package>\nThey will install into the site-package directory\n  $HOMEBREW_PREFIX/lib/python3.9/site-packages\n\ntkinter is no longer included with this formula, but it is available separately:\n  brew install python-tk@3.9\n\nIf you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:\n  brew install python3\n\nSee: https://docs.brew.sh/Homebrew-and-Python\n",
+  "caveats": "Python has been installed as\n  $(brew --prefix)/bin/python3.9\n\nUnversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to\n`python3.9`, `python3.9-config`, `pip3.9` etc., respectively, have been installed into\n  $(brew --prefix)/opt/python@3.9/libexec/bin\n\nYou can install Python packages with\n  pip3.9 install <package>\nThey will install into the site-package directory\n  $(brew --prefix)/lib/python3.9/site-packages\n\ntkinter is no longer included with this formula, but it is available separately:\n  brew install python-tk@3.9\n\nIf you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:\n  brew install python3\n\nSee: https://docs.brew.sh/Homebrew-and-Python\n",
   "installed": [
 
   ],
@@ -152,23 +135,120 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": true,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/python@3.9.rb",
-  "ruby_source_checksum": {
-    "sha256": "181235ba8e425a1e73d08805a21599bf10429c0e99de8030cfd7bd653bee3040"
-  },
+  "tap_git_head": null,
   "variations": {
-    "x86_64_linux": {
+    "arm64_ventura": {
       "dependencies": [
         "gdbm",
         "mpdecimal",
-        "openssl@3",
+        "openssl@1.1",
+        "readline",
+        "sqlite",
+        "xz"
+      ]
+    },
+    "arm64_monterey": {
+      "dependencies": [
+        "gdbm",
+        "mpdecimal",
+        "openssl@1.1",
+        "readline",
+        "sqlite",
+        "xz"
+      ]
+    },
+    "arm64_big_sur": {
+      "dependencies": [
+        "gdbm",
+        "mpdecimal",
+        "openssl@1.1",
+        "readline",
+        "sqlite",
+        "xz"
+      ]
+    },
+    "ventura": {
+      "dependencies": [
+        "gdbm",
+        "mpdecimal",
+        "openssl@1.1",
+        "readline",
+        "sqlite",
+        "xz"
+      ]
+    },
+    "monterey": {
+      "dependencies": [
+        "gdbm",
+        "mpdecimal",
+        "openssl@1.1",
+        "readline",
+        "sqlite",
+        "xz"
+      ]
+    },
+    "big_sur": {
+      "dependencies": [
+        "gdbm",
+        "mpdecimal",
+        "openssl@1.1",
+        "readline",
+        "sqlite",
+        "xz"
+      ]
+    },
+    "catalina": {
+      "dependencies": [
+        "gdbm",
+        "mpdecimal",
+        "openssl@1.1",
+        "readline",
+        "sqlite",
+        "xz"
+      ]
+    },
+    "mojave": {
+      "dependencies": [
+        "gdbm",
+        "mpdecimal",
+        "openssl@1.1",
         "readline",
         "sqlite",
         "xz",
-        "libnsl"
+        "libffi"
+      ]
+    },
+    "high_sierra": {
+      "dependencies": [
+        "gdbm",
+        "mpdecimal",
+        "openssl@1.1",
+        "readline",
+        "sqlite",
+        "xz",
+        "libffi"
+      ]
+    },
+    "sierra": {
+      "dependencies": [
+        "gdbm",
+        "mpdecimal",
+        "openssl@1.1",
+        "readline",
+        "sqlite",
+        "xz",
+        "libffi"
+      ]
+    },
+    "el_capitan": {
+      "dependencies": [
+        "gdbm",
+        "mpdecimal",
+        "openssl@1.1",
+        "readline",
+        "sqlite",
+        "xz",
+        "libffi"
       ]
     }
   }

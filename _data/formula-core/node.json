@@ -3,12 +3,9 @@
   "full_name": "node",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
     "node.js",
-    "node@20",
+    "node@19",
     "nodejs",
     "npm"
   ],
@@ -16,22 +13,23 @@
     "node@18",
     "node@16",
     "node@14",
+    "node@12",
     "node@10"
   ],
   "desc": "Platform built on V8 to build network applications",
   "license": "MIT",
   "homepage": "https://nodejs.org/",
   "versions": {
-    "stable": "20.4.0",
+    "stable": "19.6.0",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://nodejs.org/dist/v20.4.0/node-v20.4.0.tar.xz",
+      "url": "https://nodejs.org/dist/v19.6.0/node-v19.6.0.tar.xz",
       "tag": null,
       "revision": null,
-      "checksum": "09bd0b73c526b63c029d5ddfd885d10962e7ad87c975b94583c1f8ce90ee5348"
+      "checksum": "519c6d542a9f996f00c1a3d3b2e5cf52b7db998d95f6ced5a893d16a03de33ea"
     },
     "head": {
       "url": "https://github.com/nodejs/node.git",
@@ -47,38 +45,38 @@
       "files": {
         "arm64_ventura": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/node/blobs/sha256:7d20cdeeaab118ba6df4505d9bc7fb65735c71f2696c0d001b44a8917f23f3d2",
-          "sha256": "7d20cdeeaab118ba6df4505d9bc7fb65735c71f2696c0d001b44a8917f23f3d2"
+          "url": "https://ghcr.io/v2/homebrew/core/node/blobs/sha256:cec50306f359cd3958952a3f8d98c466946ceed3921cf542b0c08f5ceeddff5a",
+          "sha256": "cec50306f359cd3958952a3f8d98c466946ceed3921cf542b0c08f5ceeddff5a"
         },
         "arm64_monterey": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/node/blobs/sha256:edd00718beac5f89fc40a58f756dce731a333ea2cbeb00c0f6414c5d7cbd3840",
-          "sha256": "edd00718beac5f89fc40a58f756dce731a333ea2cbeb00c0f6414c5d7cbd3840"
+          "url": "https://ghcr.io/v2/homebrew/core/node/blobs/sha256:edc73ac8ae70fc3f663835512b7bf99221087d8922a3911695d7758471b78134",
+          "sha256": "edc73ac8ae70fc3f663835512b7bf99221087d8922a3911695d7758471b78134"
         },
         "arm64_big_sur": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/node/blobs/sha256:237722cb264d17be68ca1de400518feda687c6f4845fa5a78fbc89ec4c80a439",
-          "sha256": "237722cb264d17be68ca1de400518feda687c6f4845fa5a78fbc89ec4c80a439"
+          "url": "https://ghcr.io/v2/homebrew/core/node/blobs/sha256:8bc198a0e908ff6d8a06afb74d615959bc83eec82f40a4c6d1bf29ef3a78e22a",
+          "sha256": "8bc198a0e908ff6d8a06afb74d615959bc83eec82f40a4c6d1bf29ef3a78e22a"
         },
         "ventura": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/node/blobs/sha256:bcff84a62b0297246c2bacda07963fc93c807ae50406fe77018570a7d8eaca0a",
-          "sha256": "bcff84a62b0297246c2bacda07963fc93c807ae50406fe77018570a7d8eaca0a"
+          "url": "https://ghcr.io/v2/homebrew/core/node/blobs/sha256:91370bc4c2e077048135032ce5cfa399c376ea4ddb60eee0eaabb0003ad598db",
+          "sha256": "91370bc4c2e077048135032ce5cfa399c376ea4ddb60eee0eaabb0003ad598db"
         },
         "monterey": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/node/blobs/sha256:be1f77a18e458dbc9709be6cbbac64b0cdb20c6955a84c7c3b7ef676bb01f3fd",
-          "sha256": "be1f77a18e458dbc9709be6cbbac64b0cdb20c6955a84c7c3b7ef676bb01f3fd"
+          "url": "https://ghcr.io/v2/homebrew/core/node/blobs/sha256:d38c3040ff8ad78755f0103d2da5f30c221723fc9af22e941b570ee06a0a91d7",
+          "sha256": "d38c3040ff8ad78755f0103d2da5f30c221723fc9af22e941b570ee06a0a91d7"
         },
         "big_sur": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/node/blobs/sha256:2e363d6a3d418031e04c118563db4dbe48f3560689fec0d847ee282ba143d11e",
-          "sha256": "2e363d6a3d418031e04c118563db4dbe48f3560689fec0d847ee282ba143d11e"
+          "url": "https://ghcr.io/v2/homebrew/core/node/blobs/sha256:e384f60ab7699d54f3ec74029fafa4f2cdd3e93124d0157d19629259b22a2360",
+          "sha256": "e384f60ab7699d54f3ec74029fafa4f2cdd3e93124d0157d19629259b22a2360"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/node/blobs/sha256:29e599e7cd1392b5fa224c799735871d73d358a7a96236f19c1175a2b173a90e",
-          "sha256": "29e599e7cd1392b5fa224c799735871d73d358a7a96236f19c1175a2b173a90e"
+          "url": "https://ghcr.io/v2/homebrew/core/node/blobs/sha256:517d2a8cb332b4b5532afa62d98aa79c7339ed82c975dfc7281f04e03945788e",
+          "sha256": "517d2a8cb332b4b5532afa62d98aa79c7339ed82c975dfc7281f04e03945788e"
         }
       }
     }
@@ -89,6 +87,7 @@
 
   ],
   "build_dependencies": [
+    "xz",
     "pkg-config",
     "python@3.11"
   ],
@@ -98,10 +97,12 @@
     "icu4c",
     "libnghttp2",
     "libuv",
-    "openssl@3"
+    "openssl@1.1",
+    "python",
+    "zlib"
   ],
   "test_dependencies": [
-
+    "xz"
   ],
   "recommended_dependencies": [
 
@@ -113,23 +114,10 @@
     "python",
     "zlib"
   ],
-  "uses_from_macos_bounds": [
-    {
-      "since": "catalina"
-    },
-    {
-    }
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
-
-  ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
 
   ],
   "caveats": null,
@@ -145,13 +133,231 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": true,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/node.rb",
-  "ruby_source_checksum": {
-    "sha256": "f58dacd54f9cd3642043f8cd8c51cd31acf732cf36cd451628555ca631af9297"
-  },
+  "tap_git_head": null,
   "variations": {
+    "arm64_ventura": {
+      "build_dependencies": [
+        "xz",
+        "pkg-config",
+        "python@3.11",
+        "llvm"
+      ],
+      "dependencies": [
+        "brotli",
+        "c-ares",
+        "icu4c",
+        "libnghttp2",
+        "libuv",
+        "openssl@1.1"
+      ],
+      "test_dependencies": [
+        "xz",
+        "llvm"
+      ]
+    },
+    "arm64_monterey": {
+      "build_dependencies": [
+        "xz",
+        "pkg-config",
+        "python@3.11",
+        "llvm"
+      ],
+      "dependencies": [
+        "brotli",
+        "c-ares",
+        "icu4c",
+        "libnghttp2",
+        "libuv",
+        "openssl@1.1"
+      ],
+      "test_dependencies": [
+        "xz",
+        "llvm"
+      ]
+    },
+    "arm64_big_sur": {
+      "build_dependencies": [
+        "xz",
+        "pkg-config",
+        "python@3.11",
+        "llvm"
+      ],
+      "dependencies": [
+        "brotli",
+        "c-ares",
+        "icu4c",
+        "libnghttp2",
+        "libuv",
+        "openssl@1.1"
+      ],
+      "test_dependencies": [
+        "xz",
+        "llvm"
+      ]
+    },
+    "ventura": {
+      "build_dependencies": [
+        "xz",
+        "pkg-config",
+        "python@3.11",
+        "llvm"
+      ],
+      "dependencies": [
+        "brotli",
+        "c-ares",
+        "icu4c",
+        "libnghttp2",
+        "libuv",
+        "openssl@1.1"
+      ],
+      "test_dependencies": [
+        "xz",
+        "llvm"
+      ]
+    },
+    "monterey": {
+      "build_dependencies": [
+        "xz",
+        "pkg-config",
+        "python@3.11",
+        "llvm"
+      ],
+      "dependencies": [
+        "brotli",
+        "c-ares",
+        "icu4c",
+        "libnghttp2",
+        "libuv",
+        "openssl@1.1"
+      ],
+      "test_dependencies": [
+        "xz",
+        "llvm"
+      ]
+    },
+    "big_sur": {
+      "build_dependencies": [
+        "xz",
+        "pkg-config",
+        "python@3.11",
+        "llvm"
+      ],
+      "dependencies": [
+        "brotli",
+        "c-ares",
+        "icu4c",
+        "libnghttp2",
+        "libuv",
+        "openssl@1.1"
+      ],
+      "test_dependencies": [
+        "xz",
+        "llvm"
+      ]
+    },
+    "catalina": {
+      "build_dependencies": [
+        "xz",
+        "pkg-config",
+        "python@3.11",
+        "llvm"
+      ],
+      "dependencies": [
+        "brotli",
+        "c-ares",
+        "icu4c",
+        "libnghttp2",
+        "libuv",
+        "openssl@1.1"
+      ],
+      "test_dependencies": [
+        "xz",
+        "llvm"
+      ]
+    },
+    "mojave": {
+      "build_dependencies": [
+        "xz",
+        "pkg-config",
+        "python@3.11",
+        "llvm"
+      ],
+      "dependencies": [
+        "brotli",
+        "c-ares",
+        "icu4c",
+        "libnghttp2",
+        "libuv",
+        "openssl@1.1",
+        "python"
+      ],
+      "test_dependencies": [
+        "xz",
+        "llvm"
+      ]
+    },
+    "high_sierra": {
+      "build_dependencies": [
+        "xz",
+        "pkg-config",
+        "python@3.11",
+        "llvm"
+      ],
+      "dependencies": [
+        "brotli",
+        "c-ares",
+        "icu4c",
+        "libnghttp2",
+        "libuv",
+        "openssl@1.1",
+        "python"
+      ],
+      "test_dependencies": [
+        "xz",
+        "llvm"
+      ]
+    },
+    "sierra": {
+      "build_dependencies": [
+        "xz",
+        "pkg-config",
+        "python@3.11",
+        "llvm"
+      ],
+      "dependencies": [
+        "brotli",
+        "c-ares",
+        "icu4c",
+        "libnghttp2",
+        "libuv",
+        "openssl@1.1",
+        "python"
+      ],
+      "test_dependencies": [
+        "xz",
+        "llvm"
+      ]
+    },
+    "el_capitan": {
+      "build_dependencies": [
+        "xz",
+        "pkg-config",
+        "python@3.11",
+        "llvm"
+      ],
+      "dependencies": [
+        "brotli",
+        "c-ares",
+        "icu4c",
+        "libnghttp2",
+        "libuv",
+        "openssl@1.1",
+        "python"
+      ],
+      "test_dependencies": [
+        "xz",
+        "llvm"
+      ]
+    }
   }
 }

@@ -3,9 +3,6 @@
   "full_name": "libtiff",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
 
   ],
@@ -16,59 +13,64 @@
   "license": "libtiff",
   "homepage": "https://libtiff.gitlab.io/libtiff/",
   "versions": {
-    "stable": "4.5.1",
+    "stable": "4.4.0",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://download.osgeo.org/libtiff/tiff-4.5.1.tar.gz",
+      "url": "https://download.osgeo.org/libtiff/tiff-4.4.0.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "d7f38b6788e4a8f5da7940c5ac9424f494d8a79eba53d555f4a507167dca5e2b"
+      "checksum": "917223b37538959aca3b790d2d73aa6e626b688e02dcda272aec24c2f498abed"
     }
   },
-  "revision": 0,
+  "revision": 1,
   "version_scheme": 0,
   "bottle": {
     "stable": {
-      "rebuild": 0,
+      "rebuild": 1,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:c9ec64c61687ec04d3d98e017c2a7ec5c23ff8a061cdeaf54209197fdbfa53e7",
-          "sha256": "c9ec64c61687ec04d3d98e017c2a7ec5c23ff8a061cdeaf54209197fdbfa53e7"
+          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:4f8764b4cf388d7fdf727b2c61d1b48efb43ba4d337949bf34a932c08361681a",
+          "sha256": "4f8764b4cf388d7fdf727b2c61d1b48efb43ba4d337949bf34a932c08361681a"
         },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:d5de595a3c6f8564e7164e07909374b376a954c360e2c5232ba1431b3ed4de98",
-          "sha256": "d5de595a3c6f8564e7164e07909374b376a954c360e2c5232ba1431b3ed4de98"
+          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:b48b8b5166bc548be184e03892adf5259dad564bee1cb62ddb84c1bdf21caaeb",
+          "sha256": "b48b8b5166bc548be184e03892adf5259dad564bee1cb62ddb84c1bdf21caaeb"
         },
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:760ba837679b14af360309108cdc3e682ddfed4c969ac1cec744927a7fcab67e",
-          "sha256": "760ba837679b14af360309108cdc3e682ddfed4c969ac1cec744927a7fcab67e"
+          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:b887dbf7a606f138ef8ec2c328110ead07dea77452e71a1e89a50e25326215dd",
+          "sha256": "b887dbf7a606f138ef8ec2c328110ead07dea77452e71a1e89a50e25326215dd"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:d802af35e9f79c5a0d230862219aa237761c310354ca181dc21ef80b4f35da40",
-          "sha256": "d802af35e9f79c5a0d230862219aa237761c310354ca181dc21ef80b4f35da40"
+          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:d93fb1487305afa278c639a94b4fde2090d02f45239a0fe4b2ca574bf9fbc684",
+          "sha256": "d93fb1487305afa278c639a94b4fde2090d02f45239a0fe4b2ca574bf9fbc684"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:78185275989220e1296ebe0f9aa6f3200c028f208fe0c0a6f3a5bedcf26ae751",
-          "sha256": "78185275989220e1296ebe0f9aa6f3200c028f208fe0c0a6f3a5bedcf26ae751"
+          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:f110c775f85a880a30ff43f738df534ee76f5dc55cc62b902870515adf03f15e",
+          "sha256": "f110c775f85a880a30ff43f738df534ee76f5dc55cc62b902870515adf03f15e"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:18bd9c73f730afa03c4c5dd3c9b23d810a827e32464d325beafd1499161e47ab",
-          "sha256": "18bd9c73f730afa03c4c5dd3c9b23d810a827e32464d325beafd1499161e47ab"
+          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:ac18fea512fc702586831b2907910abd31573bc210231fd124945c05d7312921",
+          "sha256": "ac18fea512fc702586831b2907910abd31573bc210231fd124945c05d7312921"
+        },
+        "catalina": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:c9a4d1faa66a576710c10ef26cd970175a8ab20f8c80cd0e9265eb0dd1a2adec",
+          "sha256": "c9a4d1faa66a576710c10ef26cd970175a8ab20f8c80cd0e9265eb0dd1a2adec"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:06e9e7ee377e29c7417acc0399c5d38ebeb282b5c1516a69cde4e4b1803954ee",
-          "sha256": "06e9e7ee377e29c7417acc0399c5d38ebeb282b5c1516a69cde4e4b1803954ee"
+          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:c18c93cb64098dd7415e87fc3acd9a8db9a475c15202244cc9947b24ae66dd80",
+          "sha256": "c18c93cb64098dd7415e87fc3acd9a8db9a475c15202244cc9947b24ae66dd80"
         }
       }
     }
@@ -83,8 +85,8 @@
   ],
   "dependencies": [
     "jpeg-turbo",
-    "xz",
-    "zstd"
+    "zstd",
+    "zlib"
   ],
   "test_dependencies": [
 
@@ -98,20 +100,10 @@
   "uses_from_macos": [
     "zlib"
   ],
-  "uses_from_macos_bounds": [
-    {
-    }
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
-
-  ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
 
   ],
   "caveats": null,
@@ -127,13 +119,7 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": false,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/libtiff.rb",
-  "ruby_source_checksum": {
-    "sha256": "1660da9078e2bec337d9b2228a233f63a8580c5b4ac4a88518f8b054201d9f20"
-  },
+  "tap_git_head": null,
   "variations": {
   }
 }

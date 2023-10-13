@@ -3,9 +3,6 @@
   "full_name": "libuv",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
 
   ],
@@ -16,16 +13,16 @@
   "license": "MIT",
   "homepage": "https://libuv.org",
   "versions": {
-    "stable": "1.46.0",
+    "stable": "1.44.2",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/libuv/libuv/archive/v1.46.0.tar.gz",
+      "url": "https://github.com/libuv/libuv/archive/v1.44.2.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "7aa66be3413ae10605e1f5c9ae934504ffe317ef68ea16fdaa83e23905c681bd"
+      "checksum": "e6e2ba8b4c349a4182a33370bb9be5e23c51b32efb9b9e209d0e8556b73a48da"
     },
     "head": {
       "url": "https://github.com/libuv/libuv.git",
@@ -36,43 +33,48 @@
   "version_scheme": 0,
   "bottle": {
     "stable": {
-      "rebuild": 0,
+      "rebuild": 1,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:8c3beb4d11ed0d45cf0b7e07d280ff815eab9f9c138eec90a2f824168aed039e",
-          "sha256": "8c3beb4d11ed0d45cf0b7e07d280ff815eab9f9c138eec90a2f824168aed039e"
+          "url": "https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:2653486daddca69315ee9b5bd12c7ba262ecc5a159ddd1d0277a3e5fb14708ac",
+          "sha256": "2653486daddca69315ee9b5bd12c7ba262ecc5a159ddd1d0277a3e5fb14708ac"
         },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:bfaeee8ea65a26b881951c90d5ec1f4000039f228a4198735c015309307c47d9",
-          "sha256": "bfaeee8ea65a26b881951c90d5ec1f4000039f228a4198735c015309307c47d9"
+          "url": "https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:1134b22185efdff666f68f334152bb7b37863fc7310e1403089daff68ffdc124",
+          "sha256": "1134b22185efdff666f68f334152bb7b37863fc7310e1403089daff68ffdc124"
         },
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:1f1c49121e9a4df9eb520aceac58781a3ee61364370f04096ddc043842c8beda",
-          "sha256": "1f1c49121e9a4df9eb520aceac58781a3ee61364370f04096ddc043842c8beda"
+          "url": "https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:3955c77e5544e84fa8361a1453b1c0232ff15e275d46ce54ad6eb9b348370ad8",
+          "sha256": "3955c77e5544e84fa8361a1453b1c0232ff15e275d46ce54ad6eb9b348370ad8"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:68085c874a3df5a9dc0a6a86bbce91ef370373523602fcbb31a63d37f259e025",
-          "sha256": "68085c874a3df5a9dc0a6a86bbce91ef370373523602fcbb31a63d37f259e025"
+          "url": "https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:d3cc5bca7fe7512842102366b45b1948099eb8c24ab53093821295586b2de76d",
+          "sha256": "d3cc5bca7fe7512842102366b45b1948099eb8c24ab53093821295586b2de76d"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:38513d0917c18b294afadbca1ad005d73c450f3a06a5afcd2396398f428157ad",
-          "sha256": "38513d0917c18b294afadbca1ad005d73c450f3a06a5afcd2396398f428157ad"
+          "url": "https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:ccef3d8ae2170307a515e657236b97ee605ce614b8fee0f42da19ae3d8efeee1",
+          "sha256": "ccef3d8ae2170307a515e657236b97ee605ce614b8fee0f42da19ae3d8efeee1"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:f75b27c39a13b279554a2c6f5c0451d54af1c9f7abc312e6c5e50ae3f346599d",
-          "sha256": "f75b27c39a13b279554a2c6f5c0451d54af1c9f7abc312e6c5e50ae3f346599d"
+          "url": "https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:5edaadbf90ddeedd193ac1c4edca1e76c5ac08ca42be0c9a44d2fd0a9b6b65d0",
+          "sha256": "5edaadbf90ddeedd193ac1c4edca1e76c5ac08ca42be0c9a44d2fd0a9b6b65d0"
+        },
+        "catalina": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:02f2d420b10d5c33971792e41b0cf77f899289d5bec2aece5db7946a8e741f54",
+          "sha256": "02f2d420b10d5c33971792e41b0cf77f899289d5bec2aece5db7946a8e741f54"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:ad3f4af550bc5b9256f9d2c73bce18e335adf185052d9dec5dd44c1c142f961c",
-          "sha256": "ad3f4af550bc5b9256f9d2c73bce18e335adf185052d9dec5dd44c1c142f961c"
+          "url": "https://ghcr.io/v2/homebrew/core/libuv/blobs/sha256:0b17d90c050a0e09a3e84a58bfd00314fb0b90e87a6235cc3327b004b014f8cf",
+          "sha256": "0b17d90c050a0e09a3e84a58bfd00314fb0b90e87a6235cc3327b004b014f8cf"
         }
       }
     }
@@ -104,19 +106,10 @@
   "uses_from_macos": [
 
   ],
-  "uses_from_macos_bounds": [
-
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
-
-  ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
 
   ],
   "caveats": null,
@@ -132,13 +125,7 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": false,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/libuv.rb",
-  "ruby_source_checksum": {
-    "sha256": "62929c969046936db35218947cb51855e50042829915ad1e52dd95e23eee20d1"
-  },
+  "tap_git_head": null,
   "variations": {
   }
 }

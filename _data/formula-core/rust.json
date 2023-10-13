@@ -3,9 +3,6 @@
   "full_name": "rust",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
 
   ],
@@ -16,16 +13,16 @@
   "license": "Apache-2.0 or MIT",
   "homepage": "https://www.rust-lang.org/",
   "versions": {
-    "stable": "1.70.0",
+    "stable": "1.67.0",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://static.rust-lang.org/dist/rustc-1.70.0-src.tar.gz",
+      "url": "https://static.rust-lang.org/dist/rustc-1.67.0-src.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "b2bfae000b7a5040e4ec4bbc50a09f21548190cb7570b0ed77358368413bd27c"
+      "checksum": "d029f14fce45a2ec7a9a605d2a0a40aae4739cb2fdae29ee9f7a6e9025a7fde4"
     },
     "head": {
       "url": "https://github.com/rust-lang/rust.git",
@@ -41,38 +38,38 @@
       "files": {
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:7900bfec5d332b5fd8d14eef924331bff0f5714bbf05e01d66f9ce4df7538fa8",
-          "sha256": "7900bfec5d332b5fd8d14eef924331bff0f5714bbf05e01d66f9ce4df7538fa8"
+          "url": "https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:3bbd58b85e50f6c31c5b82cae21d4383eff1e2d79e61a1f643b0e4aedae6572a",
+          "sha256": "3bbd58b85e50f6c31c5b82cae21d4383eff1e2d79e61a1f643b0e4aedae6572a"
         },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:e47d95b3b0cb6225e2eec489cfd30b422685d836336a5f033a25ba55e8452233",
-          "sha256": "e47d95b3b0cb6225e2eec489cfd30b422685d836336a5f033a25ba55e8452233"
+          "url": "https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:066b6e74a770b167be246eee8b326c8064cea914b81a4e388bf9f49a8598ab39",
+          "sha256": "066b6e74a770b167be246eee8b326c8064cea914b81a4e388bf9f49a8598ab39"
         },
         "arm64_big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:54268d4eb9665230c19d46e223a5af4bc1d92367e9b9f4e191f6761fde8017af",
-          "sha256": "54268d4eb9665230c19d46e223a5af4bc1d92367e9b9f4e191f6761fde8017af"
+          "url": "https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:2cf530434f03aa428bed091c8dbb63e6565448b745a20ce5fd5f8145a5104cd3",
+          "sha256": "2cf530434f03aa428bed091c8dbb63e6565448b745a20ce5fd5f8145a5104cd3"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:6dbc9cc7cfcf9da9557f508476784d029e1bd873b28896830c60a8f67b1c4933",
-          "sha256": "6dbc9cc7cfcf9da9557f508476784d029e1bd873b28896830c60a8f67b1c4933"
+          "url": "https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:e2d9095c9427f19a312fe7891c5d52d44ed38df75f74f157b860cd7e0ff88687",
+          "sha256": "e2d9095c9427f19a312fe7891c5d52d44ed38df75f74f157b860cd7e0ff88687"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:f15a43989ca9b66f5495c4b7f8cc06e70ff7b225076ad0c65ed1b6b7186de632",
-          "sha256": "f15a43989ca9b66f5495c4b7f8cc06e70ff7b225076ad0c65ed1b6b7186de632"
+          "url": "https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:7409ae34d1d4b9cc7d73020cd8fffdd0976b2a408ea145bcdee0dfbcdbb356bc",
+          "sha256": "7409ae34d1d4b9cc7d73020cd8fffdd0976b2a408ea145bcdee0dfbcdbb356bc"
         },
         "big_sur": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:dd43d88867d3c8b2e2a88951b07e7bfcaa9d4de91fb65bbe5a893dabfd1d8b31",
-          "sha256": "dd43d88867d3c8b2e2a88951b07e7bfcaa9d4de91fb65bbe5a893dabfd1d8b31"
+          "url": "https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:52a3955701e37250e567cc7fe97e72b6a74f4661c3ffff235b5a9e7dee6b7d42",
+          "sha256": "52a3955701e37250e567cc7fe97e72b6a74f4661c3ffff235b5a9e7dee6b7d42"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:20bd507ead0248ace9af329ca9a3bb3e59a62feb67092bf50ef9f0416615f397",
-          "sha256": "20bd507ead0248ace9af329ca9a3bb3e59a62feb67092bf50ef9f0416615f397"
+          "url": "https://ghcr.io/v2/homebrew/core/rust/blobs/sha256:648baa476595b6e836a979b235cee7d540cf7921990d9c0a2ca486b807e07a34",
+          "sha256": "648baa476595b6e836a979b235cee7d540cf7921990d9c0a2ca486b807e07a34"
         }
       }
     }
@@ -88,8 +85,10 @@
     "python@3.11"
   ],
   "dependencies": [
-    "openssl@3",
-    "pkg-config"
+    "openssl@1.1",
+    "pkg-config",
+    "curl",
+    "zlib"
   ],
   "test_dependencies": [
 
@@ -104,22 +103,10 @@
     "curl",
     "zlib"
   ],
-  "uses_from_macos_bounds": [
-    {
-    },
-    {
-    }
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
-
-  ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
 
   ],
   "caveats": null,
@@ -135,13 +122,7 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": true,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/rust.rb",
-  "ruby_source_checksum": {
-    "sha256": "2d8b4f4926c5aba0984301fe13025c76182586fa078e237a9e2e38acfca82a4a"
-  },
+  "tap_git_head": null,
   "variations": {
   }
 }

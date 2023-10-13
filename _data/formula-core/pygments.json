@@ -3,9 +3,6 @@
   "full_name": "pygments",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
 
   ],
@@ -16,63 +13,33 @@
   "license": "BSD-2-Clause",
   "homepage": "https://pygments.org/",
   "versions": {
-    "stable": "2.15.1",
+    "stable": "2.14.0",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://files.pythonhosted.org/packages/89/6b/2114e54b290824197006e41be3f9bbe1a26e9c39d1f5fa20a6d62945a0b3/Pygments-2.15.1.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/da/6a/c427c06913204e24de28de5300d3f0e809933f376e0b7df95194b2bb3f71/Pygments-2.14.0.tar.gz",
       "tag": null,
       "revision": null,
-      "checksum": "8ace4d3c1dd481894b2005f560ead0f9f19ee64fe983366be1a21e171d12775c"
+      "checksum": "b3ed06a9e8ac9a9aae5a6f5dbe78a8a58655d17b43b93c078f094ddc476ae297"
     },
     "head": {
       "url": "https://github.com/pygments/pygments.git",
       "branch": "master"
     }
   },
-  "revision": 1,
+  "revision": 0,
   "version_scheme": 0,
   "bottle": {
     "stable": {
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
-        "arm64_ventura": {
+        "all": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/pygments/blobs/sha256:22dd62a13b5fa28d0b13af36ac5c065d54671946c8a04e25c9da8c3f5dab0c1e",
-          "sha256": "22dd62a13b5fa28d0b13af36ac5c065d54671946c8a04e25c9da8c3f5dab0c1e"
-        },
-        "arm64_monterey": {
-          "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/pygments/blobs/sha256:8cf29db56c6db4b94612f46c8c6901faeda2d6638e620eda8a54c42f83088701",
-          "sha256": "8cf29db56c6db4b94612f46c8c6901faeda2d6638e620eda8a54c42f83088701"
-        },
-        "arm64_big_sur": {
-          "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/pygments/blobs/sha256:35f8b8852d8ddde37570525f201edad241dbb0f35a323ef4761de0722a47942f",
-          "sha256": "35f8b8852d8ddde37570525f201edad241dbb0f35a323ef4761de0722a47942f"
-        },
-        "ventura": {
-          "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/pygments/blobs/sha256:f5f47a58e80f27048a3ad496eeace812d50b73fbe570059efab7e8b68feb81e9",
-          "sha256": "f5f47a58e80f27048a3ad496eeace812d50b73fbe570059efab7e8b68feb81e9"
-        },
-        "monterey": {
-          "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/pygments/blobs/sha256:c60a1549d0f8ac1af0130f98982c987d13ba3ca499d90243f03cbe5011da8f6f",
-          "sha256": "c60a1549d0f8ac1af0130f98982c987d13ba3ca499d90243f03cbe5011da8f6f"
-        },
-        "big_sur": {
-          "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/pygments/blobs/sha256:1eadfd8db2188556b8c8afcc580a8dd767bba6e44e6908c940e42f72798c514c",
-          "sha256": "1eadfd8db2188556b8c8afcc580a8dd767bba6e44e6908c940e42f72798c514c"
-        },
-        "x86_64_linux": {
-          "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/pygments/blobs/sha256:1a0407703d117068c5fde3fb7bc7633e3cbb3b023fd662f5742c2939db97eaa7",
-          "sha256": "1a0407703d117068c5fde3fb7bc7633e3cbb3b023fd662f5742c2939db97eaa7"
+          "url": "https://ghcr.io/v2/homebrew/core/pygments/blobs/sha256:d4b2214521e36150b21673e1e3b3e627a22919a98274bebeaa1fb8daa0ec086d",
+          "sha256": "d4b2214521e36150b21673e1e3b3e627a22919a98274bebeaa1fb8daa0ec086d"
         }
       }
     }
@@ -102,19 +69,10 @@
   "uses_from_macos": [
 
   ],
-  "uses_from_macos_bounds": [
-
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
-
-  ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
 
   ],
   "caveats": null,
@@ -130,13 +88,7 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": false,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/pygments.rb",
-  "ruby_source_checksum": {
-    "sha256": "deba36c46935868c818557a6c4d217511510e27ece5006c370400e217742fb1a"
-  },
+  "tap_git_head": null,
   "variations": {
   }
 }

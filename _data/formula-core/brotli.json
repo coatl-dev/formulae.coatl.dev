@@ -3,9 +3,6 @@
   "full_name": "brotli",
   "tap": "homebrew/core",
   "oldname": null,
-  "oldnames": [
-
-  ],
   "aliases": [
 
   ],
@@ -115,19 +112,10 @@
   "uses_from_macos": [
 
   ],
-  "uses_from_macos_bounds": [
-
-  ],
   "requirements": [
 
   ],
   "conflicts_with": [
-
-  ],
-  "conflicts_with_reasons": [
-
-  ],
-  "link_overwrite": [
 
   ],
   "caveats": null,
@@ -143,13 +131,7 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": false,
-  "service": null,
-  "tap_git_head": "1ffb8d1d03a179cad7374faa01a9467051e040b9",
-  "ruby_source_path": "Formula/brotli.rb",
-  "ruby_source_checksum": {
-    "sha256": "2f2b3ac8fb4fb0b20165d40ee8eb4571fa30d58935fbc61df4fbe0f2054a37bd"
-  },
+  "tap_git_head": null,
   "variations": {
   }
 }
