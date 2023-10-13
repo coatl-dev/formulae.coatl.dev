@@ -1,5 +1,3 @@
-name: Generate site
-
 on:
   workflow_dispatch:
 
@@ -7,10 +5,18 @@ jobs:
   generate-site:
     runs-on: ubuntu-latest
 
-    container: ghcr.io/homebrew/brew:3.6.21
+    container:
+      image: ghcr.io/homebrew/brew:3.6.21
+      options: --user root
+      env:
+        HOMEBREW_NO_ANALYTICS: 1
+        HOMEBREW_NO_AUTO_UPDATE: 1
 
     steps:
       - uses: actions/checkout@v4
+
+      - run: |
+          brew tap coatl-dev/coatl-dev
 
       - run: |
           ./script/generate-core.rb
