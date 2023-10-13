@@ -7,7 +7,7 @@ jobs:
   generate-site:
     runs-on: ubuntu-latest
 
-    container: homebrew/brew:3.6.21
+    container: ghcr.io/homebrew/brew:3.6.21
 
     steps:
       - uses: actions/checkout@v4
