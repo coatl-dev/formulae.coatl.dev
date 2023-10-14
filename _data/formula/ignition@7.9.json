@@ -34,23 +34,14 @@
   "options": [
 
   ],
-  "core-build_dependencies": [
-    "unzip"
-  ],
   "build_dependencies": [
-
-  ],
-  "core-dependencies": [
-    "openjdk@8"
+    "unzip"
   ],
   "dependencies": [
-
-  ],
-  "core-test_dependencies": [
-    "unzip"
+    "openjdk@8"
   ],
   "test_dependencies": [
-
+    "unzip"
   ],
   "recommended_dependencies": [
 

@@ -34,20 +34,14 @@
   "options": [
 
   ],
-  "core-build_dependencies": [
-    "unzip"
-  ],
   "build_dependencies": [
-
+    "unzip"
   ],
   "dependencies": [
 
   ],
-  "core-test_dependencies": [
-    "unzip"
-  ],
   "test_dependencies": [
-
+    "unzip"
   ],
   "recommended_dependencies": [
 
