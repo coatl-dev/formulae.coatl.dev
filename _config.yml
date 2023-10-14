@@ -4,14 +4,10 @@ description: coatl-dev's Homebrew package index
 remote_theme: Homebrew/brew.sh
 
 exclude:
-  - bin
   - script
   - CNAME
-  - LICENSE.txt
-  - Rakefile
   - README.md
   - Gemfile*
-  - vendor
 
 plugins:
   - jekyll-feed
@@ -26,7 +22,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: https://brew.sh/assets/img/homebrew-256x256.png
+      image: assets/coatl.png
       search_name: Homebrew Formulae
       search_site: formulae
 
@@ -50,7 +46,7 @@ taps:
 
 logo: assets/coatl.png
 
-forkme_nwo: Homebrew/formulae.brew.sh
+forkme_nwo: coatl-dev/formulae.coatl.dev
 
 twitter:
   username: __coatldev__
