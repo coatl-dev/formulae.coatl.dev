@@ -48,7 +48,7 @@ taps:
     bottle_dir: bottle-core
     formula_dir: formula-core
 
-logo: https://brew.sh/assets/img/homebrew-256x256.png
+logo: assets/coatl.png
 
 forkme_nwo: Homebrew/formulae.brew.sh
 
