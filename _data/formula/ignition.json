@@ -37,17 +37,17 @@
   "build_dependencies": [
 
   ],
-  "dependencies": [
-
-  ],
-  "test_dependencies": [
-
-  ],
   "core_build_dependencies": [
     "unzip"
   ],
+  "dependencies": [
+
+  ],
   "core_test_dependencies": [
     "unzip"
+  ],
+  "test_dependencies": [
+
   ],
   "recommended_dependencies": [
 
