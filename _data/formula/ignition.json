@@ -35,18 +35,12 @@
 
   ],
   "build_dependencies": [
-
+    "unzip"
   ],
   "dependencies": [
 
   ],
   "test_dependencies": [
-
-  ],
-  "core_build_dependencies": [
-    "unzip"
-  ],
-  "core_test_dependencies": [
     "unzip"
   ],
   "recommended_dependencies": [
