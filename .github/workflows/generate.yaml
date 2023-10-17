@@ -52,7 +52,7 @@ jobs:
         with:
           name: site
 
-      - run:
+      - run: |
           ./script/find-replace.sh
 
       - uses: coatl-dev/actions/gpg-import@coatl
