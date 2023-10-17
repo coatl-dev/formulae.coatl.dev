@@ -34,9 +34,6 @@
   "options": [
 
   ],
-  "build_dependencies": [
-
-  ],
   "core_build_dependencies": [
     "unzip"
   ],
@@ -45,9 +42,6 @@
   ],
   "core_test_dependencies": [
     "unzip"
-  ],
-  "test_dependencies": [
-
   ],
   "recommended_dependencies": [
 

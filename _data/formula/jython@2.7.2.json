@@ -34,13 +34,13 @@
   "options": [
 
   ],
-  "build_dependencies": [
+  "core_build_dependencies": [
 
   ],
   "dependencies": [
 
   ],
-  "test_dependencies": [
+  "core_test_dependencies": [
 
   ],
   "recommended_dependencies": [
