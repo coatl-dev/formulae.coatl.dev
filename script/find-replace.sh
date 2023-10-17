@@ -6,5 +6,5 @@ keys=(
 )
 for key in "${keys[@]}"
 do
-  find _data/formula -name '*.json' -type f -exec sed -i '' "s/$key/core_$key/g" {} +
+  find _data/formula -name '*.json' -type f | sed -i '' "s/$key/core_$key/g"
 done
