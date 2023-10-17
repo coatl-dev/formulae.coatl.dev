@@ -53,6 +53,7 @@ jobs:
           name: site
 
       - run:
+          set -x
           keys=(
             "build_dependencies"
             "test_dependencies"
