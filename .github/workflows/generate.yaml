@@ -10,11 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     container:
-      image: ghcr.io/homebrew/brew:3.6.21
+      image: ghcr.io/coatl-dev/brew:3.6.21
       options: --user root
-      env:
-        HOMEBREW_NO_ANALYTICS: 1
-        HOMEBREW_NO_AUTO_UPDATE: 1
 
     steps:
       - uses: actions/checkout@v4
@@ -24,9 +21,6 @@ jobs:
 
       - run: |
           ./script/generate.rb
-
-      - run: |
-          ./script/generate-core.rb
 
       - uses: actions/upload-artifact@v3
         with:
