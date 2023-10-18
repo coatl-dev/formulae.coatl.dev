@@ -55,17 +55,23 @@ jobs:
       - run: |
           ./script/find-replace.sh
 
-      - uses: coatl-dev/actions/gpg-import@coatl
+      - uses: coatl-dev/actions/simple-git-diff@coatl
+        id: git-diff
+
+      - if: ${{ steps.git-diff.outputs.diff == 'true' }}
+        uses: coatl-dev/actions/gpg-import@coatl
         with:
           passphrase: ${{ secrets.COATL_BOT_GPG_PASSPHRASE }}
           private-key: ${{ secrets.COATL_BOT_GPG_PRIVATE_KEY }}
 
-      - run: |
+      - if: ${{ steps.git-diff.outputs.diff == 'true' }}
+        run: |
           git checkout -B coatl-bot-docs-autoupdate
           git add --all
           git commit -m "docs: update docs"
           git push --force --set-upstream origin coatl-bot-docs-autoupdate
 
-      - uses: coatl-dev/actions/create-pr@coatl
+      - if: ${{ steps.git-diff.outputs.diff == 'true' }}
+        uses: coatl-dev/actions/create-pr@coatl
         with:
           gh-token: ${{ secrets.COATL_BOT_GH_TOKEN }}
