@@ -40,7 +40,6 @@ jobs:
           rm -r _data
           rm -r api
           rm -r formula
-          rm -r formula-core
 
       - uses: actions/download-artifact@v3
         with:
