@@ -143,14 +143,14 @@ permalink: :title
 </table>
 {%- endif -%}
 
-{%- include formulae.html formula_path=formula_path formulae=f.dependencies description="Depends on" -%}
+<!-- {%- include formulae.html formula_path=formula_path formulae=f.dependencies description="Depends on" -%}
 {%- include formulae.html formula_path=formula_core_path formulae=f.core_dependencies description="Depends on" -%}
 {%- include formulae.html formula_path=formula_path formulae=f.recommended_dependencies description="Depends on recommended" -%}
 {%- include formulae.html formula_path=formula_core_path formulae=f.core_recommended_dependencies description="Depends on recommended" -%}
 {%- include formulae.html formula_path=formula_path formulae=f.optional_dependencies description="Depends on optionally" -%}
 {%- include formulae.html formula_path=formula_core_path formulae=f.core_optional_dependencies description="Depends on optionally" -%}
 {%- include formulae.html formula_path=formula_path formulae=f.build_dependencies description="Depends on when building from source" -%}
-{%- include formulae.html formula_path=formula_core_path formulae=f.core_build_dependencies description="Depends on when building from source" -%}
+{%- include formulae.html formula_path=formula_core_path formulae=f.core_build_dependencies description="Depends on when building from source" -%} -->
 
 {%- if f.requirements.size > 0 %}
 <p>Requires:
