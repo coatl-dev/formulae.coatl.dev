@@ -48,11 +48,11 @@ jobs:
       - run: |
           ./script/find-replace.sh
 
-      - uses: coatl-dev/actions/simple-git-diff@coatl
+      - uses: coatl-dev/actions/simple-git-diff@v2
         id: git-diff
 
       - if: ${{ steps.git-diff.outputs.diff == 'true' }}
-        uses: coatl-dev/actions/gpg-import@coatl
+        uses: coatl-dev/actions/gpg-import@v2
         with:
           passphrase: ${{ secrets.COATL_BOT_GPG_PASSPHRASE }}
           private-key: ${{ secrets.COATL_BOT_GPG_PRIVATE_KEY }}
@@ -65,6 +65,6 @@ jobs:
           git push --force --set-upstream origin coatl-bot-docs-autoupdate
 
       - if: ${{ steps.git-diff.outputs.diff == 'true' }}
-        uses: coatl-dev/actions/pr-create@coatl
+        uses: coatl-dev/actions/pr-create@v2
         with:
           gh-token: ${{ secrets.COATL_BOT_GH_TOKEN }}
