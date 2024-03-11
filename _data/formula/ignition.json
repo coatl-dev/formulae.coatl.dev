@@ -13,16 +13,16 @@
   "license": "Cannot Represent",
   "homepage": "https://inductiveautomation.com/",
   "versions": {
-    "stable": "8.1.37",
+    "stable": "8.1.38",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://files.inductiveautomation.com/release/ia/8.1.37/20240130-1251/Ignition-linux-x86-64-8.1.37.zip",
+      "url": "https://files.inductiveautomation.com/release/ia/8.1.38/20240305-1347/Ignition-linux-x86-64-8.1.38.zip",
       "tag": null,
       "revision": null,
-      "checksum": "21deadec77fcb43836b0bc9180b39936dd6435daa7a19fad18641ac197da9b60"
+      "checksum": "d41bed10b5506a5aa50320d016b183299cfcd050735894f3d66ba005d17811ce"
     }
   },
   "revision": 0,
@@ -71,7 +71,7 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "tap_git_head": "4375f7798af1394a9fdcc6f7d250ad147ab44450",
+  "tap_git_head": "bd90190d9b257477b4e53e7164ff8096a911aa71",
   "variations": {
   }
 }
