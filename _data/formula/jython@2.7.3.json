@@ -1,28 +1,28 @@
 {
-  "name": "ignition",
-  "full_name": "coatl-dev/coatl-dev/ignition",
+  "name": "jython@2.7.3",
+  "full_name": "coatl-dev/coatl-dev/jython@2.7.3",
   "tap": "coatl-dev/coatl-dev",
   "oldname": null,
   "aliases": [
-    "ignition@8.1"
-  ],
-  "versioned_formulae": [
 
   ],
-  "desc": "Unlimited Platform for SCADA and so much more",
-  "license": "Cannot Represent",
-  "homepage": "https://inductiveautomation.com/",
+  "versioned_formulae": [
+    "jython@2.7.2"
+  ],
+  "desc": "Python implementation written in Java (successor to JPython)",
+  "license": "PSF-2.0",
+  "homepage": "https://www.jython.org/",
   "versions": {
-    "stable": "8.1.38",
+    "stable": "2.7.3",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://files.inductiveautomation.com/release/ia/8.1.38/20240305-1347/Ignition-linux-x86-64-8.1.38.zip",
+      "url": "https://search.maven.org/remotecontent?filepath=org/python/jython-installer/2.7.3/jython-installer-2.7.3.jar",
       "tag": null,
       "revision": null,
-      "checksum": "d41bed10b5506a5aa50320d016b183299cfcd050735894f3d66ba005d17811ce"
+      "checksum": "3ffc25c5257d2028b176912a4091fe048c45c7d98218e52d7ce3160a62fdc9fc"
     }
   },
   "revision": 0,
@@ -35,13 +35,13 @@
 
   ],
   "core_build_dependencies": [
-    "unzip"
-  ],
-  "dependencies": [
 
   ],
+  "dependencies": [
+    "openjdk@11"
+  ],
   "core_test_dependencies": [
-    "unzip"
+
   ],
   "recommended_dependencies": [
 
@@ -58,7 +58,7 @@
   "conflicts_with": [
 
   ],
-  "caveats": "The data and logs folders have been symlinked to:\n  data: $(brew --prefix)/etc/ignition\n  logs: $(brew --prefix)/var/ignition\n",
+  "caveats": null,
   "installed": [
 
   ],
