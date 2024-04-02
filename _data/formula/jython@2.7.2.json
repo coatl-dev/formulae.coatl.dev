@@ -7,7 +7,7 @@
 
   ],
   "versioned_formulae": [
-
+    "jython@2.7.3"
   ],
   "desc": "Python implementation written in Java (successor to JPython)",
   "license": "PSF-2.0",
@@ -38,7 +38,7 @@
 
   ],
   "dependencies": [
-
+    "openjdk@11"
   ],
   "core_test_dependencies": [
 
@@ -71,7 +71,7 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "tap_git_head": "ea8dd906e076455f964dbda54dd4c28bbc7d0560",
+  "tap_git_head": "5a50d38d0a4121a368c18b8195c894756abe5b83",
   "variations": {
   }
 }
