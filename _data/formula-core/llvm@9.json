@@ -1,0 +1,174 @@
+{
+  "name": "llvm@9",
+  "full_name": "llvm@9",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "llvm@16",
+    "llvm@15",
+    "llvm@14",
+    "llvm@13",
+    "llvm@12",
+    "llvm@11",
+    "llvm@8"
+  ],
+  "desc": "Next-gen compiler infrastructure",
+  "license": "Apache-2.0",
+  "homepage": "https://llvm.org/",
+  "versions": {
+    "stable": "9.0.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-9.0.1/llvm-9.0.1.src.tar.xz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "00a1ee1f389f81e9979f3a640a01c431b3021de0d42278f6508391a2f0b81c9a"
+    }
+  },
+  "revision": 4,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/llvm/9/blobs/sha256:f7d35848ad1b76f358c742719cf3f0fe5cc913a0e04e1a81838ecc30cea22d7f",
+          "sha256": "f7d35848ad1b76f358c742719cf3f0fe5cc913a0e04e1a81838ecc30cea22d7f"
+        },
+        "big_sur": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/llvm/9/blobs/sha256:611f1a48eaa5ea4abda72ec633671c1ec56541fb2acf9ed8021ac540e863ab33",
+          "sha256": "611f1a48eaa5ea4abda72ec633671c1ec56541fb2acf9ed8021ac540e863ab33"
+        },
+        "catalina": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/llvm/9/blobs/sha256:111e5fdea2179635cb834f62ac0e8e967c4b9e9ad4ed99c8db6a0879f58ff524",
+          "sha256": "111e5fdea2179635cb834f62ac0e8e967c4b9e9ad4ed99c8db6a0879f58ff524"
+        },
+        "mojave": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/llvm/9/blobs/sha256:de79caa57933b7618c0cb92aad49fdf7f8758d0875466050908737d32f9e5b61",
+          "sha256": "de79caa57933b7618c0cb92aad49fdf7f8758d0875466050908737d32f9e5b61"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/llvm/9/blobs/sha256:02addeab63f5540124b9b12c600952190c400c3a7559596537166ef21d9cf3d9",
+          "sha256": "02addeab63f5540124b9b12c600952190c400c3a7559596537166ef21d9cf3d9"
+        }
+      }
+    }
+  },
+  "pour_bottle_only_if": "clt_installed",
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "cmake"
+  ],
+  "dependencies": [
+    "swig"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "libedit",
+    "libffi",
+    "libxml2",
+    "ncurses",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {
+      "since": "catalina"
+    },
+    {},
+    {},
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "arch",
+      "cask": null,
+      "download": null,
+      "version": "x86_64",
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "To use the bundled libc++ please add the following LDFLAGS:\n  LDFLAGS=\"-L$HOMEBREW_PREFIX/opt/llvm@9/lib -Wl,-rpath,$HOMEBREW_PREFIX/opt/llvm@9/lib\"\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": true,
+  "disable_date": "2023-10-05",
+  "disable_reason": "versioned_formula",
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "ruby_source_path": "Formula/l/llvm@9.rb",
+  "ruby_source_checksum": {
+    "sha256": "d0448b952dd4334128c01aebac48c69bd836535bbb5e03d99d03f44d9a76bdfc"
+  },
+  "variations": {
+    "x86_64_linux": {
+      "dependencies": [
+        "swig",
+        "binutils",
+        "elfutils",
+        "python@3.8"
+      ]
+    }
+  },
+  "analytics": {
+    "install": {
+      "30d": {
+        "llvm@9": 3
+      },
+      "90d": {
+        "llvm@9": 7
+      },
+      "365d": {
+        "llvm@9": 268
+      }
+    },
+    "install_on_request": {
+      "30d": {
+        "llvm@9": 3
+      },
+      "90d": {
+        "llvm@9": 7
+      },
+      "365d": {
+        "llvm@9": 251
+      }
+    },
+    "build_error": {
+      "30d": {
+        "llvm@9": 0
+      }
+    }
+  },
+  "generated_date": "2024-04-03"
+}

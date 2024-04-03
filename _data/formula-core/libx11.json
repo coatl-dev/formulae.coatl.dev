@@ -1,0 +1,188 @@
+{
+  "name": "libx11",
+  "full_name": "libx11",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "X.Org: Core X11 protocol client library",
+  "license": "MIT",
+  "homepage": "https://www.x.org/",
+  "versions": {
+    "stable": "1.8.8",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.x.org/archive/individual/lib/libX11-1.8.8.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "26997a2bc48c03df7d670f8a4ee961d1d6b039bf947475e5fec6b7635b4efe72"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_sonoma": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:1e6382a60b8f7bba273ef18e3c921d62c7194d2c47c61d6e4788435998aa6991",
+          "sha256": "1e6382a60b8f7bba273ef18e3c921d62c7194d2c47c61d6e4788435998aa6991"
+        },
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:2c8b93b65cfc782eb63cda2429b8b870966cbb26e0b6e24df6aa1d61bdc4a441",
+          "sha256": "2c8b93b65cfc782eb63cda2429b8b870966cbb26e0b6e24df6aa1d61bdc4a441"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:f32ce3c7f827ac39747d99042f29741cbd1421b39c092d9932eb03a17bfbfffb",
+          "sha256": "f32ce3c7f827ac39747d99042f29741cbd1421b39c092d9932eb03a17bfbfffb"
+        },
+        "sonoma": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:6cfbdd50b67be869125e066d55c0e39e5becf2f04a4cb610ad3d50435452048a",
+          "sha256": "6cfbdd50b67be869125e066d55c0e39e5becf2f04a4cb610ad3d50435452048a"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:5166b06da3dd877141262e74bf27f1c1e3ed20dafa83564923e543ccf4f51af4",
+          "sha256": "5166b06da3dd877141262e74bf27f1c1e3ed20dafa83564923e543ccf4f51af4"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:1508f754f7bc89d84218dc051d5cb92bd90b54063fe0eb753b2a5062862e980a",
+          "sha256": "1508f754f7bc89d84218dc051d5cb92bd90b54063fe0eb753b2a5062862e980a"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:41934b03c069272eee229ffc651e867d7891e30ea53dab8a793e3ba2cafd64e7",
+          "sha256": "41934b03c069272eee229ffc651e867d7891e30ea53dab8a793e3ba2cafd64e7"
+        }
+      }
+    }
+  },
+  "pour_bottle_only_if": null,
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config",
+    "util-macros",
+    "xtrans"
+  ],
+  "dependencies": [
+    "libxcb",
+    "xorgproto"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [
+    {
+      "version": "1.8.7",
+      "used_options": [],
+      "built_as_bottle": true,
+      "poured_from_bottle": true,
+      "time": 1708291893,
+      "runtime_dependencies": [
+        {
+          "full_name": "xorgproto",
+          "version": "2023.2",
+          "revision": 0,
+          "pkg_version": "2023.2",
+          "declared_directly": true
+        },
+        {
+          "full_name": "libxau",
+          "version": "1.0.11",
+          "revision": 0,
+          "pkg_version": "1.0.11",
+          "declared_directly": false
+        },
+        {
+          "full_name": "libxdmcp",
+          "version": "1.1.4",
+          "revision": 0,
+          "pkg_version": "1.1.4",
+          "declared_directly": false
+        },
+        {
+          "full_name": "libxcb",
+          "version": "1.16",
+          "revision": 0,
+          "pkg_version": "1.16",
+          "declared_directly": true
+        }
+      ],
+      "installed_as_dependency": true,
+      "installed_on_request": false
+    }
+  ],
+  "linked_keg": "1.8.7",
+  "pinned": false,
+  "outdated": true,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "ruby_source_path": "Formula/lib/libx11.rb",
+  "ruby_source_checksum": {
+    "sha256": "2d5bd30f86d68b5c5d6121e3bbb8ec783b1f08cc7a15f15bfa91422b2fab9a78"
+  },
+  "variations": {},
+  "analytics": {
+    "install": {
+      "30d": {
+        "libx11": 135175,
+        "libx11 --HEAD": 5
+      },
+      "90d": {
+        "libx11": 356649,
+        "libx11 --HEAD": 5
+      },
+      "365d": {
+        "libx11": 1508942,
+        "libx11 --HEAD": 30
+      }
+    },
+    "install_on_request": {
+      "30d": {
+        "libx11": 3976,
+        "libx11 --HEAD": 3
+      },
+      "90d": {
+        "libx11": 5859,
+        "libx11 --HEAD": 3
+      },
+      "365d": {
+        "libx11": 23651,
+        "libx11 --HEAD": 23
+      }
+    },
+    "build_error": {
+      "30d": {
+        "libx11": 28
+      }
+    }
+  },
+  "generated_date": "2024-04-03"
+}

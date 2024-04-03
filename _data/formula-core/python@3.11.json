@@ -1,0 +1,239 @@
+{
+  "name": "python@3.11",
+  "full_name": "python@3.11",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "python@3.12",
+    "python@3.10",
+    "python@3.9",
+    "python@3.8",
+    "python@3.7"
+  ],
+  "desc": "Interpreted, interactive, object-oriented programming language",
+  "license": "Python-2.0",
+  "homepage": "https://www.python.org/",
+  "versions": {
+    "stable": "3.11.9",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.python.org/ftp/python/3.11.9/Python-3.11.9.tgz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "e7de3240a8bc2b1e1ba5c81bf943f06861ff494b69fda990ce2722a504c6153d"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_sonoma": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:d986c0e61ca7a9db42fbcf66762fa28205c48329e0bbf904b1311a5ab11ca387",
+          "sha256": "d986c0e61ca7a9db42fbcf66762fa28205c48329e0bbf904b1311a5ab11ca387"
+        },
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:a5166e8325d3084ef5edae7ce5e012c190c29e4011064dad8f83c37d83172144",
+          "sha256": "a5166e8325d3084ef5edae7ce5e012c190c29e4011064dad8f83c37d83172144"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:87773af01a3e406d0c7dfa0f3fec83076bb07afe125a68253fd6860a232aee71",
+          "sha256": "87773af01a3e406d0c7dfa0f3fec83076bb07afe125a68253fd6860a232aee71"
+        },
+        "sonoma": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:76393065457548186df87e85245d4db05779b67e60157fd90399a05035ff267f",
+          "sha256": "76393065457548186df87e85245d4db05779b67e60157fd90399a05035ff267f"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:6f612c82d82beeadd769d40707e48c85b839fa2c1f3aeb0b78a18df769399d75",
+          "sha256": "6f612c82d82beeadd769d40707e48c85b839fa2c1f3aeb0b78a18df769399d75"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:35a3fa7bc0dd78055d3ff8ca238366d7c78bb322cd5c09d8a2f3b4e7d07baf82",
+          "sha256": "35a3fa7bc0dd78055d3ff8ca238366d7c78bb322cd5c09d8a2f3b4e7d07baf82"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:3f5cdaba8d745aac0c36ee00e73c2664cbdd0a076b52780dd62c8489d76d3c38",
+          "sha256": "3f5cdaba8d745aac0c36ee00e73c2664cbdd0a076b52780dd62c8489d76d3c38"
+        }
+      }
+    }
+  },
+  "pour_bottle_only_if": "clt_installed",
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "pkg-config"
+  ],
+  "dependencies": [
+    "mpdecimal",
+    "openssl@3",
+    "sqlite",
+    "xz"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "bzip2",
+    "expat",
+    "libedit",
+    "libffi",
+    "libxcrypt",
+    "ncurses",
+    "unzip",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {
+      "since": "catalina"
+    },
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "Python has been installed as\n  $HOMEBREW_PREFIX/bin/python3.11\n\nUnversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to\n`python3.11`, `python3.11-config`, `pip3.11` etc., respectively, have been installed into\n  $HOMEBREW_PREFIX/opt/python@3.11/libexec/bin\n\nYou can install Python packages with\n  pip3.11 install <package>\nThey will install into the site-package directory\n  $HOMEBREW_PREFIX/lib/python3.11/site-packages\n\ntkinter is no longer included with this formula, but it is available separately:\n  brew install python-tk@3.11\n\ngdbm (`dbm.gnu`) is no longer included in this formula, but it is available separately:\n  brew install python-gdbm@3.11\n`dbm.ndbm` changed database backends in Homebrew Python 3.11.\nIf you need to read a database from a previous Homebrew Python created via `dbm.ndbm`,\nyou'll need to read your database using the older version of Homebrew Python and convert to another format.\n`dbm` still defaults to `dbm.gnu` when it is installed.\n\nIf you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:\n  brew install python3\n\nFor more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python\n",
+  "installed": [
+    {
+      "version": "3.11.7_1",
+      "used_options": [],
+      "built_as_bottle": true,
+      "poured_from_bottle": true,
+      "time": 1708291371,
+      "runtime_dependencies": [
+        {
+          "full_name": "mpdecimal",
+          "version": "4.0.0",
+          "revision": 0,
+          "pkg_version": "4.0.0",
+          "declared_directly": true
+        },
+        {
+          "full_name": "ca-certificates",
+          "version": "2023-12-12",
+          "revision": 0,
+          "pkg_version": "2023-12-12",
+          "declared_directly": false
+        },
+        {
+          "full_name": "openssl@3",
+          "version": "3.2.1",
+          "revision": 0,
+          "pkg_version": "3.2.1",
+          "declared_directly": true
+        },
+        {
+          "full_name": "readline",
+          "version": "8.2.7",
+          "revision": 0,
+          "pkg_version": "8.2.7",
+          "declared_directly": false
+        },
+        {
+          "full_name": "sqlite",
+          "version": "3.45.1",
+          "revision": 0,
+          "pkg_version": "3.45.1",
+          "declared_directly": true
+        },
+        {
+          "full_name": "xz",
+          "version": "5.4.5",
+          "revision": 0,
+          "pkg_version": "5.4.5",
+          "declared_directly": true
+        }
+      ],
+      "installed_as_dependency": false,
+      "installed_on_request": true
+    }
+  ],
+  "linked_keg": "3.11.7_1",
+  "pinned": false,
+  "outdated": true,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "ruby_source_path": "Formula/p/python@3.11.rb",
+  "ruby_source_checksum": {
+    "sha256": "eae5946786fd2208724acc11fa23e6fb001c1923c785921b6899cdaa36a6401e"
+  },
+  "variations": {
+    "x86_64_linux": {
+      "dependencies": [
+        "mpdecimal",
+        "openssl@3",
+        "sqlite",
+        "xz",
+        "berkeley-db@5",
+        "libnsl"
+      ]
+    }
+  },
+  "analytics": {
+    "install": {
+      "30d": {
+        "python@3.11": 143966,
+        "python@3.11 --HEAD": 197
+      },
+      "90d": {
+        "python@3.11": 650557,
+        "python@3.11 --HEAD": 748
+      },
+      "365d": {
+        "python@3.11": 2948270,
+        "python@3.11 --HEAD": 2979
+      }
+    },
+    "install_on_request": {
+      "30d": {
+        "python@3.11": 93623,
+        "python@3.11 --HEAD": 196
+      },
+      "90d": {
+        "python@3.11": 417891,
+        "python@3.11 --HEAD": 746
+      },
+      "365d": {
+        "python@3.11": 1657212,
+        "python@3.11 --HEAD": 2968
+      }
+    },
+    "build_error": {
+      "30d": {
+        "python@3.11": 78
+      }
+    }
+  },
+  "generated_date": "2024-04-03"
+}

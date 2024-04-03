@@ -1,0 +1,151 @@
+{
+  "name": "tree-sitter",
+  "full_name": "tree-sitter",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Parser generator tool and incremental parsing library",
+  "license": "MIT",
+  "homepage": "https://tree-sitter.github.io/",
+  "versions": {
+    "stable": "0.22.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/tree-sitter/tree-sitter/archive/refs/tags/v0.22.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "0c829523b876d4a37e1bd46a655c133a93669c0fe98fcd84972b168849c27afc"
+    },
+    "head": {
+      "url": "https://github.com/tree-sitter/tree-sitter.git",
+      "branch": "master",
+      "using": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tree-sitter/blobs/sha256:864d65c35270a1150028cb1767d71f4549a4b64b9f4abd029f97641484c12971",
+          "sha256": "864d65c35270a1150028cb1767d71f4549a4b64b9f4abd029f97641484c12971"
+        },
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tree-sitter/blobs/sha256:632264bbf86e5838f1175aa75c3fe4540a617ff66aad617af46e78ad3c6d1303",
+          "sha256": "632264bbf86e5838f1175aa75c3fe4540a617ff66aad617af46e78ad3c6d1303"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tree-sitter/blobs/sha256:2f496671caec440c0a11858dc79caa81e32a4743acee7871def02fd32305ecf9",
+          "sha256": "2f496671caec440c0a11858dc79caa81e32a4743acee7871def02fd32305ecf9"
+        },
+        "sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tree-sitter/blobs/sha256:a5005dda76bca989d76c0c14dee5faa4e0ccfbff6685f0a24c1b3a477a973348",
+          "sha256": "a5005dda76bca989d76c0c14dee5faa4e0ccfbff6685f0a24c1b3a477a973348"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tree-sitter/blobs/sha256:f34ec18b64a8d010078b4cf52289481709e365333df027a30de2caedcd6e4512",
+          "sha256": "f34ec18b64a8d010078b4cf52289481709e365333df027a30de2caedcd6e4512"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/tree-sitter/blobs/sha256:68c5c14bc68ca86f1e2768d0f07171eb5238282e87a130f0021b32cf904b6c4c",
+          "sha256": "68c5c14bc68ca86f1e2768d0f07171eb5238282e87a130f0021b32cf904b6c4c"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/tree-sitter/blobs/sha256:1ca7b72329bbbf4fd0f1a1539a4ed1adbbd243a22599b998c1a26e7fcb189f3c",
+          "sha256": "1ca7b72329bbbf4fd0f1a1539a4ed1adbbd243a22599b998c1a26e7fcb189f3c"
+        }
+      }
+    }
+  },
+  "pour_bottle_only_if": null,
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "rust"
+  ],
+  "dependencies": [],
+  "test_dependencies": [
+    "node"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "ruby_source_path": "Formula/t/tree-sitter.rb",
+  "ruby_source_checksum": {
+    "sha256": "f1a4e27198bd3fba31f0ced706fdcfea76f945371deff797f1bc15a206f7cddc"
+  },
+  "variations": {},
+  "analytics": {
+    "install": {
+      "30d": {
+        "tree-sitter": 41331,
+        "tree-sitter --HEAD": 221
+      },
+      "90d": {
+        "tree-sitter": 96374,
+        "tree-sitter --HEAD": 537
+      },
+      "365d": {
+        "tree-sitter": 208823,
+        "tree-sitter --HEAD": 921
+      }
+    },
+    "install_on_request": {
+      "30d": {
+        "tree-sitter": 3989,
+        "tree-sitter --HEAD": 220
+      },
+      "90d": {
+        "tree-sitter": 8609,
+        "tree-sitter --HEAD": 533
+      },
+      "365d": {
+        "tree-sitter": 14627,
+        "tree-sitter --HEAD": 917
+      }
+    },
+    "build_error": {
+      "30d": {
+        "tree-sitter --HEAD": 37,
+        "tree-sitter": 27
+      }
+    }
+  },
+  "generated_date": "2024-04-03"
+}

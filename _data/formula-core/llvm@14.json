@@ -1,0 +1,185 @@
+{
+  "name": "llvm@14",
+  "full_name": "llvm@14",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "llvm@16",
+    "llvm@15",
+    "llvm@13",
+    "llvm@12",
+    "llvm@11",
+    "llvm@9",
+    "llvm@8"
+  ],
+  "desc": "Next-gen compiler infrastructure",
+  "license": "Apache-2.0 with LLVM-exception",
+  "homepage": "https://llvm.org/",
+  "versions": {
+    "stable": "14.0.6",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-14.0.6/llvm-project-14.0.6.src.tar.xz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "8b3cfd7bc695bd6cea0f37f53f0981f34f87496e79e2529874fd03a2f9dd3a8a"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 4,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/llvm/14/blobs/sha256:1b081d8bd775b69b5c95e98df2689844a3c44a77509bfd9adc1f169e9502c6a7",
+          "sha256": "1b081d8bd775b69b5c95e98df2689844a3c44a77509bfd9adc1f169e9502c6a7"
+        },
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/llvm/14/blobs/sha256:89591ec1b0a6bcafe0e2bba53852eef97ad8d99c4135a96442e85892b02356b4",
+          "sha256": "89591ec1b0a6bcafe0e2bba53852eef97ad8d99c4135a96442e85892b02356b4"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/llvm/14/blobs/sha256:f384ea62cf9c9a18add6ab68a96ada4a4639a0b52d906304cb961d5a1c96df1b",
+          "sha256": "f384ea62cf9c9a18add6ab68a96ada4a4639a0b52d906304cb961d5a1c96df1b"
+        },
+        "sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/llvm/14/blobs/sha256:88ef0c0f3a9876fe2831f1b7f38aee95b43fadd816b6622b76583461d685bbae",
+          "sha256": "88ef0c0f3a9876fe2831f1b7f38aee95b43fadd816b6622b76583461d685bbae"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/llvm/14/blobs/sha256:e66da1e873688670be544c1bd796edaabfb1bd75704bf0726ec0eeb4001c9a20",
+          "sha256": "e66da1e873688670be544c1bd796edaabfb1bd75704bf0726ec0eeb4001c9a20"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/llvm/14/blobs/sha256:a17201d682ba0390cf148afa82e0796cfb95c8d0bd0029abd4553a4a16cd041b",
+          "sha256": "a17201d682ba0390cf148afa82e0796cfb95c8d0bd0029abd4553a4a16cd041b"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/llvm/14/blobs/sha256:584cd6ac9de19540bce25bfb1e35af872d34f0ad5723dbb5a63c7561dfd1091d",
+          "sha256": "584cd6ac9de19540bce25bfb1e35af872d34f0ad5723dbb5a63c7561dfd1091d"
+        }
+      }
+    }
+  },
+  "pour_bottle_only_if": "clt_installed",
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "python@3.12"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "python": "test"
+    },
+    "libedit",
+    "libffi",
+    "ncurses",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {
+      "since": "catalina"
+    },
+    {},
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "To use the bundled libc++ please add the following LDFLAGS:\n  LDFLAGS=\"-L$HOMEBREW_PREFIX/opt/llvm@14/lib/c++ -Wl,-rpath,$HOMEBREW_PREFIX/opt/llvm@14/lib/c++\"\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "ruby_source_path": "Formula/l/llvm@14.rb",
+  "ruby_source_checksum": {
+    "sha256": "491863c92608e72b0ea9091340c1097da9604f93f2c2d2852b549a66beee3e41"
+  },
+  "variations": {
+    "x86_64_linux": {
+      "build_dependencies": [
+        "cmake",
+        "python@3.12",
+        "pkg-config",
+        "python-setuptools"
+      ],
+      "dependencies": [
+        "binutils",
+        "elfutils"
+      ],
+      "caveats": null
+    }
+  },
+  "analytics": {
+    "install": {
+      "30d": {
+        "llvm@14": 644,
+        "llvm@14 --HEAD": 1
+      },
+      "90d": {
+        "llvm@14": 3817,
+        "llvm@14 --HEAD": 1
+      },
+      "365d": {
+        "llvm@14": 15879,
+        "llvm@14 --HEAD": 5
+      }
+    },
+    "install_on_request": {
+      "30d": {
+        "llvm@14": 302,
+        "llvm@14 --HEAD": 1
+      },
+      "90d": {
+        "llvm@14": 2801,
+        "llvm@14 --HEAD": 1
+      },
+      "365d": {
+        "llvm@14": 11241,
+        "llvm@14 --HEAD": 5
+      }
+    },
+    "build_error": {
+      "30d": {
+        "llvm@14": 7
+      }
+    }
+  },
+  "generated_date": "2024-04-03"
+}

@@ -1,0 +1,157 @@
+{
+  "name": "libgit2@1.6",
+  "full_name": "libgit2@1.6",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "libgit2@1.5"
+  ],
+  "desc": "C library of Git core methods that is re-entrant and linkable",
+  "license": "GPL-2.0-only with GCC-exception-2.0",
+  "homepage": "https://libgit2.github.com/",
+  "versions": {
+    "stable": "1.6.5",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/libgit2/libgit2/archive/refs/tags/v1.6.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "0f09dd49e409913c94df00eeb5b54f8b597905071b454c7f614f8c6e1ddb8d75"
+    },
+    "head": {
+      "url": "https://github.com/libgit2/libgit2.git",
+      "branch": "maint/v1.6",
+      "using": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgit2/1.6/blobs/sha256:83f4ee26d02fbfda076cdebe727390dd4db92ec8cb3791115212f43d6047eeed",
+          "sha256": "83f4ee26d02fbfda076cdebe727390dd4db92ec8cb3791115212f43d6047eeed"
+        },
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgit2/1.6/blobs/sha256:fdd0c3045a62a5abd4668b43bb384e4586cb79520bfc89c53f96af6cbf86b362",
+          "sha256": "fdd0c3045a62a5abd4668b43bb384e4586cb79520bfc89c53f96af6cbf86b362"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgit2/1.6/blobs/sha256:735c54cafdf705104f516c73f808c7b58e746402c5e5fd7d9de991b26b0ee3a1",
+          "sha256": "735c54cafdf705104f516c73f808c7b58e746402c5e5fd7d9de991b26b0ee3a1"
+        },
+        "sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgit2/1.6/blobs/sha256:6ab0d20d176740e61ef21cf5e583ca1642953d74c278af0668a761f646d10b3b",
+          "sha256": "6ab0d20d176740e61ef21cf5e583ca1642953d74c278af0668a761f646d10b3b"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgit2/1.6/blobs/sha256:331e0768ad6bb277c1d84901c83e851e8ab5af7a791a61ac8b962cb938df20c3",
+          "sha256": "331e0768ad6bb277c1d84901c83e851e8ab5af7a791a61ac8b962cb938df20c3"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libgit2/1.6/blobs/sha256:d4ac0449a3342561c75ffa40d92cdc4e3fd4bcef7deff58827e59b584149bd65",
+          "sha256": "d4ac0449a3342561c75ffa40d92cdc4e3fd4bcef7deff58827e59b584149bd65"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/libgit2/1.6/blobs/sha256:bccdefbeb5fcbf1ad61fbd89ea1ac463a4b66421287723d72386d5f6ed81cf50",
+          "sha256": "bccdefbeb5fcbf1ad61fbd89ea1ac463a4b66421287723d72386d5f6ed81cf50"
+        }
+      }
+    }
+  },
+  "pour_bottle_only_if": null,
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "libssh2",
+    "openssl@3"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "ruby_source_path": "Formula/lib/libgit2@1.6.rb",
+  "ruby_source_checksum": {
+    "sha256": "7274854ea2017234b31f8b78bbfd03a78897e80b1ff7547775bfea7514614e30"
+  },
+  "variations": {},
+  "analytics": {
+    "install": {
+      "30d": {
+        "libgit2@1.6": 2364,
+        "libgit2@1.6 --HEAD": 1
+      },
+      "90d": {
+        "libgit2@1.6": 10574,
+        "libgit2@1.6 --HEAD": 2
+      },
+      "365d": {
+        "libgit2@1.6": 49495,
+        "libgit2@1.6 --HEAD": 3
+      }
+    },
+    "install_on_request": {
+      "30d": {
+        "libgit2@1.6": 300,
+        "libgit2@1.6 --HEAD": 1
+      },
+      "90d": {
+        "libgit2@1.6": 817,
+        "libgit2@1.6 --HEAD": 2
+      },
+      "365d": {
+        "libgit2@1.6": 1112,
+        "libgit2@1.6 --HEAD": 3
+      }
+    },
+    "build_error": {
+      "30d": {
+        "libgit2@1.6": 0
+      }
+    }
+  },
+  "generated_date": "2024-04-03"
+}
