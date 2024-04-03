@@ -95,19 +95,19 @@
   "caveats": "To install the CMake documentation, run:\n  brew install cmake-docs\n",
   "installed": [
     {
-      "version": "3.28.3",
+      "version": "3.29.0",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1708291993,
+      "time": 1711763288,
       "runtime_dependencies": [],
       "installed_as_dependency": false,
       "installed_on_request": true
     }
   ],
-  "linked_keg": "3.28.3",
+  "linked_keg": "3.29.0",
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -116,7 +116,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
   "ruby_source_path": "Formula/c/cmake.rb",
   "ruby_source_checksum": {
     "sha256": "1a9523068f4cea3aa56f9df2e4114423bb1413f7281b6a0d60058b3a09bbd159"
@@ -131,29 +131,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "cmake": 126429,
+        "cmake": 126416,
         "cmake --HEAD": 140
       },
       "90d": {
-        "cmake": 369949,
+        "cmake": 369932,
         "cmake --HEAD": 369
       },
       "365d": {
-        "cmake": 1511518,
+        "cmake": 1511499,
         "cmake --HEAD": 1541
       }
     },
     "install_on_request": {
       "30d": {
-        "cmake": 100286,
+        "cmake": 100275,
         "cmake --HEAD": 139
       },
       "90d": {
-        "cmake": 290946,
+        "cmake": 290945,
         "cmake --HEAD": 368
       },
       "365d": {
-        "cmake": 1184346,
+        "cmake": 1184334,
         "cmake --HEAD": 1538
       }
     },

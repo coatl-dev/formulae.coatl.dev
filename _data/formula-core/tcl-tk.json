@@ -96,17 +96,17 @@
   "caveats": "The sqlite3_analyzer binary is in the `sqlite-analyzer` formula.\n",
   "installed": [
     {
-      "version": "8.6.13_5",
+      "version": "8.6.14",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1708292447,
+      "time": 1711763926,
       "runtime_dependencies": [
         {
           "full_name": "ca-certificates",
-          "version": "2023-12-12",
+          "version": "2024-03-11",
           "revision": 0,
-          "pkg_version": "2023-12-12",
+          "pkg_version": "2024-03-11",
           "declared_directly": false
         },
         {
@@ -121,9 +121,9 @@
       "installed_on_request": true
     }
   ],
-  "linked_keg": "8.6.13_5",
+  "linked_keg": "8.6.14",
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -132,7 +132,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
   "ruby_source_path": "Formula/t/tcl-tk.rb",
   "ruby_source_checksum": {
     "sha256": "96680d957a2d51f66eeeaf282f07e5483ce5721cd68ca589de501fa95b75fabf"
@@ -153,29 +153,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "tcl-tk": 49704,
+        "tcl-tk": 49701,
         "tcl-tk --HEAD": 29
       },
       "90d": {
-        "tcl-tk": 111131,
+        "tcl-tk": 111140,
         "tcl-tk --HEAD": 62
       },
       "365d": {
-        "tcl-tk": 538891,
+        "tcl-tk": 538884,
         "tcl-tk --HEAD": 300
       }
     },
     "install_on_request": {
       "30d": {
-        "tcl-tk": 21154,
+        "tcl-tk": 21147,
         "tcl-tk --HEAD": 27
       },
       "90d": {
-        "tcl-tk": 43981,
+        "tcl-tk": 43982,
         "tcl-tk --HEAD": 59
       },
       "365d": {
-        "tcl-tk": 243025,
+        "tcl-tk": 243017,
         "tcl-tk --HEAD": 297
       }
     },

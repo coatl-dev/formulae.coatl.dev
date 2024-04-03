@@ -118,7 +118,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
   "ruby_source_path": "Formula/a/automake.rb",
   "ruby_source_checksum": {
     "sha256": "ec8611e120c1d7f55c1dc13219774d6f60b42ecb06fbfdc3b925fe26a5f6757a"
@@ -127,29 +127,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "automake": 17891,
+        "automake": 17879,
         "automake --HEAD": 20
       },
       "90d": {
-        "automake": 54419,
+        "automake": 54420,
         "automake --HEAD": 53
       },
       "365d": {
-        "automake": 254549,
+        "automake": 254536,
         "automake --HEAD": 258
       }
     },
     "install_on_request": {
       "30d": {
-        "automake": 12537,
+        "automake": 12524,
         "automake --HEAD": 20
       },
       "90d": {
-        "automake": 37428,
+        "automake": 37430,
         "automake --HEAD": 53
       },
       "365d": {
-        "automake": 188827,
+        "automake": 188814,
         "automake --HEAD": 258
       }
     },

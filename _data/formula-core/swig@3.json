@@ -127,7 +127,7 @@
   "disable_reason": "unsupported",
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
   "ruby_source_path": "Formula/s/swig@3.rb",
   "ruby_source_checksum": {
     "sha256": "ac418da5b08b94a8de71fe326f86d85ed4c9598a96c38330714380ef4888e838"

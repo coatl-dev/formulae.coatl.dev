@@ -119,11 +119,11 @@
   "caveats": "Python has been installed as\n  $HOMEBREW_PREFIX/bin/python3.11\n\nUnversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to\n`python3.11`, `python3.11-config`, `pip3.11` etc., respectively, have been installed into\n  $HOMEBREW_PREFIX/opt/python@3.11/libexec/bin\n\nYou can install Python packages with\n  pip3.11 install <package>\nThey will install into the site-package directory\n  $HOMEBREW_PREFIX/lib/python3.11/site-packages\n\ntkinter is no longer included with this formula, but it is available separately:\n  brew install python-tk@3.11\n\ngdbm (`dbm.gnu`) is no longer included in this formula, but it is available separately:\n  brew install python-gdbm@3.11\n`dbm.ndbm` changed database backends in Homebrew Python 3.11.\nIf you need to read a database from a previous Homebrew Python created via `dbm.ndbm`,\nyou'll need to read your database using the older version of Homebrew Python and convert to another format.\n`dbm` still defaults to `dbm.gnu` when it is installed.\n\nIf you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:\n  brew install python3\n\nFor more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python\n",
   "installed": [
     {
-      "version": "3.11.7_1",
+      "version": "3.11.8",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1708291371,
+      "time": 1711763206,
       "runtime_dependencies": [
         {
           "full_name": "mpdecimal",
@@ -134,9 +134,9 @@
         },
         {
           "full_name": "ca-certificates",
-          "version": "2023-12-12",
+          "version": "2024-03-11",
           "revision": 0,
-          "pkg_version": "2023-12-12",
+          "pkg_version": "2024-03-11",
           "declared_directly": false
         },
         {
@@ -148,31 +148,31 @@
         },
         {
           "full_name": "readline",
-          "version": "8.2.7",
+          "version": "8.2.10",
           "revision": 0,
-          "pkg_version": "8.2.7",
+          "pkg_version": "8.2.10",
           "declared_directly": false
         },
         {
           "full_name": "sqlite",
-          "version": "3.45.1",
+          "version": "3.45.2",
           "revision": 0,
-          "pkg_version": "3.45.1",
+          "pkg_version": "3.45.2",
           "declared_directly": true
         },
         {
           "full_name": "xz",
-          "version": "5.4.5",
+          "version": "5.4.6",
           "revision": 0,
-          "pkg_version": "5.4.5",
+          "pkg_version": "5.4.6",
           "declared_directly": true
         }
       ],
-      "installed_as_dependency": false,
-      "installed_on_request": true
+      "installed_as_dependency": true,
+      "installed_on_request": false
     }
   ],
-  "linked_keg": "3.11.7_1",
+  "linked_keg": "3.11.8",
   "pinned": false,
   "outdated": true,
   "deprecated": false,
@@ -183,7 +183,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
   "ruby_source_path": "Formula/p/python@3.11.rb",
   "ruby_source_checksum": {
     "sha256": "eae5946786fd2208724acc11fa23e6fb001c1923c785921b6899cdaa36a6401e"
@@ -203,29 +203,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.11": 143966,
+        "python@3.11": 143983,
         "python@3.11 --HEAD": 197
       },
       "90d": {
-        "python@3.11": 650557,
+        "python@3.11": 650530,
         "python@3.11 --HEAD": 748
       },
       "365d": {
-        "python@3.11": 2948270,
+        "python@3.11": 2948291,
         "python@3.11 --HEAD": 2979
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.11": 93623,
+        "python@3.11": 93630,
         "python@3.11 --HEAD": 196
       },
       "90d": {
-        "python@3.11": 417891,
+        "python@3.11": 417851,
         "python@3.11 --HEAD": 746
       },
       "365d": {
-        "python@3.11": 1657212,
+        "python@3.11": 1657227,
         "python@3.11 --HEAD": 2968
       }
     },

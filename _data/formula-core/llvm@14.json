@@ -126,7 +126,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
   "ruby_source_path": "Formula/l/llvm@14.rb",
   "ruby_source_checksum": {
     "sha256": "491863c92608e72b0ea9091340c1097da9604f93f2c2d2852b549a66beee3e41"
@@ -153,7 +153,7 @@
         "llvm@14 --HEAD": 1
       },
       "90d": {
-        "llvm@14": 3817,
+        "llvm@14": 3813,
         "llvm@14 --HEAD": 1
       },
       "365d": {
@@ -163,11 +163,11 @@
     },
     "install_on_request": {
       "30d": {
-        "llvm@14": 302,
+        "llvm@14": 303,
         "llvm@14 --HEAD": 1
       },
       "90d": {
-        "llvm@14": 2801,
+        "llvm@14": 2797,
         "llvm@14 --HEAD": 1
       },
       "365d": {

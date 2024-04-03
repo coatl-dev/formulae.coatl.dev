@@ -105,7 +105,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1708292270,
+      "time": 1711763679,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -122,7 +122,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
   "ruby_source_path": "Formula/g/gdbm.rb",
   "ruby_source_checksum": {
     "sha256": "7681f92a3843944b109d922b31f7ac3e922aa980e5458855bc729230eae5b19d"
@@ -131,15 +131,15 @@
   "analytics": {
     "install": {
       "30d": {
-        "gdbm": 27068,
+        "gdbm": 27064,
         "gdbm --HEAD": 4
       },
       "90d": {
-        "gdbm": 76445,
+        "gdbm": 76441,
         "gdbm --HEAD": 18
       },
       "365d": {
-        "gdbm": 335126,
+        "gdbm": 335117,
         "gdbm --HEAD": 55
       }
     },
@@ -153,7 +153,7 @@
         "gdbm --HEAD": 16
       },
       "365d": {
-        "gdbm": 22621,
+        "gdbm": 22619,
         "gdbm --HEAD": 49
       }
     },

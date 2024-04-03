@@ -91,19 +91,19 @@
   "caveats": null,
   "installed": [
     {
-      "version": "2023.2",
+      "version": "2024.1",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1708291888,
+      "time": 1711763127,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
     }
   ],
-  "linked_keg": "2023.2",
+  "linked_keg": "2024.1",
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -112,7 +112,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
   "ruby_source_path": "Formula/x/xorgproto.rb",
   "ruby_source_checksum": {
     "sha256": "33174371c64bd33781b98f4433e1ece291a1199c95e0dd0315d89cdbe94f0c2f"
@@ -121,29 +121,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "xorgproto": 101292,
+        "xorgproto": 101331,
         "xorgproto --HEAD": 6
       },
       "90d": {
-        "xorgproto": 232779,
+        "xorgproto": 232825,
         "xorgproto --HEAD": 6
       },
       "365d": {
-        "xorgproto": 1000429,
+        "xorgproto": 1000468,
         "xorgproto --HEAD": 18
       }
     },
     "install_on_request": {
       "30d": {
-        "xorgproto": 1667,
+        "xorgproto": 1668,
         "xorgproto --HEAD": 6
       },
       "90d": {
-        "xorgproto": 2178,
+        "xorgproto": 2180,
         "xorgproto --HEAD": 6
       },
       "365d": {
-        "xorgproto": 7480,
+        "xorgproto": 7482,
         "xorgproto --HEAD": 12
       }
     },
