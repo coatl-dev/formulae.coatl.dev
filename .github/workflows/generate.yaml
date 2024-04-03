@@ -48,6 +48,9 @@ jobs:
       - run: |
           ./script/find-replace.sh
 
+      - run: |
+          ./script/generate-core.sh
+
       - uses: coatl-dev/actions/simple-git-diff@v3
         id: git-diff
 
