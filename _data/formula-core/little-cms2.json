@@ -1,0 +1,193 @@
+{
+  "name": "little-cms2",
+  "full_name": "little-cms2",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "lcms2"
+  ],
+  "versioned_formulae": [],
+  "desc": "Color management engine supporting ICC profiles",
+  "license": "MIT",
+  "homepage": "https://www.littlecms.com/",
+  "versions": {
+    "stable": "2.16",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://downloads.sourceforge.net/project/lcms/lcms/2.16/lcms2-2.16.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "d873d34ad8b9b4cea010631f1a6228d2087475e4dc5e763eb81acc23d9d45a51"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 1,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/little-cms2/blobs/sha256:d1ed5796de3f00d4b1301e9062cb54b2337c8e8dcf2ae9be8e03f3ed7af791e0",
+          "sha256": "d1ed5796de3f00d4b1301e9062cb54b2337c8e8dcf2ae9be8e03f3ed7af791e0"
+        },
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/little-cms2/blobs/sha256:c7eee75a83a2be3f19aa53ad043da4a316af7bc7f57e6aaf8f311f9e6e354be8",
+          "sha256": "c7eee75a83a2be3f19aa53ad043da4a316af7bc7f57e6aaf8f311f9e6e354be8"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/little-cms2/blobs/sha256:2f155dd797f8d008616c61677d7b7ebc49b349feb06a1c86239d49e1b9a5118d",
+          "sha256": "2f155dd797f8d008616c61677d7b7ebc49b349feb06a1c86239d49e1b9a5118d"
+        },
+        "sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/little-cms2/blobs/sha256:46dd0d6ba9293999feaeb701a4c614440250a51daf0949478fbd486650a637bc",
+          "sha256": "46dd0d6ba9293999feaeb701a4c614440250a51daf0949478fbd486650a637bc"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/little-cms2/blobs/sha256:1c2e7ed787c6ff05b52bf3d1f6e27047e390f609af8a2dcfbb5904cdee8a0fff",
+          "sha256": "1c2e7ed787c6ff05b52bf3d1f6e27047e390f609af8a2dcfbb5904cdee8a0fff"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/little-cms2/blobs/sha256:c3add26aa2b85ad6bda455cb9ad2f14a3e0055f458722757162dcfe91a992044",
+          "sha256": "c3add26aa2b85ad6bda455cb9ad2f14a3e0055f458722757162dcfe91a992044"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/little-cms2/blobs/sha256:79268ac2afeaaa7bce8af516f329f808443c3bbad64e705f8a39e4f0ccc112e2",
+          "sha256": "79268ac2afeaaa7bce8af516f329f808443c3bbad64e705f8a39e4f0ccc112e2"
+        }
+      }
+    }
+  },
+  "pour_bottle_only_if": null,
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "jpeg-turbo",
+    "libtiff"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [
+    {
+      "version": "2.16",
+      "used_options": [],
+      "built_as_bottle": true,
+      "poured_from_bottle": true,
+      "time": 1708291898,
+      "runtime_dependencies": [
+        {
+          "full_name": "jpeg-turbo",
+          "version": "3.0.1",
+          "revision": 0,
+          "pkg_version": "3.0.1",
+          "declared_directly": true
+        },
+        {
+          "full_name": "xz",
+          "version": "5.4.5",
+          "revision": 0,
+          "pkg_version": "5.4.5",
+          "declared_directly": false
+        },
+        {
+          "full_name": "lz4",
+          "version": "1.9.4",
+          "revision": 0,
+          "pkg_version": "1.9.4",
+          "declared_directly": false
+        },
+        {
+          "full_name": "zstd",
+          "version": "1.5.5",
+          "revision": 0,
+          "pkg_version": "1.5.5",
+          "declared_directly": false
+        },
+        {
+          "full_name": "libtiff",
+          "version": "4.6.0",
+          "revision": 0,
+          "pkg_version": "4.6.0",
+          "declared_directly": true
+        }
+      ],
+      "installed_as_dependency": true,
+      "installed_on_request": false
+    }
+  ],
+  "linked_keg": "2.16",
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "ruby_source_path": "Formula/l/little-cms2.rb",
+  "ruby_source_checksum": {
+    "sha256": "a1e503bc9e474ceb8eb50bcabadeb01cda7010323980c81725cfd85c0f8b12bd"
+  },
+  "variations": {},
+  "analytics": {
+    "install": {
+      "30d": {
+        "little-cms2": 115182,
+        "little-cms2 --HEAD": 33
+      },
+      "90d": {
+        "little-cms2": 419840,
+        "little-cms2 --HEAD": 146
+      },
+      "365d": {
+        "little-cms2": 1465984,
+        "little-cms2 --HEAD": 461
+      }
+    },
+    "install_on_request": {
+      "30d": {
+        "little-cms2": 23358,
+        "little-cms2 --HEAD": 33
+      },
+      "90d": {
+        "little-cms2": 89976,
+        "little-cms2 --HEAD": 145
+      },
+      "365d": {
+        "little-cms2": 273975,
+        "little-cms2 --HEAD": 448
+      }
+    },
+    "build_error": {
+      "30d": {
+        "little-cms2": 0
+      }
+    }
+  },
+  "generated_date": "2024-04-03"
+}

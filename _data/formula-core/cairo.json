@@ -1,0 +1,282 @@
+{
+  "name": "cairo",
+  "full_name": "cairo",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Vector graphics library with cross-device output support",
+  "license": "LGPL-2.1-only or MPL-1.1",
+  "homepage": "https://cairographics.org/",
+  "versions": {
+    "stable": "1.18.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://cairographics.org/releases/cairo-1.18.0.tar.xz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "243a0736b978a33dee29f9cca7521733b78a65b5418206fef7bd1c3d4cf10b64"
+    },
+    "head": {
+      "url": "https://gitlab.freedesktop.org/cairo/cairo.git",
+      "branch": "master",
+      "using": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cairo/blobs/sha256:06c6aaadeca8f79c27867c56b8bb90fa9a7d00f84862cee7c837b611ffb8dbbc",
+          "sha256": "06c6aaadeca8f79c27867c56b8bb90fa9a7d00f84862cee7c837b611ffb8dbbc"
+        },
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cairo/blobs/sha256:e71518b5feb9f2c6a91152948fb8bb0492d7677581d9cd22f72e1a53e89753bb",
+          "sha256": "e71518b5feb9f2c6a91152948fb8bb0492d7677581d9cd22f72e1a53e89753bb"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cairo/blobs/sha256:b4912ed29c6ef6796ae80480b8a806afeb55366d73661c5fe778500ada73ea7c",
+          "sha256": "b4912ed29c6ef6796ae80480b8a806afeb55366d73661c5fe778500ada73ea7c"
+        },
+        "sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cairo/blobs/sha256:18232de7a1880477f40f421262fa05f92278c7f494b3cabb1848dda92c545010",
+          "sha256": "18232de7a1880477f40f421262fa05f92278c7f494b3cabb1848dda92c545010"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cairo/blobs/sha256:53fa7ded83d0f45fd7c8c25fedb970f1084bc4861f10988f36c2f2cfd6064552",
+          "sha256": "53fa7ded83d0f45fd7c8c25fedb970f1084bc4861f10988f36c2f2cfd6064552"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cairo/blobs/sha256:a0368a0df2890afe6e66d1c45c55af4b2cd7eb8bdaf2b3e173fd711a2aad6fb6",
+          "sha256": "a0368a0df2890afe6e66d1c45c55af4b2cd7eb8bdaf2b3e173fd711a2aad6fb6"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/cairo/blobs/sha256:35cd3a9f81432449e9b0f457a20c8e94e0d2c804da0210a5deffe9e0b8549b4f",
+          "sha256": "35cd3a9f81432449e9b0f457a20c8e94e0d2c804da0210a5deffe9e0b8549b4f"
+        }
+      }
+    }
+  },
+  "pour_bottle_only_if": null,
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "meson",
+    "ninja",
+    "pkg-config"
+  ],
+  "dependencies": [
+    "fontconfig",
+    "freetype",
+    "glib",
+    "libpng",
+    "libx11",
+    "libxcb",
+    "libxext",
+    "libxrender",
+    "lzo",
+    "pixman"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [
+    {
+      "version": "1.18.0",
+      "used_options": [],
+      "built_as_bottle": true,
+      "poured_from_bottle": true,
+      "time": 1708291895,
+      "runtime_dependencies": [
+        {
+          "full_name": "libpng",
+          "version": "1.6.42",
+          "revision": 0,
+          "pkg_version": "1.6.42",
+          "declared_directly": true
+        },
+        {
+          "full_name": "freetype",
+          "version": "2.13.2",
+          "revision": 0,
+          "pkg_version": "2.13.2",
+          "declared_directly": true
+        },
+        {
+          "full_name": "fontconfig",
+          "version": "2.15.0",
+          "revision": 0,
+          "pkg_version": "2.15.0",
+          "declared_directly": true
+        },
+        {
+          "full_name": "pcre2",
+          "version": "10.42",
+          "revision": 0,
+          "pkg_version": "10.42",
+          "declared_directly": false
+        },
+        {
+          "full_name": "gettext",
+          "version": "0.22.4",
+          "revision": 0,
+          "pkg_version": "0.22.4",
+          "declared_directly": false
+        },
+        {
+          "full_name": "glib",
+          "version": "2.78.4",
+          "revision": 0,
+          "pkg_version": "2.78.4",
+          "declared_directly": true
+        },
+        {
+          "full_name": "xorgproto",
+          "version": "2023.2",
+          "revision": 0,
+          "pkg_version": "2023.2",
+          "declared_directly": false
+        },
+        {
+          "full_name": "libxau",
+          "version": "1.0.11",
+          "revision": 0,
+          "pkg_version": "1.0.11",
+          "declared_directly": false
+        },
+        {
+          "full_name": "libxdmcp",
+          "version": "1.1.4",
+          "revision": 0,
+          "pkg_version": "1.1.4",
+          "declared_directly": false
+        },
+        {
+          "full_name": "libxcb",
+          "version": "1.16",
+          "revision": 0,
+          "pkg_version": "1.16",
+          "declared_directly": true
+        },
+        {
+          "full_name": "libx11",
+          "version": "1.8.7",
+          "revision": 0,
+          "pkg_version": "1.8.7",
+          "declared_directly": true
+        },
+        {
+          "full_name": "libxext",
+          "version": "1.3.5",
+          "revision": 0,
+          "pkg_version": "1.3.5",
+          "declared_directly": true
+        },
+        {
+          "full_name": "libxrender",
+          "version": "0.9.11",
+          "revision": 0,
+          "pkg_version": "0.9.11",
+          "declared_directly": true
+        },
+        {
+          "full_name": "lzo",
+          "version": "2.10",
+          "revision": 0,
+          "pkg_version": "2.10",
+          "declared_directly": true
+        },
+        {
+          "full_name": "pixman",
+          "version": "0.42.2",
+          "revision": 0,
+          "pkg_version": "0.42.2",
+          "declared_directly": true
+        }
+      ],
+      "installed_as_dependency": true,
+      "installed_on_request": false
+    }
+  ],
+  "linked_keg": "1.18.0",
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "ruby_source_path": "Formula/c/cairo.rb",
+  "ruby_source_checksum": {
+    "sha256": "c7010b6cdc1e8bf6a9d9115aaa925cec01266ac67e1a4bb1957ec9bfff596927"
+  },
+  "variations": {},
+  "analytics": {
+    "install": {
+      "30d": {
+        "cairo": 69746,
+        "cairo --HEAD": 29
+      },
+      "90d": {
+        "cairo": 236855,
+        "cairo --HEAD": 95
+      },
+      "365d": {
+        "cairo": 919149,
+        "cairo --HEAD": 374
+      }
+    },
+    "install_on_request": {
+      "30d": {
+        "cairo": 17077,
+        "cairo --HEAD": 29
+      },
+      "90d": {
+        "cairo": 67455,
+        "cairo --HEAD": 93
+      },
+      "365d": {
+        "cairo": 210959,
+        "cairo --HEAD": 365
+      }
+    },
+    "build_error": {
+      "30d": {
+        "cairo": 14
+      }
+    }
+  },
+  "generated_date": "2024-04-03"
+}

@@ -1,0 +1,155 @@
+{
+  "name": "luv",
+  "full_name": "luv",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Bare libuv bindings for lua",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/luvit/luv",
+  "versions": {
+    "stable": "1.48.0-2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/luvit/luv/archive/refs/tags/1.48.0-2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "e64cd8a0197449288b37df6ca058120e8d2308fc305f543162b5bf3e92273a05"
+    },
+    "head": {
+      "url": "https://github.com/luvit/luv.git",
+      "branch": "master",
+      "using": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:8eee983f433b14404e806a25d9d9d6a37dea290ecd07676eea143c244aa81b7c",
+          "sha256": "8eee983f433b14404e806a25d9d9d6a37dea290ecd07676eea143c244aa81b7c"
+        },
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:5b52e62605db4618b943a313b7dc27fa1ca4d606289f773a934d62aa841ce822",
+          "sha256": "5b52e62605db4618b943a313b7dc27fa1ca4d606289f773a934d62aa841ce822"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:4ead7a7d5a515244136e919f531d24f1b9ea4ed01847476b0f1b50d5bcede873",
+          "sha256": "4ead7a7d5a515244136e919f531d24f1b9ea4ed01847476b0f1b50d5bcede873"
+        },
+        "sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:b573480537972f4d8479623184281fc3e5b78a3e8d92e8b5eaf743db9584e5d8",
+          "sha256": "b573480537972f4d8479623184281fc3e5b78a3e8d92e8b5eaf743db9584e5d8"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:6dabf92fc2281a8c6f92dc2a58be611da35160b81daf54dc496cae8d6c63016c",
+          "sha256": "6dabf92fc2281a8c6f92dc2a58be611da35160b81daf54dc496cae8d6c63016c"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:fbb502ebd96a09cdf7bcc97a2e675a90d1261598bbc198eef328b06f524eaab0",
+          "sha256": "fbb502ebd96a09cdf7bcc97a2e675a90d1261598bbc198eef328b06f524eaab0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/luv/blobs/sha256:bd96aeba470693fd6b86ed66ee7fc53171dc7ee04f141b69423b1301beddcc83",
+          "sha256": "bd96aeba470693fd6b86ed66ee7fc53171dc7ee04f141b69423b1301beddcc83"
+        }
+      }
+    }
+  },
+  "pour_bottle_only_if": null,
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "lua",
+    "luajit"
+  ],
+  "dependencies": [
+    "libuv"
+  ],
+  "test_dependencies": [
+    "lua",
+    "luajit"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "ruby_source_path": "Formula/l/luv.rb",
+  "ruby_source_checksum": {
+    "sha256": "8f235f40b2fe97776dd50d1027e08274a6af44aa3b7180130b13685c42a06027"
+  },
+  "variations": {},
+  "analytics": {
+    "install": {
+      "30d": {
+        "luv": 15177,
+        "luv --HEAD": 3
+      },
+      "90d": {
+        "luv": 59942,
+        "luv --HEAD": 33
+      },
+      "365d": {
+        "luv": 121062,
+        "luv --HEAD": 63
+      }
+    },
+    "install_on_request": {
+      "30d": {
+        "luv": 1350,
+        "luv --HEAD": 3
+      },
+      "90d": {
+        "luv": 4775,
+        "luv --HEAD": 33
+      },
+      "365d": {
+        "luv": 10800,
+        "luv --HEAD": 62
+      }
+    },
+    "build_error": {
+      "30d": {
+        "luv": 8
+      }
+    }
+  },
+  "generated_date": "2024-04-03"
+}

@@ -1,0 +1,121 @@
+{
+  "name": "meson",
+  "full_name": "meson",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "Fast and user friendly build system",
+  "license": "Apache-2.0",
+  "homepage": "https://mesonbuild.com/",
+  "versions": {
+    "stable": "1.4.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/mesonbuild/meson/releases/download/1.4.0/meson-1.4.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "8fd6630c25c27f1489a8a0392b311a60481a3c161aa699b330e25935b750138d"
+    },
+    "head": {
+      "url": "https://github.com/mesonbuild/meson.git",
+      "branch": "master",
+      "using": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "all": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/meson/blobs/sha256:0754ab41a963c010173f20f5d8a13bb39078d3a26544aba20eb4071cc9914722",
+          "sha256": "0754ab41a963c010173f20f5d8a13bb39078d3a26544aba20eb4071cc9914722"
+        }
+      }
+    }
+  },
+  "pour_bottle_only_if": null,
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "python-setuptools"
+  ],
+  "dependencies": [
+    "ninja",
+    "python@3.12"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "ruby_source_path": "Formula/m/meson.rb",
+  "ruby_source_checksum": {
+    "sha256": "7e201909c86d05eff00f77efa860d66835a21067e7861403c5745c517130d428"
+  },
+  "variations": {},
+  "analytics": {
+    "install": {
+      "30d": {
+        "meson": 13982,
+        "meson --HEAD": 19
+      },
+      "90d": {
+        "meson": 38600,
+        "meson --HEAD": 52
+      },
+      "365d": {
+        "meson": 169576,
+        "meson --HEAD": 168
+      }
+    },
+    "install_on_request": {
+      "30d": {
+        "meson": 6501,
+        "meson --HEAD": 19
+      },
+      "90d": {
+        "meson": 17140,
+        "meson --HEAD": 52
+      },
+      "365d": {
+        "meson": 82781,
+        "meson --HEAD": 168
+      }
+    },
+    "build_error": {
+      "30d": {
+        "meson": 1
+      }
+    }
+  },
+  "generated_date": "2024-04-03"
+}

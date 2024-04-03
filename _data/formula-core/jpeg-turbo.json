@@ -1,0 +1,202 @@
+{
+  "name": "jpeg-turbo",
+  "full_name": "jpeg-turbo",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "libjpeg-turbo"
+  ],
+  "versioned_formulae": [],
+  "desc": "JPEG image codec that aids compression and decompression",
+  "license": "IJG",
+  "homepage": "https://www.libjpeg-turbo.org/",
+  "versions": {
+    "stable": "3.0.2",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/libjpeg-turbo/libjpeg-turbo/releases/download/3.0.2/libjpeg-turbo-3.0.2.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "c2ce515a78d91b09023773ef2770d6b0df77d674e144de80d63e0389b3a15ca6"
+    },
+    "head": {
+      "url": "https://github.com/libjpeg-turbo/libjpeg-turbo.git",
+      "branch": "main",
+      "using": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:898ba61a84a444ef98b577162e49a0b06d65e8bdc48ad039d364fef4b4c00b05",
+          "sha256": "898ba61a84a444ef98b577162e49a0b06d65e8bdc48ad039d364fef4b4c00b05"
+        },
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:0a007662b26322a0985f31cc7546124f53caa8334f5d2f1e8356e9d7321fe420",
+          "sha256": "0a007662b26322a0985f31cc7546124f53caa8334f5d2f1e8356e9d7321fe420"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:5c179a6035798dab056356c288284ed695dc9505e4df4aa9868341fb9971a008",
+          "sha256": "5c179a6035798dab056356c288284ed695dc9505e4df4aa9868341fb9971a008"
+        },
+        "sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:4e2af273b76b2f4845b08d0f249630212e41a76b113e7d633d319cc6cfb43bef",
+          "sha256": "4e2af273b76b2f4845b08d0f249630212e41a76b113e7d633d319cc6cfb43bef"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:91d8bf0169ff83cdccddd64e88fb7ebdcc2df2d799c93ffb2a6fddd3980b631d",
+          "sha256": "91d8bf0169ff83cdccddd64e88fb7ebdcc2df2d799c93ffb2a6fddd3980b631d"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:6f004f77f070e05df1c7303e90b4befb100dd831fe68f998996a2a5de60b59d0",
+          "sha256": "6f004f77f070e05df1c7303e90b4befb100dd831fe68f998996a2a5de60b59d0"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:b16eab4c9fc8814b11ce6e43dd7d599587ec34ebbba7e1359e15bcff42ae672e",
+          "sha256": "b16eab4c9fc8814b11ce6e43dd7d599587ec34ebbba7e1359e15bcff42ae672e"
+        }
+      }
+    }
+  },
+  "pour_bottle_only_if": null,
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "cmake",
+    "nasm"
+  ],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [
+    "bin/cjpeg",
+    "bin/djpeg",
+    "bin/jpegtran",
+    "bin/rdjpgcom",
+    "bin/wrjpgcom",
+    "include/jconfig.h",
+    "include/jerror.h",
+    "include/jmorecfg.h",
+    "include/jpeglib.h",
+    "lib/libjpeg.dylib",
+    "lib/libjpeg.so",
+    "lib/libjpeg.a",
+    "lib/pkgconfig/libjpeg.pc",
+    "share/man/man1/cjpeg.1",
+    "share/man/man1/djpeg.1",
+    "share/man/man1/jpegtran.1",
+    "share/man/man1/rdjpgcom.1",
+    "share/man/man1/wrjpgcom.1"
+  ],
+  "caveats": null,
+  "installed": [
+    {
+      "version": "3.0.1",
+      "used_options": [],
+      "built_as_bottle": true,
+      "poured_from_bottle": true,
+      "time": 1708291896,
+      "runtime_dependencies": [],
+      "installed_as_dependency": true,
+      "installed_on_request": false
+    }
+  ],
+  "linked_keg": "3.0.1",
+  "pinned": false,
+  "outdated": true,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "ruby_source_path": "Formula/j/jpeg-turbo.rb",
+  "ruby_source_checksum": {
+    "sha256": "f1ed236bfb61de0b1d060c15939d2a377eca1c6c1b02a2eb74ce519571b9ed34"
+  },
+  "variations": {
+    "arm64_sonoma": {
+      "build_dependencies": [
+        "cmake"
+      ]
+    },
+    "arm64_ventura": {
+      "build_dependencies": [
+        "cmake"
+      ]
+    },
+    "arm64_monterey": {
+      "build_dependencies": [
+        "cmake"
+      ]
+    },
+    "arm64_big_sur": {
+      "build_dependencies": [
+        "cmake"
+      ]
+    }
+  },
+  "analytics": {
+    "install": {
+      "30d": {
+        "jpeg-turbo": 156402,
+        "jpeg-turbo --HEAD": 13
+      },
+      "90d": {
+        "jpeg-turbo": 445564,
+        "jpeg-turbo --HEAD": 22
+      },
+      "365d": {
+        "jpeg-turbo": 1368268,
+        "jpeg-turbo --HEAD": 47
+      }
+    },
+    "install_on_request": {
+      "30d": {
+        "jpeg-turbo": 3504,
+        "jpeg-turbo --HEAD": 10
+      },
+      "90d": {
+        "jpeg-turbo": 8567,
+        "jpeg-turbo --HEAD": 18
+      },
+      "365d": {
+        "jpeg-turbo": 17890,
+        "jpeg-turbo --HEAD": 35
+      }
+    },
+    "build_error": {
+      "30d": {
+        "jpeg-turbo": 5
+      }
+    }
+  },
+  "generated_date": "2024-04-03"
+}

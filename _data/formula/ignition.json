@@ -37,7 +37,7 @@
   "core_build_dependencies": [
     "unzip"
   ],
-  "dependencies": [
+  "core_dependencies": [
 
   ],
   "core_test_dependencies": [
@@ -71,7 +71,7 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "tap_git_head": "5a50d38d0a4121a368c18b8195c894756abe5b83",
+  "tap_git_head": "3321791f7453826da9305ad526f3e124b87b493f",
   "variations": {
   }
 }

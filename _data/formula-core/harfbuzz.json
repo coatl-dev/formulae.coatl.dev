@@ -1,0 +1,300 @@
+{
+  "name": "harfbuzz",
+  "full_name": "harfbuzz",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "OpenType text shaping engine",
+  "license": "MIT",
+  "homepage": "https://github.com/harfbuzz/harfbuzz",
+  "versions": {
+    "stable": "8.4.0",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/harfbuzz/harfbuzz/archive/refs/tags/8.4.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "9f1ca089813b05944ad1ce8c7e018213026d35dc9bab480a21eb876838396556"
+    },
+    "head": {
+      "url": "https://github.com/harfbuzz/harfbuzz.git",
+      "branch": "main",
+      "using": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:b74301ad74f8d0647b49ed72156895d0c598d7cf206d331d79aeab415eb72e8e",
+          "sha256": "b74301ad74f8d0647b49ed72156895d0c598d7cf206d331d79aeab415eb72e8e"
+        },
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:dee14c98e92282e71af1487682ac7121db23ad88f9d7e5e2a358ec84ab3812a4",
+          "sha256": "dee14c98e92282e71af1487682ac7121db23ad88f9d7e5e2a358ec84ab3812a4"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:38c193a00a70eaf5893961353b12f356e3ca92eb1ba52d1dc8153c56a3c21184",
+          "sha256": "38c193a00a70eaf5893961353b12f356e3ca92eb1ba52d1dc8153c56a3c21184"
+        },
+        "sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:2be9787ee914184a146b99eaf28fd3367ce487a5ff685b7cb6266022d8badd51",
+          "sha256": "2be9787ee914184a146b99eaf28fd3367ce487a5ff685b7cb6266022d8badd51"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:c347ae63119c1d8484f7711a17d8973f50194c215970b3ecccbfba186f70cce8",
+          "sha256": "c347ae63119c1d8484f7711a17d8973f50194c215970b3ecccbfba186f70cce8"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:f2827c339eb5fbcfdcd3846e955a3b5dbebdeb36ec8b9f30c1bd2476df0fc69c",
+          "sha256": "f2827c339eb5fbcfdcd3846e955a3b5dbebdeb36ec8b9f30c1bd2476df0fc69c"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:9bfb3b0736a1b4bb904f742b72abccdcc74a90c9b4344d44a314714b8a8ae51d",
+          "sha256": "9bfb3b0736a1b4bb904f742b72abccdcc74a90c9b4344d44a314714b8a8ae51d"
+        }
+      }
+    }
+  },
+  "pour_bottle_only_if": null,
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "gobject-introspection",
+    "meson",
+    "ninja",
+    "pkg-config",
+    "python@3.12"
+  ],
+  "dependencies": [
+    "cairo",
+    "freetype",
+    "glib",
+    "graphite2",
+    "icu4c"
+  ],
+  "test_dependencies": [
+    "python@3.12",
+    "pygobject3"
+  ],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [
+    {
+      "version": "8.3.0",
+      "used_options": [],
+      "built_as_bottle": true,
+      "poured_from_bottle": true,
+      "time": 1708291896,
+      "runtime_dependencies": [
+        {
+          "full_name": "libpng",
+          "version": "1.6.42",
+          "revision": 0,
+          "pkg_version": "1.6.42",
+          "declared_directly": false
+        },
+        {
+          "full_name": "freetype",
+          "version": "2.13.2",
+          "revision": 0,
+          "pkg_version": "2.13.2",
+          "declared_directly": true
+        },
+        {
+          "full_name": "fontconfig",
+          "version": "2.15.0",
+          "revision": 0,
+          "pkg_version": "2.15.0",
+          "declared_directly": false
+        },
+        {
+          "full_name": "pcre2",
+          "version": "10.42",
+          "revision": 0,
+          "pkg_version": "10.42",
+          "declared_directly": false
+        },
+        {
+          "full_name": "gettext",
+          "version": "0.22.4",
+          "revision": 0,
+          "pkg_version": "0.22.4",
+          "declared_directly": false
+        },
+        {
+          "full_name": "glib",
+          "version": "2.78.4",
+          "revision": 0,
+          "pkg_version": "2.78.4",
+          "declared_directly": true
+        },
+        {
+          "full_name": "xorgproto",
+          "version": "2023.2",
+          "revision": 0,
+          "pkg_version": "2023.2",
+          "declared_directly": false
+        },
+        {
+          "full_name": "libxau",
+          "version": "1.0.11",
+          "revision": 0,
+          "pkg_version": "1.0.11",
+          "declared_directly": false
+        },
+        {
+          "full_name": "libxdmcp",
+          "version": "1.1.4",
+          "revision": 0,
+          "pkg_version": "1.1.4",
+          "declared_directly": false
+        },
+        {
+          "full_name": "libxcb",
+          "version": "1.16",
+          "revision": 0,
+          "pkg_version": "1.16",
+          "declared_directly": false
+        },
+        {
+          "full_name": "libx11",
+          "version": "1.8.7",
+          "revision": 0,
+          "pkg_version": "1.8.7",
+          "declared_directly": false
+        },
+        {
+          "full_name": "libxext",
+          "version": "1.3.5",
+          "revision": 0,
+          "pkg_version": "1.3.5",
+          "declared_directly": false
+        },
+        {
+          "full_name": "libxrender",
+          "version": "0.9.11",
+          "revision": 0,
+          "pkg_version": "0.9.11",
+          "declared_directly": false
+        },
+        {
+          "full_name": "lzo",
+          "version": "2.10",
+          "revision": 0,
+          "pkg_version": "2.10",
+          "declared_directly": false
+        },
+        {
+          "full_name": "pixman",
+          "version": "0.42.2",
+          "revision": 0,
+          "pkg_version": "0.42.2",
+          "declared_directly": false
+        },
+        {
+          "full_name": "cairo",
+          "version": "1.18.0",
+          "revision": 0,
+          "pkg_version": "1.18.0",
+          "declared_directly": true
+        },
+        {
+          "full_name": "graphite2",
+          "version": "1.3.14",
+          "revision": 0,
+          "pkg_version": "1.3.14",
+          "declared_directly": true
+        },
+        {
+          "full_name": "icu4c",
+          "version": "73.2",
+          "revision": 0,
+          "pkg_version": "73.2",
+          "declared_directly": true
+        }
+      ],
+      "installed_as_dependency": true,
+      "installed_on_request": false
+    }
+  ],
+  "linked_keg": "8.3.0",
+  "pinned": false,
+  "outdated": true,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "ruby_source_path": "Formula/h/harfbuzz.rb",
+  "ruby_source_checksum": {
+    "sha256": "d5b147340331994baedbeb6c00c9ed54a2a86cb0fcd97d15c0a59f081a58df31"
+  },
+  "variations": {},
+  "analytics": {
+    "install": {
+      "30d": {
+        "harfbuzz": 245064,
+        "harfbuzz --HEAD": 207
+      },
+      "90d": {
+        "harfbuzz": 538483,
+        "harfbuzz --HEAD": 394
+      },
+      "365d": {
+        "harfbuzz": 2136298,
+        "harfbuzz --HEAD": 1416
+      }
+    },
+    "install_on_request": {
+      "30d": {
+        "harfbuzz": 115218,
+        "harfbuzz --HEAD": 207
+      },
+      "90d": {
+        "harfbuzz": 228902,
+        "harfbuzz --HEAD": 393
+      },
+      "365d": {
+        "harfbuzz": 845199,
+        "harfbuzz --HEAD": 1406
+      }
+    },
+    "build_error": {
+      "30d": {
+        "harfbuzz": 451,
+        "harfbuzz --HEAD": 2
+      }
+    }
+  },
+  "generated_date": "2024-04-03"
+}

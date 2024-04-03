@@ -1,0 +1,154 @@
+{
+  "name": "mpdecimal",
+  "full_name": "mpdecimal",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "libmpdec"
+  ],
+  "versioned_formulae": [],
+  "desc": "Library for decimal floating point arithmetic",
+  "license": "BSD-2-Clause",
+  "homepage": "https://www.bytereef.org/mpdecimal/",
+  "versions": {
+    "stable": "4.0.0",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.bytereef.org/software/mpdecimal/releases/mpdecimal-4.0.0.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "942445c3245b22730fd41a67a7c5c231d11cb1b9936b9c0f76334fb7d0b4468c"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mpdecimal/blobs/sha256:2965eec8a30f462b3bd6a8cc2756c1645e75f4399471594e434e36e886239e2e",
+          "sha256": "2965eec8a30f462b3bd6a8cc2756c1645e75f4399471594e434e36e886239e2e"
+        },
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mpdecimal/blobs/sha256:1fd72d5f4b35a3d4735efd7d934154ec8b3666267571f96d64244ad35b3ee814",
+          "sha256": "1fd72d5f4b35a3d4735efd7d934154ec8b3666267571f96d64244ad35b3ee814"
+        },
+        "arm64_monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mpdecimal/blobs/sha256:57311ecd036fae8d74c541ab5a30944a5a5cfea7abaa6b8c936b7376821edafd",
+          "sha256": "57311ecd036fae8d74c541ab5a30944a5a5cfea7abaa6b8c936b7376821edafd"
+        },
+        "sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mpdecimal/blobs/sha256:377dc5e30dd1292ac1666dd43a447b861ad283024f70a3e914c7e11572ae869e",
+          "sha256": "377dc5e30dd1292ac1666dd43a447b861ad283024f70a3e914c7e11572ae869e"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mpdecimal/blobs/sha256:bb1729bd410275aab1bd276f99fb22678b6ad53de2c9c474fdda854ed0ebaebd",
+          "sha256": "bb1729bd410275aab1bd276f99fb22678b6ad53de2c9c474fdda854ed0ebaebd"
+        },
+        "monterey": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mpdecimal/blobs/sha256:266a3f517227bb9f3806b18313c3b8a33688f9659e5001751e15f1f38538dacc",
+          "sha256": "266a3f517227bb9f3806b18313c3b8a33688f9659e5001751e15f1f38538dacc"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/mpdecimal/blobs/sha256:ca79318fa094531bd57b3f07d5b8574cd9986bac4c876043336ea4176e8c294f",
+          "sha256": "ca79318fa094531bd57b3f07d5b8574cd9986bac4c876043336ea4176e8c294f"
+        }
+      }
+    }
+  },
+  "pour_bottle_only_if": null,
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [
+    {
+      "version": "4.0.0",
+      "used_options": [],
+      "built_as_bottle": true,
+      "poured_from_bottle": true,
+      "time": 1708291368,
+      "runtime_dependencies": [],
+      "installed_as_dependency": true,
+      "installed_on_request": false
+    }
+  ],
+  "linked_keg": "4.0.0",
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "ruby_source_path": "Formula/m/mpdecimal.rb",
+  "ruby_source_checksum": {
+    "sha256": "a56e7a37df2044a479fe3c91ab245735e24f7a22ed1b0eb0746cdc1e6597965d"
+  },
+  "variations": {},
+  "analytics": {
+    "install": {
+      "30d": {
+        "mpdecimal": 162160,
+        "mpdecimal --HEAD": 4
+      },
+      "90d": {
+        "mpdecimal": 475937,
+        "mpdecimal --HEAD": 8
+      },
+      "365d": {
+        "mpdecimal": 1137806,
+        "mpdecimal --HEAD": 16
+      }
+    },
+    "install_on_request": {
+      "30d": {
+        "mpdecimal": 1087,
+        "mpdecimal --HEAD": 2
+      },
+      "90d": {
+        "mpdecimal": 5340,
+        "mpdecimal --HEAD": 4
+      },
+      "365d": {
+        "mpdecimal": 8031,
+        "mpdecimal --HEAD": 8
+      }
+    },
+    "build_error": {
+      "30d": {
+        "mpdecimal": 52
+      }
+    }
+  },
+  "generated_date": "2024-04-03"
+}

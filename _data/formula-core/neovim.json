@@ -1,0 +1,243 @@
+{
+  "name": "neovim",
+  "full_name": "neovim",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [
+    "nvim"
+  ],
+  "versioned_formulae": [],
+  "desc": "Ambitious Vim-fork focused on extensibility and agility",
+  "license": "Apache-2.0",
+  "homepage": "https://neovim.io/",
+  "versions": {
+    "stable": "0.9.5",
+    "head": "HEAD",
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/neovim/neovim/archive/refs/tags/v0.9.5.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "fe74369fc30a32ec7a086b1013acd0eacd674e7570eb1acc520a66180c9e9719"
+    },
+    "head": {
+      "url": "https://github.com/neovim/neovim.git",
+      "branch": "master",
+      "using": null
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_sonoma": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:dceae593d688ebcab98d65cb2a8c885493ce7ceba0d87dff5e35cc9a00840382",
+          "sha256": "dceae593d688ebcab98d65cb2a8c885493ce7ceba0d87dff5e35cc9a00840382"
+        },
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:de0f296454dd02e139ad69f6a193e597691528988389214407c4ea08677e26fb",
+          "sha256": "de0f296454dd02e139ad69f6a193e597691528988389214407c4ea08677e26fb"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:b7b6fc8764383e84657912cc17197f40fe112382dd98299713abc273131acaef",
+          "sha256": "b7b6fc8764383e84657912cc17197f40fe112382dd98299713abc273131acaef"
+        },
+        "sonoma": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:c0d17b581f7584ea6de7e131cfbb89374d9753464fc5030d262aadf186aefb11",
+          "sha256": "c0d17b581f7584ea6de7e131cfbb89374d9753464fc5030d262aadf186aefb11"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:56162a099233d89e325b024ac3052cd7a0c7bc667071fb83f5ba4ebbeffcf8a5",
+          "sha256": "56162a099233d89e325b024ac3052cd7a0c7bc667071fb83f5ba4ebbeffcf8a5"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:cb2591d244f1ec97c38fc5f7f0d0a358d0d03a1a94432c28c1cc7c577dddb369",
+          "sha256": "cb2591d244f1ec97c38fc5f7f0d0a358d0d03a1a94432c28c1cc7c577dddb369"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/neovim/blobs/sha256:ab667b4b8ce2b55f8c654d85520831f05590b1df4c2ddd277149d24681643a20",
+          "sha256": "ab667b4b8ce2b55f8c654d85520831f05590b1df4c2ddd277149d24681643a20"
+        }
+      }
+    }
+  },
+  "pour_bottle_only_if": null,
+  "keg_only": false,
+  "keg_only_reason": null,
+  "options": [],
+  "build_dependencies": [
+    "luarocks",
+    "cmake",
+    "lpeg"
+  ],
+  "dependencies": [
+    "gettext",
+    "libtermkey",
+    "libuv",
+    "libvterm",
+    "luajit",
+    "luv",
+    "msgpack",
+    "tree-sitter",
+    "unibilium"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [
+    {
+      "unzip": "build"
+    }
+  ],
+  "uses_from_macos_bounds": [
+    {}
+  ],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "ruby_source_path": "Formula/n/neovim.rb",
+  "ruby_source_checksum": {
+    "sha256": "d1e7cbb5f589de8cab74883e55f864b77a2a6d92febf63b10f0e5b53f4aa4302"
+  },
+  "head_dependencies": {
+    "build_dependencies": [
+      "cmake",
+      "lpeg"
+    ],
+    "dependencies": [
+      "lpeg",
+      "gettext",
+      "libtermkey",
+      "libuv",
+      "libvterm",
+      "luajit",
+      "luv",
+      "msgpack",
+      "tree-sitter",
+      "unibilium"
+    ],
+    "test_dependencies": [],
+    "recommended_dependencies": [],
+    "optional_dependencies": [],
+    "uses_from_macos": [
+      {
+        "unzip": "build"
+      }
+    ],
+    "uses_from_macos_bounds": [
+      {}
+    ]
+  },
+  "variations": {
+    "x86_64_linux": {
+      "dependencies": [
+        "gettext",
+        "libtermkey",
+        "libuv",
+        "libvterm",
+        "luajit",
+        "luv",
+        "msgpack",
+        "tree-sitter",
+        "unibilium",
+        "libnsl"
+      ],
+      "head_dependencies": {
+        "build_dependencies": [
+          "cmake",
+          "lpeg"
+        ],
+        "dependencies": [
+          "lpeg",
+          "gettext",
+          "libtermkey",
+          "libuv",
+          "libvterm",
+          "luajit",
+          "luv",
+          "msgpack",
+          "tree-sitter",
+          "unibilium",
+          "libnsl"
+        ],
+        "test_dependencies": [],
+        "recommended_dependencies": [],
+        "optional_dependencies": [],
+        "uses_from_macos": [
+          {
+            "unzip": "build"
+          }
+        ],
+        "uses_from_macos_bounds": [
+          {}
+        ]
+      }
+    }
+  },
+  "analytics": {
+    "install": {
+      "30d": {
+        "neovim": 23343,
+        "neovim --HEAD": 1907
+      },
+      "90d": {
+        "neovim": 94067,
+        "neovim --HEAD": 6756
+      },
+      "365d": {
+        "neovim": 328863,
+        "neovim --HEAD": 28738
+      }
+    },
+    "install_on_request": {
+      "30d": {
+        "neovim": 23153,
+        "neovim --HEAD": 1892
+      },
+      "90d": {
+        "neovim": 93295,
+        "neovim --HEAD": 6699
+      },
+      "365d": {
+        "neovim": 326305,
+        "neovim --HEAD": 28611
+      }
+    },
+    "build_error": {
+      "30d": {
+        "neovim": 908,
+        "neovim --HEAD": 258
+      }
+    }
+  },
+  "generated_date": "2024-04-03"
+}
