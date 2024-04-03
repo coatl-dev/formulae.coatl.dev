@@ -40,7 +40,7 @@ taps:
     name: Homebrew/core
     fullname: Homebrew/homebrew-core
     remote: https://github.com/Homebrew/homebrew-core
-    api: https://formulae.coatl.dev/api
+    api: https://formulae.brew.sh/api
     bottle_dir: bottle-core
     formula_dir: formula-core
 
