@@ -97,7 +97,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1708292515,
+      "time": 1711764045,
       "runtime_dependencies": [
         {
           "full_name": "gmp",
@@ -122,7 +122,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
   "ruby_source_path": "Formula/m/mpfr.rb",
   "ruby_source_checksum": {
     "sha256": "3c720ea504f49d4eef2432f91d4de3bb987f3fbe97066b08d7b9edd8d61fccef"
@@ -146,15 +146,15 @@
   "analytics": {
     "install": {
       "30d": {
-        "mpfr": 58568,
+        "mpfr": 58572,
         "mpfr --HEAD": 2
       },
       "90d": {
-        "mpfr": 181284,
+        "mpfr": 181292,
         "mpfr --HEAD": 4
       },
       "365d": {
-        "mpfr": 841371,
+        "mpfr": 841379,
         "mpfr --HEAD": 46
       }
     },
@@ -164,7 +164,7 @@
         "mpfr --HEAD": 2
       },
       "90d": {
-        "mpfr": 3347,
+        "mpfr": 3346,
         "mpfr --HEAD": 4
       },
       "365d": {

@@ -139,11 +139,11 @@
   "caveats": "Python has been installed as\n  $HOMEBREW_PREFIX/bin/python3\n\nUnversioned symlinks `python`, `python-config`, `pip` etc. pointing to\n`python3`, `python3-config`, `pip3` etc., respectively, have been installed into\n  $HOMEBREW_PREFIX/opt/python@3.12/libexec/bin\n\nSee: https://docs.brew.sh/Homebrew-and-Python\n",
   "installed": [
     {
-      "version": "3.12.2",
+      "version": "3.12.2_1",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1708291402,
+      "time": 1711762428,
       "runtime_dependencies": [
         {
           "full_name": "mpdecimal",
@@ -154,9 +154,9 @@
         },
         {
           "full_name": "ca-certificates",
-          "version": "2023-12-12",
+          "version": "2024-03-11",
           "revision": 0,
-          "pkg_version": "2023-12-12",
+          "pkg_version": "2024-03-11",
           "declared_directly": false
         },
         {
@@ -168,33 +168,33 @@
         },
         {
           "full_name": "readline",
-          "version": "8.2.7",
+          "version": "8.2.10",
           "revision": 0,
-          "pkg_version": "8.2.7",
+          "pkg_version": "8.2.10",
           "declared_directly": false
         },
         {
           "full_name": "sqlite",
-          "version": "3.45.1",
+          "version": "3.45.2",
           "revision": 0,
-          "pkg_version": "3.45.1",
+          "pkg_version": "3.45.2",
           "declared_directly": true
         },
         {
           "full_name": "xz",
-          "version": "5.4.5",
+          "version": "5.4.6",
           "revision": 0,
-          "pkg_version": "5.4.5",
+          "pkg_version": "5.4.6",
           "declared_directly": true
         }
       ],
-      "installed_as_dependency": true,
-      "installed_on_request": false
+      "installed_as_dependency": false,
+      "installed_on_request": true
     }
   ],
-  "linked_keg": "3.12.2",
+  "linked_keg": "3.12.2_1",
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -203,7 +203,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
   "ruby_source_path": "Formula/p/python@3.12.rb",
   "ruby_source_checksum": {
     "sha256": "f3f3411bae8970c396e8b42c871c9aec14e0dc62b7c5f6edf71d7e178e47f927"
@@ -223,29 +223,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.12": 255190,
+        "python@3.12": 255189,
         "python@3.12 --HEAD": 155
       },
       "90d": {
-        "python@3.12": 631594,
+        "python@3.12": 631636,
         "python@3.12 --HEAD": 320
       },
       "365d": {
-        "python@3.12": 1009417,
+        "python@3.12": 1009521,
         "python@3.12 --HEAD": 381
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.12": 75428,
-        "python@3.12 --HEAD": 155
+        "python@3.12": 75414,
+        "python@3.12 --HEAD": 154
       },
       "90d": {
-        "python@3.12": 159668,
+        "python@3.12": 159687,
         "python@3.12 --HEAD": 318
       },
       "365d": {
-        "python@3.12": 188667,
+        "python@3.12": 188693,
         "python@3.12 --HEAD": 378
       }
     },

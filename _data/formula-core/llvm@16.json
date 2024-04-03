@@ -128,7 +128,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
   "ruby_source_path": "Formula/l/llvm@16.rb",
   "ruby_source_checksum": {
     "sha256": "502412c105cc39dd53cf0a2341b007b941441f05437b60a3236a139a78193e0e"
@@ -155,33 +155,33 @@
   "analytics": {
     "install": {
       "30d": {
-        "llvm@16": 1354
+        "llvm@16": 1355
       },
       "90d": {
-        "llvm@16": 4551,
+        "llvm@16": 4554,
         "llvm@16 --HEAD": 3
       },
       "365d": {
-        "llvm@16": 49494,
+        "llvm@16": 49497,
         "llvm@16 --HEAD": 7
       }
     },
     "install_on_request": {
       "30d": {
-        "llvm@16": 842
+        "llvm@16": 843
       },
       "90d": {
-        "llvm@16": 2675,
+        "llvm@16": 2677,
         "llvm@16 --HEAD": 3
       },
       "365d": {
-        "llvm@16": 8330,
+        "llvm@16": 8332,
         "llvm@16 --HEAD": 7
       }
     },
     "build_error": {
       "30d": {
-        "llvm@16": 1291
+        "llvm@16": 1290
       }
     }
   },

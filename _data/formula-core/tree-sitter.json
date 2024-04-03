@@ -105,7 +105,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
   "ruby_source_path": "Formula/t/tree-sitter.rb",
   "ruby_source_checksum": {
     "sha256": "f1a4e27198bd3fba31f0ced706fdcfea76f945371deff797f1bc15a206f7cddc"
@@ -114,15 +114,15 @@
   "analytics": {
     "install": {
       "30d": {
-        "tree-sitter": 41331,
+        "tree-sitter": 41338,
         "tree-sitter --HEAD": 221
       },
       "90d": {
-        "tree-sitter": 96374,
+        "tree-sitter": 96372,
         "tree-sitter --HEAD": 537
       },
       "365d": {
-        "tree-sitter": 208823,
+        "tree-sitter": 208810,
         "tree-sitter --HEAD": 921
       }
     },
@@ -132,11 +132,11 @@
         "tree-sitter --HEAD": 220
       },
       "90d": {
-        "tree-sitter": 8609,
-        "tree-sitter --HEAD": 533
+        "tree-sitter": 8599,
+        "tree-sitter --HEAD": 534
       },
       "365d": {
-        "tree-sitter": 14627,
+        "tree-sitter": 14625,
         "tree-sitter --HEAD": 917
       }
     },

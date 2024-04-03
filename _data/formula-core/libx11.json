@@ -93,17 +93,17 @@
   "caveats": null,
   "installed": [
     {
-      "version": "1.8.7",
+      "version": "1.8.8",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1708291893,
+      "time": 1711763134,
       "runtime_dependencies": [
         {
           "full_name": "xorgproto",
-          "version": "2023.2",
+          "version": "2024.1",
           "revision": 0,
-          "pkg_version": "2023.2",
+          "pkg_version": "2024.1",
           "declared_directly": true
         },
         {
@@ -115,16 +115,16 @@
         },
         {
           "full_name": "libxdmcp",
-          "version": "1.1.4",
+          "version": "1.1.5",
           "revision": 0,
-          "pkg_version": "1.1.4",
+          "pkg_version": "1.1.5",
           "declared_directly": false
         },
         {
           "full_name": "libxcb",
-          "version": "1.16",
+          "version": "1.16.1",
           "revision": 0,
-          "pkg_version": "1.16",
+          "pkg_version": "1.16.1",
           "declared_directly": true
         }
       ],
@@ -132,9 +132,9 @@
       "installed_on_request": false
     }
   ],
-  "linked_keg": "1.8.7",
+  "linked_keg": "1.8.8",
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -143,7 +143,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
   "ruby_source_path": "Formula/lib/libx11.rb",
   "ruby_source_checksum": {
     "sha256": "2d5bd30f86d68b5c5d6121e3bbb8ec783b1f08cc7a15f15bfa91422b2fab9a78"
@@ -152,29 +152,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "libx11": 135175,
+        "libx11": 135206,
         "libx11 --HEAD": 5
       },
       "90d": {
-        "libx11": 356649,
+        "libx11": 356684,
         "libx11 --HEAD": 5
       },
       "365d": {
-        "libx11": 1508942,
+        "libx11": 1508999,
         "libx11 --HEAD": 30
       }
     },
     "install_on_request": {
       "30d": {
-        "libx11": 3976,
+        "libx11": 3978,
         "libx11 --HEAD": 3
       },
       "90d": {
-        "libx11": 5859,
+        "libx11": 5863,
         "libx11 --HEAD": 3
       },
       "365d": {
-        "libx11": 23651,
+        "libx11": 23653,
         "libx11 --HEAD": 23
       }
     },

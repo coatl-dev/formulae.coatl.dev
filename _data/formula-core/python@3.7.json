@@ -121,7 +121,7 @@
   "disable_reason": "deprecated_upstream",
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
   "ruby_source_path": "Formula/p/python@3.7.rb",
   "ruby_source_checksum": {
     "sha256": "c1510f241ec30f354895b6afb85b85b757bb413c0f3e02c7316f10b40e2248c9"

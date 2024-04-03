@@ -139,7 +139,7 @@
   "disable_reason": "deprecated_upstream",
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
   "ruby_source_path": "Formula/l/lua@5.1.rb",
   "ruby_source_checksum": {
     "sha256": "10c1df2b357cd39704a3ade5135a120fb7e37e62aee7598a205e0aa8c9ac7bab"

@@ -91,17 +91,17 @@
   "caveats": null,
   "installed": [
     {
-      "version": "1.3.5",
+      "version": "1.3.6",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1708291894,
+      "time": 1711763135,
       "runtime_dependencies": [
         {
           "full_name": "xorgproto",
-          "version": "2023.2",
+          "version": "2024.1",
           "revision": 0,
-          "pkg_version": "2023.2",
+          "pkg_version": "2024.1",
           "declared_directly": true
         },
         {
@@ -113,23 +113,23 @@
         },
         {
           "full_name": "libxdmcp",
-          "version": "1.1.4",
+          "version": "1.1.5",
           "revision": 0,
-          "pkg_version": "1.1.4",
+          "pkg_version": "1.1.5",
           "declared_directly": false
         },
         {
           "full_name": "libxcb",
-          "version": "1.16",
+          "version": "1.16.1",
           "revision": 0,
-          "pkg_version": "1.16",
+          "pkg_version": "1.16.1",
           "declared_directly": false
         },
         {
           "full_name": "libx11",
-          "version": "1.8.7",
+          "version": "1.8.8",
           "revision": 0,
-          "pkg_version": "1.8.7",
+          "pkg_version": "1.8.8",
           "declared_directly": true
         }
       ],
@@ -137,9 +137,9 @@
       "installed_on_request": true
     }
   ],
-  "linked_keg": "1.3.5",
+  "linked_keg": "1.3.6",
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -148,7 +148,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
   "ruby_source_path": "Formula/lib/libxext.rb",
   "ruby_source_checksum": {
     "sha256": "9db0f6f39db6a6a5b4b167dd16d66a15d0223e8b6302caf8de9463370cfc1e74"
@@ -157,21 +157,21 @@
   "analytics": {
     "install": {
       "30d": {
-        "libxext": 125861,
+        "libxext": 125864,
         "libxext --HEAD": 4
       },
       "90d": {
-        "libxext": 280462,
+        "libxext": 280490,
         "libxext --HEAD": 4
       },
       "365d": {
-        "libxext": 771545,
+        "libxext": 771570,
         "libxext --HEAD": 7
       }
     },
     "install_on_request": {
       "30d": {
-        "libxext": 3326,
+        "libxext": 3325,
         "libxext --HEAD": 3
       },
       "90d": {

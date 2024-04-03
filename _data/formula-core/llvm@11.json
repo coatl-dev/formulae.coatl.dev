@@ -123,7 +123,7 @@
   "disable_reason": "versioned_formula",
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
   "ruby_source_path": "Formula/l/llvm@11.rb",
   "ruby_source_checksum": {
     "sha256": "1aa4de2b174e18ebc82c25b972d7738994c4e89a30b2753fe0abf190d3eb97f1"

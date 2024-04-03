@@ -105,13 +105,13 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1708291895,
+      "time": 1711763136,
       "runtime_dependencies": [
         {
           "full_name": "xorgproto",
-          "version": "2023.2",
+          "version": "2024.1",
           "revision": 0,
-          "pkg_version": "2023.2",
+          "pkg_version": "2024.1",
           "declared_directly": true
         },
         {
@@ -123,23 +123,23 @@
         },
         {
           "full_name": "libxdmcp",
-          "version": "1.1.4",
+          "version": "1.1.5",
           "revision": 0,
-          "pkg_version": "1.1.4",
+          "pkg_version": "1.1.5",
           "declared_directly": false
         },
         {
           "full_name": "libxcb",
-          "version": "1.16",
+          "version": "1.16.1",
           "revision": 0,
-          "pkg_version": "1.16",
+          "pkg_version": "1.16.1",
           "declared_directly": false
         },
         {
           "full_name": "libx11",
-          "version": "1.8.7",
+          "version": "1.8.8",
           "revision": 0,
-          "pkg_version": "1.8.7",
+          "pkg_version": "1.8.8",
           "declared_directly": true
         }
       ],
@@ -158,7 +158,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
   "ruby_source_path": "Formula/lib/libxrender.rb",
   "ruby_source_checksum": {
     "sha256": "e894644959f98ee9d35ccc2f051a1f3b898a2c50298896ce6df19989c0f86e45"
@@ -167,13 +167,13 @@
   "analytics": {
     "install": {
       "30d": {
-        "libxrender": 39593
+        "libxrender": 39589
       },
       "90d": {
-        "libxrender": 120334
+        "libxrender": 120335
       },
       "365d": {
-        "libxrender": 562711,
+        "libxrender": 562703,
         "libxrender --HEAD": 7
       }
     },

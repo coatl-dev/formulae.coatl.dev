@@ -122,7 +122,7 @@
   "disable_reason": "unmaintained",
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "019f6875d589ca8d05dfa1636f0d28172a84d3a8",
+  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
   "ruby_source_path": "Formula/lib/libgit2@1.5.rb",
   "ruby_source_checksum": {
     "sha256": "5d81c0dedbe8820e799d090263cda2a010ee8f7ff2dd43cc2516eae62db100c8"
