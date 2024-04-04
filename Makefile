@@ -14,7 +14,7 @@ core:
 
 tap:
 ifeq ($(strip $(TAP)),)
-	$(error "Argument TAP is required. E.g., make [all|tap] TAP=<[user|org]/repo>")
+	$(error "Argument TAP is required. E.g., make tap TAP=<[user|org]/repo>")
 endif
 	@echo "Tapping $(TAP)..."
 	@$(shell brew tap $(TAP))
