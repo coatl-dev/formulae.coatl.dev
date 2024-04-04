@@ -97,7 +97,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711764045,
+      "time": 1711828421,
       "runtime_dependencies": [
         {
           "full_name": "gmp",
@@ -122,7 +122,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
+  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
   "ruby_source_path": "Formula/m/mpfr.rb",
   "ruby_source_checksum": {
     "sha256": "3c720ea504f49d4eef2432f91d4de3bb987f3fbe97066b08d7b9edd8d61fccef"
@@ -146,38 +146,38 @@
   "analytics": {
     "install": {
       "30d": {
-        "mpfr": 58572,
+        "mpfr": 58541,
         "mpfr --HEAD": 2
       },
       "90d": {
-        "mpfr": 181292,
+        "mpfr": 181719,
         "mpfr --HEAD": 4
       },
       "365d": {
-        "mpfr": 841379,
+        "mpfr": 841012,
         "mpfr --HEAD": 46
       }
     },
     "install_on_request": {
       "30d": {
-        "mpfr": 952,
+        "mpfr": 942,
         "mpfr --HEAD": 2
       },
       "90d": {
-        "mpfr": 3346,
+        "mpfr": 3343,
         "mpfr --HEAD": 4
       },
       "365d": {
-        "mpfr": 25860,
+        "mpfr": 25851,
         "mpfr --HEAD": 42
       }
     },
     "build_error": {
       "30d": {
-        "mpfr": 38,
+        "mpfr": 37,
         "mpfr --HEAD": 2
       }
     }
   },
-  "generated_date": "2024-04-03"
+  "generated_date": "2024-04-04"
 }

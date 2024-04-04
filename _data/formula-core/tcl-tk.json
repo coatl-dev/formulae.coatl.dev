@@ -100,7 +100,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711763926,
+      "time": 1711828346,
       "runtime_dependencies": [
         {
           "full_name": "ca-certificates",
@@ -132,7 +132,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
+  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
   "ruby_source_path": "Formula/t/tcl-tk.rb",
   "ruby_source_checksum": {
     "sha256": "96680d957a2d51f66eeeaf282f07e5483ce5721cd68ca589de501fa95b75fabf"
@@ -153,37 +153,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "tcl-tk": 49701,
-        "tcl-tk --HEAD": 29
+        "tcl-tk": 48686,
+        "tcl-tk --HEAD": 30
       },
       "90d": {
-        "tcl-tk": 111140,
+        "tcl-tk": 111617,
         "tcl-tk --HEAD": 62
       },
       "365d": {
-        "tcl-tk": 538884,
-        "tcl-tk --HEAD": 300
+        "tcl-tk": 538112,
+        "tcl-tk --HEAD": 302
       }
     },
     "install_on_request": {
       "30d": {
-        "tcl-tk": 21147,
-        "tcl-tk --HEAD": 27
+        "tcl-tk": 20746,
+        "tcl-tk --HEAD": 28
       },
       "90d": {
-        "tcl-tk": 43982,
+        "tcl-tk": 44125,
         "tcl-tk --HEAD": 59
       },
       "365d": {
-        "tcl-tk": 243017,
-        "tcl-tk --HEAD": 297
+        "tcl-tk": 242713,
+        "tcl-tk --HEAD": 299
       }
     },
     "build_error": {
       "30d": {
-        "tcl-tk": 44
+        "tcl-tk": 42
       }
     }
   },
-  "generated_date": "2024-04-03"
+  "generated_date": "2024-04-04"
 }

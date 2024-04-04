@@ -71,7 +71,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
+  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
   "ruby_source_path": "Formula/x/xtrans.rb",
   "ruby_source_checksum": {
     "sha256": "9e57a46d378c9ae05859eb44b5f89c006b9712370f9dcfbeee0f2f344787e688"
@@ -80,21 +80,21 @@
   "analytics": {
     "install": {
       "30d": {
-        "xtrans": 1157
+        "xtrans": 1155
       },
       "90d": {
-        "xtrans": 3920
+        "xtrans": 3916
       },
       "365d": {
-        "xtrans": 21711
+        "xtrans": 21671
       }
     },
     "install_on_request": {
       "30d": {
-        "xtrans": 43
+        "xtrans": 42
       },
       "90d": {
-        "xtrans": 96
+        "xtrans": 95
       },
       "365d": {
         "xtrans": 863
@@ -106,5 +106,5 @@
       }
     }
   },
-  "generated_date": "2024-04-03"
+  "generated_date": "2024-04-04"
 }

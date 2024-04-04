@@ -128,7 +128,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
+  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
   "ruby_source_path": "Formula/p/python@3.8.rb",
   "ruby_source_checksum": {
     "sha256": "fb97eb466caf91939a9adfd7bcec8bc8a4a1a77366b24057b6cd739b6a7da3cf"
@@ -150,30 +150,30 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.8": 31924,
-        "python@3.8 --HEAD": 35
+        "python@3.8": 32201,
+        "python@3.8 --HEAD": 38
       },
       "90d": {
-        "python@3.8": 83628,
-        "python@3.8 --HEAD": 93
+        "python@3.8": 83949,
+        "python@3.8 --HEAD": 96
       },
       "365d": {
-        "python@3.8": 340229,
-        "python@3.8 --HEAD": 388
+        "python@3.8": 340525,
+        "python@3.8 --HEAD": 392
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.8": 28921,
-        "python@3.8 --HEAD": 35
+        "python@3.8": 29144,
+        "python@3.8 --HEAD": 39
       },
       "90d": {
-        "python@3.8": 75817,
-        "python@3.8 --HEAD": 93
+        "python@3.8": 76083,
+        "python@3.8 --HEAD": 95
       },
       "365d": {
-        "python@3.8": 304694,
-        "python@3.8 --HEAD": 388
+        "python@3.8": 304988,
+        "python@3.8 --HEAD": 391
       }
     },
     "build_error": {
@@ -182,5 +182,5 @@
       }
     }
   },
-  "generated_date": "2024-04-03"
+  "generated_date": "2024-04-04"
 }
