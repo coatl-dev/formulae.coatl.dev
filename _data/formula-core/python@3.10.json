@@ -129,7 +129,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
+  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
   "ruby_source_path": "Formula/p/python@3.10.rb",
   "ruby_source_checksum": {
     "sha256": "d48347eed4c00106ae49a5bf6886cf41e2502402bb0bcc447ef650b97f758f79"
@@ -150,30 +150,30 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.10": 88042,
+        "python@3.10": 88769,
         "python@3.10 --HEAD": 125
       },
       "90d": {
-        "python@3.10": 247062,
-        "python@3.10 --HEAD": 354
+        "python@3.10": 247865,
+        "python@3.10 --HEAD": 351
       },
       "365d": {
-        "python@3.10": 1303958,
-        "python@3.10 --HEAD": 1755
+        "python@3.10": 1302522,
+        "python@3.10 --HEAD": 1759
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.10": 73200,
+        "python@3.10": 73737,
         "python@3.10 --HEAD": 125
       },
       "90d": {
-        "python@3.10": 207808,
-        "python@3.10 --HEAD": 354
+        "python@3.10": 208445,
+        "python@3.10 --HEAD": 351
       },
       "365d": {
-        "python@3.10": 1036011,
-        "python@3.10 --HEAD": 1750
+        "python@3.10": 1034959,
+        "python@3.10 --HEAD": 1754
       }
     },
     "build_error": {
@@ -182,5 +182,5 @@
       }
     }
   },
-  "generated_date": "2024-04-03"
+  "generated_date": "2024-04-04"
 }

@@ -100,7 +100,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711773836,
+      "time": 1711835509,
       "runtime_dependencies": [
         {
           "full_name": "ca-certificates",
@@ -125,7 +125,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
+  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
   "ruby_source_path": "Formula/c/certifi.rb",
   "ruby_source_checksum": {
     "sha256": "fe2f8ca19268944bd7fac693a2b82a03ecabc5188e4aba7426b5639599316729"
@@ -134,37 +134,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "certifi": 38159,
+        "certifi": 39381,
         "certifi --HEAD": 3
       },
       "90d": {
-        "certifi": 38156,
+        "certifi": 39380,
         "certifi --HEAD": 3
       },
       "365d": {
-        "certifi": 38154,
+        "certifi": 39380,
         "certifi --HEAD": 3
       }
     },
     "install_on_request": {
       "30d": {
-        "certifi": 1716,
+        "certifi": 1753,
         "certifi --HEAD": 3
       },
       "90d": {
-        "certifi": 1716,
+        "certifi": 1753,
         "certifi --HEAD": 3
       },
       "365d": {
-        "certifi": 1716,
+        "certifi": 1753,
         "certifi --HEAD": 3
       }
     },
     "build_error": {
       "30d": {
-        "certifi": 158
+        "certifi": 169
       }
     }
   },
-  "generated_date": "2024-04-03"
+  "generated_date": "2024-04-04"
 }

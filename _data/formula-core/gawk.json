@@ -105,7 +105,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
+  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
   "ruby_source_path": "Formula/g/gawk.rb",
   "ruby_source_checksum": {
     "sha256": "7287a86cb810fece08f5405cc63bb9cde2e7f0991312b86379f8c60de9ac893d"
@@ -124,37 +124,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "gawk": 6168,
-        "gawk --HEAD": 8
+        "gawk": 6200,
+        "gawk --HEAD": 9
       },
       "90d": {
-        "gawk": 18840,
+        "gawk": 18836,
         "gawk --HEAD": 21
       },
       "365d": {
-        "gawk": 77975,
-        "gawk --HEAD": 106
+        "gawk": 78046,
+        "gawk --HEAD": 107
       }
     },
     "install_on_request": {
       "30d": {
-        "gawk": 5637,
-        "gawk --HEAD": 8
+        "gawk": 5666,
+        "gawk --HEAD": 9
       },
       "90d": {
-        "gawk": 17086,
+        "gawk": 17073,
         "gawk --HEAD": 21
       },
       "365d": {
-        "gawk": 69251,
-        "gawk --HEAD": 106
+        "gawk": 69297,
+        "gawk --HEAD": 107
       }
     },
     "build_error": {
       "30d": {
-        "gawk": 12
+        "gawk": 13
       }
     }
   },
-  "generated_date": "2024-04-03"
+  "generated_date": "2024-04-04"
 }

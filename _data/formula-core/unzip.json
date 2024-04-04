@@ -122,7 +122,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
+  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
   "ruby_source_path": "Formula/u/unzip.rb",
   "ruby_source_checksum": {
     "sha256": "0e728539f6098859b20dfe9bd54ec7296f08a621bf8a6b57c2fd105c15c5b2ab"
@@ -131,29 +131,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "unzip": 29672,
+        "unzip": 29323,
         "unzip --HEAD": 1
       },
       "90d": {
-        "unzip": 84061,
+        "unzip": 84131,
         "unzip --HEAD": 7
       },
       "365d": {
-        "unzip": 328435,
+        "unzip": 328312,
         "unzip --HEAD": 23
       }
     },
     "install_on_request": {
       "30d": {
-        "unzip": 1372,
+        "unzip": 1347,
         "unzip --HEAD": 1
       },
       "90d": {
-        "unzip": 3920,
+        "unzip": 3921,
         "unzip --HEAD": 7
       },
       "365d": {
-        "unzip": 14667,
+        "unzip": 14670,
         "unzip --HEAD": 23
       }
     },
@@ -163,5 +163,5 @@
       }
     }
   },
-  "generated_date": "2024-04-03"
+  "generated_date": "2024-04-04"
 }

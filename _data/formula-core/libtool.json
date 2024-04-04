@@ -102,7 +102,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711764226,
+      "time": 1711828558,
       "runtime_dependencies": [
         {
           "full_name": "m4",
@@ -127,7 +127,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "f08f1eb5e4c2c6a6b6b6f6d57f9c180de94c79f3",
+  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
   "ruby_source_path": "Formula/lib/libtool.rb",
   "ruby_source_checksum": {
     "sha256": "2cbbc9ebe0b3d8883fd3936acf42b3ca8486365a91f9f489a618e382f471a0bc"
@@ -140,29 +140,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "libtool": 39038,
-        "libtool --HEAD": 12
+        "libtool": 38865,
+        "libtool --HEAD": 11
       },
       "90d": {
-        "libtool": 113075,
+        "libtool": 113199,
         "libtool --HEAD": 30
       },
       "365d": {
-        "libtool": 468382,
+        "libtool": 467938,
         "libtool --HEAD": 169
       }
     },
     "install_on_request": {
       "30d": {
-        "libtool": 8488,
-        "libtool --HEAD": 12
+        "libtool": 8389,
+        "libtool --HEAD": 11
       },
       "90d": {
-        "libtool": 25529,
+        "libtool": 25542,
         "libtool --HEAD": 30
       },
       "365d": {
-        "libtool": 124961,
+        "libtool": 124653,
         "libtool --HEAD": 166
       }
     },
@@ -172,5 +172,5 @@
       }
     }
   },
-  "generated_date": "2024-04-03"
+  "generated_date": "2024-04-04"
 }
