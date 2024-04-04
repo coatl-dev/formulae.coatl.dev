@@ -17,10 +17,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - run: |
-          brew tap coatl-dev/coatl-dev
-
-      - run: |
-          ./script/generate.rb
+          make tap TAP=coatl-dev/coatl-dev
 
       - uses: actions/upload-artifact@v4
         with:
@@ -37,19 +34,17 @@ jobs:
       - uses: actions/checkout@v4
 
       - run: |
-          rm -r _data
-          rm -r api
-          rm -r formula
+          rm -r \
+            _data \
+            api \
+            formula
 
       - uses: actions/download-artifact@v4
         with:
           name: site
 
       - run: |
-          ./script/find-replace.sh
-
-      - run: |
-          ./script/generate-core.sh
+          make core
 
       - uses: coatl-dev/actions/simple-git-diff@v3
         id: git-diff

@@ -6,8 +6,10 @@ remote_theme: Homebrew/brew.sh
 exclude:
   - script
   - CNAME
-  - README.md
+  - Dockerfile
   - Gemfile*
+  - Makefile
+  - README.md
 
 plugins:
   - jekyll-feed
@@ -27,14 +29,6 @@ defaults:
       search_site: formulae
 
 taps:
-  coatl-dev:
-    repo: coatl-dev
-    name: coatl-dev/coatl-dev
-    fullname: coatl-dev/homebrew-coatl-dev
-    remote: https://github.com/coatl-dev/homebrew-coatl-dev
-    api: https://formulae.coatl.dev/api
-    bottle_dir: bottle
-    formula_dir: formula
   core:
     repo: core
     name: Homebrew/core
@@ -43,6 +37,14 @@ taps:
     api: https://formulae.brew.sh/api
     bottle_dir: bottle-core
     formula_dir: formula-core
+  tap:
+    repo: coatl-dev
+    name: coatl-dev/coatl-dev
+    fullname: coatl-dev/homebrew-coatl-dev
+    remote: https://github.com/coatl-dev/homebrew-coatl-dev
+    api: https://formulae.coatl.dev/api
+    bottle_dir: bottle
+    formula_dir: formula
 
 logo: assets/coatl.png
 

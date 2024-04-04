@@ -1,6 +1,6 @@
 #!/usr/bin/env -S brew ruby
 
-tap = Tap.fetch("coatl-dev/coatl-dev")
+tap = Tap.fetch(ARGV.first)
 
 directories = ["_data/formula", "api/formula", "formula"]
 FileUtils.rm_rf directories + ["_data/formula_canonical.json"]

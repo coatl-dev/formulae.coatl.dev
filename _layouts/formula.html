@@ -37,10 +37,10 @@ permalink: :title
 {%- assign formula_dir = site.taps.core.formula_dir %}
 {%- assign remote = site.taps.core.remote %}
 {%- else %}
-{%- assign api = site.taps.coatl-dev.api %}
-{%- assign bottle_dir = site.taps.coatl-dev.bottle_dir %}
-{%- assign formula_dir = site.taps.coatl-dev.formula_dir %}
-{%- assign remote = site.taps.coatl-dev.remote %}
+{%- assign api = site.taps.tap.api %}
+{%- assign bottle_dir = site.taps.tap.bottle_dir %}
+{%- assign formula_dir = site.taps.tap.formula_dir %}
+{%- assign remote = site.taps.tap.remote %}
 {%- endif -%}
 <p>Formula JSON API: <a href="{{api}}/{{ formula_dir }}/{{ f.name }}.json"><code>/api/{{ formula_dir }}/{{ f.name }}.json</code></a></p>
 {%- if formula_path == "formula-core" %}
