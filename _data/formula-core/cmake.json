@@ -116,7 +116,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
+  "tap_git_head": "bd29876b4a0d03439d16e66973872e863308ab34",
   "ruby_source_path": "Formula/c/cmake.rb",
   "ruby_source_checksum": {
     "sha256": "748be3e9134f5417a01ac76814d176786393c615ac9a2e8f553bc975f537a7eb"
@@ -131,38 +131,38 @@
   "analytics": {
     "install": {
       "30d": {
-        "cmake": 130911,
-        "cmake --HEAD": 146
+        "cmake": 141220,
+        "cmake --HEAD": 164
       },
       "90d": {
-        "cmake": 374069,
-        "cmake --HEAD": 373
+        "cmake": 383979,
+        "cmake --HEAD": 381
       },
       "365d": {
-        "cmake": 1510538,
-        "cmake --HEAD": 1548
+        "cmake": 1515047,
+        "cmake --HEAD": 1568
       }
     },
     "install_on_request": {
       "30d": {
-        "cmake": 103919,
-        "cmake --HEAD": 145
+        "cmake": 112114,
+        "cmake --HEAD": 163
       },
       "90d": {
-        "cmake": 294477,
-        "cmake --HEAD": 372
+        "cmake": 303103,
+        "cmake --HEAD": 380
       },
       "365d": {
-        "cmake": 1183484,
-        "cmake --HEAD": 1545
+        "cmake": 1186704,
+        "cmake --HEAD": 1565
       }
     },
     "build_error": {
       "30d": {
-        "cmake": 694,
+        "cmake": 671,
         "cmake --HEAD": 10
       }
     }
   },
-  "generated_date": "2024-04-04"
+  "generated_date": "2024-04-08"
 }

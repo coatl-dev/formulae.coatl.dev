@@ -105,7 +105,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
+  "tap_git_head": "bd29876b4a0d03439d16e66973872e863308ab34",
   "ruby_source_path": "Formula/m/msgpack.rb",
   "ruby_source_checksum": {
     "sha256": "07436d2f56d0f3e5155db18904f5b4db0e33831825207a62a6b51f567b4e6031"
@@ -114,30 +114,30 @@
   "analytics": {
     "install": {
       "30d": {
-        "msgpack": 10193,
-        "msgpack --HEAD": 2
+        "msgpack": 14063,
+        "msgpack --HEAD": 5
       },
       "90d": {
-        "msgpack": 21237,
-        "msgpack --HEAD": 4
+        "msgpack": 25057,
+        "msgpack --HEAD": 7
       },
       "365d": {
-        "msgpack": 86874,
-        "msgpack --HEAD": 6
+        "msgpack": 89413,
+        "msgpack --HEAD": 9
       }
     },
     "install_on_request": {
       "30d": {
-        "msgpack": 476,
-        "msgpack --HEAD": 2
+        "msgpack": 700,
+        "msgpack --HEAD": 5
       },
       "90d": {
-        "msgpack": 687,
-        "msgpack --HEAD": 4
+        "msgpack": 913,
+        "msgpack --HEAD": 7
       },
       "365d": {
-        "msgpack": 2270,
-        "msgpack --HEAD": 6
+        "msgpack": 2452,
+        "msgpack --HEAD": 9
       }
     },
     "build_error": {
@@ -146,5 +146,5 @@
       }
     }
   },
-  "generated_date": "2024-04-04"
+  "generated_date": "2024-04-08"
 }

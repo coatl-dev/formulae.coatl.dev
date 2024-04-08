@@ -117,7 +117,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
+  "tap_git_head": "bd29876b4a0d03439d16e66973872e863308ab34",
   "ruby_source_path": "Formula/l/lua.rb",
   "ruby_source_checksum": {
     "sha256": "78c04add8349acddbe48f59ebfa54ff63299c80f9bfa3f854a20de7a9417462d"
@@ -132,30 +132,30 @@
   "analytics": {
     "install": {
       "30d": {
-        "lua": 10554,
-        "lua --HEAD": 5
+        "lua": 10519,
+        "lua --HEAD": 6
       },
       "90d": {
-        "lua": 33415,
-        "lua --HEAD": 8
+        "lua": 33121,
+        "lua --HEAD": 9
       },
       "365d": {
-        "lua": 222499,
-        "lua --HEAD": 40
+        "lua": 222587,
+        "lua --HEAD": 41
       }
     },
     "install_on_request": {
       "30d": {
-        "lua": 1724,
-        "lua --HEAD": 5
+        "lua": 1713,
+        "lua --HEAD": 6
       },
       "90d": {
-        "lua": 4834,
-        "lua --HEAD": 8
+        "lua": 4813,
+        "lua --HEAD": 9
       },
       "365d": {
-        "lua": 32884,
-        "lua --HEAD": 40
+        "lua": 32851,
+        "lua --HEAD": 41
       }
     },
     "build_error": {
@@ -164,5 +164,5 @@
       }
     }
   },
-  "generated_date": "2024-04-04"
+  "generated_date": "2024-04-08"
 }

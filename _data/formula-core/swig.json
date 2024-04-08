@@ -130,7 +130,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
+  "tap_git_head": "bd29876b4a0d03439d16e66973872e863308ab34",
   "ruby_source_path": "Formula/s/swig.rb",
   "ruby_source_checksum": {
     "sha256": "08bd06a54f6a17c26b0079a6f49caa94e6ef13763f3faacdc3fd8fba8c85721a"
@@ -156,38 +156,38 @@
   "analytics": {
     "install": {
       "30d": {
-        "swig": 9283,
-        "swig --HEAD": 7
+        "swig": 8657,
+        "swig --HEAD": 6
       },
       "90d": {
-        "swig": 36029,
+        "swig": 35397,
         "swig --HEAD": 20
       },
       "365d": {
-        "swig": 91775,
+        "swig": 92049,
         "swig --HEAD": 72
       }
     },
     "install_on_request": {
       "30d": {
-        "swig": 4217,
-        "swig --HEAD": 7
+        "swig": 3940,
+        "swig --HEAD": 6
       },
       "90d": {
-        "swig": 17484,
+        "swig": 16767,
         "swig --HEAD": 20
       },
       "365d": {
-        "swig": 54414,
+        "swig": 54387,
         "swig --HEAD": 71
       }
     },
     "build_error": {
       "30d": {
-        "swig": 8,
+        "swig": 10,
         "swig --HEAD": 2
       }
     }
   },
-  "generated_date": "2024-04-04"
+  "generated_date": "2024-04-08"
 }

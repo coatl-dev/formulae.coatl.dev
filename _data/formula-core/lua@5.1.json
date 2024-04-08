@@ -139,7 +139,7 @@
   "disable_reason": "deprecated_upstream",
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
+  "tap_git_head": "bd29876b4a0d03439d16e66973872e863308ab34",
   "ruby_source_path": "Formula/l/lua@5.1.rb",
   "ruby_source_checksum": {
     "sha256": "10c1df2b357cd39704a3ade5135a120fb7e37e62aee7598a205e0aa8c9ac7bab"
@@ -157,11 +157,10 @@
         "lua@5.1": 15
       },
       "90d": {
-        "lua@5.1": 605,
-        "lua@5.1 --HEAD": 1
+        "lua@5.1": 553
       },
       "365d": {
-        "lua@5.1": 3382,
+        "lua@5.1": 3358,
         "lua@5.1 --HEAD": 1
       }
     },
@@ -170,11 +169,10 @@
         "lua@5.1": 15
       },
       "90d": {
-        "lua@5.1": 600,
-        "lua@5.1 --HEAD": 1
+        "lua@5.1": 548
       },
       "365d": {
-        "lua@5.1": 3309,
+        "lua@5.1": 3289,
         "lua@5.1 --HEAD": 1
       }
     },
@@ -184,5 +182,5 @@
       }
     }
   },
-  "generated_date": "2024-04-04"
+  "generated_date": "2024-04-08"
 }

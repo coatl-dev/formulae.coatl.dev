@@ -98,7 +98,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
+  "tap_git_head": "bd29876b4a0d03439d16e66973872e863308ab34",
   "ruby_source_path": "Formula/lib/libvterm.rb",
   "ruby_source_checksum": {
     "sha256": "cf84a4e6912ae4ab7b4c6d9332fe561a24f69f1071730147e1e49e117d8dcc4d"
@@ -107,27 +107,27 @@
   "analytics": {
     "install": {
       "30d": {
-        "libvterm": 6124
+        "libvterm": 5988
       },
       "90d": {
-        "libvterm": 20306,
+        "libvterm": 19801,
         "libvterm --HEAD": 3
       },
       "365d": {
-        "libvterm": 104184,
+        "libvterm": 103683,
         "libvterm --HEAD": 14
       }
     },
     "install_on_request": {
       "30d": {
-        "libvterm": 175
+        "libvterm": 163
       },
       "90d": {
-        "libvterm": 641,
+        "libvterm": 615,
         "libvterm --HEAD": 3
       },
       "365d": {
-        "libvterm": 4773,
+        "libvterm": 4752,
         "libvterm --HEAD": 14
       }
     },
@@ -137,5 +137,5 @@
       }
     }
   },
-  "generated_date": "2024-04-04"
+  "generated_date": "2024-04-08"
 }

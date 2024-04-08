@@ -303,7 +303,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
+  "tap_git_head": "bd29876b4a0d03439d16e66973872e863308ab34",
   "ruby_source_path": "Formula/h/harfbuzz.rb",
   "ruby_source_checksum": {
     "sha256": "d5b147340331994baedbeb6c00c9ed54a2a86cb0fcd97d15c0a59f081a58df31"
@@ -312,38 +312,38 @@
   "analytics": {
     "install": {
       "30d": {
-        "harfbuzz": 245209,
-        "harfbuzz --HEAD": 208
+        "harfbuzz": 244303,
+        "harfbuzz --HEAD": 206
       },
       "90d": {
-        "harfbuzz": 542024,
-        "harfbuzz --HEAD": 401
+        "harfbuzz": 552510,
+        "harfbuzz --HEAD": 410
       },
       "365d": {
-        "harfbuzz": 2139641,
-        "harfbuzz --HEAD": 1425
+        "harfbuzz": 2151782,
+        "harfbuzz --HEAD": 1445
       }
     },
     "install_on_request": {
       "30d": {
-        "harfbuzz": 114690,
-        "harfbuzz --HEAD": 208
+        "harfbuzz": 112777,
+        "harfbuzz --HEAD": 206
       },
       "90d": {
-        "harfbuzz": 230746,
-        "harfbuzz --HEAD": 400
+        "harfbuzz": 236764,
+        "harfbuzz --HEAD": 409
       },
       "365d": {
-        "harfbuzz": 846995,
-        "harfbuzz --HEAD": 1415
+        "harfbuzz": 853343,
+        "harfbuzz --HEAD": 1435
       }
     },
     "build_error": {
       "30d": {
-        "harfbuzz": 509,
+        "harfbuzz": 862,
         "harfbuzz --HEAD": 2
       }
     }
   },
-  "generated_date": "2024-04-04"
+  "generated_date": "2024-04-08"
 }

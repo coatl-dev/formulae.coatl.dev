@@ -129,7 +129,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
+  "tap_git_head": "bd29876b4a0d03439d16e66973872e863308ab34",
   "ruby_source_path": "Formula/r/rust.rb",
   "ruby_source_checksum": {
     "sha256": "039de54ec8a5d337d82cc7866dacec06528f813a6abc47ef78763c4eac54b83a"
@@ -138,38 +138,38 @@
   "analytics": {
     "install": {
       "30d": {
-        "rust": 39018,
-        "rust --HEAD": 67
+        "rust": 40043,
+        "rust --HEAD": 78
       },
       "90d": {
-        "rust": 103865,
-        "rust --HEAD": 155
+        "rust": 103115,
+        "rust --HEAD": 166
       },
       "365d": {
-        "rust": 410144,
-        "rust --HEAD": 585
+        "rust": 409602,
+        "rust --HEAD": 596
       }
     },
     "install_on_request": {
       "30d": {
-        "rust": 30122,
-        "rust --HEAD": 67
+        "rust": 31144,
+        "rust --HEAD": 78
       },
       "90d": {
-        "rust": 78940,
-        "rust --HEAD": 155
+        "rust": 78352,
+        "rust --HEAD": 166
       },
       "365d": {
-        "rust": 310667,
-        "rust --HEAD": 585
+        "rust": 310263,
+        "rust --HEAD": 596
       }
     },
     "build_error": {
       "30d": {
         "rust": 134,
-        "rust --HEAD": 6
+        "rust --HEAD": 5
       }
     }
   },
-  "generated_date": "2024-04-04"
+  "generated_date": "2024-04-08"
 }

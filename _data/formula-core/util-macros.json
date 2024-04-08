@@ -108,7 +108,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
+  "tap_git_head": "bd29876b4a0d03439d16e66973872e863308ab34",
   "ruby_source_path": "Formula/u/util-macros.rb",
   "ruby_source_checksum": {
     "sha256": "e5336f9d5ae3c9f2844f620a189d0e3c871a21b770a118e687153540b80254aa"
@@ -117,24 +117,24 @@
   "analytics": {
     "install": {
       "30d": {
-        "util-macros": 1448
+        "util-macros": 1419
       },
       "90d": {
-        "util-macros": 4586
+        "util-macros": 4541
       },
       "365d": {
-        "util-macros": 23816
+        "util-macros": 23622
       }
     },
     "install_on_request": {
       "30d": {
-        "util-macros": 50
+        "util-macros": 43
       },
       "90d": {
-        "util-macros": 131
+        "util-macros": 129
       },
       "365d": {
-        "util-macros": 623
+        "util-macros": 617
       }
     },
     "build_error": {
@@ -143,5 +143,5 @@
       }
     }
   },
-  "generated_date": "2024-04-04"
+  "generated_date": "2024-04-08"
 }
