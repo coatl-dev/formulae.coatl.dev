@@ -135,7 +135,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
+  "tap_git_head": "bd29876b4a0d03439d16e66973872e863308ab34",
   "ruby_source_path": "Formula/l/llvm.rb",
   "ruby_source_checksum": {
     "sha256": "aba893859455023023d77665cb5327f8d9701330972a54e4a4d97da8239537d5"
@@ -161,38 +161,38 @@
   "analytics": {
     "install": {
       "30d": {
-        "llvm": 38138,
-        "llvm --HEAD": 60
+        "llvm": 37347,
+        "llvm --HEAD": 57
       },
       "90d": {
-        "llvm": 139650,
-        "llvm --HEAD": 192
+        "llvm": 139114,
+        "llvm --HEAD": 191
       },
       "365d": {
-        "llvm": 500863,
-        "llvm --HEAD": 651
+        "llvm": 498672,
+        "llvm --HEAD": 652
       }
     },
     "install_on_request": {
       "30d": {
-        "llvm": 15936,
-        "llvm --HEAD": 60
+        "llvm": 15620,
+        "llvm --HEAD": 57
       },
       "90d": {
-        "llvm": 60313,
-        "llvm --HEAD": 191
+        "llvm": 60204,
+        "llvm --HEAD": 190
       },
       "365d": {
-        "llvm": 318305,
-        "llvm --HEAD": 648
+        "llvm": 314106,
+        "llvm --HEAD": 649
       }
     },
     "build_error": {
       "30d": {
-        "llvm": 308,
-        "llvm --HEAD": 45
+        "llvm": 312,
+        "llvm --HEAD": 46
       }
     }
   },
-  "generated_date": "2024-04-04"
+  "generated_date": "2024-04-08"
 }

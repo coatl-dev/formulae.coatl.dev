@@ -112,7 +112,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
+  "tap_git_head": "bd29876b4a0d03439d16e66973872e863308ab34",
   "ruby_source_path": "Formula/x/xorgproto.rb",
   "ruby_source_checksum": {
     "sha256": "33174371c64bd33781b98f4433e1ece291a1199c95e0dd0315d89cdbe94f0c2f"
@@ -121,30 +121,30 @@
   "analytics": {
     "install": {
       "30d": {
-        "xorgproto": 104607,
-        "xorgproto --HEAD": 6
+        "xorgproto": 114879,
+        "xorgproto --HEAD": 8
       },
       "90d": {
-        "xorgproto": 236046,
-        "xorgproto --HEAD": 6
+        "xorgproto": 245827,
+        "xorgproto --HEAD": 8
       },
       "365d": {
-        "xorgproto": 1003840,
-        "xorgproto --HEAD": 18
+        "xorgproto": 1015237,
+        "xorgproto --HEAD": 20
       }
     },
     "install_on_request": {
       "30d": {
-        "xorgproto": 1759,
-        "xorgproto --HEAD": 6
+        "xorgproto": 2014,
+        "xorgproto --HEAD": 8
       },
       "90d": {
-        "xorgproto": 2273,
-        "xorgproto --HEAD": 6
+        "xorgproto": 2526,
+        "xorgproto --HEAD": 8
       },
       "365d": {
-        "xorgproto": 7577,
-        "xorgproto --HEAD": 12
+        "xorgproto": 7844,
+        "xorgproto --HEAD": 14
       }
     },
     "build_error": {
@@ -153,5 +153,5 @@
       }
     }
   },
-  "generated_date": "2024-04-04"
+  "generated_date": "2024-04-08"
 }

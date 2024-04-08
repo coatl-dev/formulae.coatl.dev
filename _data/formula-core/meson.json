@@ -47,9 +47,7 @@
   "keg_only": false,
   "keg_only_reason": null,
   "options": [],
-  "build_dependencies": [
-    "python-setuptools"
-  ],
+  "build_dependencies": [],
   "dependencies": [
     "ninja",
     "python@3.12"
@@ -76,39 +74,39 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
+  "tap_git_head": "bd29876b4a0d03439d16e66973872e863308ab34",
   "ruby_source_path": "Formula/m/meson.rb",
   "ruby_source_checksum": {
-    "sha256": "7e201909c86d05eff00f77efa860d66835a21067e7861403c5745c517130d428"
+    "sha256": "cbdccabed45dba08f6ecde3b55bf8099619fa81e83800cdf2317a1464b95d7e8"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "meson": 13981,
-        "meson --HEAD": 20
+        "meson": 13928,
+        "meson --HEAD": 18
       },
       "90d": {
-        "meson": 38476,
-        "meson --HEAD": 52
+        "meson": 37719,
+        "meson --HEAD": 50
       },
       "365d": {
-        "meson": 169597,
-        "meson --HEAD": 169
+        "meson": 169704,
+        "meson --HEAD": 170
       }
     },
     "install_on_request": {
       "30d": {
-        "meson": 6487,
-        "meson --HEAD": 20
+        "meson": 6498,
+        "meson --HEAD": 18
       },
       "90d": {
-        "meson": 17087,
-        "meson --HEAD": 52
+        "meson": 16833,
+        "meson --HEAD": 50
       },
       "365d": {
-        "meson": 82808,
-        "meson --HEAD": 169
+        "meson": 82769,
+        "meson --HEAD": 170
       }
     },
     "build_error": {
@@ -117,5 +115,5 @@
       }
     }
   },
-  "generated_date": "2024-04-04"
+  "generated_date": "2024-04-08"
 }

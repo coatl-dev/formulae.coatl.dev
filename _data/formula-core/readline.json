@@ -114,7 +114,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
+  "tap_git_head": "bd29876b4a0d03439d16e66973872e863308ab34",
   "ruby_source_path": "Formula/r/readline.rb",
   "ruby_source_checksum": {
     "sha256": "ea0578c3b9a3fe562143f99089e8d6343dabfedacdcb95be0683cdc82505363e"
@@ -123,30 +123,30 @@
   "analytics": {
     "install": {
       "30d": {
-        "readline": 235238,
-        "readline --HEAD": 26
+        "readline": 227580,
+        "readline --HEAD": 22
       },
       "90d": {
-        "readline": 618257,
+        "readline": 618422,
         "readline --HEAD": 70
       },
       "365d": {
-        "readline": 1743441,
-        "readline --HEAD": 152
+        "readline": 1750886,
+        "readline --HEAD": 153
       }
     },
     "install_on_request": {
       "30d": {
-        "readline": 13109,
-        "readline --HEAD": 24
+        "readline": 11517,
+        "readline --HEAD": 20
       },
       "90d": {
-        "readline": 38078,
+        "readline": 37916,
         "readline --HEAD": 68
       },
       "365d": {
-        "readline": 100194,
-        "readline --HEAD": 140
+        "readline": 100350,
+        "readline --HEAD": 141
       }
     },
     "build_error": {
@@ -155,5 +155,5 @@
       }
     }
   },
-  "generated_date": "2024-04-04"
+  "generated_date": "2024-04-08"
 }

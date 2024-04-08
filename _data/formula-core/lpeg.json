@@ -112,7 +112,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
+  "tap_git_head": "bd29876b4a0d03439d16e66973872e863308ab34",
   "ruby_source_path": "Formula/l/lpeg.rb",
   "ruby_source_checksum": {
     "sha256": "9e2b0c64d4c7933848fb37d161a65bbf76a060ad0f753fae69b7dad2aa801a1a"
@@ -121,25 +121,25 @@
   "analytics": {
     "install": {
       "30d": {
-        "lpeg": 729
+        "lpeg": 744
       },
       "90d": {
-        "lpeg": 2312
+        "lpeg": 2337
       },
       "365d": {
-        "lpeg": 9378,
+        "lpeg": 9494,
         "lpeg --HEAD": 2
       }
     },
     "install_on_request": {
       "30d": {
-        "lpeg": 126
+        "lpeg": 123
       },
       "90d": {
-        "lpeg": 304
+        "lpeg": 314
       },
       "365d": {
-        "lpeg": 1030,
+        "lpeg": 1040,
         "lpeg --HEAD": 2
       }
     },
@@ -149,5 +149,5 @@
       }
     }
   },
-  "generated_date": "2024-04-04"
+  "generated_date": "2024-04-08"
 }

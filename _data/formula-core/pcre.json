@@ -129,7 +129,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "4f7dde980b68170d9e1f5d2bbee247b477e76af5",
+  "tap_git_head": "bd29876b4a0d03439d16e66973872e863308ab34",
   "ruby_source_path": "Formula/p/pcre.rb",
   "ruby_source_checksum": {
     "sha256": "824945d2f2406ef4633d1db85cb38209dd131cd586799fd67c69788787ab9952"
@@ -157,37 +157,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "pcre": 15558,
+        "pcre": 15502,
         "pcre --HEAD": 1
       },
       "90d": {
-        "pcre": 49726,
+        "pcre": 48934,
         "pcre --HEAD": 4
       },
       "365d": {
-        "pcre": 247155,
+        "pcre": 246164,
         "pcre --HEAD": 38
       }
     },
     "install_on_request": {
       "30d": {
-        "pcre": 1824,
+        "pcre": 1742,
         "pcre --HEAD": 1
       },
       "90d": {
-        "pcre": 7780,
+        "pcre": 6950,
         "pcre --HEAD": 4
       },
       "365d": {
-        "pcre": 37852,
+        "pcre": 37687,
         "pcre --HEAD": 37
       }
     },
     "build_error": {
       "30d": {
-        "pcre": 1
+        "pcre": 0
       }
     }
   },
-  "generated_date": "2024-04-04"
+  "generated_date": "2024-04-08"
 }
