@@ -3,12 +3,11 @@
   "full_name": "coatl-dev/coatl-dev/ignition",
   "tap": "coatl-dev/coatl-dev",
   "oldname": null,
+  "oldnames": [],
   "aliases": [
     "ignition@8.1"
   ],
-  "versioned_formulae": [
-
-  ],
+  "versioned_formulae": [],
   "desc": "Unlimited Platform for SCADA and so much more",
   "license": "Cannot Represent",
   "homepage": "https://inductiveautomation.com/",
@@ -19,49 +18,33 @@
   },
   "urls": {
     "stable": {
-      "url": "https://files.inductiveautomation.com/release/ia/8.1.38/20240305-1347/Ignition-linux-x86-64-8.1.38.zip",
+      "url": "https://files.inductiveautomation.com/release/ia/8.1.38/20240305-1347/Ignition-macOs-x86-64-8.1.38.zip",
       "tag": null,
       "revision": null,
-      "checksum": "d41bed10b5506a5aa50320d016b183299cfcd050735894f3d66ba005d17811ce"
+      "using": null,
+      "checksum": "b61aa563c728b7da5dbcb8c05d9263102e36365e6198df445d2586f747af3311"
     }
   },
   "revision": 0,
   "version_scheme": 0,
-  "bottle": {
-  },
+  "bottle": {},
+  "pour_bottle_only_if": null,
   "keg_only": false,
   "keg_only_reason": null,
-  "options": [
-
-  ],
-  "core_build_dependencies": [
-    "unzip"
-  ],
-  "core_dependencies": [
-
-  ],
-  "core_test_dependencies": [
-    "unzip"
-  ],
-  "recommended_dependencies": [
-
-  ],
-  "optional_dependencies": [
-
-  ],
-  "uses_from_macos": [
-
-  ],
-  "requirements": [
-
-  ],
-  "conflicts_with": [
-
-  ],
-  "caveats": "The data and logs folders have been symlinked to:\n  data: $(brew --prefix)/etc/ignition\n  logs: $(brew --prefix)/var/ignition\n",
-  "installed": [
-
-  ],
+  "options": [],
+  "core_build_dependencies": [],
+  "core_dependencies": [],
+  "core_test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "The data and logs folders have been symlinked to:\n  data: $HOMEBREW_PREFIX/etc/ignition\n  logs: $HOMEBREW_PREFIX/var/ignition\n",
+  "installed": [],
   "linked_keg": null,
   "pinned": false,
   "outdated": false,
@@ -71,7 +54,11 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
   "tap_git_head": "3321791f7453826da9305ad526f3e124b87b493f",
-  "variations": {
+  "ruby_source_path": "Formula/ignition.rb",
+  "ruby_source_checksum": {
+    "sha256": "c789851da2f8448b4220cff26b37246b80187eb365d60f147c395e580f69111e"
   }
 }
