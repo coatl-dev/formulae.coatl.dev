@@ -2,6 +2,14 @@ TAP := coatl-dev/coatl-dev
 
 all: tap core cleanup
 
+cleanup:
+	@echo "Cleaning up temporary files..."
+	@rm -f script/*.txt
+
+core:
+	@echo "Getting homebrew/core referenced formulae data..."
+	@./script/generate-core.sh
+
 help:
 	@echo "Usage: make [target]"
 	@echo ""
@@ -12,14 +20,6 @@ help:
 	@echo "  cleanup:    Remove intermediate files."
 	@echo "  help:       Display this help message."
 
-core:
-	@echo "Getting homebrew/core referenced formulae data..."
-	@./script/generate-core.sh
-
 tap:
 	@echo "Generating formulae data for $(TAP)..."
 	@./script/generate-tap.sh $(TAP)
-
-cleanup:
-	@echo "Cleaning up temporary files..."
-	@rm -f script/*.txt
