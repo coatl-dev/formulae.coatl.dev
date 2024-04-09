@@ -6,7 +6,6 @@ remote_theme: Homebrew/brew.sh
 exclude:
   - script
   - CNAME
-  - Dockerfile
   - Gemfile*
   - Makefile
   - README.md
