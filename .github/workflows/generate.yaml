@@ -8,16 +8,15 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
-
-    container:
-      image: ghcr.io/coatl-dev/brew:3.6.21
-      options: --user root
+    env:
+      HOMEBREW_NO_ANALYTICS: 1
+      HOMEBREW_NO_AUTO_UPDATE: 1
 
     steps:
       - uses: actions/checkout@v4
 
       - run: |
-          make tap TAP=coatl-dev/coatl-dev
+          make all
 
       - uses: actions/upload-artifact@v4
         with:
@@ -42,9 +41,6 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: site
-
-      - run: |
-          make core
 
       - uses: coatl-dev/actions/simple-git-diff@v3
         id: git-diff
