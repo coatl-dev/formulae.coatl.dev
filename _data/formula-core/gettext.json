@@ -96,7 +96,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711761921,
+      "time": 1712431578,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -122,29 +122,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "gettext": 219521,
+        "gettext": 219523,
         "gettext --HEAD": 34
       },
       "90d": {
-        "gettext": 655861,
+        "gettext": 655844,
         "gettext --HEAD": 71
       },
       "365d": {
-        "gettext": 2117098,
+        "gettext": 2117139,
         "gettext --HEAD": 206
       }
     },
     "install_on_request": {
       "30d": {
-        "gettext": 14181,
+        "gettext": 14178,
         "gettext --HEAD": 29
       },
       "90d": {
-        "gettext": 45565,
+        "gettext": 45561,
         "gettext --HEAD": 62
       },
       "365d": {
-        "gettext": 134822,
+        "gettext": 134818,
         "gettext --HEAD": 187
       }
     },

@@ -163,7 +163,7 @@
   "analytics": {
     "install": {
       "30d": {
-        "openjdk@17": 25598,
+        "openjdk@17": 25592,
         "openjdk@17 --HEAD": 40
       },
       "90d": {
@@ -177,15 +177,15 @@
     },
     "install_on_request": {
       "30d": {
-        "openjdk@17": 22248,
+        "openjdk@17": 22243,
         "openjdk@17 --HEAD": 40
       },
       "90d": {
-        "openjdk@17": 63812,
+        "openjdk@17": 63814,
         "openjdk@17 --HEAD": 121
       },
       "365d": {
-        "openjdk@17": 219233,
+        "openjdk@17": 219237,
         "openjdk@17 --HEAD": 374
       }
     },

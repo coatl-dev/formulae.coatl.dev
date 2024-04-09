@@ -101,7 +101,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711762839,
+      "time": 1712432295,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -146,15 +146,15 @@
   "analytics": {
     "install": {
       "30d": {
-        "pcre2": 203582,
+        "pcre2": 203558,
         "pcre2 --HEAD": 14
       },
       "90d": {
-        "pcre2": 431608,
+        "pcre2": 431629,
         "pcre2 --HEAD": 27
       },
       "365d": {
-        "pcre2": 1360175,
+        "pcre2": 1360206,
         "pcre2 --HEAD": 57
       }
     },
@@ -164,11 +164,11 @@
         "pcre2 --HEAD": 11
       },
       "90d": {
-        "pcre2": 9297,
+        "pcre2": 9298,
         "pcre2 --HEAD": 23
       },
       "365d": {
-        "pcre2": 18621,
+        "pcre2": 18623,
         "pcre2 --HEAD": 42
       }
     },

@@ -102,7 +102,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711763136,
+      "time": 1712432530,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -128,15 +128,15 @@
   "analytics": {
     "install": {
       "30d": {
-        "pixman": 41434,
+        "pixman": 41440,
         "pixman --HEAD": 2
       },
       "90d": {
-        "pixman": 125887,
+        "pixman": 125882,
         "pixman --HEAD": 3
       },
       "365d": {
-        "pixman": 574560,
+        "pixman": 574552,
         "pixman --HEAD": 18
       }
     },
@@ -146,11 +146,11 @@
         "pixman --HEAD": 2
       },
       "90d": {
-        "pixman": 5302,
+        "pixman": 5301,
         "pixman --HEAD": 3
       },
       "365d": {
-        "pixman": 14593,
+        "pixman": 14592,
         "pixman --HEAD": 14
       }
     },

@@ -121,7 +121,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711763696,
+      "time": 1712432954,
       "runtime_dependencies": [],
       "installed_as_dependency": false,
       "installed_on_request": true
@@ -147,35 +147,35 @@
   "analytics": {
     "install": {
       "30d": {
-        "pkg-config": 50484,
+        "pkg-config": 50494,
         "pkg-config --HEAD": 32
       },
       "90d": {
-        "pkg-config": 143919,
+        "pkg-config": 143909,
         "pkg-config --HEAD": 87
       },
       "365d": {
-        "pkg-config": 599407,
+        "pkg-config": 599417,
         "pkg-config --HEAD": 301
       }
     },
     "install_on_request": {
       "30d": {
-        "pkg-config": 14993,
+        "pkg-config": 14998,
         "pkg-config --HEAD": 32
       },
       "90d": {
-        "pkg-config": 44340,
+        "pkg-config": 44335,
         "pkg-config --HEAD": 85
       },
       "365d": {
-        "pkg-config": 181074,
+        "pkg-config": 181075,
         "pkg-config --HEAD": 295
       }
     },
     "build_error": {
       "30d": {
-        "pkg-config": 1806
+        "pkg-config": 1803
       }
     }
   },

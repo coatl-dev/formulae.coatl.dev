@@ -106,7 +106,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711761952,
+      "time": 1712431602,
       "runtime_dependencies": [
         {
           "full_name": "lz4",
@@ -147,29 +147,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "zstd": 174993,
+        "zstd": 175052,
         "zstd --HEAD": 34
       },
       "90d": {
-        "zstd": 374305,
+        "zstd": 374350,
         "zstd --HEAD": 41
       },
       "365d": {
-        "zstd": 1638974,
+        "zstd": 1638928,
         "zstd --HEAD": 190
       }
     },
     "install_on_request": {
       "30d": {
-        "zstd": 12323,
+        "zstd": 12327,
         "zstd --HEAD": 32
       },
       "90d": {
-        "zstd": 16181,
+        "zstd": 16182,
         "zstd --HEAD": 39
       },
       "365d": {
-        "zstd": 112754,
+        "zstd": 112739,
         "zstd --HEAD": 178
       }
     },

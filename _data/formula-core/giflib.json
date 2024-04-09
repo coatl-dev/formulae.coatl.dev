@@ -117,7 +117,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711763114,
+      "time": 1712432512,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -143,15 +143,15 @@
   "analytics": {
     "install": {
       "30d": {
-        "giflib": 50465,
+        "giflib": 50467,
         "giflib --HEAD": 5
       },
       "90d": {
-        "giflib": 150459,
+        "giflib": 150469,
         "giflib --HEAD": 12
       },
       "365d": {
-        "giflib": 605095,
+        "giflib": 605089,
         "giflib --HEAD": 36
       }
     },
@@ -165,7 +165,7 @@
         "giflib --HEAD": 11
       },
       "365d": {
-        "giflib": 19012,
+        "giflib": 19013,
         "giflib --HEAD": 30
       }
     },

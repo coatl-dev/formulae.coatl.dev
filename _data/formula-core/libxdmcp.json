@@ -94,7 +94,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711763127,
+      "time": 1712432523,
       "runtime_dependencies": [
         {
           "full_name": "xorgproto",
@@ -128,21 +128,21 @@
   "analytics": {
     "install": {
       "30d": {
-        "libxdmcp": 119138,
+        "libxdmcp": 119130,
         "libxdmcp --HEAD": 2
       },
       "90d": {
-        "libxdmcp": 235712,
+        "libxdmcp": 235732,
         "libxdmcp --HEAD": 2
       },
       "365d": {
-        "libxdmcp": 699382,
+        "libxdmcp": 699397,
         "libxdmcp --HEAD": 6
       }
     },
     "install_on_request": {
       "30d": {
-        "libxdmcp": 826,
+        "libxdmcp": 825,
         "libxdmcp --HEAD": 1
       },
       "90d": {

@@ -83,29 +83,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "meson": 13969,
+        "meson": 13972,
         "meson --HEAD": 18
       },
       "90d": {
-        "meson": 37562,
+        "meson": 37563,
         "meson --HEAD": 50
       },
       "365d": {
-        "meson": 169729,
+        "meson": 169731,
         "meson --HEAD": 170
       }
     },
     "install_on_request": {
       "30d": {
-        "meson": 6493,
+        "meson": 6492,
         "meson --HEAD": 18
       },
       "90d": {
-        "meson": 16770,
+        "meson": 16767,
         "meson --HEAD": 50
       },
       "365d": {
-        "meson": 82767,
+        "meson": 82764,
         "meson --HEAD": 170
       }
     },

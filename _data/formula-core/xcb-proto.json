@@ -81,13 +81,13 @@
   "analytics": {
     "install": {
       "30d": {
-        "xcb-proto": 921
+        "xcb-proto": 922
       },
       "90d": {
-        "xcb-proto": 2739
+        "xcb-proto": 2740
       },
       "365d": {
-        "xcb-proto": 10170
+        "xcb-proto": 10169
       }
     },
     "install_on_request": {

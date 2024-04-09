@@ -112,7 +112,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711763115,
+      "time": 1712432513,
       "runtime_dependencies": [
         {
           "full_name": "libpng",
@@ -146,29 +146,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "freetype": 64354,
+        "freetype": 64361,
         "freetype --HEAD": 2
       },
       "90d": {
-        "freetype": 207016,
+        "freetype": 207015,
         "freetype --HEAD": 13
       },
       "365d": {
-        "freetype": 1193585,
+        "freetype": 1193561,
         "freetype --HEAD": 125
       }
     },
     "install_on_request": {
       "30d": {
-        "freetype": 3054,
+        "freetype": 3056,
         "freetype --HEAD": 1
       },
       "90d": {
-        "freetype": 10468,
+        "freetype": 10469,
         "freetype --HEAD": 12
       },
       "365d": {
-        "freetype": 85704,
+        "freetype": 85705,
         "freetype --HEAD": 116
       }
     },

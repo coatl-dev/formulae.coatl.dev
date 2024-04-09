@@ -95,7 +95,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711763139,
+      "time": 1712432533,
       "runtime_dependencies": [
         {
           "full_name": "jpeg-turbo",
@@ -157,29 +157,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "little-cms2": 112005,
-        "little-cms2 --HEAD": 35
+        "little-cms2": 111993,
+        "little-cms2 --HEAD": 34
       },
       "90d": {
-        "little-cms2": 393710,
+        "little-cms2": 393662,
         "little-cms2 --HEAD": 130
       },
       "365d": {
-        "little-cms2": 1471525,
-        "little-cms2 --HEAD": 468
+        "little-cms2": 1471527,
+        "little-cms2 --HEAD": 467
       }
     },
     "install_on_request": {
       "30d": {
-        "little-cms2": 22229,
-        "little-cms2 --HEAD": 35
+        "little-cms2": 22227,
+        "little-cms2 --HEAD": 34
       },
       "90d": {
-        "little-cms2": 84661,
+        "little-cms2": 84651,
         "little-cms2 --HEAD": 129
       },
       "365d": {
-        "little-cms2": 277303,
+        "little-cms2": 277311,
         "little-cms2 --HEAD": 454
       }
     },

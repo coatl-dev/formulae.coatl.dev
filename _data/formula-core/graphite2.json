@@ -122,7 +122,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711763137,
+      "time": 1712432531,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -155,15 +155,15 @@
   "analytics": {
     "install": {
       "30d": {
-        "graphite2": 43032,
+        "graphite2": 43025,
         "graphite2 --HEAD": 1
       },
       "90d": {
-        "graphite2": 127295,
+        "graphite2": 127288,
         "graphite2 --HEAD": 2
       },
       "365d": {
-        "graphite2": 515050,
+        "graphite2": 515048,
         "graphite2 --HEAD": 8
       }
     },

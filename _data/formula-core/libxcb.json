@@ -97,7 +97,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711763129,
+      "time": 1712432525,
       "runtime_dependencies": [
         {
           "full_name": "xorgproto",
@@ -145,21 +145,21 @@
   "analytics": {
     "install": {
       "30d": {
-        "libxcb": 135978,
+        "libxcb": 135975,
         "libxcb --HEAD": 5
       },
       "90d": {
-        "libxcb": 315861,
+        "libxcb": 315878,
         "libxcb --HEAD": 11
       },
       "365d": {
-        "libxcb": 1166297,
+        "libxcb": 1166299,
         "libxcb --HEAD": 30
       }
     },
     "install_on_request": {
       "30d": {
-        "libxcb": 1570,
+        "libxcb": 1568,
         "libxcb --HEAD": 4
       },
       "90d": {
@@ -167,7 +167,7 @@
         "libxcb --HEAD": 8
       },
       "365d": {
-        "libxcb": 12265,
+        "libxcb": 12264,
         "libxcb --HEAD": 22
       }
     },

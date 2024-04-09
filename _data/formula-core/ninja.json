@@ -131,15 +131,15 @@
   "analytics": {
     "install": {
       "30d": {
-        "ninja": 17533,
+        "ninja": 17528,
         "ninja --HEAD": 4
       },
       "90d": {
-        "ninja": 54129,
+        "ninja": 54121,
         "ninja --HEAD": 20
       },
       "365d": {
-        "ninja": 233293,
+        "ninja": 233290,
         "ninja --HEAD": 94
       }
     },
@@ -149,7 +149,7 @@
         "ninja --HEAD": 4
       },
       "90d": {
-        "ninja": 28768,
+        "ninja": 28766,
         "ninja --HEAD": 20
       },
       "365d": {

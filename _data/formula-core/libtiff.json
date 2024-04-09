@@ -108,7 +108,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711763139,
+      "time": 1712432532,
       "runtime_dependencies": [
         {
           "full_name": "jpeg-turbo",
@@ -163,29 +163,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "libtiff": 79843,
+        "libtiff": 79851,
         "libtiff --HEAD": 23
       },
       "90d": {
-        "libtiff": 259984,
+        "libtiff": 259980,
         "libtiff --HEAD": 65
       },
       "365d": {
-        "libtiff": 1510487,
+        "libtiff": 1510491,
         "libtiff --HEAD": 451
       }
     },
     "install_on_request": {
       "30d": {
-        "libtiff": 9742,
+        "libtiff": 9744,
         "libtiff --HEAD": 23
       },
       "90d": {
-        "libtiff": 35264,
+        "libtiff": 35263,
         "libtiff --HEAD": 64
       },
       "365d": {
-        "libtiff": 240215,
+        "libtiff": 240221,
         "libtiff --HEAD": 440
       }
     },

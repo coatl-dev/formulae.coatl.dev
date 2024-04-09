@@ -33,6 +33,10 @@ formulae_core_txt="$CWD/formulae-core.txt"
 formulae_core_in="$CWD/formulae-core.in"
 echo -n > "$formulae_core_in"
 
+if [ ! -d formula ]; then
+  mkdir formula
+fi
+
 while IFS= read -r formula; do
   # Get formulae info in JSON format
   mkdir -p _data/formula

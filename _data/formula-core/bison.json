@@ -136,21 +136,21 @@
   "analytics": {
     "install": {
       "30d": {
-        "bison": 9203,
+        "bison": 9204,
         "bison --HEAD": 9
       },
       "90d": {
-        "bison": 27272,
+        "bison": 27270,
         "bison --HEAD": 28
       },
       "365d": {
-        "bison": 119504,
+        "bison": 119498,
         "bison --HEAD": 98
       }
     },
     "install_on_request": {
       "30d": {
-        "bison": 3463,
+        "bison": 3467,
         "bison --HEAD": 9
       },
       "90d": {
@@ -158,7 +158,7 @@
         "bison --HEAD": 27
       },
       "365d": {
-        "bison": 47714,
+        "bison": 47711,
         "bison --HEAD": 97
       }
     },

@@ -125,29 +125,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "gobject-introspection": 47379,
+        "gobject-introspection": 47395,
         "gobject-introspection --HEAD": 33
       },
       "90d": {
-        "gobject-introspection": 88606,
+        "gobject-introspection": 88618,
         "gobject-introspection --HEAD": 66
       },
       "365d": {
-        "gobject-introspection": 423002,
+        "gobject-introspection": 423005,
         "gobject-introspection --HEAD": 408
       }
     },
     "install_on_request": {
       "30d": {
-        "gobject-introspection": 29366,
+        "gobject-introspection": 29376,
         "gobject-introspection --HEAD": 33
       },
       "90d": {
-        "gobject-introspection": 56267,
+        "gobject-introspection": 56276,
         "gobject-introspection --HEAD": 66
       },
       "365d": {
-        "gobject-introspection": 290558,
+        "gobject-introspection": 290559,
         "gobject-introspection --HEAD": 407
       }
     },

@@ -92,7 +92,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711762424,
+      "time": 1712431983,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -118,15 +118,15 @@
   "analytics": {
     "install": {
       "30d": {
-        "mpdecimal": 163857,
+        "mpdecimal": 163842,
         "mpdecimal --HEAD": 3
       },
       "90d": {
-        "mpdecimal": 492240,
+        "mpdecimal": 492255,
         "mpdecimal --HEAD": 8
       },
       "365d": {
-        "mpdecimal": 1151649,
+        "mpdecimal": 1151674,
         "mpdecimal --HEAD": 16
       }
     },

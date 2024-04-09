@@ -18,30 +18,6 @@ jobs:
       - run: |
           make all
 
-      - uses: actions/upload-artifact@v4
-        with:
-          name: site
-          path: |
-            ${{ github.workspace }}
-            !.git/
-            !.github/
-
-  create-pr:
-    runs-on: macos-latest
-    needs: generate
-    steps:
-      - uses: actions/checkout@v4
-
-      - run: |
-          rm -r \
-            _data \
-            api \
-            formula
-
-      - uses: actions/download-artifact@v4
-        with:
-          name: site
-
       - uses: coatl-dev/actions/simple-git-diff@v3
         id: git-diff
 

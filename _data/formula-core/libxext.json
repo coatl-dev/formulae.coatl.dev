@@ -95,7 +95,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711763135,
+      "time": 1712432530,
       "runtime_dependencies": [
         {
           "full_name": "xorgproto",
@@ -127,9 +127,9 @@
         },
         {
           "full_name": "libx11",
-          "version": "1.8.8",
+          "version": "1.8.9",
           "revision": 0,
-          "pkg_version": "1.8.8",
+          "pkg_version": "1.8.9",
           "declared_directly": true
         }
       ],
@@ -157,15 +157,15 @@
   "analytics": {
     "install": {
       "30d": {
-        "libxext": 118575,
+        "libxext": 118569,
         "libxext --HEAD": 7
       },
       "90d": {
-        "libxext": 290814,
+        "libxext": 290826,
         "libxext --HEAD": 8
       },
       "365d": {
-        "libxext": 779905,
+        "libxext": 779902,
         "libxext --HEAD": 11
       }
     },
@@ -179,7 +179,7 @@
         "libxext --HEAD": 7
       },
       "365d": {
-        "libxext": 7526,
+        "libxext": 7525,
         "libxext --HEAD": 9
       }
     },

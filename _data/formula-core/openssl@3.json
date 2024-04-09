@@ -109,7 +109,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711761943,
+      "time": 1712431595,
       "runtime_dependencies": [
         {
           "full_name": "ca-certificates",
@@ -143,35 +143,35 @@
   "analytics": {
     "install": {
       "30d": {
-        "openssl@3": 305361,
+        "openssl@3": 305379,
         "openssl@3 --HEAD": 46
       },
       "90d": {
-        "openssl@3": 1051617,
+        "openssl@3": 1051600,
         "openssl@3 --HEAD": 189
       },
       "365d": {
-        "openssl@3": 4237814,
+        "openssl@3": 4237875,
         "openssl@3 --HEAD": 1032
       }
     },
     "install_on_request": {
       "30d": {
-        "openssl@3": 31912,
+        "openssl@3": 31908,
         "openssl@3 --HEAD": 43
       },
       "90d": {
-        "openssl@3": 132036,
+        "openssl@3": 132032,
         "openssl@3 --HEAD": 182
       },
       "365d": {
-        "openssl@3": 638784,
+        "openssl@3": 638770,
         "openssl@3 --HEAD": 998
       }
     },
     "build_error": {
       "30d": {
-        "openssl@3": 4039
+        "openssl@3": 4041
       }
     }
   },

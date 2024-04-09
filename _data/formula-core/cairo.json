@@ -114,7 +114,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711763136,
+      "time": 1712432530,
       "runtime_dependencies": [
         {
           "full_name": "libpng",
@@ -237,9 +237,9 @@
         },
         {
           "full_name": "libx11",
-          "version": "1.8.8",
+          "version": "1.8.9",
           "revision": 0,
-          "pkg_version": "1.8.8",
+          "pkg_version": "1.8.9",
           "declared_directly": true
         },
         {
@@ -295,7 +295,7 @@
   "analytics": {
     "install": {
       "30d": {
-        "cairo": 68917,
+        "cairo": 68936,
         "cairo --HEAD": 27
       },
       "90d": {
@@ -303,21 +303,21 @@
         "cairo --HEAD": 92
       },
       "365d": {
-        "cairo": 921974,
+        "cairo": 921982,
         "cairo --HEAD": 379
       }
     },
     "install_on_request": {
       "30d": {
-        "cairo": 16235,
+        "cairo": 16236,
         "cairo --HEAD": 27
       },
       "90d": {
-        "cairo": 64745,
+        "cairo": 64740,
         "cairo --HEAD": 91
       },
       "365d": {
-        "cairo": 213326,
+        "cairo": 213331,
         "cairo --HEAD": 370
       }
     },

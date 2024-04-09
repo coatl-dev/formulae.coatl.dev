@@ -15,6 +15,10 @@ fi
 formulae_conflicts_in="$CWD/formulae-core-conflicts.in"
 echo -n > "$formulae_conflicts_in"
 
+if [ ! -d formula-core ]; then
+  mkdir formula-core
+fi
+
 while IFS= read -r formula; do
   # Download and format JSON
   mkdir -p _data/formula-core

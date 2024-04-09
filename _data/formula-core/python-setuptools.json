@@ -109,29 +109,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "python-setuptools": 53763,
+        "python-setuptools": 53755,
         "python-setuptools --HEAD": 4
       },
       "90d": {
-        "python-setuptools": 227431,
+        "python-setuptools": 227404,
         "python-setuptools --HEAD": 12
       },
       "365d": {
-        "python-setuptools": 525972,
+        "python-setuptools": 525982,
         "python-setuptools --HEAD": 23
       }
     },
     "install_on_request": {
       "30d": {
-        "python-setuptools": 3769,
+        "python-setuptools": 3771,
         "python-setuptools --HEAD": 4
       },
       "90d": {
-        "python-setuptools": 7761,
+        "python-setuptools": 7762,
         "python-setuptools --HEAD": 12
       },
       "365d": {
-        "python-setuptools": 11675,
+        "python-setuptools": 11677,
         "python-setuptools --HEAD": 19
       }
     },

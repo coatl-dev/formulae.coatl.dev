@@ -115,7 +115,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711763115,
+      "time": 1712432513,
       "runtime_dependencies": [
         {
           "full_name": "libpng",
@@ -236,29 +236,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "fontconfig": 107659,
+        "fontconfig": 107660,
         "fontconfig --HEAD": 7
       },
       "90d": {
-        "fontconfig": 372843,
+        "fontconfig": 372812,
         "fontconfig --HEAD": 21
       },
       "365d": {
-        "fontconfig": 1133828,
+        "fontconfig": 1133829,
         "fontconfig --HEAD": 63
       }
     },
     "install_on_request": {
       "30d": {
-        "fontconfig": 4560,
+        "fontconfig": 4557,
         "fontconfig --HEAD": 6
       },
       "90d": {
-        "fontconfig": 17939,
+        "fontconfig": 17932,
         "fontconfig --HEAD": 20
       },
       "365d": {
-        "fontconfig": 45031,
+        "fontconfig": 45028,
         "fontconfig --HEAD": 59
       }
     },

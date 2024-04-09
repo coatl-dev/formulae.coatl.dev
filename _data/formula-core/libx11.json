@@ -93,11 +93,11 @@
   "caveats": null,
   "installed": [
     {
-      "version": "1.8.8",
+      "version": "1.8.9",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711763134,
+      "time": 1712432529,
       "runtime_dependencies": [
         {
           "full_name": "xorgproto",
@@ -132,9 +132,9 @@
       "installed_on_request": false
     }
   ],
-  "linked_keg": "1.8.8",
+  "linked_keg": "1.8.9",
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -152,21 +152,21 @@
   "analytics": {
     "install": {
       "30d": {
-        "libx11": 168535,
+        "libx11": 168579,
         "libx11 --HEAD": 7
       },
       "90d": {
-        "libx11": 385775,
+        "libx11": 385797,
         "libx11 --HEAD": 8
       },
       "365d": {
-        "libx11": 1544363,
+        "libx11": 1544408,
         "libx11 --HEAD": 33
       }
     },
     "install_on_request": {
       "30d": {
-        "libx11": 5840,
+        "libx11": 5841,
         "libx11 --HEAD": 6
       },
       "90d": {
@@ -174,7 +174,7 @@
         "libx11 --HEAD": 6
       },
       "365d": {
-        "libx11": 25487,
+        "libx11": 25485,
         "libx11 --HEAD": 26
       }
     },

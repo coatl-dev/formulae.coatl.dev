@@ -105,7 +105,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711763127,
+      "time": 1712432523,
       "runtime_dependencies": [
         {
           "full_name": "xorgproto",
@@ -139,21 +139,21 @@
   "analytics": {
     "install": {
       "30d": {
-        "libxau": 43764,
+        "libxau": 43772,
         "libxau --HEAD": 1
       },
       "90d": {
-        "libxau": 131626,
+        "libxau": 131627,
         "libxau --HEAD": 2
       },
       "365d": {
-        "libxau": 594050,
+        "libxau": 594047,
         "libxau --HEAD": 10
       }
     },
     "install_on_request": {
       "30d": {
-        "libxau": 169
+        "libxau": 168
       },
       "90d": {
         "libxau": 538

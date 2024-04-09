@@ -106,11 +106,11 @@
   "caveats": null,
   "installed": [
     {
-      "version": "8.3.1",
+      "version": "8.4.0",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711763137,
+      "time": 1712432531,
       "runtime_dependencies": [
         {
           "full_name": "libpng",
@@ -233,9 +233,9 @@
         },
         {
           "full_name": "libx11",
-          "version": "1.8.8",
+          "version": "1.8.9",
           "revision": 0,
-          "pkg_version": "1.8.8",
+          "pkg_version": "1.8.9",
           "declared_directly": false
         },
         {
@@ -292,9 +292,9 @@
       "installed_on_request": false
     }
   ],
-  "linked_keg": "8.3.1",
+  "linked_keg": "8.4.0",
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -312,35 +312,35 @@
   "analytics": {
     "install": {
       "30d": {
-        "harfbuzz": 247556,
+        "harfbuzz": 247560,
         "harfbuzz --HEAD": 210
       },
       "90d": {
-        "harfbuzz": 555308,
-        "harfbuzz --HEAD": 413
+        "harfbuzz": 555323,
+        "harfbuzz --HEAD": 414
       },
       "365d": {
-        "harfbuzz": 2155992,
+        "harfbuzz": 2156023,
         "harfbuzz --HEAD": 1450
       }
     },
     "install_on_request": {
       "30d": {
-        "harfbuzz": 114067,
+        "harfbuzz": 114064,
         "harfbuzz --HEAD": 210
       },
       "90d": {
-        "harfbuzz": 238652,
+        "harfbuzz": 238661,
         "harfbuzz --HEAD": 412
       },
       "365d": {
-        "harfbuzz": 855693,
+        "harfbuzz": 855707,
         "harfbuzz --HEAD": 1441
       }
     },
     "build_error": {
       "30d": {
-        "harfbuzz": 981,
+        "harfbuzz": 982,
         "harfbuzz --HEAD": 2
       }
     }

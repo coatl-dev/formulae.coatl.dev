@@ -113,7 +113,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711764225,
+      "time": 1712433333,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -139,7 +139,7 @@
   "analytics": {
     "install": {
       "30d": {
-        "m4": 34955,
+        "m4": 34961,
         "m4 --HEAD": 2
       },
       "90d": {
@@ -147,7 +147,7 @@
         "m4 --HEAD": 4
       },
       "365d": {
-        "m4": 456215,
+        "m4": 456212,
         "m4 --HEAD": 13
       }
     },
@@ -157,11 +157,11 @@
         "m4 --HEAD": 1
       },
       "90d": {
-        "m4": 1591,
+        "m4": 1589,
         "m4 --HEAD": 1
       },
       "365d": {
-        "m4": 5067,
+        "m4": 5066,
         "m4 --HEAD": 3
       }
     },

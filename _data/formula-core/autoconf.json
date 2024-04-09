@@ -101,7 +101,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1712444481,
+      "time": 1712440705,
       "runtime_dependencies": [
         {
           "full_name": "m4",
@@ -135,29 +135,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "autoconf": 95052,
+        "autoconf": 95056,
         "autoconf --HEAD": 34
       },
       "90d": {
-        "autoconf": 286125,
+        "autoconf": 286101,
         "autoconf --HEAD": 110
       },
       "365d": {
-        "autoconf": 617175,
+        "autoconf": 617201,
         "autoconf --HEAD": 243
       }
     },
     "install_on_request": {
       "30d": {
-        "autoconf": 17687,
+        "autoconf": 17691,
         "autoconf --HEAD": 34
       },
       "90d": {
-        "autoconf": 61208,
+        "autoconf": 61203,
         "autoconf --HEAD": 109
       },
       "365d": {
-        "autoconf": 141739,
+        "autoconf": 141743,
         "autoconf --HEAD": 239
       }
     },

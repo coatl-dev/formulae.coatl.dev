@@ -99,7 +99,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711763114,
+      "time": 1712432512,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -142,29 +142,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "libpng": 146977,
+        "libpng": 146968,
         "libpng --HEAD": 16
       },
       "90d": {
-        "libpng": 457396,
+        "libpng": 457426,
         "libpng --HEAD": 61
       },
       "365d": {
-        "libpng": 1313742,
+        "libpng": 1313771,
         "libpng --HEAD": 130
       }
     },
     "install_on_request": {
       "30d": {
-        "libpng": 9817,
+        "libpng": 9818,
         "libpng --HEAD": 16
       },
       "90d": {
-        "libpng": 33788,
+        "libpng": 33792,
         "libpng --HEAD": 59
       },
       "365d": {
-        "libpng": 76100,
+        "libpng": 76105,
         "libpng --HEAD": 118
       }
     },

@@ -93,7 +93,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1711762903,
+      "time": 1712432350,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -119,25 +119,25 @@
   "analytics": {
     "install": {
       "30d": {
-        "icu4c": 209745,
+        "icu4c": 209766,
         "icu4c --HEAD": 19
       },
       "90d": {
-        "icu4c": 541617,
+        "icu4c": 541659,
         "icu4c --HEAD": 39
       },
       "365d": {
-        "icu4c": 1990993,
+        "icu4c": 1991020,
         "icu4c --HEAD": 100
       }
     },
     "install_on_request": {
       "30d": {
-        "icu4c": 10529,
+        "icu4c": 10530,
         "icu4c --HEAD": 18
       },
       "90d": {
-        "icu4c": 24945,
+        "icu4c": 24946,
         "icu4c --HEAD": 37
       },
       "365d": {
