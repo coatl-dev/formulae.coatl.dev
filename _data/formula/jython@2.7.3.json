@@ -3,12 +3,9 @@
   "full_name": "coatl-dev/coatl-dev/jython@2.7.3",
   "tap": "coatl-dev/coatl-dev",
   "oldname": null,
-  "aliases": [
-
-  ],
-  "versioned_formulae": [
-    "jython@2.7.2"
-  ],
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
   "desc": "Python implementation written in Java (successor to JPython)",
   "license": "PSF-2.0",
   "homepage": "https://www.jython.org/",
@@ -22,46 +19,32 @@
       "url": "https://search.maven.org/remotecontent?filepath=org/python/jython-installer/2.7.3/jython-installer-2.7.3.jar",
       "tag": null,
       "revision": null,
+      "using": null,
       "checksum": "3ffc25c5257d2028b176912a4091fe048c45c7d98218e52d7ce3160a62fdc9fc"
     }
   },
   "revision": 0,
   "version_scheme": 0,
-  "bottle": {
-  },
+  "bottle": {},
+  "pour_bottle_only_if": null,
   "keg_only": false,
   "keg_only_reason": null,
-  "options": [
-
-  ],
-  "core_build_dependencies": [
-
-  ],
+  "options": [],
+  "core_build_dependencies": [],
   "core_dependencies": [
     "openjdk@17"
   ],
-  "core_test_dependencies": [
-
-  ],
-  "recommended_dependencies": [
-
-  ],
-  "optional_dependencies": [
-
-  ],
-  "uses_from_macos": [
-
-  ],
-  "requirements": [
-
-  ],
-  "conflicts_with": [
-
-  ],
+  "core_test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
   "caveats": null,
-  "installed": [
-
-  ],
+  "installed": [],
   "linked_keg": null,
   "pinned": false,
   "outdated": false,
@@ -71,7 +54,11 @@
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
   "tap_git_head": "3321791f7453826da9305ad526f3e124b87b493f",
-  "variations": {
+  "ruby_source_path": "Formula/jython@2.7.3.rb",
+  "ruby_source_checksum": {
+    "sha256": "9762fe747cff40d3a5bdbb3fd35c68f03735269960c3c5120fc6e02029d82d5f"
   }
 }
