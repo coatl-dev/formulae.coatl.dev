@@ -30,24 +30,20 @@ permalink: :title
 <p>License: <strong>{{ f.license | join: "</strong>, <strong>" | replace: "_", " " }}</strong></p>
 {%- endif %}
 
-
 {%- if formula_path == "formula-core" %}
 {%- assign api = site.taps.core.api %}
-{%- assign bottle_dir = site.taps.core.bottle_dir %}
-{%- assign formula_dir = site.taps.core.formula_dir %}
 {%- assign remote = site.taps.core.remote %}
 {%- else %}
 {%- assign api = site.taps.tap.api %}
-{%- assign bottle_dir = site.taps.tap.bottle_dir %}
-{%- assign formula_dir = site.taps.tap.formula_dir %}
 {%- assign remote = site.taps.tap.remote %}
 {%- endif -%}
-<p>Formula JSON API: <a href="{{api}}/{{ formula_dir }}/{{ f.name }}.json"><code>/api/{{ formula_dir }}/{{ f.name }}.json</code></a></p>
-{%- if formula_path == "formula-core" %}
-<p>Bottle JSON API: <a href="{{api}}/{{ bottle_dir }}/{{ f.name }}.json"><code>/api/{{ bottle_dir }}/{{ f.name }}.json</code></a></p>
-{%- endif -%}
-
+<p>Formula JSON API: <a href="{{ api }}/formula/{{ f.name }}.json"><code>/api/formula/{{ f.name }}.json</code></a></p>
+{%- if formula_path == "formula" %}
 <p>Formula code: <a target="_blank" href="{{ remote }}/blob/HEAD/Formula/{{ f.name }}.rb"><code>{{ f.name }}.rb</code></a> on GitHub</p>
+{%- else %}
+{%- assign first_letter = f.name | slice: 0, 1 %}
+<p>Formula code: <a target="_blank" href="{{ remote }}/blob/HEAD/Formula/{{ first_letter }}/{{ f.name }}.rb"><code>{{ f.name }}.rb</code></a> on GitHub</p>
+{%- endif -%}
 
 <p>Bottle (binary package)
 {%- assign bottles = false -%}
