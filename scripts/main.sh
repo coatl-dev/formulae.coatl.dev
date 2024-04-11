@@ -139,6 +139,7 @@ function generate_versions_txt_file() {
 }
 
 function generate_core_formulae_txt() {
+  echo "Preparing homebrew-core formulae..."
   _merge_files "$FORMULAE_DEPS_TXT" "$FORMULAE_VERSIONS_TXT" "$MERGED_FORMULAE_IN"
   _cleanup_file "$MERGED_FORMULAE_IN" "$MERGED_FORMULAE_TXT"
 }
@@ -177,6 +178,7 @@ function get_formula_conflicts() {
 }
 
 function get_formulae_conflicts() {
+  echo "Getting formulae conflicts..."
   while IFS= read -r formula; do
 
     # Get homebrew-core references
@@ -187,9 +189,7 @@ function get_formulae_conflicts() {
 }
 
 function get_formulae_deps() {
-  # _merge_files "$MERGED_FORMULAE_TXT" "$FORMULAE_CONFLICTS_TXT" "$FORMULAE_FINAL_IN"
-  # _cleanup_file "$FORMULAE_FINAL_IN" "$FORMULAE_FINAL_TXT"
-  # echo -n > "$FORMULAE_DEPS_IN"
+  echo "Getting formulae dependencies..."
   cp "$FORMULAE_CONFLICTS_TXT" "$FORMULAE_FINAL_TXT"
   while IFS= read -r formula; do
 
@@ -212,6 +212,7 @@ function get_formula_versions() {
 }
 
 function get_formulae_versions() {
+  echo "Getting formulae versions..."
   while IFS= read -r formula; do
 
     # Get homebrew-core references

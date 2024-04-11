@@ -7,7 +7,6 @@ readonly CWD
 source "$CWD/main.sh"
 
 # Global variables
-TAP="$1"
 TAP_FORMULAE="$CWD/formulae-tap.txt"
 FORMULA_PATH="formula"
 
@@ -16,13 +15,39 @@ if [ $# -eq 0 ]; then
     exit 1
 fi
 
+function init() {
+	echo "Preparing _data..."
+	rm -f _data/*.json
+	rm -f _data/formula/*.json
+	rm -f _data/formula-core/*.json
+	echo "Preparing api..."
+	rm -f api/formula/*.json
+	rm -f api/formula-core/*.json
+	echo "Preparing tap formulae..."
+	rm -f formula/*.html
+	rm -f formula-core/*.html
+}
+
 function init_tap() {
+  if [ $# -ne 1 ]; then
+    echo "Usage: init_tap <TAP>"
+    return 1
+  fi
+
+  local TAP="$1"
+
   find_tap=$(brew tap | grep "$TAP")
 
   if [[ -z $find_tap ]]; then
       echo "Tap $TAP not found..."
       brew tap "$TAP"
   fi
+}
+
+function cleanup() {
+	echo "Cleaning up temporary files..."
+	rm -f scripts/*.in
+	rm -f scripts/*.txt
 }
 
 function find_replace() {
@@ -39,7 +64,13 @@ function find_replace() {
 }
 
 function get_tap_formulae() {
-  grep_tap="${TAP//\//\\/}"
+  if [ $# -ne 1 ]; then
+    echo "Usage: get_tap_formulae <TAP>"
+    return 1
+  fi
+
+  local TAP="$1"
+  local grep_tap="${TAP//\//\\/}"
 
   brew tap-info --json "$TAP" | jq -r '.[]|(.formula_names[])' | sed "s/$grep_tap\///g" > "$TAP_FORMULAE"
 }
@@ -63,29 +94,42 @@ function generate_tap_formulae() {
 }
 
 function main() {
-  # 1. Create directories
+  if [ $# -ne 1 ]; then
+    echo "Usage: main <TAP>"
+    return 1
+  fi
+
+  local TAP="$1"
+
+  # Reset directories, in case some formulae are no longer required
+  init
+  # Create directories
   init_dirs "$FORMULA_PATH"
-  # 2. brew tap <TAP>
-  init_tap
-  # 3. Get <TAP> formulae
-  get_tap_formulae
-  # 4. Create HTML and JSON files for <TAP> formulae and get build dependencies
+  # brew tap <TAP>
+  init_tap "$TAP"
+  # Get <TAP> formulae
+  get_tap_formulae "$TAP"
+  # Create HTML and JSON files for <TAP> formulae and get build dependencies
   generate_tap_formulae
-  # >========================================<
-  echo "Preparing homebrew-core formulae..."
-  # >========================================<
-  # 5. Genenerate versioned formulae for core
+  # Genenerate versioned formulae for core
   get_formulae_versions
-  # # 6. Generate conflicts file
+  # Generate conflicts file
   get_formulae_conflicts
-  # 7. Get deps for all formulae
+  # Get deps for all formulae
   get_formulae_deps
-  # 8. Generate core formulae file
+  # Generate core formulae file
   generate_core_formulae_txt
-  # 9. Generate core formulae HTML and JSON files
-  generate_core_formulae # second to last
-  # 10.cleanup
-  find_replace # last step
+  # Generate core formulae HTML and JSON files
+  generate_core_formulae
+  # Replace elements in JSON files
+  find_replace
+  # Final cleanup
+  cleanup
 }
 
-main
+if [ $# -ne 1 ]; then
+  echo "Usage: ./$CWD/tap.sh <TAP>"
+  return 1
+fi
+
+main "$1"
