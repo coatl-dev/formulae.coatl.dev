@@ -107,7 +107,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "33c45cf56ec301aed437c196be007110554ec365",
+  "tap_git_head": "b73588946bf76db2fa906b354860ceb63a8d1743",
   "ruby_source_path": "Formula/x/xz.rb",
   "ruby_source_checksum": {
     "sha256": "a6c58531da112184de8973c2631b8e07518eaa3bcd191542430b7ecad073ed53"
@@ -116,35 +116,35 @@
   "analytics": {
     "install": {
       "30d": {
-        "xz": 352552,
-        "xz --HEAD": 112
+        "xz": 351180,
+        "xz --HEAD": 111
       },
       "90d": {
-        "xz": 837039,
+        "xz": 838095,
         "xz --HEAD": 189
       },
       "365d": {
-        "xz": 3075619,
+        "xz": 3075359,
         "xz --HEAD": 519
       }
     },
     "install_on_request": {
       "30d": {
-        "xz": 91964,
-        "xz --HEAD": 112
+        "xz": 91738,
+        "xz --HEAD": 111
       },
       "90d": {
-        "xz": 199725,
+        "xz": 199985,
         "xz --HEAD": 189
       },
       "365d": {
-        "xz": 555493,
+        "xz": 555919,
         "xz --HEAD": 490
       }
     },
     "build_error": {
       "30d": {
-        "xz": 871
+        "xz": 856
       }
     }
   },

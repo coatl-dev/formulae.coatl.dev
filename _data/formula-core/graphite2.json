@@ -139,7 +139,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "33c45cf56ec301aed437c196be007110554ec365",
+  "tap_git_head": "b73588946bf76db2fa906b354860ceb63a8d1743",
   "ruby_source_path": "Formula/g/graphite2.rb",
   "ruby_source_checksum": {
     "sha256": "a6319188b398488f45671775e3f1a4fb7cd810f0eab1193e320a90bae4c9c0c3"
@@ -155,29 +155,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "graphite2": 43229,
-        "graphite2 --HEAD": 1
-      },
-      "90d": {
-        "graphite2": 127258,
+        "graphite2": 43309,
         "graphite2 --HEAD": 2
       },
+      "90d": {
+        "graphite2": 127297,
+        "graphite2 --HEAD": 3
+      },
       "365d": {
-        "graphite2": 514630,
-        "graphite2 --HEAD": 8
+        "graphite2": 514407,
+        "graphite2 --HEAD": 9
       }
     },
     "install_on_request": {
       "30d": {
-        "graphite2": 190,
+        "graphite2": 191,
         "graphite2 --HEAD": 1
       },
       "90d": {
-        "graphite2": 523,
+        "graphite2": 526,
         "graphite2 --HEAD": 2
       },
       "365d": {
-        "graphite2": 1999,
+        "graphite2": 2002,
         "graphite2 --HEAD": 5
       }
     },
