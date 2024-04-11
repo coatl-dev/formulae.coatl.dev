@@ -113,7 +113,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "33c45cf56ec301aed437c196be007110554ec365",
+  "tap_git_head": "b73588946bf76db2fa906b354860ceb63a8d1743",
   "ruby_source_path": "Formula/o/openjdk@8.rb",
   "ruby_source_checksum": {
     "sha256": "07a883c7872b8490c11d99a0218e5f326e34833a00e28e3d05a560a0958f9ff0"
@@ -184,35 +184,35 @@
   "analytics": {
     "install": {
       "30d": {
-        "openjdk@8": 3708,
+        "openjdk@8": 3666,
         "openjdk@8 --HEAD": 2
       },
       "90d": {
-        "openjdk@8": 9898,
+        "openjdk@8": 9908,
         "openjdk@8 --HEAD": 7
       },
       "365d": {
-        "openjdk@8": 47023,
+        "openjdk@8": 47003,
         "openjdk@8 --HEAD": 34
       }
     },
     "install_on_request": {
       "30d": {
-        "openjdk@8": 3240,
+        "openjdk@8": 3206,
         "openjdk@8 --HEAD": 2
       },
       "90d": {
-        "openjdk@8": 8702,
+        "openjdk@8": 8710,
         "openjdk@8 --HEAD": 7
       },
       "365d": {
-        "openjdk@8": 40447,
+        "openjdk@8": 40426,
         "openjdk@8 --HEAD": 34
       }
     },
     "build_error": {
       "30d": {
-        "openjdk@8": 173
+        "openjdk@8": 175
       }
     }
   },

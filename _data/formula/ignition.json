@@ -44,19 +44,8 @@
   "conflicts_with_reasons": [],
   "link_overwrite": [],
   "caveats": "The data and logs folders have been symlinked to:\n  data: $HOMEBREW_PREFIX/etc/ignition\n  logs: $HOMEBREW_PREFIX/var/ignition\n",
-  "installed": [
-    {
-      "version": "8.1.39",
-      "used_options": [],
-      "built_as_bottle": false,
-      "poured_from_bottle": false,
-      "time": 1712792989,
-      "runtime_dependencies": [],
-      "installed_as_dependency": false,
-      "installed_on_request": true
-    }
-  ],
-  "linked_keg": "8.1.39",
+  "installed": [],
+  "linked_keg": null,
   "pinned": false,
   "outdated": false,
   "deprecated": false,

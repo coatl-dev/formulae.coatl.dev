@@ -121,7 +121,7 @@
   "disable_reason": "deprecated_upstream",
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "33c45cf56ec301aed437c196be007110554ec365",
+  "tap_git_head": "b73588946bf76db2fa906b354860ceb63a8d1743",
   "ruby_source_path": "Formula/p/python@3.7.rb",
   "ruby_source_checksum": {
     "sha256": "c1510f241ec30f354895b6afb85b85b757bb413c0f3e02c7316f10b40e2248c9"
@@ -142,25 +142,25 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.7": 29
+        "python@3.7": 30
       },
       "90d": {
-        "python@3.7": 102
+        "python@3.7": 103
       },
       "365d": {
-        "python@3.7": 11300,
+        "python@3.7": 11248,
         "python@3.7 --HEAD": 5
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.7": 29
+        "python@3.7": 30
       },
       "90d": {
-        "python@3.7": 102
+        "python@3.7": 103
       },
       "365d": {
-        "python@3.7": 11176,
+        "python@3.7": 11124,
         "python@3.7 --HEAD": 5
       }
     },

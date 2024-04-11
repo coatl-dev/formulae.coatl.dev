@@ -119,7 +119,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "33c45cf56ec301aed437c196be007110554ec365",
+  "tap_git_head": "b73588946bf76db2fa906b354860ceb63a8d1743",
   "ruby_source_path": "Formula/lib/libxdmcp.rb",
   "ruby_source_checksum": {
     "sha256": "a3c09cead76d03044b914f9e1c90a872afe13b82e5340b57a59189f1b8797456"
@@ -128,29 +128,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "libxdmcp": 117824,
-        "libxdmcp --HEAD": 2
+        "libxdmcp": 117468,
+        "libxdmcp --HEAD": 1
       },
       "90d": {
-        "libxdmcp": 238373,
+        "libxdmcp": 239094,
         "libxdmcp --HEAD": 2
       },
       "365d": {
-        "libxdmcp": 700733,
+        "libxdmcp": 700883,
         "libxdmcp --HEAD": 6
       }
     },
     "install_on_request": {
       "30d": {
-        "libxdmcp": 779,
+        "libxdmcp": 771,
         "libxdmcp --HEAD": 1
       },
       "90d": {
-        "libxdmcp": 2022,
+        "libxdmcp": 2026,
         "libxdmcp --HEAD": 1
       },
       "365d": {
-        "libxdmcp": 3504,
+        "libxdmcp": 3506,
         "libxdmcp --HEAD": 2
       }
     },

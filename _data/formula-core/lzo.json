@@ -142,7 +142,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "33c45cf56ec301aed437c196be007110554ec365",
+  "tap_git_head": "b73588946bf76db2fa906b354860ceb63a8d1743",
   "ruby_source_path": "Formula/l/lzo.rb",
   "ruby_source_checksum": {
     "sha256": "df79d0f261f5ec403327f5b57cfa469a57c3f7405a6e30659bc5f5b9f3ca124d"
@@ -151,25 +151,25 @@
   "analytics": {
     "install": {
       "30d": {
-        "lzo": 36162
+        "lzo": 36169
       },
       "90d": {
-        "lzo": 106949
+        "lzo": 106976
       },
       "365d": {
-        "lzo": 462277,
+        "lzo": 461911,
         "lzo --HEAD": 13
       }
     },
     "install_on_request": {
       "30d": {
-        "lzo": 230
+        "lzo": 227
       },
       "90d": {
         "lzo": 898
       },
       "365d": {
-        "lzo": 4288,
+        "lzo": 4289,
         "lzo --HEAD": 8
       }
     },

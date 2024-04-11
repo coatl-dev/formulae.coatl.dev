@@ -286,7 +286,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "33c45cf56ec301aed437c196be007110554ec365",
+  "tap_git_head": "b73588946bf76db2fa906b354860ceb63a8d1743",
   "ruby_source_path": "Formula/c/cairo.rb",
   "ruby_source_checksum": {
     "sha256": "c7010b6cdc1e8bf6a9d9115aaa925cec01266ac67e1a4bb1957ec9bfff596927"
@@ -295,35 +295,35 @@
   "analytics": {
     "install": {
       "30d": {
-        "cairo": 69036,
-        "cairo --HEAD": 25
+        "cairo": 69038,
+        "cairo --HEAD": 26
       },
       "90d": {
-        "cairo": 230167,
-        "cairo --HEAD": 89
+        "cairo": 229844,
+        "cairo --HEAD": 91
       },
       "365d": {
-        "cairo": 922551,
-        "cairo --HEAD": 379
+        "cairo": 922500,
+        "cairo --HEAD": 381
       }
     },
     "install_on_request": {
       "30d": {
-        "cairo": 16152,
-        "cairo --HEAD": 25
+        "cairo": 16113,
+        "cairo --HEAD": 26
       },
       "90d": {
-        "cairo": 64038,
-        "cairo --HEAD": 88
+        "cairo": 63874,
+        "cairo --HEAD": 90
       },
       "365d": {
-        "cairo": 213918,
-        "cairo --HEAD": 370
+        "cairo": 214032,
+        "cairo --HEAD": 372
       }
     },
     "build_error": {
       "30d": {
-        "cairo": 14
+        "cairo": 15
       }
     }
   },
