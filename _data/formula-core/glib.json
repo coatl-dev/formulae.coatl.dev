@@ -128,7 +128,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1712432520,
+      "time": 1712433430,
       "runtime_dependencies": [
         {
           "full_name": "pcre2",
@@ -209,7 +209,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "841811d678fcfef856f693a2ec90add1625a4c12",
+  "tap_git_head": "33c45cf56ec301aed437c196be007110554ec365",
   "ruby_source_path": "Formula/g/glib.rb",
   "ruby_source_checksum": {
     "sha256": "cb542ee7268c5aaacb6f58c0d3849a069b55340dc96b78b8c6a569c984411b9c"
@@ -227,37 +227,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "glib": 293395,
-        "glib --HEAD": 134
+        "glib": 285919,
+        "glib --HEAD": 128
       },
       "90d": {
-        "glib": 704359,
-        "glib --HEAD": 245
+        "glib": 705509,
+        "glib --HEAD": 243
       },
       "365d": {
-        "glib": 2605743,
+        "glib": 2607058,
         "glib --HEAD": 1057
       }
     },
     "install_on_request": {
       "30d": {
-        "glib": 91017,
-        "glib --HEAD": 132
+        "glib": 88721,
+        "glib --HEAD": 127
       },
       "90d": {
-        "glib": 195414,
-        "glib --HEAD": 241
+        "glib": 196167,
+        "glib --HEAD": 239
       },
       "365d": {
-        "glib": 749102,
+        "glib": 748862,
         "glib --HEAD": 1040
       }
     },
     "build_error": {
       "30d": {
-        "glib": 1617
+        "glib": 1631
       }
     }
   },
-  "generated_date": "2024-04-09"
+  "generated_date": "2024-04-11"
 }

@@ -1,0 +1,147 @@
+{
+  "name": "openssl@3.0",
+  "full_name": "openssl@3.0",
+  "tap": "homebrew/core",
+  "oldname": null,
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [
+    "openssl@3",
+    "openssl@1.1"
+  ],
+  "desc": "Cryptography and SSL/TLS Toolkit",
+  "license": "Apache-2.0",
+  "homepage": "https://openssl.org/",
+  "versions": {
+    "stable": "3.0.13",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://www.openssl.org/source/openssl-3.0.13.tar.gz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "88525753f79d3bec27d2fa7c66aa0b92b3aa9498dafd93d7cfa4b3780cdae313"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 1,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_sonoma": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3.0/blobs/sha256:5cf40592c269c1bfffb25c9be18a07d7dfb65d499c81337d10fa088d61eb7e00",
+          "sha256": "5cf40592c269c1bfffb25c9be18a07d7dfb65d499c81337d10fa088d61eb7e00"
+        },
+        "arm64_ventura": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3.0/blobs/sha256:c7701bc83751c65257f5fbea454cd5758d359b1df9ceaac721624c03f06d73ea",
+          "sha256": "c7701bc83751c65257f5fbea454cd5758d359b1df9ceaac721624c03f06d73ea"
+        },
+        "arm64_monterey": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3.0/blobs/sha256:c362cc9e153f65f548f627f06c411d50dac642cc936541f6bf9dbb0ad7e7e1e7",
+          "sha256": "c362cc9e153f65f548f627f06c411d50dac642cc936541f6bf9dbb0ad7e7e1e7"
+        },
+        "sonoma": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3.0/blobs/sha256:3c391c2d92b620719d351f542ab2fdd4cae76a0c1d97ad572dfdfe7748bbe885",
+          "sha256": "3c391c2d92b620719d351f542ab2fdd4cae76a0c1d97ad572dfdfe7748bbe885"
+        },
+        "ventura": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3.0/blobs/sha256:c51aff36b2986ad4d77329902d3e3485b1b19dd218e12ac4236127cd825eda1a",
+          "sha256": "c51aff36b2986ad4d77329902d3e3485b1b19dd218e12ac4236127cd825eda1a"
+        },
+        "monterey": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3.0/blobs/sha256:18bc7ea49056430a343c1d7d7de23925b445a7baecaed33261bf9defbd9eed02",
+          "sha256": "18bc7ea49056430a343c1d7d7de23925b445a7baecaed33261bf9defbd9eed02"
+        },
+        "x86_64_linux": {
+          "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3.0/blobs/sha256:0ce99826f56f67ef9790d365da99c632f32686824f8c1e5c29300b6aa24638b4",
+          "sha256": "0ce99826f56f67ef9790d365da99c632f32686824f8c1e5c29300b6aa24638b4"
+        }
+      }
+    }
+  },
+  "pour_bottle_only_if": null,
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [
+    "ca-certificates"
+  ],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": "A CA file has been bootstrapped using certificates from the system\nkeychain. To add additional certificates, place .pem files in\n  $HOMEBREW_PREFIX/etc/openssl@3.0/certs\n\nand run\n  $HOMEBREW_PREFIX/opt/openssl@3.0/bin/c_rehash\n",
+  "installed": [],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": true,
+  "service": null,
+  "tap_git_head": "33c45cf56ec301aed437c196be007110554ec365",
+  "ruby_source_path": "Formula/o/openssl@3.0.rb",
+  "ruby_source_checksum": {
+    "sha256": "a5ad8a62bb2575a1df9ea54b17404251fa28f135e2afd321bec022cf3978b8f1"
+  },
+  "variations": {},
+  "analytics": {
+    "install": {
+      "30d": {
+        "openssl@3.0": 600
+      },
+      "90d": {
+        "openssl@3.0": 2096,
+        "openssl@3.0 --HEAD": 3
+      },
+      "365d": {
+        "openssl@3.0": 6694,
+        "openssl@3.0 --HEAD": 8
+      }
+    },
+    "install_on_request": {
+      "30d": {
+        "openssl@3.0": 594
+      },
+      "90d": {
+        "openssl@3.0": 2064,
+        "openssl@3.0 --HEAD": 3
+      },
+      "365d": {
+        "openssl@3.0": 6626,
+        "openssl@3.0 --HEAD": 8
+      }
+    },
+    "build_error": {
+      "30d": {
+        "openssl@3.0": 0
+      }
+    }
+  },
+  "generated_date": "2024-04-11"
+}
