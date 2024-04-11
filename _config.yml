@@ -4,7 +4,7 @@ description: coatl-dev's Homebrew package index
 remote_theme: Homebrew/brew.sh
 
 exclude:
-  - script
+  - scripts
   - CNAME
   - Gemfile*
   - Makefile
