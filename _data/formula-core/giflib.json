@@ -117,7 +117,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1712433421,
+      "time": 1712432512,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -134,7 +134,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "b73588946bf76db2fa906b354860ceb63a8d1743",
+  "tap_git_head": "b632c52294b15a4eae8356e8ffa058681a3d1d6e",
   "ruby_source_path": "Formula/g/giflib.rb",
   "ruby_source_checksum": {
     "sha256": "08d2976ce7770b83697a2c4c2593a204ab1de3aad3fe3fb5096967408421eab8"
@@ -143,29 +143,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "giflib": 50453,
+        "giflib": 48952,
         "giflib --HEAD": 5
       },
       "90d": {
-        "giflib": 150432,
+        "giflib": 150349,
         "giflib --HEAD": 12
       },
       "365d": {
-        "giflib": 604112,
+        "giflib": 600926,
         "giflib --HEAD": 36
       }
     },
     "install_on_request": {
       "30d": {
-        "giflib": 2095,
+        "giflib": 2048,
         "giflib --HEAD": 4
       },
       "90d": {
-        "giflib": 5863,
+        "giflib": 5967,
         "giflib --HEAD": 11
       },
       "365d": {
-        "giflib": 19046,
+        "giflib": 19114,
         "giflib --HEAD": 30
       }
     },
@@ -175,5 +175,5 @@
       }
     }
   },
-  "generated_date": "2024-04-11"
+  "generated_date": "2024-04-15"
 }
