@@ -101,7 +101,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1712444481,
+      "time": 1712440705,
       "runtime_dependencies": [
         {
           "full_name": "m4",
@@ -126,7 +126,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "b73588946bf76db2fa906b354860ceb63a8d1743",
+  "tap_git_head": "b632c52294b15a4eae8356e8ffa058681a3d1d6e",
   "ruby_source_path": "Formula/a/autoconf.rb",
   "ruby_source_checksum": {
     "sha256": "18482e36a37d45190b403a05535062de05b59020606441986ebb054f5d9cd4c2"
@@ -135,37 +135,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "autoconf": 94377,
-        "autoconf --HEAD": 28
+        "autoconf": 90161,
+        "autoconf --HEAD": 27
       },
       "90d": {
-        "autoconf": 285587,
-        "autoconf --HEAD": 103
+        "autoconf": 284170,
+        "autoconf --HEAD": 101
       },
       "365d": {
-        "autoconf": 620029,
-        "autoconf --HEAD": 243
+        "autoconf": 624905,
+        "autoconf --HEAD": 245
       }
     },
     "install_on_request": {
       "30d": {
-        "autoconf": 17570,
-        "autoconf --HEAD": 28
+        "autoconf": 16767,
+        "autoconf --HEAD": 27
       },
       "90d": {
-        "autoconf": 60614,
-        "autoconf --HEAD": 102
+        "autoconf": 59169,
+        "autoconf --HEAD": 100
       },
       "365d": {
-        "autoconf": 142064,
-        "autoconf --HEAD": 239
+        "autoconf": 142686,
+        "autoconf --HEAD": 241
       }
     },
     "build_error": {
       "30d": {
-        "autoconf": 21
+        "autoconf": 25
       }
     }
   },
-  "generated_date": "2024-04-11"
+  "generated_date": "2024-04-15"
 }

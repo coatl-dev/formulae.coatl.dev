@@ -10,17 +10,17 @@
   "license": "Apache-2.0",
   "homepage": "https://ninja-build.org/",
   "versions": {
-    "stable": "1.11.1",
+    "stable": "1.12.0",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/ninja-build/ninja/archive/refs/tags/v1.11.1.tar.gz",
+      "url": "https://github.com/ninja-build/ninja/archive/refs/tags/v1.12.0.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "31747ae633213f1eda3842686f83c2aa1412e0f5691d1c14dbbcc67fe7400cea"
+      "checksum": "8b2c86cd483dc7fcb7975c5ec7329135d210099a89bc7db0590a07b0bbfe49a5"
     },
     "head": {
       "url": "https://github.com/ninja-build/ninja.git",
@@ -32,53 +32,43 @@
   "version_scheme": 0,
   "bottle": {
     "stable": {
-      "rebuild": 1,
+      "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_sonoma": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/ninja/blobs/sha256:ffeafe29b18803d198ec794be40267e6df9384eb485af19197ecf29b61a1451a",
-          "sha256": "ffeafe29b18803d198ec794be40267e6df9384eb485af19197ecf29b61a1451a"
+          "url": "https://ghcr.io/v2/homebrew/core/ninja/blobs/sha256:a5a2ef2f378d5d7d558fb9f5cb6fa3e309b2c0c1c67ffd2ea74e8ae80a837622",
+          "sha256": "a5a2ef2f378d5d7d558fb9f5cb6fa3e309b2c0c1c67ffd2ea74e8ae80a837622"
         },
         "arm64_ventura": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/ninja/blobs/sha256:f973424d56f32c88d2de08e26d2ab37c9966ab3f0b6ad5e8d36a953e24a1998e",
-          "sha256": "f973424d56f32c88d2de08e26d2ab37c9966ab3f0b6ad5e8d36a953e24a1998e"
+          "url": "https://ghcr.io/v2/homebrew/core/ninja/blobs/sha256:e69678106abab50387e74df653dd849e9dac4dbdc48eac56a7a0ea824b251468",
+          "sha256": "e69678106abab50387e74df653dd849e9dac4dbdc48eac56a7a0ea824b251468"
         },
         "arm64_monterey": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/ninja/blobs/sha256:9258efc6ef75aa56f68844ddf48f8ca050a91a45738c6715de73e5a2fe88dccf",
-          "sha256": "9258efc6ef75aa56f68844ddf48f8ca050a91a45738c6715de73e5a2fe88dccf"
-        },
-        "arm64_big_sur": {
-          "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/ninja/blobs/sha256:293c707dd52fb9136ca3d95f74e63a741a975e4589c0900e9a184bfeb90d0625",
-          "sha256": "293c707dd52fb9136ca3d95f74e63a741a975e4589c0900e9a184bfeb90d0625"
+          "url": "https://ghcr.io/v2/homebrew/core/ninja/blobs/sha256:c3cb72bae37caea3273847af247746cc0edd23b6857b377bab1ba827de39db66",
+          "sha256": "c3cb72bae37caea3273847af247746cc0edd23b6857b377bab1ba827de39db66"
         },
         "sonoma": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/ninja/blobs/sha256:0985f9b135ca58e18efe12665d410b08109dd215f087c22d44e02c3779d368d3",
-          "sha256": "0985f9b135ca58e18efe12665d410b08109dd215f087c22d44e02c3779d368d3"
+          "url": "https://ghcr.io/v2/homebrew/core/ninja/blobs/sha256:de33b883ec9582725647fa660df145a5a1344da0e0cf353a4b01ee2f30b73443",
+          "sha256": "de33b883ec9582725647fa660df145a5a1344da0e0cf353a4b01ee2f30b73443"
         },
         "ventura": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/ninja/blobs/sha256:51b5d6787ffc70b7b5762942c9329d2341afacbc96c3035f5e46ade9b036af7c",
-          "sha256": "51b5d6787ffc70b7b5762942c9329d2341afacbc96c3035f5e46ade9b036af7c"
+          "url": "https://ghcr.io/v2/homebrew/core/ninja/blobs/sha256:cb54706a0d2f0dc0c38de379b259907f4cec7d10a4b6c287111bdaa299bb0a0a",
+          "sha256": "cb54706a0d2f0dc0c38de379b259907f4cec7d10a4b6c287111bdaa299bb0a0a"
         },
         "monterey": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/ninja/blobs/sha256:7083778d561200849c37c7763032f157c66ddfdcd9f2a813a685d1fc90ca2799",
-          "sha256": "7083778d561200849c37c7763032f157c66ddfdcd9f2a813a685d1fc90ca2799"
-        },
-        "big_sur": {
-          "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/ninja/blobs/sha256:3f625fc538dbceeecebb5088bda7b3d2daa8477adb3f9653f01e3eff76983b8d",
-          "sha256": "3f625fc538dbceeecebb5088bda7b3d2daa8477adb3f9653f01e3eff76983b8d"
+          "url": "https://ghcr.io/v2/homebrew/core/ninja/blobs/sha256:826bbce2795e00d4e7599f13962155a2a91d0a0d41ed3f6624b85c1fc9a68053",
+          "sha256": "826bbce2795e00d4e7599f13962155a2a91d0a0d41ed3f6624b85c1fc9a68053"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/ninja/blobs/sha256:96fe0b239b3add346f8e4e2ea7e0713018f49f03e684e80706fcf4cba7b24fcb",
-          "sha256": "96fe0b239b3add346f8e4e2ea7e0713018f49f03e684e80706fcf4cba7b24fcb"
+          "url": "https://ghcr.io/v2/homebrew/core/ninja/blobs/sha256:a9fd2856b2cb4481caa5ec502ba9f5ce8312543f1ea062e3e101eb7b2e38d304",
+          "sha256": "a9fd2856b2cb4481caa5ec502ba9f5ce8312543f1ea062e3e101eb7b2e38d304"
         }
       }
     }
@@ -122,47 +112,47 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "b73588946bf76db2fa906b354860ceb63a8d1743",
+  "tap_git_head": "b632c52294b15a4eae8356e8ffa058681a3d1d6e",
   "ruby_source_path": "Formula/n/ninja.rb",
   "ruby_source_checksum": {
-    "sha256": "f16887a9f9ba5acfd6cb9c8f691258a47a0573cc6e1de7759a4bbd64ef1b83f8"
+    "sha256": "45b94091efb56138c1a4dcd0795a8235101c6c924117037344e1293c906d3e89"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "ninja": 17551,
-        "ninja --HEAD": 7
+        "ninja": 23001,
+        "ninja --HEAD": 15
       },
       "90d": {
-        "ninja": 54099,
-        "ninja --HEAD": 23
+        "ninja": 59671,
+        "ninja --HEAD": 31
       },
       "365d": {
-        "ninja": 233435,
-        "ninja --HEAD": 97
+        "ninja": 239107,
+        "ninja --HEAD": 106
       }
     },
     "install_on_request": {
       "30d": {
-        "ninja": 9793,
-        "ninja --HEAD": 7
+        "ninja": 12795,
+        "ninja --HEAD": 15
       },
       "90d": {
-        "ninja": 28876,
-        "ninja --HEAD": 23
+        "ninja": 32220,
+        "ninja --HEAD": 31
       },
       "365d": {
-        "ninja": 103804,
-        "ninja --HEAD": 95
+        "ninja": 107381,
+        "ninja --HEAD": 104
       }
     },
     "build_error": {
       "30d": {
         "ninja": 15,
-        "ninja --HEAD": 4
+        "ninja --HEAD": 3
       }
     }
   },
-  "generated_date": "2024-04-11"
+  "generated_date": "2024-04-15"
 }
