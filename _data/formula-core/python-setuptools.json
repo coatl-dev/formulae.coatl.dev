@@ -100,7 +100,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "b632c52294b15a4eae8356e8ffa058681a3d1d6e",
+  "tap_git_head": "a18514983e2c96665d9bf9aa5eb44437261ef54e",
   "ruby_source_path": "Formula/p/python-setuptools.rb",
   "ruby_source_checksum": {
     "sha256": "b1e639ed764b478aa979076c0cf9693fb333baf9bb423205ba17b64a65a809c7"
@@ -109,37 +109,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "python-setuptools": 54966,
+        "python-setuptools": 55251,
         "python-setuptools --HEAD": 6
       },
       "90d": {
-        "python-setuptools": 231559,
+        "python-setuptools": 228009,
         "python-setuptools --HEAD": 15
       },
       "365d": {
-        "python-setuptools": 545110,
-        "python-setuptools --HEAD": 26
+        "python-setuptools": 559030,
+        "python-setuptools --HEAD": 27
       }
     },
     "install_on_request": {
       "30d": {
-        "python-setuptools": 4129,
+        "python-setuptools": 4384,
         "python-setuptools --HEAD": 6
       },
       "90d": {
-        "python-setuptools": 9028,
+        "python-setuptools": 10045,
         "python-setuptools --HEAD": 15
       },
       "365d": {
-        "python-setuptools": 13126,
-        "python-setuptools --HEAD": 22
+        "python-setuptools": 14329,
+        "python-setuptools --HEAD": 23
       }
     },
     "build_error": {
       "30d": {
-        "python-setuptools": 104
+        "python-setuptools": 120
       }
     }
   },
-  "generated_date": "2024-04-15"
+  "generated_date": "2024-04-22"
 }

@@ -10,17 +10,17 @@
   "license": "MIT",
   "homepage": "https://www.x.org/",
   "versions": {
-    "stable": "1.16.1",
+    "stable": "1.17.0",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://xorg.freedesktop.org/archive/individual/lib/libxcb-1.16.1.tar.xz",
+      "url": "https://xorg.freedesktop.org/archive/individual/lib/libxcb-1.17.0.tar.xz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "f24d187154c8e027b358fc7cb6588e35e33e6a92f11c668fe77396a7ae66e311"
+      "checksum": "599ebf9996710fea71622e6e184f3a8ad5b43d0e5fa8c4e407123c88a59a6d55"
     }
   },
   "revision": 0,
@@ -32,38 +32,38 @@
       "files": {
         "arm64_sonoma": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:59c243033b0a5515e65c81967116fb5852e8644f14b94dec3463140ecc6a2502",
-          "sha256": "59c243033b0a5515e65c81967116fb5852e8644f14b94dec3463140ecc6a2502"
+          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:73d103661722410b7789107ff2dc6d4290e6d6b3a48fe1311665bb4593110dc1",
+          "sha256": "73d103661722410b7789107ff2dc6d4290e6d6b3a48fe1311665bb4593110dc1"
         },
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:86dc3b8e7bcc94c1d18ba91cd98e3b496a430fbbfed3e08a10dd54d3d3bbc657",
-          "sha256": "86dc3b8e7bcc94c1d18ba91cd98e3b496a430fbbfed3e08a10dd54d3d3bbc657"
+          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:28d4e84c5f80959fcccf10e66bded2fe5d506d66fb89682d40acb6e0cc0a4611",
+          "sha256": "28d4e84c5f80959fcccf10e66bded2fe5d506d66fb89682d40acb6e0cc0a4611"
         },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:2293193971812b9e2bb5d2a1a6e83df798404bfcbf15525d8915b12c732d1e95",
-          "sha256": "2293193971812b9e2bb5d2a1a6e83df798404bfcbf15525d8915b12c732d1e95"
+          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:9c9f126aca70259930ccc652c9e208f2fa8db321ddadb31bc36af9c4ded4ac3a",
+          "sha256": "9c9f126aca70259930ccc652c9e208f2fa8db321ddadb31bc36af9c4ded4ac3a"
         },
         "sonoma": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:1667406532bebd840f67717678a9f7f0555b20d403192f91d97ab5c9be51c3ee",
-          "sha256": "1667406532bebd840f67717678a9f7f0555b20d403192f91d97ab5c9be51c3ee"
+          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:13fa9f9277a82b642375ad327d412afe69b7ad593ef3c0745454f731dd333f27",
+          "sha256": "13fa9f9277a82b642375ad327d412afe69b7ad593ef3c0745454f731dd333f27"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:0f89c136dd2b6a64cdb3be0864123298db5bea9f2af7a0fb4382d6a74848055d",
-          "sha256": "0f89c136dd2b6a64cdb3be0864123298db5bea9f2af7a0fb4382d6a74848055d"
+          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:9184f59a65ee1c60eb22b5566a5b842f4730408f512c154ddf64ecbfac911b98",
+          "sha256": "9184f59a65ee1c60eb22b5566a5b842f4730408f512c154ddf64ecbfac911b98"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:95b00cc34e3273fa8aa75a6e87c7414d048ecc95a6cf81e34d83c502142e9211",
-          "sha256": "95b00cc34e3273fa8aa75a6e87c7414d048ecc95a6cf81e34d83c502142e9211"
+          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:32b18a3b435be0f22af8cbf093fbd6f299a7265982e7cde07c3b6e4642817604",
+          "sha256": "32b18a3b435be0f22af8cbf093fbd6f299a7265982e7cde07c3b6e4642817604"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:9106516964c0c3f37198fc21184fe5dfd9170a381f39141184546987d5e9c0a8",
-          "sha256": "9106516964c0c3f37198fc21184fe5dfd9170a381f39141184546987d5e9c0a8"
+          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:c89a99c1bd6af9c2ee85f4c7bacd07906bb16e6ab515cd5d347f9f392dbd80a1",
+          "sha256": "c89a99c1bd6af9c2ee85f4c7bacd07906bb16e6ab515cd5d347f9f392dbd80a1"
         }
       }
     }
@@ -97,7 +97,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1712432525,
+      "time": 1712957430,
       "runtime_dependencies": [
         {
           "full_name": "xorgproto",
@@ -127,7 +127,7 @@
   ],
   "linked_keg": "1.16.1",
   "pinned": false,
-  "outdated": false,
+  "outdated": true,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -136,46 +136,46 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "b632c52294b15a4eae8356e8ffa058681a3d1d6e",
+  "tap_git_head": "a18514983e2c96665d9bf9aa5eb44437261ef54e",
   "ruby_source_path": "Formula/lib/libxcb.rb",
   "ruby_source_checksum": {
-    "sha256": "b3798c131123f1710bfa5cc39b150f6af50380ab57c38943beb5aea21277e03d"
+    "sha256": "bfb979cfc5006d12c2b3434e57e4c9671fce61386b80f909e24c035874cc5ab3"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "libxcb": 127422,
-        "libxcb --HEAD": 4
+        "libxcb": 142251,
+        "libxcb --HEAD": 5
       },
       "90d": {
-        "libxcb": 322282,
-        "libxcb --HEAD": 11
+        "libxcb": 352479,
+        "libxcb --HEAD": 13
       },
       "365d": {
-        "libxcb": 1168024,
-        "libxcb --HEAD": 30
+        "libxcb": 1192679,
+        "libxcb --HEAD": 32
       }
     },
     "install_on_request": {
       "30d": {
-        "libxcb": 1279,
-        "libxcb --HEAD": 3
+        "libxcb": 2299,
+        "libxcb --HEAD": 5
       },
       "90d": {
-        "libxcb": 3948,
-        "libxcb --HEAD": 8
+        "libxcb": 5242,
+        "libxcb --HEAD": 10
       },
       "365d": {
-        "libxcb": 12314,
-        "libxcb --HEAD": 22
+        "libxcb": 13577,
+        "libxcb --HEAD": 24
       }
     },
     "build_error": {
       "30d": {
-        "libxcb": 2
+        "libxcb": 8
       }
     }
   },
-  "generated_date": "2024-04-15"
+  "generated_date": "2024-04-22"
 }

@@ -113,7 +113,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1712433333,
+      "time": 1712958230,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -130,7 +130,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "b632c52294b15a4eae8356e8ffa058681a3d1d6e",
+  "tap_git_head": "a18514983e2c96665d9bf9aa5eb44437261ef54e",
   "ruby_source_path": "Formula/m/m4.rb",
   "ruby_source_checksum": {
     "sha256": "096e71db3af3e086b57b94b4f0d644c61fe64b0cb59f51973f71ed796c5ce015"
@@ -139,37 +139,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "m4": 34825,
-        "m4 --HEAD": 2
+        "m4": 34652,
+        "m4 --HEAD": 1
       },
       "90d": {
-        "m4": 105830,
-        "m4 --HEAD": 4
+        "m4": 105881,
+        "m4 --HEAD": 3
       },
       "365d": {
-        "m4": 452719,
+        "m4": 448531,
         "m4 --HEAD": 13
       }
     },
     "install_on_request": {
       "30d": {
-        "m4": 665,
+        "m4": 674,
         "m4 --HEAD": 1
       },
       "90d": {
-        "m4": 1642,
+        "m4": 1711,
         "m4 --HEAD": 1
       },
       "365d": {
-        "m4": 5128,
+        "m4": 5181,
         "m4 --HEAD": 3
       }
     },
     "build_error": {
       "30d": {
-        "m4": 14
+        "m4": 8
       }
     }
   },
-  "generated_date": "2024-04-15"
+  "generated_date": "2024-04-22"
 }
