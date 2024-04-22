@@ -10,30 +10,30 @@
   "license": "MIT",
   "homepage": "https://www.x.org/",
   "versions": {
-    "stable": "1.16.0",
+    "stable": "1.17.0",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://xorg.freedesktop.org/archive/individual/proto/xcb-proto-1.16.0.tar.xz",
+      "url": "https://xorg.freedesktop.org/archive/individual/proto/xcb-proto-1.17.0.tar.xz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "a75a1848ad2a89a82d841a51be56ce988ff3c63a8d6bf4383ae3219d8d915119"
+      "checksum": "2c1bacd2110f4799f74de6ebb714b94cf6f80fb112316b1219480fd22562148c"
     }
   },
   "revision": 0,
   "version_scheme": 0,
   "bottle": {
     "stable": {
-      "rebuild": 1,
+      "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "all": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/xcb-proto/blobs/sha256:7866e405dd4eaace1342222fe48949d5cb2d9f750b78d8f2b710b0f0125ae0c6",
-          "sha256": "7866e405dd4eaace1342222fe48949d5cb2d9f750b78d8f2b710b0f0125ae0c6"
+          "url": "https://ghcr.io/v2/homebrew/core/xcb-proto/blobs/sha256:e85c8d57ca43017674ecd1dadce614289e8790768087a73ceef981e65310003e",
+          "sha256": "e85c8d57ca43017674ecd1dadce614289e8790768087a73ceef981e65310003e"
         }
       }
     }
@@ -72,33 +72,33 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "b632c52294b15a4eae8356e8ffa058681a3d1d6e",
+  "tap_git_head": "a18514983e2c96665d9bf9aa5eb44437261ef54e",
   "ruby_source_path": "Formula/x/xcb-proto.rb",
   "ruby_source_checksum": {
-    "sha256": "157b3a5fd6f2b902fa19af0c31299ad9457705b0efba36c3872215707260e693"
+    "sha256": "32f7d93f08d87c6de18d282c01a677ce07c3667b956e7449f086bb870f9af8cc"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "xcb-proto": 876
+        "xcb-proto": 1249
       },
       "90d": {
-        "xcb-proto": 2684
+        "xcb-proto": 3069
       },
       "365d": {
-        "xcb-proto": 10140
+        "xcb-proto": 10539
       }
     },
     "install_on_request": {
       "30d": {
-        "xcb-proto": 31
+        "xcb-proto": 160
       },
       "90d": {
-        "xcb-proto": 107
+        "xcb-proto": 238
       },
       "365d": {
-        "xcb-proto": 690
+        "xcb-proto": 816
       }
     },
     "build_error": {
@@ -107,5 +107,5 @@
       }
     }
   },
-  "generated_date": "2024-04-15"
+  "generated_date": "2024-04-22"
 }

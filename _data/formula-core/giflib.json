@@ -9,20 +9,20 @@
   "aliases": [],
   "versioned_formulae": [],
   "desc": "Library and utilities for processing GIFs",
-  "license": null,
+  "license": "MIT",
   "homepage": "https://giflib.sourceforge.net/",
   "versions": {
-    "stable": "5.2.1",
+    "stable": "5.2.2",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://downloads.sourceforge.net/project/giflib/giflib-5.2.1.tar.gz",
+      "url": "https://downloads.sourceforge.net/project/giflib/giflib-5.2.2.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "31da5562f44c5f15d63340a09a4fd62b48c45620cd302f77a6d9acf0077879bd"
+      "checksum": "be7ffbd057cadebe2aa144542fd90c6838c6a083b5e8a9048b8ee3b66b29d5fb"
     }
   },
   "revision": 0,
@@ -34,63 +34,38 @@
       "files": {
         "arm64_sonoma": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:0810045224fbfa1ae8c5bbdfc44d454efcaf76606e865f8be4a46606369c44b1",
-          "sha256": "0810045224fbfa1ae8c5bbdfc44d454efcaf76606e865f8be4a46606369c44b1"
+          "url": "https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:c6b05aecad00588daf749dbde717fb6a03ce83fb9723b15f5786e7b974ef4c02",
+          "sha256": "c6b05aecad00588daf749dbde717fb6a03ce83fb9723b15f5786e7b974ef4c02"
         },
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:ced5a24b12f7057504aa8821a81c03c4d83ff6ba861487e25eba34b863237c20",
-          "sha256": "ced5a24b12f7057504aa8821a81c03c4d83ff6ba861487e25eba34b863237c20"
+          "url": "https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:f0c469da58fa4384fb67b249b4869f3daced90a8326e520aeb2a030af54ccc48",
+          "sha256": "f0c469da58fa4384fb67b249b4869f3daced90a8326e520aeb2a030af54ccc48"
         },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:6a1194d7b2d991583e3b5d46782ac8d0cecfc35bc28a5b4daf86ec4311cc7cdc",
-          "sha256": "6a1194d7b2d991583e3b5d46782ac8d0cecfc35bc28a5b4daf86ec4311cc7cdc"
-        },
-        "arm64_big_sur": {
-          "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:e9a78b55a43f68f2552f845fff27d1c247ed865b1dd653f4c8ab259594411f86",
-          "sha256": "e9a78b55a43f68f2552f845fff27d1c247ed865b1dd653f4c8ab259594411f86"
+          "url": "https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:3089db3525957dedba2e0297997fe5bc6f3add879464102e48257ac12775cff7",
+          "sha256": "3089db3525957dedba2e0297997fe5bc6f3add879464102e48257ac12775cff7"
         },
         "sonoma": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:84a39bf9c63c3a0fd781c994921f012b5d34bcb8ab39105909453d8635488337",
-          "sha256": "84a39bf9c63c3a0fd781c994921f012b5d34bcb8ab39105909453d8635488337"
+          "url": "https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:40d390aab5bc396eb3efa0ae00987efd8c9eb8049239f709f486a879577a41ef",
+          "sha256": "40d390aab5bc396eb3efa0ae00987efd8c9eb8049239f709f486a879577a41ef"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:7b542ce4281136276979dfbe45cea1a84060f624ee307917c24499398b210103",
-          "sha256": "7b542ce4281136276979dfbe45cea1a84060f624ee307917c24499398b210103"
+          "url": "https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:b3d5cfa490fb61890dceb4b49510171783ab0e4dfc6f64f2f5f8ee1cecc08013",
+          "sha256": "b3d5cfa490fb61890dceb4b49510171783ab0e4dfc6f64f2f5f8ee1cecc08013"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:fa6adb4afc1abd76f8a80afd8c25572f7c990cbfc88a43496350e8c363048217",
-          "sha256": "fa6adb4afc1abd76f8a80afd8c25572f7c990cbfc88a43496350e8c363048217"
-        },
-        "big_sur": {
-          "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:dc23500f50d599c4dbfcea0107b643bef41538c2f5fd162b049f82d21e3d32d5",
-          "sha256": "dc23500f50d599c4dbfcea0107b643bef41538c2f5fd162b049f82d21e3d32d5"
-        },
-        "catalina": {
-          "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:ad97d175fa77f7afb4a1c215538d8ae9eff30435de7feaa6a5d2e29fca7fef4d",
-          "sha256": "ad97d175fa77f7afb4a1c215538d8ae9eff30435de7feaa6a5d2e29fca7fef4d"
-        },
-        "mojave": {
-          "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:42d2f8a6e9dbf9d4c22a2e64581c7170cc7dcb2a0e66df383efc67b7bc96238d",
-          "sha256": "42d2f8a6e9dbf9d4c22a2e64581c7170cc7dcb2a0e66df383efc67b7bc96238d"
-        },
-        "high_sierra": {
-          "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:e1a30a20ad93cd9ec003027d7fba43a7e04ced0bff4156614818cccfc9dec6c9",
-          "sha256": "e1a30a20ad93cd9ec003027d7fba43a7e04ced0bff4156614818cccfc9dec6c9"
+          "url": "https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:1b8828d26eeaccc1f3cefdbc41bd55551045d1ae55a18a1c96f4d27bd214df17",
+          "sha256": "1b8828d26eeaccc1f3cefdbc41bd55551045d1ae55a18a1c96f4d27bd214df17"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:d753208ed3a4bbd60b59e3ca4466196e4b935d4f434935b540fc6bfb5f3e0385",
-          "sha256": "d753208ed3a4bbd60b59e3ca4466196e4b935d4f434935b540fc6bfb5f3e0385"
+          "url": "https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:db5d2754722a81e5a842a66236aeebe889ebae26b08329dbd506007b9e63339c",
+          "sha256": "db5d2754722a81e5a842a66236aeebe889ebae26b08329dbd506007b9e63339c"
         }
       }
     }
@@ -117,7 +92,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1712432512,
+      "time": 1712957417,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -125,7 +100,7 @@
   ],
   "linked_keg": "5.2.1",
   "pinned": false,
-  "outdated": false,
+  "outdated": true,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -134,39 +109,39 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "b632c52294b15a4eae8356e8ffa058681a3d1d6e",
+  "tap_git_head": "a18514983e2c96665d9bf9aa5eb44437261ef54e",
   "ruby_source_path": "Formula/g/giflib.rb",
   "ruby_source_checksum": {
-    "sha256": "08d2976ce7770b83697a2c4c2593a204ab1de3aad3fe3fb5096967408421eab8"
+    "sha256": "aeb68fa0060d6ebbbe8c9978ed512f5d3c9772d0762b3e09fb3cddb801a260bf"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "giflib": 48952,
-        "giflib --HEAD": 5
+        "giflib": 67024,
+        "giflib --HEAD": 6
       },
       "90d": {
-        "giflib": 150349,
-        "giflib --HEAD": 12
+        "giflib": 168916,
+        "giflib --HEAD": 13
       },
       "365d": {
-        "giflib": 600926,
-        "giflib --HEAD": 36
+        "giflib": 615045,
+        "giflib --HEAD": 37
       }
     },
     "install_on_request": {
       "30d": {
-        "giflib": 2048,
-        "giflib --HEAD": 4
+        "giflib": 3213,
+        "giflib --HEAD": 5
       },
       "90d": {
-        "giflib": 5967,
-        "giflib --HEAD": 11
+        "giflib": 7345,
+        "giflib --HEAD": 12
       },
       "365d": {
-        "giflib": 19114,
-        "giflib --HEAD": 30
+        "giflib": 20546,
+        "giflib --HEAD": 31
       }
     },
     "build_error": {
@@ -175,5 +150,5 @@
       }
     }
   },
-  "generated_date": "2024-04-15"
+  "generated_date": "2024-04-22"
 }
