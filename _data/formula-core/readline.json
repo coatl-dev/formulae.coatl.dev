@@ -97,7 +97,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1712956902,
+      "time": 1713809970,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -114,7 +114,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a18514983e2c96665d9bf9aa5eb44437261ef54e",
+  "tap_git_head": "80212fc357fcee3236326a164ca8d0d9655a2a23",
   "ruby_source_path": "Formula/r/readline.rb",
   "ruby_source_checksum": {
     "sha256": "ea0578c3b9a3fe562143f99089e8d6343dabfedacdcb95be0683cdc82505363e"
@@ -123,37 +123,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "readline": 207467,
-        "readline --HEAD": 19
+        "readline": 201457,
+        "readline --HEAD": 21
       },
       "90d": {
-        "readline": 625405,
-        "readline --HEAD": 74
+        "readline": 629604,
+        "readline --HEAD": 77
       },
       "365d": {
-        "readline": 1779025,
-        "readline --HEAD": 159
+        "readline": 1792170,
+        "readline --HEAD": 166
       }
     },
     "install_on_request": {
       "30d": {
-        "readline": 8918,
-        "readline --HEAD": 18
+        "readline": 8187,
+        "readline --HEAD": 20
       },
       "90d": {
-        "readline": 37216,
-        "readline --HEAD": 72
+        "readline": 36843,
+        "readline --HEAD": 74
       },
       "365d": {
-        "readline": 100682,
-        "readline --HEAD": 147
+        "readline": 100751,
+        "readline --HEAD": 153
       }
     },
     "build_error": {
       "30d": {
-        "readline": 9
+        "readline": 10
       }
     }
   },
-  "generated_date": "2024-04-22"
+  "generated_date": "2024-04-29"
 }
