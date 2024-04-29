@@ -97,11 +97,11 @@
   "caveats": null,
   "installed": [
     {
-      "version": "3.45.2",
+      "version": "3.45.3",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1712956902,
+      "time": 1713809970,
       "runtime_dependencies": [
         {
           "full_name": "readline",
@@ -117,7 +117,7 @@
   ],
   "linked_keg": null,
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -126,7 +126,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a18514983e2c96665d9bf9aa5eb44437261ef54e",
+  "tap_git_head": "80212fc357fcee3236326a164ca8d0d9655a2a23",
   "ruby_source_path": "Formula/s/sqlite.rb",
   "ruby_source_checksum": {
     "sha256": "1eee22c4484f0e74f4ad606931ce7d339aad31f98c3a8478f2d96bc5105b42db"
@@ -135,37 +135,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "sqlite": 233984,
-        "sqlite --HEAD": 23
+        "sqlite": 241457,
+        "sqlite --HEAD": 27
       },
       "90d": {
-        "sqlite": 667761,
-        "sqlite --HEAD": 71
+        "sqlite": 678232,
+        "sqlite --HEAD": 76
       },
       "365d": {
-        "sqlite": 2619047,
-        "sqlite --HEAD": 363
+        "sqlite": 2630871,
+        "sqlite --HEAD": 370
       }
     },
     "install_on_request": {
       "30d": {
-        "sqlite": 13956,
-        "sqlite --HEAD": 21
+        "sqlite": 14673,
+        "sqlite --HEAD": 24
       },
       "90d": {
-        "sqlite": 46966,
-        "sqlite --HEAD": 63
+        "sqlite": 46745,
+        "sqlite --HEAD": 67
       },
       "365d": {
-        "sqlite": 200323,
-        "sqlite --HEAD": 335
+        "sqlite": 199787,
+        "sqlite --HEAD": 341
       }
     },
     "build_error": {
       "30d": {
-        "sqlite": 10
+        "sqlite": 9
       }
     }
   },
-  "generated_date": "2024-04-22"
+  "generated_date": "2024-04-29"
 }
