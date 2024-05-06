@@ -116,7 +116,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "80212fc357fcee3236326a164ca8d0d9655a2a23",
+  "tap_git_head": "f94a03bdbc0c5199d3f38471deb23fd02b1b0634",
   "ruby_source_path": "Formula/g/gobject-introspection.rb",
   "ruby_source_checksum": {
     "sha256": "1e1d06f221971886c667150c6d19c115d90e9e3f1604231571ca17169d4ef013"
@@ -125,37 +125,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "gobject-introspection": 53543,
-        "gobject-introspection --HEAD": 42
+        "gobject-introspection": 40394,
+        "gobject-introspection --HEAD": 31
       },
       "90d": {
-        "gobject-introspection": 100700,
+        "gobject-introspection": 102886,
         "gobject-introspection --HEAD": 73
       },
       "365d": {
-        "gobject-introspection": 417554,
-        "gobject-introspection --HEAD": 426
+        "gobject-introspection": 415864,
+        "gobject-introspection --HEAD": 425
       }
     },
     "install_on_request": {
       "30d": {
-        "gobject-introspection": 36494,
-        "gobject-introspection --HEAD": 42
+        "gobject-introspection": 28726,
+        "gobject-introspection --HEAD": 31
       },
       "90d": {
-        "gobject-introspection": 65508,
+        "gobject-introspection": 67466,
         "gobject-introspection --HEAD": 73
       },
       "365d": {
-        "gobject-introspection": 282963,
+        "gobject-introspection": 280775,
         "gobject-introspection --HEAD": 425
       }
     },
     "build_error": {
       "30d": {
-        "gobject-introspection": 123
+        "gobject-introspection": 77
       }
     }
   },
-  "generated_date": "2024-04-29"
+  "generated_date": "2024-05-06"
 }

@@ -137,7 +137,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "80212fc357fcee3236326a164ca8d0d9655a2a23",
+  "tap_git_head": "f94a03bdbc0c5199d3f38471deb23fd02b1b0634",
   "ruby_source_path": "Formula/f/freetype.rb",
   "ruby_source_checksum": {
     "sha256": "56dcdd065b3a2a387ffeaca1b6ffebd22897e69d9e6298c7a4beda2423948f0a"
@@ -146,30 +146,30 @@
   "analytics": {
     "install": {
       "30d": {
-        "freetype": 61657,
-        "freetype --HEAD": 3
+        "freetype": 60552,
+        "freetype --HEAD": 4
       },
       "90d": {
-        "freetype": 198670,
-        "freetype --HEAD": 12
+        "freetype": 195115,
+        "freetype --HEAD": 11
       },
       "365d": {
-        "freetype": 1149520,
-        "freetype --HEAD": 128
+        "freetype": 1136776,
+        "freetype --HEAD": 126
       }
     },
     "install_on_request": {
       "30d": {
-        "freetype": 2730,
-        "freetype --HEAD": 3
+        "freetype": 2627,
+        "freetype --HEAD": 4
       },
       "90d": {
-        "freetype": 9364,
-        "freetype --HEAD": 11
+        "freetype": 9023,
+        "freetype --HEAD": 10
       },
       "365d": {
-        "freetype": 82972,
-        "freetype --HEAD": 119
+        "freetype": 82297,
+        "freetype --HEAD": 118
       }
     },
     "build_error": {
@@ -178,5 +178,5 @@
       }
     }
   },
-  "generated_date": "2024-04-29"
+  "generated_date": "2024-05-06"
 }

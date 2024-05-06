@@ -105,7 +105,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "80212fc357fcee3236326a164ca8d0d9655a2a23",
+  "tap_git_head": "f94a03bdbc0c5199d3f38471deb23fd02b1b0634",
   "ruby_source_path": "Formula/p/pkgconf.rb",
   "ruby_source_checksum": {
     "sha256": "0abbcf2f42dc7af0f2dd89ae9e14980be479a0c8fa544ea51ed0bb1b3c6edf86"
@@ -127,29 +127,27 @@
   "analytics": {
     "install": {
       "30d": {
-        "pkgconf": 86,
-        "pkgconf --HEAD": 1
+        "pkgconf": 87
       },
       "90d": {
-        "pkgconf": 393,
+        "pkgconf": 343,
         "pkgconf --HEAD": 2
       },
       "365d": {
-        "pkgconf": 1609,
+        "pkgconf": 1568,
         "pkgconf --HEAD": 3
       }
     },
     "install_on_request": {
       "30d": {
-        "pkgconf": 77,
-        "pkgconf --HEAD": 1
+        "pkgconf": 79
       },
       "90d": {
-        "pkgconf": 350,
+        "pkgconf": 302,
         "pkgconf --HEAD": 2
       },
       "365d": {
-        "pkgconf": 1458,
+        "pkgconf": 1418,
         "pkgconf --HEAD": 3
       }
     },
@@ -159,5 +157,5 @@
       }
     }
   },
-  "generated_date": "2024-04-29"
+  "generated_date": "2024-05-06"
 }

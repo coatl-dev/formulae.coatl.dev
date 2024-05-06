@@ -209,7 +209,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "80212fc357fcee3236326a164ca8d0d9655a2a23",
+  "tap_git_head": "f94a03bdbc0c5199d3f38471deb23fd02b1b0634",
   "ruby_source_path": "Formula/g/glib.rb",
   "ruby_source_checksum": {
     "sha256": "cb542ee7268c5aaacb6f58c0d3849a069b55340dc96b78b8c6a569c984411b9c"
@@ -227,37 +227,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "glib": 213105,
-        "glib --HEAD": 101
+        "glib": 188840,
+        "glib --HEAD": 85
       },
       "90d": {
-        "glib": 707331,
-        "glib --HEAD": 263
+        "glib": 683302,
+        "glib --HEAD": 265
       },
       "365d": {
-        "glib": 2589885,
-        "glib --HEAD": 1086
+        "glib": 2573847,
+        "glib --HEAD": 1076
       }
     },
     "install_on_request": {
       "30d": {
-        "glib": 64798,
-        "glib --HEAD": 99
+        "glib": 55036,
+        "glib --HEAD": 84
       },
       "90d": {
-        "glib": 201388,
-        "glib --HEAD": 258
+        "glib": 195045,
+        "glib --HEAD": 260
       },
       "365d": {
-        "glib": 736795,
-        "glib --HEAD": 1071
+        "glib": 728593,
+        "glib --HEAD": 1061
       }
     },
     "build_error": {
       "30d": {
-        "glib": 1106
+        "glib": 970
       }
     }
   },
-  "generated_date": "2024-04-29"
+  "generated_date": "2024-05-06"
 }
