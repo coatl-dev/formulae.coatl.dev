@@ -127,7 +127,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "80212fc357fcee3236326a164ca8d0d9655a2a23",
+  "tap_git_head": "f94a03bdbc0c5199d3f38471deb23fd02b1b0634",
   "ruby_source_path": "Formula/l/lz4.rb",
   "ruby_source_checksum": {
     "sha256": "ec81d134b4fdfec0bb1c7fd6c982f3aaf717bf696d57d17200ecea0ae2c2c6ac"
@@ -136,27 +136,27 @@
   "analytics": {
     "install": {
       "30d": {
-        "lz4": 85989
+        "lz4": 87451
       },
       "90d": {
-        "lz4": 257291,
+        "lz4": 257544,
         "lz4 --HEAD": 2
       },
       "365d": {
-        "lz4": 1086238,
+        "lz4": 1075041,
         "lz4 --HEAD": 21
       }
     },
     "install_on_request": {
       "30d": {
-        "lz4": 950
+        "lz4": 1003
       },
       "90d": {
-        "lz4": 2731,
+        "lz4": 2781,
         "lz4 --HEAD": 2
       },
       "365d": {
-        "lz4": 11429,
+        "lz4": 11366,
         "lz4 --HEAD": 18
       }
     },
@@ -166,5 +166,5 @@
       }
     }
   },
-  "generated_date": "2024-04-29"
+  "generated_date": "2024-05-06"
 }
