@@ -2,7 +2,6 @@
   "name": "python@3.10",
   "full_name": "python@3.10",
   "tap": "homebrew/core",
-  "oldname": null,
   "oldnames": [],
   "aliases": [],
   "versioned_formulae": [
@@ -129,7 +128,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "f94a03bdbc0c5199d3f38471deb23fd02b1b0634",
+  "tap_git_head": "389c82262c88947d165b30de7d6db416c0560d8a",
   "ruby_source_path": "Formula/p/python@3.10.rb",
   "ruby_source_checksum": {
     "sha256": "d48347eed4c00106ae49a5bf6886cf41e2502402bb0bcc447ef650b97f758f79"
@@ -150,37 +149,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.10": 57667,
-        "python@3.10 --HEAD": 77
+        "python@3.10": 52714,
+        "python@3.10 --HEAD": 74
       },
       "90d": {
-        "python@3.10": 212092,
-        "python@3.10 --HEAD": 314
+        "python@3.10": 205915,
+        "python@3.10 --HEAD": 304
       },
       "365d": {
-        "python@3.10": 1184581,
-        "python@3.10 --HEAD": 1753
+        "python@3.10": 1166442,
+        "python@3.10 --HEAD": 1724
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.10": 52268,
-        "python@3.10 --HEAD": 77
+        "python@3.10": 48166,
+        "python@3.10 --HEAD": 74
       },
       "90d": {
-        "python@3.10": 185169,
-        "python@3.10 --HEAD": 314
+        "python@3.10": 180123,
+        "python@3.10 --HEAD": 304
       },
       "365d": {
-        "python@3.10": 955460,
-        "python@3.10 --HEAD": 1748
+        "python@3.10": 940654,
+        "python@3.10 --HEAD": 1719
       }
     },
     "build_error": {
       "30d": {
-        "python@3.10": 14
+        "python@3.10": 18
       }
     }
   },
-  "generated_date": "2024-05-06"
+  "generated_date": "2024-05-13"
 }

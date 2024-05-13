@@ -2,7 +2,6 @@
   "name": "libxext",
   "full_name": "libxext",
   "tap": "homebrew/core",
-  "oldname": null,
   "oldnames": [],
   "aliases": [],
   "versioned_formulae": [],
@@ -148,7 +147,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "f94a03bdbc0c5199d3f38471deb23fd02b1b0634",
+  "tap_git_head": "389c82262c88947d165b30de7d6db416c0560d8a",
   "ruby_source_path": "Formula/lib/libxext.rb",
   "ruby_source_checksum": {
     "sha256": "9db0f6f39db6a6a5b4b167dd16d66a15d0223e8b6302caf8de9463370cfc1e74"
@@ -157,29 +156,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "libxext": 96948,
-        "libxext --HEAD": 5
+        "libxext": 93390,
+        "libxext --HEAD": 1
       },
       "90d": {
-        "libxext": 331223,
+        "libxext": 340607,
         "libxext --HEAD": 9
       },
       "365d": {
-        "libxext": 803663,
+        "libxext": 809744,
         "libxext --HEAD": 11
       }
     },
     "install_on_request": {
       "30d": {
-        "libxext": 844,
-        "libxext --HEAD": 5
+        "libxext": 748,
+        "libxext --HEAD": 1
       },
       "90d": {
-        "libxext": 6054,
+        "libxext": 6202,
         "libxext --HEAD": 8
       },
       "365d": {
-        "libxext": 7946,
+        "libxext": 8055,
         "libxext --HEAD": 10
       }
     },
@@ -189,5 +188,5 @@
       }
     }
   },
-  "generated_date": "2024-05-06"
+  "generated_date": "2024-05-13"
 }

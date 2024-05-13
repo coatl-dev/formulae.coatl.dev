@@ -2,7 +2,6 @@
   "name": "xtrans",
   "full_name": "xtrans",
   "tap": "homebrew/core",
-  "oldname": null,
   "oldnames": [],
   "aliases": [],
   "versioned_formulae": [],
@@ -71,7 +70,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "f94a03bdbc0c5199d3f38471deb23fd02b1b0634",
+  "tap_git_head": "389c82262c88947d165b30de7d6db416c0560d8a",
   "ruby_source_path": "Formula/x/xtrans.rb",
   "ruby_source_checksum": {
     "sha256": "9e57a46d378c9ae05859eb44b5f89c006b9712370f9dcfbeee0f2f344787e688"
@@ -80,24 +79,24 @@
   "analytics": {
     "install": {
       "30d": {
-        "xtrans": 1123
+        "xtrans": 1084
       },
       "90d": {
-        "xtrans": 3555
+        "xtrans": 3527
       },
       "365d": {
-        "xtrans": 20836
+        "xtrans": 20657
       }
     },
     "install_on_request": {
       "30d": {
-        "xtrans": 21
+        "xtrans": 24
       },
       "90d": {
-        "xtrans": 85
+        "xtrans": 89
       },
       "365d": {
-        "xtrans": 857
+        "xtrans": 861
       }
     },
     "build_error": {
@@ -106,5 +105,5 @@
       }
     }
   },
-  "generated_date": "2024-05-06"
+  "generated_date": "2024-05-13"
 }

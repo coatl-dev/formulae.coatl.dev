@@ -2,7 +2,6 @@
   "name": "jpeg-turbo",
   "full_name": "jpeg-turbo",
   "tap": "homebrew/core",
-  "oldname": null,
   "oldnames": [],
   "aliases": [
     "libjpeg-turbo"
@@ -12,17 +11,17 @@
   "license": "IJG",
   "homepage": "https://www.libjpeg-turbo.org/",
   "versions": {
-    "stable": "3.0.2",
+    "stable": "3.0.3",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/libjpeg-turbo/libjpeg-turbo/releases/download/3.0.2/libjpeg-turbo-3.0.2.tar.gz",
+      "url": "https://github.com/libjpeg-turbo/libjpeg-turbo/releases/download/3.0.3/libjpeg-turbo-3.0.3.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "c2ce515a78d91b09023773ef2770d6b0df77d674e144de80d63e0389b3a15ca6"
+      "checksum": "343e789069fc7afbcdfe44dbba7dbbf45afa98a15150e079a38e60e44578865d"
     },
     "head": {
       "url": "https://github.com/libjpeg-turbo/libjpeg-turbo.git",
@@ -39,38 +38,38 @@
       "files": {
         "arm64_sonoma": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:898ba61a84a444ef98b577162e49a0b06d65e8bdc48ad039d364fef4b4c00b05",
-          "sha256": "898ba61a84a444ef98b577162e49a0b06d65e8bdc48ad039d364fef4b4c00b05"
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:9ea422966185251d1073ba0f4a75c34b4ec497fc7819ea8de80f69fe8e6be18d",
+          "sha256": "9ea422966185251d1073ba0f4a75c34b4ec497fc7819ea8de80f69fe8e6be18d"
         },
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:0a007662b26322a0985f31cc7546124f53caa8334f5d2f1e8356e9d7321fe420",
-          "sha256": "0a007662b26322a0985f31cc7546124f53caa8334f5d2f1e8356e9d7321fe420"
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:b2d39242d1c78c5c4b275c36e3921371dc5ac1041aaea43764be1286efff5076",
+          "sha256": "b2d39242d1c78c5c4b275c36e3921371dc5ac1041aaea43764be1286efff5076"
         },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:5c179a6035798dab056356c288284ed695dc9505e4df4aa9868341fb9971a008",
-          "sha256": "5c179a6035798dab056356c288284ed695dc9505e4df4aa9868341fb9971a008"
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:ef42d3c4beadfeac182acd43fea7fca8993c51dc1567d1f18330c1863d5feb42",
+          "sha256": "ef42d3c4beadfeac182acd43fea7fca8993c51dc1567d1f18330c1863d5feb42"
         },
         "sonoma": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:4e2af273b76b2f4845b08d0f249630212e41a76b113e7d633d319cc6cfb43bef",
-          "sha256": "4e2af273b76b2f4845b08d0f249630212e41a76b113e7d633d319cc6cfb43bef"
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:477d3cee9b6e928a642e10be913e189e9f505e5d662180f2941c4a0b66c4ccc4",
+          "sha256": "477d3cee9b6e928a642e10be913e189e9f505e5d662180f2941c4a0b66c4ccc4"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:91d8bf0169ff83cdccddd64e88fb7ebdcc2df2d799c93ffb2a6fddd3980b631d",
-          "sha256": "91d8bf0169ff83cdccddd64e88fb7ebdcc2df2d799c93ffb2a6fddd3980b631d"
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:660f3f3fe22015e9332c7a9ecfaeb03de181dc2edef3918396d227ecd9cbd7a1",
+          "sha256": "660f3f3fe22015e9332c7a9ecfaeb03de181dc2edef3918396d227ecd9cbd7a1"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:6f004f77f070e05df1c7303e90b4befb100dd831fe68f998996a2a5de60b59d0",
-          "sha256": "6f004f77f070e05df1c7303e90b4befb100dd831fe68f998996a2a5de60b59d0"
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:8d146c2ec1537eecac10291d6ecfaeb447e3a295faed46c7f43628aee5ec5baa",
+          "sha256": "8d146c2ec1537eecac10291d6ecfaeb447e3a295faed46c7f43628aee5ec5baa"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:b16eab4c9fc8814b11ce6e43dd7d599587ec34ebbba7e1359e15bcff42ae672e",
-          "sha256": "b16eab4c9fc8814b11ce6e43dd7d599587ec34ebbba7e1359e15bcff42ae672e"
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:5fa10c311ff3da224a81663de1fedd246878a5e435edca0875f0fb2835b88191",
+          "sha256": "5fa10c311ff3da224a81663de1fedd246878a5e435edca0875f0fb2835b88191"
         }
       }
     }
@@ -126,7 +125,7 @@
   ],
   "linked_keg": "3.0.2",
   "pinned": false,
-  "outdated": false,
+  "outdated": true,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -135,10 +134,10 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "f94a03bdbc0c5199d3f38471deb23fd02b1b0634",
+  "tap_git_head": "389c82262c88947d165b30de7d6db416c0560d8a",
   "ruby_source_path": "Formula/j/jpeg-turbo.rb",
   "ruby_source_checksum": {
-    "sha256": "f1ed236bfb61de0b1d060c15939d2a377eca1c6c1b02a2eb74ce519571b9ed34"
+    "sha256": "82b5d19831fcfb637377c608a243a5148b3c2f63ad33b862248873cccd132536"
   },
   "variations": {
     "sonoma": {
@@ -205,29 +204,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "jpeg-turbo": 129053,
-        "jpeg-turbo --HEAD": 5
+        "jpeg-turbo": 150770,
+        "jpeg-turbo --HEAD": 4
       },
       "90d": {
-        "jpeg-turbo": 413009,
-        "jpeg-turbo --HEAD": 21
+        "jpeg-turbo": 437041,
+        "jpeg-turbo --HEAD": 20
       },
       "365d": {
-        "jpeg-turbo": 1385731,
+        "jpeg-turbo": 1416062,
         "jpeg-turbo --HEAD": 49
       }
     },
     "install_on_request": {
       "30d": {
-        "jpeg-turbo": 1858,
-        "jpeg-turbo --HEAD": 5
+        "jpeg-turbo": 2966,
+        "jpeg-turbo --HEAD": 4
       },
       "90d": {
-        "jpeg-turbo": 6939,
-        "jpeg-turbo --HEAD": 17
+        "jpeg-turbo": 8256,
+        "jpeg-turbo --HEAD": 16
       },
       "365d": {
-        "jpeg-turbo": 19133,
+        "jpeg-turbo": 20676,
         "jpeg-turbo --HEAD": 37
       }
     },
@@ -237,5 +236,5 @@
       }
     }
   },
-  "generated_date": "2024-05-06"
+  "generated_date": "2024-05-13"
 }

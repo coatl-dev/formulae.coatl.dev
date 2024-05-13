@@ -2,7 +2,6 @@
   "name": "pcre2",
   "full_name": "pcre2",
   "tap": "homebrew/core",
-  "oldname": null,
   "oldnames": [],
   "aliases": [],
   "versioned_formulae": [],
@@ -118,7 +117,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "f94a03bdbc0c5199d3f38471deb23fd02b1b0634",
+  "tap_git_head": "389c82262c88947d165b30de7d6db416c0560d8a",
   "ruby_source_path": "Formula/p/pcre2.rb",
   "ruby_source_checksum": {
     "sha256": "db2f301924030b1cdf6c6291ba15d5988bb4285664b94082322b0818071e45cd"
@@ -146,37 +145,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "pcre2": 168457,
-        "pcre2 --HEAD": 12
+        "pcre2": 165962,
+        "pcre2 --HEAD": 7
       },
       "90d": {
-        "pcre2": 500466,
+        "pcre2": 519518,
         "pcre2 --HEAD": 36
       },
       "365d": {
-        "pcre2": 1395675,
+        "pcre2": 1406251,
         "pcre2 --HEAD": 62
       }
     },
     "install_on_request": {
       "30d": {
-        "pcre2": 2613,
-        "pcre2 --HEAD": 10
+        "pcre2": 2511,
+        "pcre2 --HEAD": 5
       },
       "90d": {
-        "pcre2": 10836,
+        "pcre2": 11203,
         "pcre2 --HEAD": 31
       },
       "365d": {
-        "pcre2": 19472,
+        "pcre2": 19670,
         "pcre2 --HEAD": 47
       }
     },
     "build_error": {
       "30d": {
-        "pcre2": 8
+        "pcre2": 5
       }
     }
   },
-  "generated_date": "2024-05-06"
+  "generated_date": "2024-05-13"
 }

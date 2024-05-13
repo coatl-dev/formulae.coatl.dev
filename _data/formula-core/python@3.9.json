@@ -2,7 +2,6 @@
   "name": "python@3.9",
   "full_name": "python@3.9",
   "tap": "homebrew/core",
-  "oldname": null,
   "oldnames": [],
   "aliases": [],
   "versioned_formulae": [
@@ -129,7 +128,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "f94a03bdbc0c5199d3f38471deb23fd02b1b0634",
+  "tap_git_head": "389c82262c88947d165b30de7d6db416c0560d8a",
   "ruby_source_path": "Formula/p/python@3.9.rb",
   "ruby_source_checksum": {
     "sha256": "950f27e77ff2bc6fa79fa0a6459c1ba9c73d998ee1075220f1da9d337bbb7d0c"
@@ -150,37 +149,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.9": 52554,
-        "python@3.9 --HEAD": 75
+        "python@3.9": 48102,
+        "python@3.9 --HEAD": 73
       },
       "90d": {
-        "python@3.9": 188357,
-        "python@3.9 --HEAD": 248
+        "python@3.9": 183787,
+        "python@3.9 --HEAD": 247
       },
       "365d": {
-        "python@3.9": 923131,
-        "python@3.9 --HEAD": 1282
+        "python@3.9": 920850,
+        "python@3.9 --HEAD": 1277
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.9": 49031,
-        "python@3.9 --HEAD": 75
+        "python@3.9": 45123,
+        "python@3.9 --HEAD": 73
       },
       "90d": {
-        "python@3.9": 171485,
-        "python@3.9 --HEAD": 248
+        "python@3.9": 167520,
+        "python@3.9 --HEAD": 247
       },
       "365d": {
-        "python@3.9": 816272,
-        "python@3.9 --HEAD": 1282
+        "python@3.9": 814142,
+        "python@3.9 --HEAD": 1277
       }
     },
     "build_error": {
       "30d": {
-        "python@3.9": 15
+        "python@3.9": 13
       }
     }
   },
-  "generated_date": "2024-05-06"
+  "generated_date": "2024-05-13"
 }
