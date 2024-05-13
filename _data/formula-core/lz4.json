@@ -2,7 +2,6 @@
   "name": "lz4",
   "full_name": "lz4",
   "tap": "homebrew/core",
-  "oldname": null,
   "oldnames": [],
   "aliases": [],
   "versioned_formulae": [],
@@ -127,7 +126,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "f94a03bdbc0c5199d3f38471deb23fd02b1b0634",
+  "tap_git_head": "389c82262c88947d165b30de7d6db416c0560d8a",
   "ruby_source_path": "Formula/l/lz4.rb",
   "ruby_source_checksum": {
     "sha256": "ec81d134b4fdfec0bb1c7fd6c982f3aaf717bf696d57d17200ecea0ae2c2c6ac"
@@ -136,27 +135,27 @@
   "analytics": {
     "install": {
       "30d": {
-        "lz4": 87451
+        "lz4": 88758
       },
       "90d": {
-        "lz4": 257544,
+        "lz4": 260068,
         "lz4 --HEAD": 2
       },
       "365d": {
-        "lz4": 1075041,
+        "lz4": 1062916,
         "lz4 --HEAD": 21
       }
     },
     "install_on_request": {
       "30d": {
-        "lz4": 1003
+        "lz4": 973
       },
       "90d": {
-        "lz4": 2781,
+        "lz4": 2701,
         "lz4 --HEAD": 2
       },
       "365d": {
-        "lz4": 11366,
+        "lz4": 11197,
         "lz4 --HEAD": 18
       }
     },
@@ -166,5 +165,5 @@
       }
     }
   },
-  "generated_date": "2024-05-06"
+  "generated_date": "2024-05-13"
 }

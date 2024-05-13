@@ -2,7 +2,6 @@
   "name": "python@3.11",
   "full_name": "python@3.11",
   "tap": "homebrew/core",
-  "oldname": null,
   "oldnames": [],
   "aliases": [],
   "versioned_formulae": [
@@ -183,7 +182,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "f94a03bdbc0c5199d3f38471deb23fd02b1b0634",
+  "tap_git_head": "389c82262c88947d165b30de7d6db416c0560d8a",
   "ruby_source_path": "Formula/p/python@3.11.rb",
   "ruby_source_checksum": {
     "sha256": "eae5946786fd2208724acc11fa23e6fb001c1923c785921b6899cdaa36a6401e"
@@ -203,37 +202,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.11": 132449,
-        "python@3.11 --HEAD": 181
+        "python@3.11": 115775,
+        "python@3.11 --HEAD": 157
       },
       "90d": {
-        "python@3.11": 507573,
-        "python@3.11 --HEAD": 617
+        "python@3.11": 483840,
+        "python@3.11 --HEAD": 598
       },
       "365d": {
-        "python@3.11": 2799049,
-        "python@3.11 --HEAD": 3098
+        "python@3.11": 2770664,
+        "python@3.11 --HEAD": 3083
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.11": 85294,
-        "python@3.11 --HEAD": 181
+        "python@3.11": 75235,
+        "python@3.11 --HEAD": 157
       },
       "90d": {
-        "python@3.11": 323752,
-        "python@3.11 --HEAD": 616
+        "python@3.11": 306527,
+        "python@3.11 --HEAD": 597
       },
       "365d": {
-        "python@3.11": 1622707,
-        "python@3.11 --HEAD": 3089
+        "python@3.11": 1613175,
+        "python@3.11 --HEAD": 3074
       }
     },
     "build_error": {
       "30d": {
-        "python@3.11": 90
+        "python@3.11": 91
       }
     }
   },
-  "generated_date": "2024-05-06"
+  "generated_date": "2024-05-13"
 }
