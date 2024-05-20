@@ -107,13 +107,13 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1713810164,
+      "time": 1715726931,
       "runtime_dependencies": [
         {
           "full_name": "jpeg-turbo",
-          "version": "3.0.2",
+          "version": "3.0.3",
           "revision": 0,
-          "pkg_version": "3.0.2",
+          "pkg_version": "3.0.3",
           "declared_directly": true
         },
         {
@@ -153,7 +153,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "389c82262c88947d165b30de7d6db416c0560d8a",
+  "tap_git_head": "593362d5818d6f6213b17b83d000ed3742d01366",
   "ruby_source_path": "Formula/lib/libtiff.rb",
   "ruby_source_checksum": {
     "sha256": "8f6a7da377fae7537b012cc7b7e9ed60d72bfa84291b40a5d5fe740ae2376b38"
@@ -162,30 +162,30 @@
   "analytics": {
     "install": {
       "30d": {
-        "libtiff": 74277,
-        "libtiff --HEAD": 16
+        "libtiff": 77154,
+        "libtiff --HEAD": 11
       },
       "90d": {
-        "libtiff": 239263,
-        "libtiff --HEAD": 59
+        "libtiff": 239114,
+        "libtiff --HEAD": 55
       },
       "365d": {
-        "libtiff": 1409132,
-        "libtiff --HEAD": 432
+        "libtiff": 1391223,
+        "libtiff --HEAD": 422
       }
     },
     "install_on_request": {
       "30d": {
-        "libtiff": 7468,
-        "libtiff --HEAD": 16
+        "libtiff": 7160,
+        "libtiff --HEAD": 11
       },
       "90d": {
-        "libtiff": 28024,
-        "libtiff --HEAD": 58
+        "libtiff": 26962,
+        "libtiff --HEAD": 55
       },
       "365d": {
-        "libtiff": 226199,
-        "libtiff --HEAD": 423
+        "libtiff": 220397,
+        "libtiff --HEAD": 413
       }
     },
     "build_error": {
@@ -194,5 +194,5 @@
       }
     }
   },
-  "generated_date": "2024-05-13"
+  "generated_date": "2024-05-20"
 }

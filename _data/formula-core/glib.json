@@ -123,11 +123,11 @@
   "caveats": null,
   "installed": [
     {
-      "version": "2.80.0_2",
+      "version": "2.80.2",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1713810158,
+      "time": 1715726924,
       "runtime_dependencies": [
         {
           "full_name": "pcre2",
@@ -197,9 +197,9 @@
       "installed_on_request": false
     }
   ],
-  "linked_keg": "2.80.0_2",
+  "linked_keg": "2.80.2",
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -208,7 +208,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "389c82262c88947d165b30de7d6db416c0560d8a",
+  "tap_git_head": "593362d5818d6f6213b17b83d000ed3742d01366",
   "ruby_source_path": "Formula/g/glib.rb",
   "ruby_source_checksum": {
     "sha256": "7cc7a023be10a250c93fcadf89a22f2aa6c1bc1570e6c7cb0fffaa2ff026712d"
@@ -226,37 +226,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "glib": 192296,
-        "glib --HEAD": 85
+        "glib": 214050,
+        "glib --HEAD": 106
       },
       "90d": {
-        "glib": 687445,
-        "glib --HEAD": 270
+        "glib": 708490,
+        "glib --HEAD": 292
       },
       "365d": {
-        "glib": 2580787,
-        "glib --HEAD": 1073
+        "glib": 2607118,
+        "glib --HEAD": 1087
       }
     },
     "install_on_request": {
       "30d": {
-        "glib": 53657,
-        "glib --HEAD": 83
+        "glib": 58884,
+        "glib --HEAD": 104
       },
       "90d": {
-        "glib": 196117,
-        "glib --HEAD": 265
+        "glib": 203535,
+        "glib --HEAD": 287
       },
       "365d": {
-        "glib": 726259,
-        "glib --HEAD": 1057
+        "glib": 730674,
+        "glib --HEAD": 1072
       }
     },
     "build_error": {
       "30d": {
-        "glib": 906
+        "glib": 1062
       }
     }
   },
-  "generated_date": "2024-05-13"
+  "generated_date": "2024-05-20"
 }

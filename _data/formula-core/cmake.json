@@ -94,19 +94,19 @@
   "caveats": "To install the CMake documentation, run:\n  brew install cmake-docs\n",
   "installed": [
     {
-      "version": "3.29.2",
+      "version": "3.29.3",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1713810218,
+      "time": 1715726985,
       "runtime_dependencies": [],
       "installed_as_dependency": false,
       "installed_on_request": true
     }
   ],
-  "linked_keg": "3.29.2",
+  "linked_keg": "3.29.3",
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -115,7 +115,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "389c82262c88947d165b30de7d6db416c0560d8a",
+  "tap_git_head": "593362d5818d6f6213b17b83d000ed3742d01366",
   "ruby_source_path": "Formula/c/cmake.rb",
   "ruby_source_checksum": {
     "sha256": "da10488e4b9dec79f9b746ea6e7736f61006fb2633d01eded0f0e466bc04a23a"
@@ -130,38 +130,38 @@
   "analytics": {
     "install": {
       "30d": {
-        "cmake": 125641,
-        "cmake --HEAD": 130
+        "cmake": 120092,
+        "cmake --HEAD": 133
       },
       "90d": {
-        "cmake": 385239,
-        "cmake --HEAD": 390
+        "cmake": 385557,
+        "cmake --HEAD": 401
       },
       "365d": {
-        "cmake": 1572519,
-        "cmake --HEAD": 1673
+        "cmake": 1573640,
+        "cmake --HEAD": 1676
       }
     },
     "install_on_request": {
       "30d": {
-        "cmake": 97723,
-        "cmake --HEAD": 130
+        "cmake": 91943,
+        "cmake --HEAD": 133
       },
       "90d": {
-        "cmake": 303116,
-        "cmake --HEAD": 389
+        "cmake": 302102,
+        "cmake --HEAD": 400
       },
       "365d": {
-        "cmake": 1231149,
-        "cmake --HEAD": 1670
+        "cmake": 1230259,
+        "cmake --HEAD": 1673
       }
     },
     "build_error": {
       "30d": {
-        "cmake": 515,
+        "cmake": 466,
         "cmake --HEAD": 4
       }
     }
   },
-  "generated_date": "2024-05-13"
+  "generated_date": "2024-05-20"
 }
