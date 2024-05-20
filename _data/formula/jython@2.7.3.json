@@ -2,7 +2,6 @@
   "name": "jython@2.7.3",
   "full_name": "coatl-dev/coatl-dev/jython@2.7.3",
   "tap": "coatl-dev/coatl-dev",
-  "oldname": null,
   "oldnames": [],
   "aliases": [],
   "versioned_formulae": [],
@@ -56,7 +55,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "4667e1f99ffc26e17dcef46750c3b57fe4de19e0",
+  "tap_git_head": "268a51535b6425271b7e40f9253c62caa7fce6de",
   "ruby_source_path": "Formula/jython@2.7.3.rb",
   "ruby_source_checksum": {
     "sha256": "9762fe747cff40d3a5bdbb3fd35c68f03735269960c3c5120fc6e02029d82d5f"

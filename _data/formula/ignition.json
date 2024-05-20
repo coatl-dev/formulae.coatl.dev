@@ -2,7 +2,6 @@
   "name": "ignition",
   "full_name": "coatl-dev/coatl-dev/ignition",
   "tap": "coatl-dev/coatl-dev",
-  "oldname": null,
   "oldnames": [],
   "aliases": [
     "ignition@8.1"
@@ -12,17 +11,17 @@
   "license": "Cannot Represent",
   "homepage": "https://inductiveautomation.com/",
   "versions": {
-    "stable": "8.1.39",
+    "stable": "8.1.40",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://files.inductiveautomation.com/release/ia/8.1.39/20240409-1059/Ignition-macOs-x86-64-8.1.39.zip",
+      "url": "https://files.inductiveautomation.com/release/ia/8.1.40/20240514-1107/Ignition-macOs-x86-64-8.1.40.zip",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "d7093ca53a778478404fe6e6f55ca20489d082c9e4872aac5a07c5d1026bfcb3"
+      "checksum": "85d32bde04289297d24795de808ae2c18cf9166b3ab7a17d3dad1bb44dcd6559"
     }
   },
   "revision": 0,
@@ -56,9 +55,9 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "4667e1f99ffc26e17dcef46750c3b57fe4de19e0",
+  "tap_git_head": "268a51535b6425271b7e40f9253c62caa7fce6de",
   "ruby_source_path": "Formula/ignition.rb",
   "ruby_source_checksum": {
-    "sha256": "21a1c7a3b1dfe1301f2bfbff1066933b857408b7277b73d1a38dc5a9904af9e3"
+    "sha256": "52de2df86e99ea7ded2d2dd6ff47cd39ee6cd2888261882472b5f555fd48633c"
   }
 }

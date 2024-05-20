@@ -120,7 +120,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1713810330,
+      "time": 1715727098,
       "runtime_dependencies": [],
       "installed_as_dependency": false,
       "installed_on_request": true
@@ -137,7 +137,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "389c82262c88947d165b30de7d6db416c0560d8a",
+  "tap_git_head": "593362d5818d6f6213b17b83d000ed3742d01366",
   "ruby_source_path": "Formula/p/pkg-config.rb",
   "ruby_source_checksum": {
     "sha256": "d1cccb8e5c7289b9498b0b622ed189fce4a6e2752dce1bf8073271929aa1128e"
@@ -146,37 +146,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "pkg-config": 48439,
-        "pkg-config --HEAD": 16
+        "pkg-config": 51198,
+        "pkg-config --HEAD": 22
       },
       "90d": {
-        "pkg-config": 147346,
-        "pkg-config --HEAD": 70
+        "pkg-config": 151023,
+        "pkg-config --HEAD": 75
       },
       "365d": {
-        "pkg-config": 588299,
-        "pkg-config --HEAD": 303
+        "pkg-config": 588946,
+        "pkg-config --HEAD": 305
       }
     },
     "install_on_request": {
       "30d": {
-        "pkg-config": 13588,
-        "pkg-config --HEAD": 16
+        "pkg-config": 14349,
+        "pkg-config --HEAD": 22
       },
       "90d": {
-        "pkg-config": 43075,
-        "pkg-config --HEAD": 70
+        "pkg-config": 43768,
+        "pkg-config --HEAD": 75
       },
       "365d": {
-        "pkg-config": 176303,
-        "pkg-config --HEAD": 298
+        "pkg-config": 176142,
+        "pkg-config --HEAD": 300
       }
     },
     "build_error": {
       "30d": {
-        "pkg-config": 400
+        "pkg-config": 393
       }
     }
   },
-  "generated_date": "2024-05-13"
+  "generated_date": "2024-05-20"
 }

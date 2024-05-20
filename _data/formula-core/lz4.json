@@ -109,7 +109,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1713809609,
+      "time": 1715726393,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -126,7 +126,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "389c82262c88947d165b30de7d6db416c0560d8a",
+  "tap_git_head": "593362d5818d6f6213b17b83d000ed3742d01366",
   "ruby_source_path": "Formula/l/lz4.rb",
   "ruby_source_checksum": {
     "sha256": "ec81d134b4fdfec0bb1c7fd6c982f3aaf717bf696d57d17200ecea0ae2c2c6ac"
@@ -135,27 +135,27 @@
   "analytics": {
     "install": {
       "30d": {
-        "lz4": 88758
+        "lz4": 93405
       },
       "90d": {
-        "lz4": 260068,
-        "lz4 --HEAD": 2
+        "lz4": 264806,
+        "lz4 --HEAD": 1
       },
       "365d": {
-        "lz4": 1062916,
+        "lz4": 1054504,
         "lz4 --HEAD": 21
       }
     },
     "install_on_request": {
       "30d": {
-        "lz4": 973
+        "lz4": 961
       },
       "90d": {
-        "lz4": 2701,
-        "lz4 --HEAD": 2
+        "lz4": 2785,
+        "lz4 --HEAD": 1
       },
       "365d": {
-        "lz4": 11197,
+        "lz4": 11024,
         "lz4 --HEAD": 18
       }
     },
@@ -165,5 +165,5 @@
       }
     }
   },
-  "generated_date": "2024-05-13"
+  "generated_date": "2024-05-20"
 }

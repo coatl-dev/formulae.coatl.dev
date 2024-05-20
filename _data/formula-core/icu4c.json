@@ -92,7 +92,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1713810106,
+      "time": 1715726870,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -109,7 +109,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "389c82262c88947d165b30de7d6db416c0560d8a",
+  "tap_git_head": "593362d5818d6f6213b17b83d000ed3742d01366",
   "ruby_source_path": "Formula/i/icu4c.rb",
   "ruby_source_checksum": {
     "sha256": "65aa09b4d2f97d4339aa8d4148427022f98f25e42e3785e9814c2f5496807dcb"
@@ -118,37 +118,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "icu4c": 172359,
-        "icu4c --HEAD": 9
+        "icu4c": 172404,
+        "icu4c --HEAD": 7
       },
       "90d": {
-        "icu4c": 600490,
-        "icu4c --HEAD": 48
+        "icu4c": 615988,
+        "icu4c --HEAD": 50
       },
       "365d": {
-        "icu4c": 2020783,
+        "icu4c": 2030331,
         "icu4c --HEAD": 107
       }
     },
     "install_on_request": {
       "30d": {
-        "icu4c": 6156,
-        "icu4c --HEAD": 9
+        "icu4c": 5941,
+        "icu4c --HEAD": 6
       },
       "90d": {
-        "icu4c": 28272,
-        "icu4c --HEAD": 46
+        "icu4c": 28940,
+        "icu4c --HEAD": 47
       },
       "365d": {
-        "icu4c": 72411,
-        "icu4c --HEAD": 91
+        "icu4c": 72774,
+        "icu4c --HEAD": 90
       }
     },
     "build_error": {
       "30d": {
-        "icu4c": 60
+        "icu4c": 57
       }
     }
   },
-  "generated_date": "2024-05-13"
+  "generated_date": "2024-05-20"
 }

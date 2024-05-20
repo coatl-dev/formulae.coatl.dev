@@ -107,7 +107,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1713809998,
+      "time": 1715726762,
       "runtime_dependencies": [
         {
           "full_name": "ca-certificates",
@@ -132,7 +132,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "389c82262c88947d165b30de7d6db416c0560d8a",
+  "tap_git_head": "593362d5818d6f6213b17b83d000ed3742d01366",
   "ruby_source_path": "Formula/o/openssl@1.1.rb",
   "ruby_source_checksum": {
     "sha256": "39b487a4e3c53137df35a5ecaddbdfb42714f0bc1916c06404373164a0d880b3"
@@ -141,37 +141,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "openssl@1.1": 34356,
-        "openssl@1.1 --HEAD": 30
+        "openssl@1.1": 35916,
+        "openssl@1.1 --HEAD": 34
       },
       "90d": {
-        "openssl@1.1": 112425,
-        "openssl@1.1 --HEAD": 105
+        "openssl@1.1": 112513,
+        "openssl@1.1 --HEAD": 103
       },
       "365d": {
-        "openssl@1.1": 1408120,
-        "openssl@1.1 --HEAD": 1106
+        "openssl@1.1": 1366244,
+        "openssl@1.1 --HEAD": 1107
       }
     },
     "install_on_request": {
       "30d": {
-        "openssl@1.1": 20796,
-        "openssl@1.1 --HEAD": 29
+        "openssl@1.1": 22707,
+        "openssl@1.1 --HEAD": 34
       },
       "90d": {
-        "openssl@1.1": 61042,
-        "openssl@1.1 --HEAD": 104
+        "openssl@1.1": 62428,
+        "openssl@1.1 --HEAD": 102
       },
       "365d": {
-        "openssl@1.1": 590953,
-        "openssl@1.1 --HEAD": 1096
+        "openssl@1.1": 591555,
+        "openssl@1.1 --HEAD": 1098
       }
     },
     "build_error": {
       "30d": {
-        "openssl@1.1": 8
+        "openssl@1.1": 6
       }
     }
   },
-  "generated_date": "2024-05-13"
+  "generated_date": "2024-05-20"
 }
