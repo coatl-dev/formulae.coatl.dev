@@ -128,7 +128,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "593362d5818d6f6213b17b83d000ed3742d01366",
+  "tap_git_head": "736dcfa3e10f73e7119619d84f81314c1abecb4d",
   "ruby_source_path": "Formula/p/python@3.9.rb",
   "ruby_source_checksum": {
     "sha256": "950f27e77ff2bc6fa79fa0a6459c1ba9c73d998ee1075220f1da9d337bbb7d0c"
@@ -149,37 +149,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.9": 44560,
-        "python@3.9 --HEAD": 67
+        "python@3.9": 40940,
+        "python@3.9 --HEAD": 59
       },
       "90d": {
-        "python@3.9": 179533,
-        "python@3.9 --HEAD": 249
+        "python@3.9": 175418,
+        "python@3.9 --HEAD": 244
       },
       "365d": {
-        "python@3.9": 919361,
-        "python@3.9 --HEAD": 1278
+        "python@3.9": 917493,
+        "python@3.9 --HEAD": 1271
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.9": 41949,
-        "python@3.9 --HEAD": 67
+        "python@3.9": 38553,
+        "python@3.9 --HEAD": 59
       },
       "90d": {
-        "python@3.9": 163642,
-        "python@3.9 --HEAD": 248
+        "python@3.9": 159784,
+        "python@3.9 --HEAD": 244
       },
       "365d": {
-        "python@3.9": 812751,
-        "python@3.9 --HEAD": 1278
+        "python@3.9": 811005,
+        "python@3.9 --HEAD": 1271
       }
     },
     "build_error": {
       "30d": {
-        "python@3.9": 12
+        "python@3.9": 3
       }
     }
   },
-  "generated_date": "2024-05-20"
+  "generated_date": "2024-05-27"
 }

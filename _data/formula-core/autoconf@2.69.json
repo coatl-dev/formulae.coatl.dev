@@ -126,7 +126,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "593362d5818d6f6213b17b83d000ed3742d01366",
+  "tap_git_head": "736dcfa3e10f73e7119619d84f81314c1abecb4d",
   "ruby_source_path": "Formula/a/autoconf@2.69.rb",
   "ruby_source_checksum": {
     "sha256": "2634ebfb27917761953ee8768b177a017064acd35c51844229fc999719fdd590"
@@ -135,10 +135,10 @@
   "analytics": {
     "install": {
       "30d": {
-        "autoconf@2.69": 56
+        "autoconf@2.69": 54
       },
       "90d": {
-        "autoconf@2.69": 210
+        "autoconf@2.69": 208
       },
       "365d": {
         "autoconf@2.69": 816
@@ -149,10 +149,10 @@
         "autoconf@2.69": 52
       },
       "90d": {
-        "autoconf@2.69": 185
+        "autoconf@2.69": 189
       },
       "365d": {
-        "autoconf@2.69": 711
+        "autoconf@2.69": 712
       }
     },
     "build_error": {
@@ -161,5 +161,5 @@
       }
     }
   },
-  "generated_date": "2024-05-20"
+  "generated_date": "2024-05-27"
 }

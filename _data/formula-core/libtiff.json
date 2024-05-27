@@ -153,7 +153,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "593362d5818d6f6213b17b83d000ed3742d01366",
+  "tap_git_head": "736dcfa3e10f73e7119619d84f81314c1abecb4d",
   "ruby_source_path": "Formula/lib/libtiff.rb",
   "ruby_source_checksum": {
     "sha256": "8f6a7da377fae7537b012cc7b7e9ed60d72bfa84291b40a5d5fe740ae2376b38"
@@ -162,30 +162,30 @@
   "analytics": {
     "install": {
       "30d": {
-        "libtiff": 77154,
-        "libtiff --HEAD": 11
+        "libtiff": 79587,
+        "libtiff --HEAD": 6
       },
       "90d": {
-        "libtiff": 239114,
-        "libtiff --HEAD": 55
+        "libtiff": 238570,
+        "libtiff --HEAD": 50
       },
       "365d": {
-        "libtiff": 1391223,
-        "libtiff --HEAD": 422
+        "libtiff": 1373705,
+        "libtiff --HEAD": 411
       }
     },
     "install_on_request": {
       "30d": {
-        "libtiff": 7160,
-        "libtiff --HEAD": 11
+        "libtiff": 6862,
+        "libtiff --HEAD": 6
       },
       "90d": {
-        "libtiff": 26962,
-        "libtiff --HEAD": 55
+        "libtiff": 25856,
+        "libtiff --HEAD": 50
       },
       "365d": {
-        "libtiff": 220397,
-        "libtiff --HEAD": 413
+        "libtiff": 215088,
+        "libtiff --HEAD": 402
       }
     },
     "build_error": {
@@ -194,5 +194,5 @@
       }
     }
   },
-  "generated_date": "2024-05-20"
+  "generated_date": "2024-05-27"
 }

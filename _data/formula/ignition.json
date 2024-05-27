@@ -55,7 +55,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "268a51535b6425271b7e40f9253c62caa7fce6de",
+  "tap_git_head": "54eb124a9412f43932529d50b532520c9ca85edb",
   "ruby_source_path": "Formula/ignition.rb",
   "ruby_source_checksum": {
     "sha256": "52de2df86e99ea7ded2d2dd6ff47cd39ee6cd2888261882472b5f555fd48633c"
