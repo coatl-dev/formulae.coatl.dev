@@ -115,7 +115,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "593362d5818d6f6213b17b83d000ed3742d01366",
+  "tap_git_head": "736dcfa3e10f73e7119619d84f81314c1abecb4d",
   "ruby_source_path": "Formula/lib/libpng.rb",
   "ruby_source_checksum": {
     "sha256": "405762d58b198d715d19eca209cbec66ba43ecf369a6eff08476a7621851b546"
@@ -141,37 +141,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "libpng": 110016,
-        "libpng --HEAD": 8
+        "libpng": 110458,
+        "libpng --HEAD": 9
       },
       "90d": {
-        "libpng": 423261,
-        "libpng --HEAD": 43
+        "libpng": 415714,
+        "libpng --HEAD": 41
       },
       "365d": {
-        "libpng": 1340973,
-        "libpng --HEAD": 137
+        "libpng": 1347684,
+        "libpng --HEAD": 140
       }
     },
     "install_on_request": {
       "30d": {
-        "libpng": 5286,
-        "libpng --HEAD": 8
+        "libpng": 4984,
+        "libpng --HEAD": 9
       },
       "90d": {
-        "libpng": 27605,
-        "libpng --HEAD": 41
+        "libpng": 26477,
+        "libpng --HEAD": 40
       },
       "365d": {
-        "libpng": 79942,
-        "libpng --HEAD": 125
+        "libpng": 80461,
+        "libpng --HEAD": 128
       }
     },
     "build_error": {
       "30d": {
-        "libpng": 25
+        "libpng": 20
       }
     }
   },
-  "generated_date": "2024-05-20"
+  "generated_date": "2024-05-27"
 }

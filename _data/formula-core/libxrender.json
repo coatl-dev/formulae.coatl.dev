@@ -157,7 +157,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "593362d5818d6f6213b17b83d000ed3742d01366",
+  "tap_git_head": "736dcfa3e10f73e7119619d84f81314c1abecb4d",
   "ruby_source_path": "Formula/lib/libxrender.rb",
   "ruby_source_checksum": {
     "sha256": "e894644959f98ee9d35ccc2f051a1f3b898a2c50298896ce6df19989c0f86e45"
@@ -166,25 +166,25 @@
   "analytics": {
     "install": {
       "30d": {
-        "libxrender": 41033
+        "libxrender": 42867
       },
       "90d": {
-        "libxrender": 120921
+        "libxrender": 122651
       },
       "365d": {
-        "libxrender": 511889,
-        "libxrender --HEAD": 5
+        "libxrender": 506510,
+        "libxrender --HEAD": 4
       }
     },
     "install_on_request": {
       "30d": {
-        "libxrender": 157
+        "libxrender": 133
       },
       "90d": {
-        "libxrender": 464
+        "libxrender": 439
       },
       "365d": {
-        "libxrender": 1988
+        "libxrender": 1943
       }
     },
     "build_error": {
@@ -193,5 +193,5 @@
       }
     }
   },
-  "generated_date": "2024-05-20"
+  "generated_date": "2024-05-27"
 }

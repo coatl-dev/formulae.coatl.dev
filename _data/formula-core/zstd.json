@@ -137,7 +137,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "593362d5818d6f6213b17b83d000ed3742d01366",
+  "tap_git_head": "736dcfa3e10f73e7119619d84f81314c1abecb4d",
   "ruby_source_path": "Formula/z/zstd.rb",
   "ruby_source_checksum": {
     "sha256": "d48b70b65863c247c61c62d3888350472f70ce11f589a4025995c19c812b18e7"
@@ -146,37 +146,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "zstd": 187864,
-        "zstd --HEAD": 22
+        "zstd": 185772,
+        "zstd --HEAD": 23
       },
       "90d": {
-        "zstd": 498015,
-        "zstd --HEAD": 77
+        "zstd": 518318,
+        "zstd --HEAD": 83
       },
       "365d": {
-        "zstd": 1549223,
-        "zstd --HEAD": 181
+        "zstd": 1542491,
+        "zstd --HEAD": 175
       }
     },
     "install_on_request": {
       "30d": {
-        "zstd": 13115,
-        "zstd --HEAD": 22
+        "zstd": 12166,
+        "zstd --HEAD": 23
       },
       "90d": {
-        "zstd": 32514,
-        "zstd --HEAD": 75
+        "zstd": 34744,
+        "zstd --HEAD": 81
       },
       "365d": {
-        "zstd": 88822,
-        "zstd --HEAD": 171
+        "zstd": 85448,
+        "zstd --HEAD": 165
       }
     },
     "build_error": {
       "30d": {
-        "zstd": 65
+        "zstd": 68
       }
     }
   },
-  "generated_date": "2024-05-20"
+  "generated_date": "2024-05-27"
 }
