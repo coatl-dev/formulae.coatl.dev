@@ -111,7 +111,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1715726919,
+      "time": 1716758568,
       "runtime_dependencies": [
         {
           "full_name": "libpng",
@@ -136,7 +136,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "736dcfa3e10f73e7119619d84f81314c1abecb4d",
+  "tap_git_head": "bb9191758ecc8ba1f8c184f0281494cf204f2ec5",
   "ruby_source_path": "Formula/f/freetype.rb",
   "ruby_source_checksum": {
     "sha256": "56dcdd065b3a2a387ffeaca1b6ffebd22897e69d9e6298c7a4beda2423948f0a"
@@ -145,37 +145,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "freetype": 64641,
-        "freetype --HEAD": 7
+        "freetype": 67879,
+        "freetype --HEAD": 6
       },
       "90d": {
-        "freetype": 192807,
+        "freetype": 193491,
         "freetype --HEAD": 12
       },
       "365d": {
-        "freetype": 1109166,
-        "freetype --HEAD": 123
+        "freetype": 1102430,
+        "freetype --HEAD": 121
       }
     },
     "install_on_request": {
       "30d": {
-        "freetype": 2492,
-        "freetype --HEAD": 7
+        "freetype": 2507,
+        "freetype --HEAD": 6
       },
       "90d": {
-        "freetype": 8414,
+        "freetype": 8266,
         "freetype --HEAD": 11
       },
       "365d": {
-        "freetype": 80432,
-        "freetype --HEAD": 115
+        "freetype": 80028,
+        "freetype --HEAD": 113
       }
     },
     "build_error": {
       "30d": {
-        "freetype": 1
+        "freetype": 0
       }
     }
   },
-  "generated_date": "2024-05-27"
+  "generated_date": "2024-06-03"
 }
