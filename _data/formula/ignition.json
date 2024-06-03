@@ -11,17 +11,17 @@
   "license": "Cannot Represent",
   "homepage": "https://inductiveautomation.com/",
   "versions": {
-    "stable": "8.1.40",
+    "stable": "8.1.41",
     "head": null,
     "bottle": false
   },
   "urls": {
     "stable": {
-      "url": "https://files.inductiveautomation.com/release/ia/8.1.40/20240514-1107/Ignition-macOs-x86-64-8.1.40.zip",
+      "url": "https://files.inductiveautomation.com/release/ia/8.1.41/20240528-1028/Ignition-macOs-x86-64-8.1.41.zip",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "85d32bde04289297d24795de808ae2c18cf9166b3ab7a17d3dad1bb44dcd6559"
+      "checksum": "3e7e90dc034214e7a4ebb8eef4de50f54013f8a7ff4290baa80ddb9be4db6fca"
     }
   },
   "revision": 0,
@@ -55,9 +55,9 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "54eb124a9412f43932529d50b532520c9ca85edb",
+  "tap_git_head": "1a4d0cb6725f7e472724b150981b105bde31cd9b",
   "ruby_source_path": "Formula/ignition.rb",
   "ruby_source_checksum": {
-    "sha256": "52de2df86e99ea7ded2d2dd6ff47cd39ee6cd2888261882472b5f555fd48633c"
+    "sha256": "5f60c01f5346464026268ea5e3582518b7066ecd924e70b47a73727f8ce523ac"
   }
 }

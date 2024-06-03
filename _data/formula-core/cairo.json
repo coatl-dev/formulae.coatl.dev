@@ -113,7 +113,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1715726930,
+      "time": 1716758577,
       "runtime_dependencies": [
         {
           "full_name": "libpng",
@@ -285,7 +285,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "736dcfa3e10f73e7119619d84f81314c1abecb4d",
+  "tap_git_head": "bb9191758ecc8ba1f8c184f0281494cf204f2ec5",
   "ruby_source_path": "Formula/c/cairo.rb",
   "ruby_source_checksum": {
     "sha256": "c7010b6cdc1e8bf6a9d9115aaa925cec01266ac67e1a4bb1957ec9bfff596927"
@@ -294,37 +294,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "cairo": 66666,
-        "cairo --HEAD": 18
+        "cairo": 68454,
+        "cairo --HEAD": 16
       },
       "90d": {
-        "cairo": 204514,
-        "cairo --HEAD": 69
+        "cairo": 203260,
+        "cairo --HEAD": 62
       },
       "365d": {
-        "cairo": 934582,
-        "cairo --HEAD": 399
+        "cairo": 937443,
+        "cairo --HEAD": 398
       }
     },
     "install_on_request": {
       "30d": {
-        "cairo": 12989,
-        "cairo --HEAD": 18
+        "cairo": 13120,
+        "cairo --HEAD": 16
       },
       "90d": {
-        "cairo": 45994,
-        "cairo --HEAD": 69
+        "cairo": 44256,
+        "cairo --HEAD": 62
       },
       "365d": {
-        "cairo": 228665,
-        "cairo --HEAD": 391
+        "cairo": 230789,
+        "cairo --HEAD": 390
       }
     },
     "build_error": {
       "30d": {
-        "cairo": 20
+        "cairo": 19
       }
     }
   },
-  "generated_date": "2024-05-27"
+  "generated_date": "2024-06-03"
 }

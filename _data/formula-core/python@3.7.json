@@ -120,7 +120,7 @@
   "disable_reason": "deprecated_upstream",
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "736dcfa3e10f73e7119619d84f81314c1abecb4d",
+  "tap_git_head": "bb9191758ecc8ba1f8c184f0281494cf204f2ec5",
   "ruby_source_path": "Formula/p/python@3.7.rb",
   "ruby_source_checksum": {
     "sha256": "c1510f241ec30f354895b6afb85b85b757bb413c0f3e02c7316f10b40e2248c9"
@@ -144,10 +144,10 @@
         "python@3.7": 11
       },
       "90d": {
-        "python@3.7": 73
+        "python@3.7": 65
       },
       "365d": {
-        "python@3.7": 5881,
+        "python@3.7": 5196,
         "python@3.7 --HEAD": 2
       }
     },
@@ -156,18 +156,18 @@
         "python@3.7": 11
       },
       "90d": {
-        "python@3.7": 73
+        "python@3.7": 65
       },
       "365d": {
-        "python@3.7": 5780,
+        "python@3.7": 5098,
         "python@3.7 --HEAD": 2
       }
     },
     "build_error": {
       "30d": {
-        "python@3.7": 1
+        "python@3.7": 0
       }
     }
   },
-  "generated_date": "2024-05-27"
+  "generated_date": "2024-06-03"
 }
