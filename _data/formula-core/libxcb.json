@@ -96,7 +96,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1716758574,
+      "time": 1717404569,
       "runtime_dependencies": [
         {
           "full_name": "xorgproto",
@@ -135,7 +135,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "bb9191758ecc8ba1f8c184f0281494cf204f2ec5",
+  "tap_git_head": "2cba6a4bae28f0851fad7764bf0e9c013f1ef007",
   "ruby_source_path": "Formula/lib/libxcb.rb",
   "ruby_source_checksum": {
     "sha256": "bfb979cfc5006d12c2b3434e57e4c9671fce61386b80f909e24c035874cc5ab3"
@@ -144,37 +144,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "libxcb": 134338,
-        "libxcb --HEAD": 3
+        "libxcb": 132478,
+        "libxcb --HEAD": 1
       },
       "90d": {
-        "libxcb": 434831,
-        "libxcb --HEAD": 13
+        "libxcb": 424136,
+        "libxcb --HEAD": 11
       },
       "365d": {
-        "libxcb": 1269799,
-        "libxcb --HEAD": 36
+        "libxcb": 1279265,
+        "libxcb --HEAD": 34
       }
     },
     "install_on_request": {
       "30d": {
-        "libxcb": 1433,
+        "libxcb": 1265,
         "libxcb --HEAD": 1
       },
       "90d": {
-        "libxcb": 6474,
-        "libxcb --HEAD": 10
+        "libxcb": 5814,
+        "libxcb --HEAD": 8
       },
       "365d": {
-        "libxcb": 15493,
+        "libxcb": 15555,
         "libxcb --HEAD": 26
       }
     },
     "build_error": {
       "30d": {
-        "libxcb": 2
+        "libxcb": 4
       }
     }
   },
-  "generated_date": "2024-06-03"
+  "generated_date": "2024-06-10"
 }

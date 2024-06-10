@@ -106,7 +106,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "bb9191758ecc8ba1f8c184f0281494cf204f2ec5",
+  "tap_git_head": "2cba6a4bae28f0851fad7764bf0e9c013f1ef007",
   "ruby_source_path": "Formula/a/autoconf.rb",
   "ruby_source_checksum": {
     "sha256": "18482e36a37d45190b403a05535062de05b59020606441986ebb054f5d9cd4c2"
@@ -115,37 +115,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "autoconf": 72802,
-        "autoconf --HEAD": 18
+        "autoconf": 71587,
+        "autoconf --HEAD": 20
       },
       "90d": {
-        "autoconf": 251244,
-        "autoconf --HEAD": 72
+        "autoconf": 244931,
+        "autoconf --HEAD": 66
       },
       "365d": {
-        "autoconf": 683464,
-        "autoconf --HEAD": 252
+        "autoconf": 691023,
+        "autoconf --HEAD": 251
       }
     },
     "install_on_request": {
       "30d": {
-        "autoconf": 15302,
-        "autoconf --HEAD": 18
+        "autoconf": 15129,
+        "autoconf --HEAD": 20
       },
       "90d": {
-        "autoconf": 49278,
-        "autoconf --HEAD": 72
+        "autoconf": 48268,
+        "autoconf --HEAD": 66
       },
       "365d": {
-        "autoconf": 153579,
-        "autoconf --HEAD": 248
+        "autoconf": 155180,
+        "autoconf --HEAD": 247
       }
     },
     "build_error": {
       "30d": {
-        "autoconf": 43
+        "autoconf": 42
       }
     }
   },
-  "generated_date": "2024-06-03"
+  "generated_date": "2024-06-10"
 }

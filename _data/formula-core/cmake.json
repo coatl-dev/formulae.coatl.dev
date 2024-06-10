@@ -9,17 +9,17 @@
   "license": "BSD-3-Clause",
   "homepage": "https://www.cmake.org/",
   "versions": {
-    "stable": "3.29.3",
+    "stable": "3.29.5",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/Kitware/CMake/releases/download/v3.29.3/cmake-3.29.3.tar.gz",
+      "url": "https://github.com/Kitware/CMake/releases/download/v3.29.5/cmake-3.29.5.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "252aee1448d49caa04954fd5e27d189dd51570557313e7b281636716a238bccb"
+      "checksum": "dd63da7d763c0db455ca232f2c443f5234fe0b11f8bd6958a81d29cc987dfd6e"
     },
     "head": {
       "url": "https://gitlab.kitware.com/cmake/cmake.git",
@@ -36,38 +36,38 @@
       "files": {
         "arm64_sonoma": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:36b80a88fc65fdd98e3337edee771d484483255edd275bc5c4395bf59cef4264",
-          "sha256": "36b80a88fc65fdd98e3337edee771d484483255edd275bc5c4395bf59cef4264"
+          "url": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:9acc2164efcf035d3365d32b0e55294a2af317861d49a574e0f84050daa06f49",
+          "sha256": "9acc2164efcf035d3365d32b0e55294a2af317861d49a574e0f84050daa06f49"
         },
         "arm64_ventura": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:02828259078b716f8188248cc39b919366d076e3a0801b1761b518a6ea01479c",
-          "sha256": "02828259078b716f8188248cc39b919366d076e3a0801b1761b518a6ea01479c"
+          "url": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:480ba5e95b1a2375b1e831a98aa32bf299043d0c5ba3afbc896001a178b16500",
+          "sha256": "480ba5e95b1a2375b1e831a98aa32bf299043d0c5ba3afbc896001a178b16500"
         },
         "arm64_monterey": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:991e8b9b2b8eac675444bac9907c8463c5b349740f74abb48a4634644dc69949",
-          "sha256": "991e8b9b2b8eac675444bac9907c8463c5b349740f74abb48a4634644dc69949"
+          "url": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:50462e22264870e1ba95a13a004b4aa31562303512f02e26c9ad59cfbe207611",
+          "sha256": "50462e22264870e1ba95a13a004b4aa31562303512f02e26c9ad59cfbe207611"
         },
         "sonoma": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:e5a1bc0b0ed03fa4939713721db26e80240d6be90cb3ed71e8f590352a818600",
-          "sha256": "e5a1bc0b0ed03fa4939713721db26e80240d6be90cb3ed71e8f590352a818600"
+          "url": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:6e0276f278c7bdc56968593451c9b3997005896cbba42add1b77201ac75a06ce",
+          "sha256": "6e0276f278c7bdc56968593451c9b3997005896cbba42add1b77201ac75a06ce"
         },
         "ventura": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:7fb224813fd3aedde032f8426231f63dd85a30cff995cfcdc7a51c335528611e",
-          "sha256": "7fb224813fd3aedde032f8426231f63dd85a30cff995cfcdc7a51c335528611e"
+          "url": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:1dafbeec98b1261d83a98089722c77f1e167b546dde4114ff8371f7b741db823",
+          "sha256": "1dafbeec98b1261d83a98089722c77f1e167b546dde4114ff8371f7b741db823"
         },
         "monterey": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:11b613bf73e4e2253c9aecab8d29f110c19e44ae305372c7c222f0870f9da1ba",
-          "sha256": "11b613bf73e4e2253c9aecab8d29f110c19e44ae305372c7c222f0870f9da1ba"
+          "url": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:de362cde42b2ca7ede9ecf94ae100159a1ebbe0e5b5943212ce7046550f5317e",
+          "sha256": "de362cde42b2ca7ede9ecf94ae100159a1ebbe0e5b5943212ce7046550f5317e"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:56c9127340903b856ddfe72ce980927ffb7083246ef4fb61fe42381fc59372aa",
-          "sha256": "56c9127340903b856ddfe72ce980927ffb7083246ef4fb61fe42381fc59372aa"
+          "url": "https://ghcr.io/v2/homebrew/core/cmake/blobs/sha256:84c7f0ff900841703c09912e9366524d12d6b64249839166c667602546198883",
+          "sha256": "84c7f0ff900841703c09912e9366524d12d6b64249839166c667602546198883"
         }
       }
     }
@@ -98,7 +98,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1716758635,
+      "time": 1717404628,
       "runtime_dependencies": [],
       "installed_as_dependency": false,
       "installed_on_request": true
@@ -106,7 +106,7 @@
   ],
   "linked_keg": "3.29.3",
   "pinned": false,
-  "outdated": false,
+  "outdated": true,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -115,10 +115,10 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "bb9191758ecc8ba1f8c184f0281494cf204f2ec5",
+  "tap_git_head": "2cba6a4bae28f0851fad7764bf0e9c013f1ef007",
   "ruby_source_path": "Formula/c/cmake.rb",
   "ruby_source_checksum": {
-    "sha256": "da10488e4b9dec79f9b746ea6e7736f61006fb2633d01eded0f0e466bc04a23a"
+    "sha256": "53a2026855d983b5d3b41c81aa591e7a0dcefad61baec3b30fb49d17016c5422"
   },
   "variations": {
     "x86_64_linux": {
@@ -130,38 +130,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "cmake": 120268,
-        "cmake --HEAD": 129
+        "cmake": 132362,
+        "cmake --HEAD": 143
       },
       "90d": {
-        "cmake": 387124,
-        "cmake --HEAD": 413
+        "cmake": 410683,
+        "cmake --HEAD": 449
       },
       "365d": {
-        "cmake": 1572318,
-        "cmake --HEAD": 1637
+        "cmake": 1596217,
+        "cmake --HEAD": 1672
       }
     },
     "install_on_request": {
       "30d": {
-        "cmake": 90620,
-        "cmake --HEAD": 129
+        "cmake": 101392,
+        "cmake --HEAD": 144
       },
       "90d": {
-        "cmake": 301040,
-        "cmake --HEAD": 412
+        "cmake": 321215,
+        "cmake --HEAD": 447
       },
       "365d": {
-        "cmake": 1226558,
-        "cmake --HEAD": 1634
+        "cmake": 1249584,
+        "cmake --HEAD": 1669
       }
     },
     "build_error": {
       "30d": {
-        "cmake": 487,
-        "cmake --HEAD": 4
+        "cmake": 475
       }
     }
   },
-  "generated_date": "2024-06-03"
+  "generated_date": "2024-06-10"
 }
