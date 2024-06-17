@@ -103,7 +103,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "2cba6a4bae28f0851fad7764bf0e9c013f1ef007",
+  "tap_git_head": "5647de0238baa4e1b1dce358359c0153fd0f529c",
   "ruby_source_path": "Formula/m/meson.rb",
   "ruby_source_checksum": {
     "sha256": "ea93756f9b2ee27dc6aa542176588c9cafedfb837f344d1ea129a5cbc0e5244c"
@@ -112,37 +112,38 @@
   "analytics": {
     "install": {
       "30d": {
-        "meson": 13526,
-        "meson --HEAD": 24
+        "meson": 17915,
+        "meson --HEAD": 26
       },
       "90d": {
-        "meson": 35328,
-        "meson --HEAD": 56
+        "meson": 36008,
+        "meson --HEAD": 55
       },
       "365d": {
-        "meson": 153235,
-        "meson --HEAD": 187
+        "meson": 155740,
+        "meson --HEAD": 192
       }
     },
     "install_on_request": {
       "30d": {
-        "meson": 5404,
-        "meson --HEAD": 24
+        "meson": 6163,
+        "meson --HEAD": 26
       },
       "90d": {
-        "meson": 15044,
-        "meson --HEAD": 56
+        "meson": 13839,
+        "meson --HEAD": 55
       },
       "365d": {
-        "meson": 69689,
-        "meson --HEAD": 187
+        "meson": 68867,
+        "meson --HEAD": 192
       }
     },
     "build_error": {
       "30d": {
-        "meson": 8917
+        "meson": 33681,
+        "meson --HEAD": 5
       }
     }
   },
-  "generated_date": "2024-06-10"
+  "generated_date": "2024-06-17"
 }

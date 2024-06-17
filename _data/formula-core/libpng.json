@@ -98,7 +98,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1717404562,
+      "time": 1718107690,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -115,7 +115,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "2cba6a4bae28f0851fad7764bf0e9c013f1ef007",
+  "tap_git_head": "5647de0238baa4e1b1dce358359c0153fd0f529c",
   "ruby_source_path": "Formula/lib/libpng.rb",
   "ruby_source_checksum": {
     "sha256": "405762d58b198d715d19eca209cbec66ba43ecf369a6eff08476a7621851b546"
@@ -141,37 +141,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "libpng": 114013,
-        "libpng --HEAD": 7
+        "libpng": 113875,
+        "libpng --HEAD": 11
       },
       "90d": {
-        "libpng": 370444,
+        "libpng": 359157,
         "libpng --HEAD": 31
       },
       "365d": {
-        "libpng": 1359691,
-        "libpng --HEAD": 137
+        "libpng": 1363641,
+        "libpng --HEAD": 138
       }
     },
     "install_on_request": {
       "30d": {
-        "libpng": 4574,
-        "libpng --HEAD": 7
+        "libpng": 4240,
+        "libpng --HEAD": 11
       },
       "90d": {
-        "libpng": 20041,
+        "libpng": 18181,
         "libpng --HEAD": 30
       },
       "365d": {
-        "libpng": 81230,
-        "libpng --HEAD": 125
+        "libpng": 81507,
+        "libpng --HEAD": 126
       }
     },
     "build_error": {
       "30d": {
-        "libpng": 15
+        "libpng": 8
       }
     }
   },
-  "generated_date": "2024-06-10"
+  "generated_date": "2024-06-17"
 }

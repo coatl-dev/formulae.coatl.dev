@@ -122,7 +122,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1717404597,
+      "time": 1718107725,
       "runtime_dependencies": [
         {
           "full_name": "mpdecimal",
@@ -140,9 +140,9 @@
         },
         {
           "full_name": "openssl@3",
-          "version": "3.3.0",
+          "version": "3.3.1",
           "revision": 0,
-          "pkg_version": "3.3.0",
+          "pkg_version": "3.3.1",
           "declared_directly": true
         },
         {
@@ -182,7 +182,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "2cba6a4bae28f0851fad7764bf0e9c013f1ef007",
+  "tap_git_head": "5647de0238baa4e1b1dce358359c0153fd0f529c",
   "ruby_source_path": "Formula/p/python@3.11.rb",
   "ruby_source_checksum": {
     "sha256": "eae5946786fd2208724acc11fa23e6fb001c1923c785921b6899cdaa36a6401e"
@@ -202,37 +202,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.11": 93474,
+        "python@3.11": 89225,
         "python@3.11 --HEAD": 88
       },
       "90d": {
-        "python@3.11": 371442,
-        "python@3.11 --HEAD": 473
+        "python@3.11": 360400,
+        "python@3.11 --HEAD": 451
       },
       "365d": {
-        "python@3.11": 2658747,
-        "python@3.11 --HEAD": 2981
+        "python@3.11": 2581065,
+        "python@3.11 --HEAD": 2904
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.11": 58087,
+        "python@3.11": 55102,
         "python@3.11 --HEAD": 88
       },
       "90d": {
-        "python@3.11": 235924,
-        "python@3.11 --HEAD": 472
+        "python@3.11": 227407,
+        "python@3.11 --HEAD": 450
       },
       "365d": {
-        "python@3.11": 1574422,
-        "python@3.11 --HEAD": 2972
+        "python@3.11": 1539748,
+        "python@3.11 --HEAD": 2896
       }
     },
     "build_error": {
       "30d": {
-        "python@3.11": 52
+        "python@3.11": 60
       }
     }
   },
-  "generated_date": "2024-06-10"
+  "generated_date": "2024-06-17"
 }
