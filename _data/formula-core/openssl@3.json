@@ -104,11 +104,11 @@
   "caveats": "A CA file has been bootstrapped using certificates from the system\nkeychain. To add additional certificates, place .pem files in\n  $HOMEBREW_PREFIX/etc/openssl@3/certs\n\nand run\n  $HOMEBREW_PREFIX/opt/openssl@3/bin/c_rehash\n",
   "installed": [
     {
-      "version": "3.3.0",
+      "version": "3.3.1",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1717404005,
+      "time": 1718107129,
       "runtime_dependencies": [
         {
           "full_name": "ca-certificates",
@@ -122,9 +122,9 @@
       "installed_on_request": false
     }
   ],
-  "linked_keg": "3.3.0",
+  "linked_keg": "3.3.1",
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -133,7 +133,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "2cba6a4bae28f0851fad7764bf0e9c013f1ef007",
+  "tap_git_head": "5647de0238baa4e1b1dce358359c0153fd0f529c",
   "ruby_source_path": "Formula/o/openssl@3.rb",
   "ruby_source_checksum": {
     "sha256": "949900601f10bbd40eebfd0e74f77af8c05580628d04b8eac1f9d1b3ebce6a48"
@@ -142,37 +142,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "openssl@3": 458106,
-        "openssl@3 --HEAD": 83
+        "openssl@3": 484139,
+        "openssl@3 --HEAD": 103
       },
       "90d": {
-        "openssl@3": 1169809,
-        "openssl@3 --HEAD": 227
+        "openssl@3": 1220005,
+        "openssl@3 --HEAD": 249
       },
       "365d": {
-        "openssl@3": 4768258,
-        "openssl@3 --HEAD": 1035
+        "openssl@3": 4839394,
+        "openssl@3 --HEAD": 1018
       }
     },
     "install_on_request": {
       "30d": {
-        "openssl@3": 56198,
-        "openssl@3 --HEAD": 81
+        "openssl@3": 63386,
+        "openssl@3 --HEAD": 100
       },
       "90d": {
-        "openssl@3": 147517,
-        "openssl@3 --HEAD": 221
+        "openssl@3": 157732,
+        "openssl@3 --HEAD": 244
       },
       "365d": {
-        "openssl@3": 633155,
-        "openssl@3 --HEAD": 1003
+        "openssl@3": 624687,
+        "openssl@3 --HEAD": 985
       }
     },
     "build_error": {
       "30d": {
-        "openssl@3": 2332
+        "openssl@3": 2751
       }
     }
   },
-  "generated_date": "2024-06-10"
+  "generated_date": "2024-06-17"
 }

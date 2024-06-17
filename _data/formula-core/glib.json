@@ -11,17 +11,17 @@
   "license": "LGPL-2.1-or-later",
   "homepage": "https://developer.gnome.org/glib/",
   "versions": {
-    "stable": "2.80.2",
+    "stable": "2.80.3",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://download.gnome.org/sources/glib/2.80/glib-2.80.2.tar.xz",
+      "url": "https://download.gnome.org/sources/glib/2.80/glib-2.80.3.tar.xz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "b9cfb6f7a5bd5b31238fd5d56df226b2dda5ea37611475bf89f6a0f9400fe8bd"
+      "checksum": "3947a0eaddd0f3613d0230bb246d0c69e46142c19022f5c4b1b2e3cba236d417"
     }
   },
   "revision": 0,
@@ -33,38 +33,38 @@
       "files": {
         "arm64_sonoma": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:4bbd69fd99b5e0123f90c4eaa5e5b5b4c5270873c18b8cb21f83da4f82006380",
-          "sha256": "4bbd69fd99b5e0123f90c4eaa5e5b5b4c5270873c18b8cb21f83da4f82006380"
+          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:1658d3a6f68cbd4d92652971f9c8fcbb485a792bb4ade14159949e32891e930f",
+          "sha256": "1658d3a6f68cbd4d92652971f9c8fcbb485a792bb4ade14159949e32891e930f"
         },
         "arm64_ventura": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:23160cbf86746d6cfdbc24e27478b7cda9bb27a704dd3382a5cdb205a6a9d965",
-          "sha256": "23160cbf86746d6cfdbc24e27478b7cda9bb27a704dd3382a5cdb205a6a9d965"
+          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:7da35cf5176cfc050731a54ce2ec43035c1fd44b10a31308d4430dc825cc36f4",
+          "sha256": "7da35cf5176cfc050731a54ce2ec43035c1fd44b10a31308d4430dc825cc36f4"
         },
         "arm64_monterey": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:3add933c589eae965202067ff941f624bd6777c0e613f6ac910230af1e8f9364",
-          "sha256": "3add933c589eae965202067ff941f624bd6777c0e613f6ac910230af1e8f9364"
+          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:188c7c13365db163ecd4210ae60e315f0f84a16901c2126df0687c485ddda8d6",
+          "sha256": "188c7c13365db163ecd4210ae60e315f0f84a16901c2126df0687c485ddda8d6"
         },
         "sonoma": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:8461b21acad06761804acc63667339b3643417fe67982d490087e999017dac98",
-          "sha256": "8461b21acad06761804acc63667339b3643417fe67982d490087e999017dac98"
+          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:00fd287ab762d8e4b7f458a20d7a5a8924b5a185df6a070a9139f21ccd685b29",
+          "sha256": "00fd287ab762d8e4b7f458a20d7a5a8924b5a185df6a070a9139f21ccd685b29"
         },
         "ventura": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:a9530e992b039a94bb727fe4d453451db8a3b42016bca89171d2d8c637078e43",
-          "sha256": "a9530e992b039a94bb727fe4d453451db8a3b42016bca89171d2d8c637078e43"
+          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:6c1018e3de9ee27e0da413a56afaf42bc75eb148a846bfbbe86fe0cde6f29a07",
+          "sha256": "6c1018e3de9ee27e0da413a56afaf42bc75eb148a846bfbbe86fe0cde6f29a07"
         },
         "monterey": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:00a8c3e38de4d37541797d7adc1a0859cd3d357f4b5757d8828dc4c105ebb32f",
-          "sha256": "00a8c3e38de4d37541797d7adc1a0859cd3d357f4b5757d8828dc4c105ebb32f"
+          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:b6761564a1021728437898d4b91c5468cf237ec972a06abc296082ca5c32acd1",
+          "sha256": "b6761564a1021728437898d4b91c5468cf237ec972a06abc296082ca5c32acd1"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:f05d7f79f5a531a1936e0a3abb58cdd7190420ba46e9141dca3a1d8ce3140ee5",
-          "sha256": "f05d7f79f5a531a1936e0a3abb58cdd7190420ba46e9141dca3a1d8ce3140ee5"
+          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:0e5f553733e0bf87c88c0c98cbcb5dc4de4aa41ced5b78e345924362fbaf62a4",
+          "sha256": "0e5f553733e0bf87c88c0c98cbcb5dc4de4aa41ced5b78e345924362fbaf62a4"
         }
       }
     }
@@ -127,7 +127,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1717404566,
+      "time": 1718107694,
       "runtime_dependencies": [
         {
           "full_name": "pcre2",
@@ -152,9 +152,9 @@
         },
         {
           "full_name": "openssl@3",
-          "version": "3.3.0",
+          "version": "3.3.1",
           "revision": 0,
-          "pkg_version": "3.3.0",
+          "pkg_version": "3.3.1",
           "declared_directly": false
         },
         {
@@ -199,7 +199,7 @@
   ],
   "linked_keg": "2.80.2",
   "pinned": false,
-  "outdated": false,
+  "outdated": true,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -208,10 +208,10 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "2cba6a4bae28f0851fad7764bf0e9c013f1ef007",
+  "tap_git_head": "5647de0238baa4e1b1dce358359c0153fd0f529c",
   "ruby_source_path": "Formula/g/glib.rb",
   "ruby_source_checksum": {
-    "sha256": "7cc7a023be10a250c93fcadf89a22f2aa6c1bc1570e6c7cb0fffaa2ff026712d"
+    "sha256": "c2590cc51a7296d7ba11d06b93d15a9848f313aa28e49683e6b6110a525cacfd"
   },
   "variations": {
     "x86_64_linux": {
@@ -226,37 +226,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "glib": 260576,
-        "glib --HEAD": 101
+        "glib": 263168,
+        "glib --HEAD": 87
       },
       "90d": {
-        "glib": 725867,
-        "glib --HEAD": 304
+        "glib": 744643,
+        "glib --HEAD": 295
       },
       "365d": {
-        "glib": 2605809,
-        "glib --HEAD": 1057
+        "glib": 2640246,
+        "glib --HEAD": 1060
       }
     },
     "install_on_request": {
       "30d": {
-        "glib": 67189,
-        "glib --HEAD": 100
+        "glib": 66220,
+        "glib --HEAD": 86
       },
       "90d": {
-        "glib": 206467,
-        "glib --HEAD": 301
+        "glib": 206646,
+        "glib --HEAD": 291
       },
       "365d": {
-        "glib": 717713,
-        "glib --HEAD": 1044
+        "glib": 723319,
+        "glib --HEAD": 1048
       }
     },
     "build_error": {
       "30d": {
-        "glib": 1041
+        "glib": 967
       }
     }
   },
-  "generated_date": "2024-06-10"
+  "generated_date": "2024-06-17"
 }

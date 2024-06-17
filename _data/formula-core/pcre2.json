@@ -9,17 +9,17 @@
   "license": "BSD-3-Clause",
   "homepage": "https://www.pcre.org/",
   "versions": {
-    "stable": "10.43",
+    "stable": "10.44",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/PCRE2Project/pcre2/releases/download/pcre2-10.43/pcre2-10.43.tar.bz2",
+      "url": "https://github.com/PCRE2Project/pcre2/releases/download/pcre2-10.44/pcre2-10.44.tar.bz2",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "e2a53984ff0b07dfdb5ae4486bbb9b21cca8e7df2434096cc9bf1b728c350bcb"
+      "checksum": "d34f02e113cf7193a1ebf2770d3ac527088d485d4e047ed10e5d217c6ef5de96"
     },
     "head": {
       "url": "https://github.com/PCRE2Project/pcre2.git",
@@ -36,38 +36,38 @@
       "files": {
         "arm64_sonoma": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:45c605d79f321f1afcab9192841fb6440f97693440ed6ccb8242edb3118303f3",
-          "sha256": "45c605d79f321f1afcab9192841fb6440f97693440ed6ccb8242edb3118303f3"
+          "url": "https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:78fe8885f70cc1ec83eefd678e1dfc3b341aedf4b44132327da98300c5e04cdf",
+          "sha256": "78fe8885f70cc1ec83eefd678e1dfc3b341aedf4b44132327da98300c5e04cdf"
         },
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:4369d231c0a816d72fd879e50ac170c4c43fea24772ea9ca2cb1e5c86de24418",
-          "sha256": "4369d231c0a816d72fd879e50ac170c4c43fea24772ea9ca2cb1e5c86de24418"
+          "url": "https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:58f5a3b0858236149a5792e1c1238510b3757c632d436e87b17acd8045dbeba2",
+          "sha256": "58f5a3b0858236149a5792e1c1238510b3757c632d436e87b17acd8045dbeba2"
         },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:ce23b3c3a974b28c4a88537a92b33eb97d36ef6677f7d486264e391358573465",
-          "sha256": "ce23b3c3a974b28c4a88537a92b33eb97d36ef6677f7d486264e391358573465"
+          "url": "https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:fe61ece0fe110928cbd9d325552064c1bc2b98a3dd6cc9f4039d0d41ead7fa83",
+          "sha256": "fe61ece0fe110928cbd9d325552064c1bc2b98a3dd6cc9f4039d0d41ead7fa83"
         },
         "sonoma": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:be3af696b4ae7aa059dec0f7da50884e7a928584d44462739779345ac370620c",
-          "sha256": "be3af696b4ae7aa059dec0f7da50884e7a928584d44462739779345ac370620c"
+          "url": "https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:c39e89e49f9ab7a8b5ae5efcdd38b27df9003e62a045b336117041da939d3136",
+          "sha256": "c39e89e49f9ab7a8b5ae5efcdd38b27df9003e62a045b336117041da939d3136"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:1eb4d125dca380f54c78d75f1c77543b1b847e5fbf585c276ff1bae831d67067",
-          "sha256": "1eb4d125dca380f54c78d75f1c77543b1b847e5fbf585c276ff1bae831d67067"
+          "url": "https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:22151e6b0e120939ec8240add51c3de8aecf0b716f8c91f97b7c106698ecb40d",
+          "sha256": "22151e6b0e120939ec8240add51c3de8aecf0b716f8c91f97b7c106698ecb40d"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:af0d9f0935efc5c6a7a18ae15d399a65998ea5915e4c412a7620fafaf342c833",
-          "sha256": "af0d9f0935efc5c6a7a18ae15d399a65998ea5915e4c412a7620fafaf342c833"
+          "url": "https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:ba8ab5793b9399926030e574ed376c003749ea775ca62c713b732b8d35fc1bfc",
+          "sha256": "ba8ab5793b9399926030e574ed376c003749ea775ca62c713b732b8d35fc1bfc"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:6cd2e07bac70157bd9cc46e7a882d62b549f496dd85999595de9828a37fbec1c",
-          "sha256": "6cd2e07bac70157bd9cc46e7a882d62b549f496dd85999595de9828a37fbec1c"
+          "url": "https://ghcr.io/v2/homebrew/core/pcre2/blobs/sha256:cbddfbb9921fa2894640db7f0395ea8a79ce5209ebe5ae6700762d0452a6910f",
+          "sha256": "cbddfbb9921fa2894640db7f0395ea8a79ce5209ebe5ae6700762d0452a6910f"
         }
       }
     }
@@ -100,7 +100,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1717404493,
+      "time": 1718107621,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -108,7 +108,7 @@
   ],
   "linked_keg": "10.43",
   "pinned": false,
-  "outdated": false,
+  "outdated": true,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -117,10 +117,10 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "2cba6a4bae28f0851fad7764bf0e9c013f1ef007",
+  "tap_git_head": "5647de0238baa4e1b1dce358359c0153fd0f529c",
   "ruby_source_path": "Formula/p/pcre2.rb",
   "ruby_source_checksum": {
-    "sha256": "db2f301924030b1cdf6c6291ba15d5988bb4285664b94082322b0818071e45cd"
+    "sha256": "0151d89b3269dc80259a57de83bb76d718fad81c88e1cd13dd786a13635d177d"
   },
   "head_dependencies": {
     "build_dependencies": [
@@ -145,30 +145,30 @@
   "analytics": {
     "install": {
       "30d": {
-        "pcre2": 175572,
-        "pcre2 --HEAD": 5
+        "pcre2": 194218,
+        "pcre2 --HEAD": 6
       },
       "90d": {
-        "pcre2": 542203,
-        "pcre2 --HEAD": 28
+        "pcre2": 550126,
+        "pcre2 --HEAD": 29
       },
       "365d": {
-        "pcre2": 1463834,
-        "pcre2 --HEAD": 63
+        "pcre2": 1494940,
+        "pcre2 --HEAD": 66
       }
     },
     "install_on_request": {
       "30d": {
-        "pcre2": 2052,
-        "pcre2 --HEAD": 4
+        "pcre2": 3413,
+        "pcre2 --HEAD": 5
       },
       "90d": {
-        "pcre2": 8597,
-        "pcre2 --HEAD": 22
+        "pcre2": 9275,
+        "pcre2 --HEAD": 23
       },
       "365d": {
-        "pcre2": 20489,
-        "pcre2 --HEAD": 47
+        "pcre2": 22075,
+        "pcre2 --HEAD": 50
       }
     },
     "build_error": {
@@ -177,5 +177,5 @@
       }
     }
   },
-  "generated_date": "2024-06-10"
+  "generated_date": "2024-06-17"
 }

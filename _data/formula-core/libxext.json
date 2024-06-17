@@ -94,7 +94,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1717404571,
+      "time": 1718107699,
       "runtime_dependencies": [
         {
           "full_name": "xorgproto",
@@ -147,7 +147,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "2cba6a4bae28f0851fad7764bf0e9c013f1ef007",
+  "tap_git_head": "5647de0238baa4e1b1dce358359c0153fd0f529c",
   "ruby_source_path": "Formula/lib/libxext.rb",
   "ruby_source_checksum": {
     "sha256": "9db0f6f39db6a6a5b4b167dd16d66a15d0223e8b6302caf8de9463370cfc1e74"
@@ -156,28 +156,30 @@
   "analytics": {
     "install": {
       "30d": {
-        "libxext": 96683
+        "libxext": 97241,
+        "libxext --HEAD": 1
       },
       "90d": {
-        "libxext": 307987,
-        "libxext --HEAD": 8
+        "libxext": 301161,
+        "libxext --HEAD": 9
       },
       "365d": {
-        "libxext": 839416,
-        "libxext --HEAD": 11
+        "libxext": 845069,
+        "libxext --HEAD": 12
       }
     },
     "install_on_request": {
       "30d": {
-        "libxext": 600
+        "libxext": 571,
+        "libxext --HEAD": 1
       },
       "90d": {
-        "libxext": 3939,
-        "libxext --HEAD": 7
+        "libxext": 3219,
+        "libxext --HEAD": 8
       },
       "365d": {
-        "libxext": 8238,
-        "libxext --HEAD": 10
+        "libxext": 8289,
+        "libxext --HEAD": 11
       }
     },
     "build_error": {
@@ -186,5 +188,5 @@
       }
     }
   },
-  "generated_date": "2024-06-10"
+  "generated_date": "2024-06-17"
 }

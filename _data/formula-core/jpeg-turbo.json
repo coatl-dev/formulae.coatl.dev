@@ -117,7 +117,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1717404572,
+      "time": 1718107700,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -134,12 +134,18 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "2cba6a4bae28f0851fad7764bf0e9c013f1ef007",
+  "tap_git_head": "5647de0238baa4e1b1dce358359c0153fd0f529c",
   "ruby_source_path": "Formula/j/jpeg-turbo.rb",
   "ruby_source_checksum": {
     "sha256": "82b5d19831fcfb637377c608a243a5148b3c2f63ad33b862248873cccd132536"
   },
   "variations": {
+    "sequoia": {
+      "build_dependencies": [
+        "cmake",
+        "nasm"
+      ]
+    },
     "sonoma": {
       "build_dependencies": [
         "cmake",
@@ -204,37 +210,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "jpeg-turbo": 178137,
-        "jpeg-turbo --HEAD": 3
+        "jpeg-turbo": 160541,
+        "jpeg-turbo --HEAD": 7
       },
       "90d": {
-        "jpeg-turbo": 486872,
-        "jpeg-turbo --HEAD": 18
+        "jpeg-turbo": 496087,
+        "jpeg-turbo --HEAD": 20
       },
       "365d": {
-        "jpeg-turbo": 1485493,
-        "jpeg-turbo --HEAD": 49
+        "jpeg-turbo": 1495751,
+        "jpeg-turbo --HEAD": 53
       }
     },
     "install_on_request": {
       "30d": {
-        "jpeg-turbo": 3150,
-        "jpeg-turbo --HEAD": 3
+        "jpeg-turbo": 2253,
+        "jpeg-turbo --HEAD": 7
       },
       "90d": {
-        "jpeg-turbo": 9642,
-        "jpeg-turbo --HEAD": 17
+        "jpeg-turbo": 9728,
+        "jpeg-turbo --HEAD": 20
       },
       "365d": {
-        "jpeg-turbo": 22778,
-        "jpeg-turbo --HEAD": 39
+        "jpeg-turbo": 23072,
+        "jpeg-turbo --HEAD": 43
       }
     },
     "build_error": {
       "30d": {
-        "jpeg-turbo": 2
+        "jpeg-turbo": 3
       }
     }
   },
-  "generated_date": "2024-06-10"
+  "generated_date": "2024-06-17"
 }

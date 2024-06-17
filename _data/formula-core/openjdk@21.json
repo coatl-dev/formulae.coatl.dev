@@ -1,30 +1,29 @@
 {
-  "name": "harfbuzz",
-  "full_name": "harfbuzz",
+  "name": "openjdk@21",
+  "full_name": "openjdk@21",
   "tap": "homebrew/core",
   "oldnames": [],
   "aliases": [],
-  "versioned_formulae": [],
-  "desc": "OpenType text shaping engine",
-  "license": "MIT",
-  "homepage": "https://github.com/harfbuzz/harfbuzz",
+  "versioned_formulae": [
+    "openjdk@17",
+    "openjdk@11",
+    "openjdk@8"
+  ],
+  "desc": "Development kit for the Java programming language",
+  "license": "GPL-2.0-only with Classpath-exception-2.0",
+  "homepage": "https://openjdk.java.net/",
   "versions": {
-    "stable": "8.5.0",
-    "head": "HEAD",
+    "stable": "21.0.3",
+    "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/harfbuzz/harfbuzz/archive/refs/tags/8.5.0.tar.gz",
+      "url": "https://github.com/openjdk/jdk21u/archive/refs/tags/jdk-21.0.3-ga.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "7ad8e4e23ce776efb6a322f653978b3eb763128fd56a90252775edb9fd327956"
-    },
-    "head": {
-      "url": "https://github.com/harfbuzz/harfbuzz.git",
-      "branch": "main",
-      "using": null
+      "checksum": "818e9dee28ae390f2781406d594690fc42bd994d078ad9f8360a4fbca6a3df1f"
     }
   },
   "revision": 0,
@@ -36,94 +35,131 @@
       "files": {
         "arm64_sonoma": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:27ef5184c6701225923ed823c9f142cb4c3da654c9c0411228694d022d3f9958",
-          "sha256": "27ef5184c6701225923ed823c9f142cb4c3da654c9c0411228694d022d3f9958"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/21/blobs/sha256:aec482cdb96996ba9402067cd88be0299cd887e5b87e4c18b0b2d1deb3ed3106",
+          "sha256": "aec482cdb96996ba9402067cd88be0299cd887e5b87e4c18b0b2d1deb3ed3106"
         },
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:577a436c50b9781051f192b6d2b582403577e9a9b7f371b3a8876d7681115572",
-          "sha256": "577a436c50b9781051f192b6d2b582403577e9a9b7f371b3a8876d7681115572"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/21/blobs/sha256:0956a035050c26af4e25301c2df59627eaf3bfcf354320c90d7905983c3352b0",
+          "sha256": "0956a035050c26af4e25301c2df59627eaf3bfcf354320c90d7905983c3352b0"
         },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:df3b31872298cfdc1ef6f9160e5718e758447ddcbd98db02e9bab36a4e789de2",
-          "sha256": "df3b31872298cfdc1ef6f9160e5718e758447ddcbd98db02e9bab36a4e789de2"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/21/blobs/sha256:e40e95bb72f9b6d95734118f7919c50e0c2548c5da59af924ffb4c9623cdc45b",
+          "sha256": "e40e95bb72f9b6d95734118f7919c50e0c2548c5da59af924ffb4c9623cdc45b"
         },
         "sonoma": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:ce3db185a842341d92c1d11a18e37773e71534e3d5cf274cadfa49ebe1bef687",
-          "sha256": "ce3db185a842341d92c1d11a18e37773e71534e3d5cf274cadfa49ebe1bef687"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/21/blobs/sha256:a2dcea077166caf52638df5b15364471ea8d77eaef42a597f1588846814bdeea",
+          "sha256": "a2dcea077166caf52638df5b15364471ea8d77eaef42a597f1588846814bdeea"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:7ad6e99d2aab379be5bc3925b7b55a2e2ece3d0effb8150b5cf8969cd265fd01",
-          "sha256": "7ad6e99d2aab379be5bc3925b7b55a2e2ece3d0effb8150b5cf8969cd265fd01"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/21/blobs/sha256:1aaf0f1992b80735642a7748f4601f9118ce5aa42814d1acb53b757bed2ba7e7",
+          "sha256": "1aaf0f1992b80735642a7748f4601f9118ce5aa42814d1acb53b757bed2ba7e7"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:1f4580cb1cb69ab2c2feffbdbba507d10f797d6a316f345448e91671954d702b",
-          "sha256": "1f4580cb1cb69ab2c2feffbdbba507d10f797d6a316f345448e91671954d702b"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/21/blobs/sha256:880517d05b646ad165ff7a8d82e23ab242f1f72240fca01d8746b4e081d52941",
+          "sha256": "880517d05b646ad165ff7a8d82e23ab242f1f72240fca01d8746b4e081d52941"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:cea529ad4ff59ec2fdb40d9784ce1c041a7d99404e969d0a7a1fab6e4b458e57",
-          "sha256": "cea529ad4ff59ec2fdb40d9784ce1c041a7d99404e969d0a7a1fab6e4b458e57"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/21/blobs/sha256:96aa8a414f7742f0dae62d45b3fe9732efe3ea0395913f8b7f1c5eccf3f994bb",
+          "sha256": "96aa8a414f7742f0dae62d45b3fe9732efe3ea0395913f8b7f1c5eccf3f994bb"
         }
       }
     }
   },
   "pour_bottle_only_if": null,
-  "keg_only": false,
-  "keg_only_reason": null,
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
   "options": [],
   "build_dependencies": [
-    "gobject-introspection",
-    "meson",
-    "ninja",
-    "pkg-config",
-    "python@3.12"
+    "autoconf",
+    "pkg-config"
   ],
   "dependencies": [
-    "cairo",
-    "freetype",
-    "glib",
-    "graphite2",
-    "icu4c"
+    "giflib",
+    "harfbuzz",
+    "jpeg-turbo",
+    "libpng",
+    "little-cms2"
   ],
-  "test_dependencies": [
-    "python@3.12",
-    "pygobject3"
-  ],
+  "test_dependencies": [],
   "recommended_dependencies": [],
   "optional_dependencies": [],
-  "uses_from_macos": [],
-  "uses_from_macos_bounds": [],
-  "requirements": [],
+  "uses_from_macos": [
+    "cups",
+    "unzip",
+    "zip",
+    "zlib"
+  ],
+  "uses_from_macos_bounds": [
+    {},
+    {},
+    {},
+    {}
+  ],
+  "requirements": [
+    {
+      "name": "xcode",
+      "cask": null,
+      "download": null,
+      "version": null,
+      "contexts": [
+        "build"
+      ],
+      "specs": [
+        "stable"
+      ]
+    },
+    {
+      "name": "macos",
+      "cask": null,
+      "download": null,
+      "version": "10.15",
+      "contexts": [],
+      "specs": [
+        "stable"
+      ]
+    }
+  ],
   "conflicts_with": [],
   "conflicts_with_reasons": [],
   "link_overwrite": [],
-  "caveats": null,
+  "caveats": "For the system Java wrappers to find this JDK, symlink it with\n  sudo ln -sfn $HOMEBREW_PREFIX/opt/openjdk@21/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-21.jdk\n",
   "installed": [
     {
-      "version": "8.5.0",
+      "version": "21.0.3",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1718107700,
+      "time": 1718110795,
       "runtime_dependencies": [
+        {
+          "full_name": "giflib",
+          "version": "5.2.2",
+          "revision": 0,
+          "pkg_version": "5.2.2",
+          "declared_directly": true
+        },
         {
           "full_name": "libpng",
           "version": "1.6.43",
           "revision": 0,
           "pkg_version": "1.6.43",
-          "declared_directly": false
+          "declared_directly": true
         },
         {
           "full_name": "freetype",
           "version": "2.13.2",
           "revision": 0,
           "pkg_version": "2.13.2",
-          "declared_directly": true
+          "declared_directly": false
         },
         {
           "full_name": "fontconfig",
@@ -200,7 +236,7 @@
           "version": "2.80.2",
           "revision": 0,
           "pkg_version": "2.80.2",
-          "declared_directly": true
+          "declared_directly": false
         },
         {
           "full_name": "xorgproto",
@@ -270,20 +306,62 @@
           "version": "1.18.0",
           "revision": 0,
           "pkg_version": "1.18.0",
-          "declared_directly": true
+          "declared_directly": false
         },
         {
           "full_name": "graphite2",
           "version": "1.3.14",
           "revision": 0,
           "pkg_version": "1.3.14",
-          "declared_directly": true
+          "declared_directly": false
         },
         {
           "full_name": "icu4c",
           "version": "74.2",
           "revision": 0,
           "pkg_version": "74.2",
+          "declared_directly": false
+        },
+        {
+          "full_name": "harfbuzz",
+          "version": "8.5.0",
+          "revision": 0,
+          "pkg_version": "8.5.0",
+          "declared_directly": true
+        },
+        {
+          "full_name": "jpeg-turbo",
+          "version": "3.0.3",
+          "revision": 0,
+          "pkg_version": "3.0.3",
+          "declared_directly": true
+        },
+        {
+          "full_name": "lz4",
+          "version": "1.9.4",
+          "revision": 0,
+          "pkg_version": "1.9.4",
+          "declared_directly": false
+        },
+        {
+          "full_name": "zstd",
+          "version": "1.5.6",
+          "revision": 0,
+          "pkg_version": "1.5.6",
+          "declared_directly": false
+        },
+        {
+          "full_name": "libtiff",
+          "version": "4.6.0",
+          "revision": 0,
+          "pkg_version": "4.6.0",
+          "declared_directly": false
+        },
+        {
+          "full_name": "little-cms2",
+          "version": "2.16",
+          "revision": 0,
+          "pkg_version": "2.16",
           "declared_directly": true
         }
       ],
@@ -291,7 +369,7 @@
       "installed_on_request": false
     }
   ],
-  "linked_keg": "8.5.0",
+  "linked_keg": null,
   "pinned": false,
   "outdated": false,
   "deprecated": false,
@@ -303,43 +381,64 @@
   "post_install_defined": false,
   "service": null,
   "tap_git_head": "5647de0238baa4e1b1dce358359c0153fd0f529c",
-  "ruby_source_path": "Formula/h/harfbuzz.rb",
+  "ruby_source_path": "Formula/o/openjdk@21.rb",
   "ruby_source_checksum": {
-    "sha256": "94f5889c0d7b83b57c082c9df54e3f022a3962f33a3972a0205a64598265e415"
+    "sha256": "e5fa97019fb2b4220e6ecd36dd3236fad89a03f3af04414847b6b968b72ae26f"
   },
-  "variations": {},
+  "variations": {
+    "x86_64_linux": {
+      "dependencies": [
+        "giflib",
+        "harfbuzz",
+        "jpeg-turbo",
+        "libpng",
+        "little-cms2",
+        "alsa-lib",
+        "fontconfig",
+        "freetype",
+        "libx11",
+        "libxext",
+        "libxi",
+        "libxrandr",
+        "libxrender",
+        "libxt",
+        "libxtst"
+      ],
+      "caveats": null
+    }
+  },
   "analytics": {
     "install": {
       "30d": {
-        "harfbuzz": 197398,
-        "harfbuzz --HEAD": 138
+        "openjdk@21": 4452,
+        "openjdk@21 --HEAD": 4
       },
       "90d": {
-        "harfbuzz": 586058,
-        "harfbuzz --HEAD": 451
+        "openjdk@21": 4617,
+        "openjdk@21 --HEAD": 4
       },
       "365d": {
-        "harfbuzz": 2200606,
-        "harfbuzz --HEAD": 1620
+        "openjdk@21": 4616,
+        "openjdk@21 --HEAD": 4
       }
     },
     "install_on_request": {
       "30d": {
-        "harfbuzz": 75963,
-        "harfbuzz --HEAD": 138
+        "openjdk@21": 1698,
+        "openjdk@21 --HEAD": 4
       },
       "90d": {
-        "harfbuzz": 249397,
-        "harfbuzz --HEAD": 451
+        "openjdk@21": 1863,
+        "openjdk@21 --HEAD": 4
       },
       "365d": {
-        "harfbuzz": 895738,
-        "harfbuzz --HEAD": 1612
+        "openjdk@21": 1863,
+        "openjdk@21 --HEAD": 4
       }
     },
     "build_error": {
       "30d": {
-        "harfbuzz": 17
+        "openjdk@21": 27
       }
     }
   },
