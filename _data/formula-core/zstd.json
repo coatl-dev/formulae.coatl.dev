@@ -105,7 +105,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1718107132,
+      "time": 1718572403,
       "runtime_dependencies": [
         {
           "full_name": "lz4",
@@ -137,7 +137,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "5647de0238baa4e1b1dce358359c0153fd0f529c",
+  "tap_git_head": "b4ed6f50f07b61992fb0b6c5fd10ff61e1b0c65d",
   "ruby_source_path": "Formula/z/zstd.rb",
   "ruby_source_checksum": {
     "sha256": "d48b70b65863c247c61c62d3888350472f70ce11f589a4025995c19c812b18e7"
@@ -146,37 +146,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "zstd": 182682,
-        "zstd --HEAD": 11
+        "zstd": 177823,
+        "zstd --HEAD": 10
       },
       "90d": {
-        "zstd": 578160,
-        "zstd --HEAD": 80
+        "zstd": 594282,
+        "zstd --HEAD": 85
       },
       "365d": {
-        "zstd": 1522831,
-        "zstd --HEAD": 150
+        "zstd": 1515892,
+        "zstd --HEAD": 151
       }
     },
     "install_on_request": {
       "30d": {
-        "zstd": 10115,
-        "zstd --HEAD": 11
+        "zstd": 9432,
+        "zstd --HEAD": 9
       },
       "90d": {
-        "zstd": 40354,
-        "zstd --HEAD": 78
+        "zstd": 42011,
+        "zstd --HEAD": 82
       },
       "365d": {
-        "zstd": 78598,
+        "zstd": 76718,
         "zstd --HEAD": 142
       }
     },
     "build_error": {
       "30d": {
-        "zstd": 55
+        "zstd": 68
       }
     }
   },
-  "generated_date": "2024-06-17"
+  "generated_date": "2024-06-24"
 }

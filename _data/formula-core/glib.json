@@ -123,17 +123,17 @@
   "caveats": null,
   "installed": [
     {
-      "version": "2.80.2",
+      "version": "2.80.3",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1718107694,
+      "time": 1718572944,
       "runtime_dependencies": [
         {
           "full_name": "pcre2",
-          "version": "10.43",
+          "version": "10.44",
           "revision": 0,
-          "pkg_version": "10.43",
+          "pkg_version": "10.44",
           "declared_directly": true
         },
         {
@@ -180,9 +180,9 @@
         },
         {
           "full_name": "python@3.12",
-          "version": "3.12.3",
+          "version": "3.12.4",
           "revision": 0,
-          "pkg_version": "3.12.3",
+          "pkg_version": "3.12.4",
           "declared_directly": true
         },
         {
@@ -197,9 +197,9 @@
       "installed_on_request": false
     }
   ],
-  "linked_keg": "2.80.2",
+  "linked_keg": "2.80.3",
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -208,7 +208,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "5647de0238baa4e1b1dce358359c0153fd0f529c",
+  "tap_git_head": "b4ed6f50f07b61992fb0b6c5fd10ff61e1b0c65d",
   "ruby_source_path": "Formula/g/glib.rb",
   "ruby_source_checksum": {
     "sha256": "c2590cc51a7296d7ba11d06b93d15a9848f313aa28e49683e6b6110a525cacfd"
@@ -226,37 +226,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "glib": 263168,
-        "glib --HEAD": 87
+        "glib": 265702,
+        "glib --HEAD": 84
       },
       "90d": {
-        "glib": 744643,
-        "glib --HEAD": 295
+        "glib": 734607,
+        "glib --HEAD": 288
       },
       "365d": {
-        "glib": 2640246,
-        "glib --HEAD": 1060
+        "glib": 2662583,
+        "glib --HEAD": 1063
       }
     },
     "install_on_request": {
       "30d": {
-        "glib": 66220,
-        "glib --HEAD": 86
+        "glib": 67218,
+        "glib --HEAD": 83
       },
       "90d": {
-        "glib": 206646,
-        "glib --HEAD": 291
+        "glib": 202263,
+        "glib --HEAD": 284
       },
       "365d": {
-        "glib": 723319,
-        "glib --HEAD": 1048
+        "glib": 728114,
+        "glib --HEAD": 1052
       }
     },
     "build_error": {
       "30d": {
-        "glib": 967
+        "glib": 905
       }
     }
   },
-  "generated_date": "2024-06-17"
+  "generated_date": "2024-06-24"
 }

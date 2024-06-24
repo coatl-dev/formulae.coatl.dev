@@ -138,11 +138,11 @@
   "caveats": "Python has been installed as\n  $HOMEBREW_PREFIX/bin/python3\n\nUnversioned symlinks `python`, `python-config`, `pip` etc. pointing to\n`python3`, `python3-config`, `pip3` etc., respectively, have been installed into\n  $HOMEBREW_PREFIX/opt/python@3.12/libexec/bin\n\nSee: https://docs.brew.sh/Homebrew-and-Python\n",
   "installed": [
     {
-      "version": "3.12.3",
+      "version": "3.12.4",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1718107508,
+      "time": 1718572755,
       "runtime_dependencies": [
         {
           "full_name": "mpdecimal",
@@ -191,9 +191,9 @@
       "installed_on_request": true
     }
   ],
-  "linked_keg": "3.12.3",
+  "linked_keg": "3.12.4",
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -202,7 +202,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "5647de0238baa4e1b1dce358359c0153fd0f529c",
+  "tap_git_head": "b4ed6f50f07b61992fb0b6c5fd10ff61e1b0c65d",
   "ruby_source_path": "Formula/p/python@3.12.rb",
   "ruby_source_checksum": {
     "sha256": "1cac4c4562288a55ca39b5333f90cc9184dbcec087258c51622c57c1276888f0"
@@ -222,37 +222,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.12": 292469,
-        "python@3.12 --HEAD": 176
+        "python@3.12": 318030,
+        "python@3.12 --HEAD": 196
       },
       "90d": {
-        "python@3.12": 851675,
-        "python@3.12 --HEAD": 529
+        "python@3.12": 884604,
+        "python@3.12 --HEAD": 563
       },
       "365d": {
-        "python@3.12": 1738650,
-        "python@3.12 --HEAD": 837
+        "python@3.12": 1830755,
+        "python@3.12 --HEAD": 899
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.12": 90496,
-        "python@3.12 --HEAD": 176
+        "python@3.12": 100500,
+        "python@3.12 --HEAD": 196
       },
       "90d": {
-        "python@3.12": 262431,
-        "python@3.12 --HEAD": 528
+        "python@3.12": 275512,
+        "python@3.12 --HEAD": 562
       },
       "365d": {
-        "python@3.12": 416473,
-        "python@3.12 --HEAD": 833
+        "python@3.12": 446185,
+        "python@3.12 --HEAD": 895
       }
     },
     "build_error": {
       "30d": {
-        "python@3.12": 1401
+        "python@3.12": 1396
       }
     }
   },
-  "generated_date": "2024-06-17"
+  "generated_date": "2024-06-24"
 }
