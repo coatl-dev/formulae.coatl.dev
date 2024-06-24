@@ -113,7 +113,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1718107699,
+      "time": 1718572948,
       "runtime_dependencies": [
         {
           "full_name": "libpng",
@@ -138,9 +138,9 @@
         },
         {
           "full_name": "pcre2",
-          "version": "10.43",
+          "version": "10.44",
           "revision": 0,
-          "pkg_version": "10.43",
+          "pkg_version": "10.44",
           "declared_directly": false
         },
         {
@@ -187,9 +187,9 @@
         },
         {
           "full_name": "python@3.12",
-          "version": "3.12.3",
+          "version": "3.12.4",
           "revision": 0,
-          "pkg_version": "3.12.3",
+          "pkg_version": "3.12.4",
           "declared_directly": false
         },
         {
@@ -201,9 +201,9 @@
         },
         {
           "full_name": "glib",
-          "version": "2.80.2",
+          "version": "2.80.3",
           "revision": 0,
-          "pkg_version": "2.80.2",
+          "pkg_version": "2.80.3",
           "declared_directly": true
         },
         {
@@ -285,7 +285,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "5647de0238baa4e1b1dce358359c0153fd0f529c",
+  "tap_git_head": "b4ed6f50f07b61992fb0b6c5fd10ff61e1b0c65d",
   "ruby_source_path": "Formula/c/cairo.rb",
   "ruby_source_checksum": {
     "sha256": "c7010b6cdc1e8bf6a9d9115aaa925cec01266ac67e1a4bb1957ec9bfff596927"
@@ -294,30 +294,30 @@
   "analytics": {
     "install": {
       "30d": {
-        "cairo": 72739,
-        "cairo --HEAD": 17
+        "cairo": 71758,
+        "cairo --HEAD": 15
       },
       "90d": {
-        "cairo": 205898,
-        "cairo --HEAD": 57
+        "cairo": 205580,
+        "cairo --HEAD": 52
       },
       "365d": {
-        "cairo": 942307,
-        "cairo --HEAD": 404
+        "cairo": 943025,
+        "cairo --HEAD": 402
       }
     },
     "install_on_request": {
       "30d": {
-        "cairo": 12646,
-        "cairo --HEAD": 17
+        "cairo": 12136,
+        "cairo --HEAD": 15
       },
       "90d": {
-        "cairo": 41730,
-        "cairo --HEAD": 57
+        "cairo": 40559,
+        "cairo --HEAD": 52
       },
       "365d": {
-        "cairo": 234925,
-        "cairo --HEAD": 398
+        "cairo": 236699,
+        "cairo --HEAD": 396
       }
     },
     "build_error": {
@@ -326,5 +326,5 @@
       }
     }
   },
-  "generated_date": "2024-06-17"
+  "generated_date": "2024-06-24"
 }
