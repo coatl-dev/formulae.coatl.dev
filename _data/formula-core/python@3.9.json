@@ -8,8 +8,7 @@
     "python@3.12",
     "python@3.11",
     "python@3.10",
-    "python@3.8",
-    "python@3.7"
+    "python@3.8"
   ],
   "desc": "Interpreted, interactive, object-oriented programming language",
   "license": "Python-2.0",
@@ -128,7 +127,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "b4ed6f50f07b61992fb0b6c5fd10ff61e1b0c65d",
+  "tap_git_head": "366c2149a08cea0555e91af586476b8e399b4dce",
   "ruby_source_path": "Formula/p/python@3.9.rb",
   "ruby_source_checksum": {
     "sha256": "950f27e77ff2bc6fa79fa0a6459c1ba9c73d998ee1075220f1da9d337bbb7d0c"
@@ -149,37 +148,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.9": 34689,
-        "python@3.9 --HEAD": 43
+        "python@3.9": 33396,
+        "python@3.9 --HEAD": 41
       },
       "90d": {
-        "python@3.9": 143404,
-        "python@3.9 --HEAD": 205
+        "python@3.9": 129734,
+        "python@3.9 --HEAD": 172
       },
       "365d": {
-        "python@3.9": 842489,
-        "python@3.9 --HEAD": 1167
+        "python@3.9": 810998,
+        "python@3.9 --HEAD": 1120
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.9": 32787,
-        "python@3.9 --HEAD": 43
+        "python@3.9": 31586,
+        "python@3.9 --HEAD": 41
       },
       "90d": {
-        "python@3.9": 133486,
-        "python@3.9 --HEAD": 205
+        "python@3.9": 121680,
+        "python@3.9 --HEAD": 172
       },
       "365d": {
-        "python@3.9": 748408,
-        "python@3.9 --HEAD": 1167
+        "python@3.9": 724821,
+        "python@3.9 --HEAD": 1120
       }
     },
     "build_error": {
       "30d": {
-        "python@3.9": 9
+        "python@3.9": 13
       }
     }
   },
-  "generated_date": "2024-06-24"
+  "generated_date": "2024-07-01"
 }
