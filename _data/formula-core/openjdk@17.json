@@ -134,7 +134,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "366c2149a08cea0555e91af586476b8e399b4dce",
+  "tap_git_head": "e69a44d000976294ec18fdd0d723e7a1d24526e5",
   "ruby_source_path": "Formula/o/openjdk@17.rb",
   "ruby_source_checksum": {
     "sha256": "49dc02ca27ea04affc5cfd58a14fe0bd5231af22dae32d9adb3c38a0b471c43e"
@@ -163,37 +163,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "openjdk@17": 21853,
+        "openjdk@17": 21159,
         "openjdk@17 --HEAD": 22
       },
       "90d": {
-        "openjdk@17": 79622,
-        "openjdk@17 --HEAD": 113
+        "openjdk@17": 78928,
+        "openjdk@17 --HEAD": 111
       },
       "365d": {
-        "openjdk@17": 320589,
-        "openjdk@17 --HEAD": 434
+        "openjdk@17": 321307,
+        "openjdk@17 --HEAD": 435
       }
     },
     "install_on_request": {
       "30d": {
-        "openjdk@17": 19080,
+        "openjdk@17": 18484,
         "openjdk@17 --HEAD": 22
       },
       "90d": {
-        "openjdk@17": 67974,
-        "openjdk@17 --HEAD": 113
+        "openjdk@17": 67392,
+        "openjdk@17 --HEAD": 111
       },
       "365d": {
-        "openjdk@17": 247233,
-        "openjdk@17 --HEAD": 434
+        "openjdk@17": 249014,
+        "openjdk@17 --HEAD": 435
       }
     },
     "build_error": {
       "30d": {
-        "openjdk@17": 36
+        "openjdk@17": 42
       }
     }
   },
-  "generated_date": "2024-07-01"
+  "generated_date": "2024-07-08"
 }

@@ -123,7 +123,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "366c2149a08cea0555e91af586476b8e399b4dce",
+  "tap_git_head": "e69a44d000976294ec18fdd0d723e7a1d24526e5",
   "ruby_source_path": "Formula/o/openjdk@11.rb",
   "ruby_source_checksum": {
     "sha256": "5c4b065d8d5f05dc1909dc05f643b4f6599166cc4f363bdf241a4c38aca4eb95"
@@ -152,37 +152,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "openjdk@11": 21913,
-        "openjdk@11 --HEAD": 26
+        "openjdk@11": 20640,
+        "openjdk@11 --HEAD": 21
       },
       "90d": {
-        "openjdk@11": 79354,
-        "openjdk@11 --HEAD": 115
+        "openjdk@11": 79235,
+        "openjdk@11 --HEAD": 108
       },
       "365d": {
-        "openjdk@11": 365199,
-        "openjdk@11 --HEAD": 512
+        "openjdk@11": 364365,
+        "openjdk@11 --HEAD": 506
       }
     },
     "install_on_request": {
       "30d": {
-        "openjdk@11": 16403,
-        "openjdk@11 --HEAD": 26
+        "openjdk@11": 15625,
+        "openjdk@11 --HEAD": 21
       },
       "90d": {
-        "openjdk@11": 59821,
-        "openjdk@11 --HEAD": 115
+        "openjdk@11": 59756,
+        "openjdk@11 --HEAD": 108
       },
       "365d": {
-        "openjdk@11": 270110,
-        "openjdk@11 --HEAD": 511
+        "openjdk@11": 270259,
+        "openjdk@11 --HEAD": 505
       }
     },
     "build_error": {
       "30d": {
-        "openjdk@11": 35
+        "openjdk@11": 41
       }
     }
   },
-  "generated_date": "2024-07-01"
+  "generated_date": "2024-07-08"
 }

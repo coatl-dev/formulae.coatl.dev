@@ -9,17 +9,17 @@
   "license": "MPL-2.0",
   "homepage": "https://curl.se/docs/caextract.html",
   "versions": {
-    "stable": "2024-03-11",
+    "stable": "2024-07-02",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://curl.se/ca/cacert-2024-03-11.pem",
+      "url": "https://curl.se/ca/cacert-2024-07-02.pem",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "1794c1d4f7055b7d02c2170337b61b48a2ef6c90d77e95444fd2596f4cac609f"
+      "checksum": "1bf458412568e134a4514f5e170a328d11091e071c7110955c9884ed87972ac9"
     }
   },
   "revision": 0,
@@ -31,8 +31,8 @@
       "files": {
         "all": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:cab828953672906e00a8f25db751977b8dc4115f021f8dfe82b644ade03dacdb",
-          "sha256": "cab828953672906e00a8f25db751977b8dc4115f021f8dfe82b644ade03dacdb"
+          "url": "https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:73eb1a6bf9a5e12ee3f1acd295a4aaa28f08a9125a94342ddbf0aa65349c9db2",
+          "sha256": "73eb1a6bf9a5e12ee3f1acd295a4aaa28f08a9125a94342ddbf0aa65349c9db2"
         }
       }
     }
@@ -59,7 +59,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1719325628,
+      "time": 1719857472,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -67,7 +67,7 @@
   ],
   "linked_keg": "2024-03-11",
   "pinned": false,
-  "outdated": false,
+  "outdated": true,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -76,39 +76,39 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "366c2149a08cea0555e91af586476b8e399b4dce",
+  "tap_git_head": "e69a44d000976294ec18fdd0d723e7a1d24526e5",
   "ruby_source_path": "Formula/c/ca-certificates.rb",
   "ruby_source_checksum": {
-    "sha256": "6d5f7e75c1f46c6106feaae48e160dc9aa5e6400763c874fbea4cb09455ef098"
+    "sha256": "8160b219191462d424bab8a4ed81f9aca97ebb5dcf702336dfd09150d71a0eb2"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "ca-certificates": 272444,
-        "ca-certificates --HEAD": 4
+        "ca-certificates": 323712,
+        "ca-certificates --HEAD": 9
       },
       "90d": {
-        "ca-certificates": 834928,
-        "ca-certificates --HEAD": 27
+        "ca-certificates": 884202,
+        "ca-certificates --HEAD": 28
       },
       "365d": {
-        "ca-certificates": 3299523,
-        "ca-certificates --HEAD": 183
+        "ca-certificates": 3351364,
+        "ca-certificates --HEAD": 184
       }
     },
     "install_on_request": {
       "30d": {
-        "ca-certificates": 5763,
-        "ca-certificates --HEAD": 3
+        "ca-certificates": 9612,
+        "ca-certificates --HEAD": 8
       },
       "90d": {
-        "ca-certificates": 21064,
-        "ca-certificates --HEAD": 23
+        "ca-certificates": 23627,
+        "ca-certificates --HEAD": 24
       },
       "365d": {
-        "ca-certificates": 117933,
-        "ca-certificates --HEAD": 163
+        "ca-certificates": 119983,
+        "ca-certificates --HEAD": 165
       }
     },
     "build_error": {
@@ -117,5 +117,5 @@
       }
     }
   },
-  "generated_date": "2024-07-01"
+  "generated_date": "2024-07-08"
 }
