@@ -7,7 +7,7 @@
   "versioned_formulae": [],
   "desc": "Macro processing language",
   "license": "GPL-3.0-or-later",
-  "homepage": "https://www.gnu.org/software/m4",
+  "homepage": "https://www.gnu.org/software/m4/",
   "versions": {
     "stable": "1.4.19",
     "head": null,
@@ -118,42 +118,46 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "366c2149a08cea0555e91af586476b8e399b4dce",
+  "tap_git_head": "e69a44d000976294ec18fdd0d723e7a1d24526e5",
   "ruby_source_path": "Formula/m/m4.rb",
   "ruby_source_checksum": {
-    "sha256": "096e71db3af3e086b57b94b4f0d644c61fe64b0cb59f51973f71ed796c5ce015"
+    "sha256": "7605c1f50e8842d6440ed0ddf8d2cdde0a5aac097e3b8b8a7b26ce30ba88d974"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "m4": 45661
+        "m4": 44677,
+        "m4 --HEAD": 1
       },
       "90d": {
-        "m4": 121648
+        "m4": 123527,
+        "m4 --HEAD": 1
       },
       "365d": {
-        "m4": 433874,
-        "m4 --HEAD": 10
+        "m4": 438581,
+        "m4 --HEAD": 11
       }
     },
     "install_on_request": {
       "30d": {
-        "m4": 551
+        "m4": 532,
+        "m4 --HEAD": 1
       },
       "90d": {
-        "m4": 1731
+        "m4": 1720,
+        "m4 --HEAD": 1
       },
       "365d": {
-        "m4": 5568,
-        "m4 --HEAD": 2
+        "m4": 5620,
+        "m4 --HEAD": 3
       }
     },
     "build_error": {
       "30d": {
-        "m4": 21
+        "m4": 22
       }
     }
   },
-  "generated_date": "2024-07-01"
+  "generated_date": "2024-07-08"
 }
