@@ -104,7 +104,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1719858092,
+      "time": 1720387445,
       "runtime_dependencies": [
         {
           "full_name": "xorgproto",
@@ -157,7 +157,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "e69a44d000976294ec18fdd0d723e7a1d24526e5",
+  "tap_git_head": "1b2c4e26a1e448cf64f1caba957b39bde4b6de5a",
   "ruby_source_path": "Formula/lib/libxrender.rb",
   "ruby_source_checksum": {
     "sha256": "e894644959f98ee9d35ccc2f051a1f3b898a2c50298896ce6df19989c0f86e45"
@@ -166,27 +166,27 @@
   "analytics": {
     "install": {
       "30d": {
-        "libxrender": 47860,
+        "libxrender": 45579,
         "libxrender --HEAD": 1
       },
       "90d": {
-        "libxrender": 135124,
+        "libxrender": 136582,
         "libxrender --HEAD": 1
       },
       "365d": {
-        "libxrender": 493252,
+        "libxrender": 503002,
         "libxrender --HEAD": 4
       }
     },
     "install_on_request": {
       "30d": {
-        "libxrender": 137
+        "libxrender": 138
       },
       "90d": {
-        "libxrender": 442
+        "libxrender": 436
       },
       "365d": {
-        "libxrender": 1865
+        "libxrender": 1890
       }
     },
     "build_error": {
@@ -195,5 +195,5 @@
       }
     }
   },
-  "generated_date": "2024-07-08"
+  "generated_date": "2024-07-15"
 }
