@@ -103,7 +103,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "1b2c4e26a1e448cf64f1caba957b39bde4b6de5a",
+  "tap_git_head": "b07d15726760c2ae589672228d62a369ec493998",
   "ruby_source_path": "Formula/o/openssl@3.0.rb",
   "ruby_source_checksum": {
     "sha256": "141a7cf24e1d3d12cd4539876d2d561ea941f279654601e9e29bdad06019d1a3"
@@ -112,37 +112,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "openssl@3.0": 712,
+        "openssl@3.0": 646,
         "openssl@3.0 --HEAD": 1
       },
       "90d": {
-        "openssl@3.0": 2118,
+        "openssl@3.0": 2104,
         "openssl@3.0 --HEAD": 3
       },
       "365d": {
-        "openssl@3.0": 7959,
+        "openssl@3.0": 7985,
         "openssl@3.0 --HEAD": 10
       }
     },
     "install_on_request": {
       "30d": {
-        "openssl@3.0": 693,
+        "openssl@3.0": 639,
         "openssl@3.0 --HEAD": 1
       },
       "90d": {
-        "openssl@3.0": 2055,
+        "openssl@3.0": 2042,
         "openssl@3.0 --HEAD": 3
       },
       "365d": {
-        "openssl@3.0": 7828,
+        "openssl@3.0": 7855,
         "openssl@3.0 --HEAD": 10
       }
     },
     "build_error": {
       "30d": {
-        "openssl@3.0": 2
+        "openssl@3.0": 1
       }
     }
   },
-  "generated_date": "2024-07-15"
+  "generated_date": "2024-07-22"
 }
