@@ -13,17 +13,17 @@
   "license": "GPL-2.0-only with Classpath-exception-2.0",
   "homepage": "https://openjdk.java.net/",
   "versions": {
-    "stable": "17.0.11",
+    "stable": "17.0.12",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/openjdk/jdk17u/archive/refs/tags/jdk-17.0.11-ga.tar.gz",
+      "url": "https://github.com/openjdk/jdk17u/archive/refs/tags/jdk-17.0.12-ga.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "4aa214812f88b21c11ad91e111075f64d57e1b13096f98fc5d45f95f789d4642"
+      "checksum": "74654bdd094c466217d3c65d71622f5ad9039d86d0c1b5eaa0bf6b2ae6e0822d"
     }
   },
   "revision": 0,
@@ -35,38 +35,38 @@
       "files": {
         "arm64_sonoma": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:863da25f8214b887d286a382e9af611d9ae1c056139fa4ce2ad97769c981433c",
-          "sha256": "863da25f8214b887d286a382e9af611d9ae1c056139fa4ce2ad97769c981433c"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:3b29caef76d813ed09ab21895f936d1cbfeaa82036cf2c11c60921edbb695a1a",
+          "sha256": "3b29caef76d813ed09ab21895f936d1cbfeaa82036cf2c11c60921edbb695a1a"
         },
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:10ed0880e57ee8a16b2a0502ca01444a10eede5a02198aea789a118b71675389",
-          "sha256": "10ed0880e57ee8a16b2a0502ca01444a10eede5a02198aea789a118b71675389"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:63c80057ba27ee109b7ae201ed1c636d96a4d7b70c51e5173d3b8d954c8e01fc",
+          "sha256": "63c80057ba27ee109b7ae201ed1c636d96a4d7b70c51e5173d3b8d954c8e01fc"
         },
         "arm64_monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:1ff13d91e018699f1f0ccf14c1fa2790cf91a79cf946353d6e698f6a788a183d",
-          "sha256": "1ff13d91e018699f1f0ccf14c1fa2790cf91a79cf946353d6e698f6a788a183d"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:6fa7a88b24590d26454d2098d436593117bba45683cb54b32fa3ec0ed5bf63e4",
+          "sha256": "6fa7a88b24590d26454d2098d436593117bba45683cb54b32fa3ec0ed5bf63e4"
         },
         "sonoma": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:cad19f798ab29ba8573f96d1277315ea148e5ea2beec2a2b02df4ebbff52b181",
-          "sha256": "cad19f798ab29ba8573f96d1277315ea148e5ea2beec2a2b02df4ebbff52b181"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:e15a14c4af6f59721addd21288a9f8e767ae30021d2caec8fb4093ae84e5ada4",
+          "sha256": "e15a14c4af6f59721addd21288a9f8e767ae30021d2caec8fb4093ae84e5ada4"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:f1331fb360d01968764c1d5c812a2b579c6e4745af2b398be95f6d840656e920",
-          "sha256": "f1331fb360d01968764c1d5c812a2b579c6e4745af2b398be95f6d840656e920"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:17a2ee28099824bd37941ce63d80b068913999daa2010e332a04ee1aa6755bed",
+          "sha256": "17a2ee28099824bd37941ce63d80b068913999daa2010e332a04ee1aa6755bed"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:4debc6c01c3f8749e754aba8a18f152db12f29d2001c73d835fe7bb5121791e6",
-          "sha256": "4debc6c01c3f8749e754aba8a18f152db12f29d2001c73d835fe7bb5121791e6"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:c0057a4f9927733cc670444c0f2f4c9eab2ce51f21d2bca08cbc661c024299e0",
+          "sha256": "c0057a4f9927733cc670444c0f2f4c9eab2ce51f21d2bca08cbc661c024299e0"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:1dbdc1185c19320e3524d3a4e8eafc8f017ca78f3beffd88654f5e1242158ea7",
-          "sha256": "1dbdc1185c19320e3524d3a4e8eafc8f017ca78f3beffd88654f5e1242158ea7"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/17/blobs/sha256:ea8063d59d2c2d5a27d6355b2378840067418f0d92f061a891d2414e2a7cdf3a",
+          "sha256": "ea8063d59d2c2d5a27d6355b2378840067418f0d92f061a891d2414e2a7cdf3a"
         }
       }
     }
@@ -134,10 +134,10 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "1b2c4e26a1e448cf64f1caba957b39bde4b6de5a",
+  "tap_git_head": "b07d15726760c2ae589672228d62a369ec493998",
   "ruby_source_path": "Formula/o/openjdk@17.rb",
   "ruby_source_checksum": {
-    "sha256": "49dc02ca27ea04affc5cfd58a14fe0bd5231af22dae32d9adb3c38a0b471c43e"
+    "sha256": "c4fa6577e3fe87f3e6d4a19ba32502cb4cc623a8ce749bc89b2008856cd28b5b"
   },
   "variations": {
     "x86_64_linux": {
@@ -163,37 +163,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "openjdk@17": 20786,
-        "openjdk@17 --HEAD": 21
+        "openjdk@17": 25391,
+        "openjdk@17 --HEAD": 29
       },
       "90d": {
-        "openjdk@17": 78521,
-        "openjdk@17 --HEAD": 107
+        "openjdk@17": 76292,
+        "openjdk@17 --HEAD": 104
       },
       "365d": {
-        "openjdk@17": 325609,
-        "openjdk@17 --HEAD": 439
+        "openjdk@17": 326533,
+        "openjdk@17 --HEAD": 443
       }
     },
     "install_on_request": {
       "30d": {
-        "openjdk@17": 18268,
-        "openjdk@17 --HEAD": 21
+        "openjdk@17": 22310,
+        "openjdk@17 --HEAD": 29
       },
       "90d": {
-        "openjdk@17": 67107,
-        "openjdk@17 --HEAD": 107
+        "openjdk@17": 66552,
+        "openjdk@17 --HEAD": 104
       },
       "365d": {
-        "openjdk@17": 253084,
-        "openjdk@17 --HEAD": 439
+        "openjdk@17": 256917,
+        "openjdk@17 --HEAD": 443
       }
     },
     "build_error": {
       "30d": {
-        "openjdk@17": 45
+        "openjdk@17": 51
       }
     }
   },
-  "generated_date": "2024-07-15"
+  "generated_date": "2024-07-22"
 }

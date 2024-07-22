@@ -94,7 +94,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1720387446,
+      "time": 1721024778,
       "runtime_dependencies": [
         {
           "full_name": "jpeg-turbo",
@@ -147,7 +147,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "1b2c4e26a1e448cf64f1caba957b39bde4b6de5a",
+  "tap_git_head": "b07d15726760c2ae589672228d62a369ec493998",
   "ruby_source_path": "Formula/l/little-cms2.rb",
   "ruby_source_checksum": {
     "sha256": "a1e503bc9e474ceb8eb50bcabadeb01cda7010323980c81725cfd85c0f8b12bd"
@@ -156,30 +156,30 @@
   "analytics": {
     "install": {
       "30d": {
-        "little-cms2": 94519,
-        "little-cms2 --HEAD": 27
+        "little-cms2": 93090,
+        "little-cms2 --HEAD": 20
       },
       "90d": {
-        "little-cms2": 300472,
-        "little-cms2 --HEAD": 82
+        "little-cms2": 298197,
+        "little-cms2 --HEAD": 73
       },
       "365d": {
-        "little-cms2": 1295724,
-        "little-cms2 --HEAD": 378
+        "little-cms2": 1294810,
+        "little-cms2 --HEAD": 373
       }
     },
     "install_on_request": {
       "30d": {
-        "little-cms2": 10290,
-        "little-cms2 --HEAD": 27
+        "little-cms2": 9966,
+        "little-cms2 --HEAD": 20
       },
       "90d": {
-        "little-cms2": 38563,
-        "little-cms2 --HEAD": 81
+        "little-cms2": 36779,
+        "little-cms2 --HEAD": 72
       },
       "365d": {
-        "little-cms2": 215644,
-        "little-cms2 --HEAD": 372
+        "little-cms2": 213731,
+        "little-cms2 --HEAD": 367
       }
     },
     "build_error": {
@@ -188,5 +188,5 @@
       }
     }
   },
-  "generated_date": "2024-07-15"
+  "generated_date": "2024-07-22"
 }
