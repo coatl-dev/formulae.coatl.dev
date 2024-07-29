@@ -13,17 +13,17 @@
   "license": "GPL-2.0-only",
   "homepage": "https://openjdk.java.net/",
   "versions": {
-    "stable": "1.8.0-412",
+    "stable": "1.8.0-422",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/openjdk/jdk8u/archive/refs/tags/jdk8u412-ga.tar.gz",
+      "url": "https://github.com/openjdk/jdk8u/archive/refs/tags/jdk8u422-ga.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "f63bb60fbc6e798b0bbf5b6477765c66740a2b3cceab2d6713be879057f1c99b"
+      "checksum": "3931898b4336f0e583a5e97df7e5c339d859d53afaff6dafe20124107e836ebe"
     }
   },
   "revision": 0,
@@ -35,23 +35,23 @@
       "files": {
         "sonoma": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/8/blobs/sha256:fedd84f8e92c2d2a99d04c127fa9b1d1f1ce4155a79c3d9d253c2d1b672397e0",
-          "sha256": "fedd84f8e92c2d2a99d04c127fa9b1d1f1ce4155a79c3d9d253c2d1b672397e0"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/8/blobs/sha256:cb987dc52503fcabc91b10c4700fc5c46d10f32c36caf3698d850a6d57124026",
+          "sha256": "cb987dc52503fcabc91b10c4700fc5c46d10f32c36caf3698d850a6d57124026"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/8/blobs/sha256:c858f2fc6c5b283ac8f0b13320eed010876c6a04eb711359b993aae6262bcd8a",
-          "sha256": "c858f2fc6c5b283ac8f0b13320eed010876c6a04eb711359b993aae6262bcd8a"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/8/blobs/sha256:25366b96f7324d1499663cb679cacd0d826d174e05d9f69b4c2e4f9e5fe44507",
+          "sha256": "25366b96f7324d1499663cb679cacd0d826d174e05d9f69b4c2e4f9e5fe44507"
         },
         "monterey": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/8/blobs/sha256:2a7ada2abda6b533ef44572342e51a0f8adcfe4a3ced4b5e872fc390a857495f",
-          "sha256": "2a7ada2abda6b533ef44572342e51a0f8adcfe4a3ced4b5e872fc390a857495f"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/8/blobs/sha256:4f75d93506ba05e827ab68b1e6e415584bed506eb881c7088f3f27b621e4aac3",
+          "sha256": "4f75d93506ba05e827ab68b1e6e415584bed506eb881c7088f3f27b621e4aac3"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/openjdk/8/blobs/sha256:9eba0e19767a4ba2483ae12c89ce575f7ef639cdb0a0efd38361e00cba65d830",
-          "sha256": "9eba0e19767a4ba2483ae12c89ce575f7ef639cdb0a0efd38361e00cba65d830"
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/8/blobs/sha256:1bc71861ff5e8041f23f12b299f45b6bcf4b47cfba392500f800add2b7693d50",
+          "sha256": "1bc71861ff5e8041f23f12b299f45b6bcf4b47cfba392500f800add2b7693d50"
         }
       }
     }
@@ -113,10 +113,10 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "b07d15726760c2ae589672228d62a369ec493998",
+  "tap_git_head": "689e017e3c2617137e171c0d30e834f493b7d16d",
   "ruby_source_path": "Formula/o/openjdk@8.rb",
   "ruby_source_checksum": {
-    "sha256": "9be92e1679641d764501886b46af275b72658bd79156038bb51a43a25388d765"
+    "sha256": "895d340f663b85f9f9fd5d221fd341d8840188f541f12f1f8abf6fbd201b86ac"
   },
   "variations": {
     "big_sur": {
@@ -184,27 +184,27 @@
   "analytics": {
     "install": {
       "30d": {
-        "openjdk@8": 2175
+        "openjdk@8": 2802
       },
       "90d": {
-        "openjdk@8": 7821,
-        "openjdk@8 --HEAD": 7
+        "openjdk@8": 8082,
+        "openjdk@8 --HEAD": 5
       },
       "365d": {
-        "openjdk@8": 42475,
+        "openjdk@8": 42869,
         "openjdk@8 --HEAD": 29
       }
     },
     "install_on_request": {
       "30d": {
-        "openjdk@8": 2022
+        "openjdk@8": 2530
       },
       "90d": {
-        "openjdk@8": 7001,
-        "openjdk@8 --HEAD": 7
+        "openjdk@8": 7239,
+        "openjdk@8 --HEAD": 5
       },
       "365d": {
-        "openjdk@8": 36680,
+        "openjdk@8": 36976,
         "openjdk@8 --HEAD": 29
       }
     },
@@ -214,5 +214,5 @@
       }
     }
   },
-  "generated_date": "2024-07-22"
+  "generated_date": "2024-07-29"
 }

@@ -126,7 +126,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "b07d15726760c2ae589672228d62a369ec493998",
+  "tap_git_head": "689e017e3c2617137e171c0d30e834f493b7d16d",
   "ruby_source_path": "Formula/b/bison.rb",
   "ruby_source_checksum": {
     "sha256": "8128b808df525cedc8ad42825548f0c77d5767458ac4f57d4e2627218911d4d6"
@@ -135,30 +135,30 @@
   "analytics": {
     "install": {
       "30d": {
-        "bison": 9082,
-        "bison --HEAD": 5
+        "bison": 8979,
+        "bison --HEAD": 3
       },
       "90d": {
-        "bison": 28060,
-        "bison --HEAD": 12
+        "bison": 27794,
+        "bison --HEAD": 10
       },
       "365d": {
-        "bison": 115693,
-        "bison --HEAD": 94
+        "bison": 115906,
+        "bison --HEAD": 90
       }
     },
     "install_on_request": {
       "30d": {
-        "bison": 3270,
-        "bison --HEAD": 5
+        "bison": 3284,
+        "bison --HEAD": 3
       },
       "90d": {
-        "bison": 9869,
-        "bison --HEAD": 12
+        "bison": 9889,
+        "bison --HEAD": 10
       },
       "365d": {
-        "bison": 44455,
-        "bison --HEAD": 93
+        "bison": 44468,
+        "bison --HEAD": 89
       }
     },
     "build_error": {
@@ -167,5 +167,5 @@
       }
     }
   },
-  "generated_date": "2024-07-22"
+  "generated_date": "2024-07-29"
 }

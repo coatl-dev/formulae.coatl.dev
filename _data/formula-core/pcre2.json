@@ -100,7 +100,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1721024700,
+      "time": 1721657764,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -117,7 +117,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "b07d15726760c2ae589672228d62a369ec493998",
+  "tap_git_head": "689e017e3c2617137e171c0d30e834f493b7d16d",
   "ruby_source_path": "Formula/p/pcre2.rb",
   "ruby_source_checksum": {
     "sha256": "0151d89b3269dc80259a57de83bb76d718fad81c88e1cd13dd786a13635d177d"
@@ -145,37 +145,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "pcre2": 230431,
-        "pcre2 --HEAD": 6
+        "pcre2": 226747,
+        "pcre2 --HEAD": 4
       },
       "90d": {
-        "pcre2": 616774,
-        "pcre2 --HEAD": 18
+        "pcre2": 632139,
+        "pcre2 --HEAD": 17
       },
       "365d": {
-        "pcre2": 1683148,
-        "pcre2 --HEAD": 74
+        "pcre2": 1712556,
+        "pcre2 --HEAD": 75
       }
     },
     "install_on_request": {
       "30d": {
-        "pcre2": 4229,
-        "pcre2 --HEAD": 6
+        "pcre2": 3629,
+        "pcre2 --HEAD": 4
       },
       "90d": {
-        "pcre2": 11176,
+        "pcre2": 11354,
         "pcre2 --HEAD": 16
       },
       "365d": {
-        "pcre2": 27021,
-        "pcre2 --HEAD": 58
+        "pcre2": 27515,
+        "pcre2 --HEAD": 59
       }
     },
     "build_error": {
       "30d": {
-        "pcre2": 6
+        "pcre2": 7
       }
     }
   },
-  "generated_date": "2024-07-22"
+  "generated_date": "2024-07-29"
 }

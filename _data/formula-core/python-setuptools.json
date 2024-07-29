@@ -9,17 +9,17 @@
   "license": "MIT",
   "homepage": "https://setuptools.pypa.io/",
   "versions": {
-    "stable": "71.1.0",
+    "stable": "72.0.0",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://files.pythonhosted.org/packages/32/c0/5b8013b5a812701c72e3b1e2b378edaa6514d06bee6704a5ab0d7fa52931/setuptools-71.1.0.tar.gz",
+      "url": "https://files.pythonhosted.org/packages/8a/8b/ae50f468cdd5e1dc6e6969397bb76e75ca0fd39f7ab8e5a6e8b58ea7102f/setuptools-72.0.0.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "032d42ee9fb536e33087fb66cac5f840eb9391ed05637b3f2a76a7c8fb477936"
+      "checksum": "5a0d9c6a2f332881a0153f629d8000118efd33255cfa802757924c53312c76da"
     }
   },
   "revision": 0,
@@ -31,38 +31,38 @@
       "files": {
         "arm64_sonoma": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/python-setuptools/blobs/sha256:6ab8eb262297bfe67ef9ba4ec7d6de3ce941e00d55f09a0a2594299151fc6d30",
-          "sha256": "6ab8eb262297bfe67ef9ba4ec7d6de3ce941e00d55f09a0a2594299151fc6d30"
+          "url": "https://ghcr.io/v2/homebrew/core/python-setuptools/blobs/sha256:05bb34624edf2601d51ab54ebf0bca03203c16d293b010003b470c811e027c6d",
+          "sha256": "05bb34624edf2601d51ab54ebf0bca03203c16d293b010003b470c811e027c6d"
         },
         "arm64_ventura": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/python-setuptools/blobs/sha256:6ab8eb262297bfe67ef9ba4ec7d6de3ce941e00d55f09a0a2594299151fc6d30",
-          "sha256": "6ab8eb262297bfe67ef9ba4ec7d6de3ce941e00d55f09a0a2594299151fc6d30"
+          "url": "https://ghcr.io/v2/homebrew/core/python-setuptools/blobs/sha256:05bb34624edf2601d51ab54ebf0bca03203c16d293b010003b470c811e027c6d",
+          "sha256": "05bb34624edf2601d51ab54ebf0bca03203c16d293b010003b470c811e027c6d"
         },
         "arm64_monterey": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/python-setuptools/blobs/sha256:6ab8eb262297bfe67ef9ba4ec7d6de3ce941e00d55f09a0a2594299151fc6d30",
-          "sha256": "6ab8eb262297bfe67ef9ba4ec7d6de3ce941e00d55f09a0a2594299151fc6d30"
+          "url": "https://ghcr.io/v2/homebrew/core/python-setuptools/blobs/sha256:05bb34624edf2601d51ab54ebf0bca03203c16d293b010003b470c811e027c6d",
+          "sha256": "05bb34624edf2601d51ab54ebf0bca03203c16d293b010003b470c811e027c6d"
         },
         "sonoma": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/python-setuptools/blobs/sha256:160f5ed98d10a734a476a640bac00c01624e7b3736c9fd28d3f4ec33dc364988",
-          "sha256": "160f5ed98d10a734a476a640bac00c01624e7b3736c9fd28d3f4ec33dc364988"
+          "url": "https://ghcr.io/v2/homebrew/core/python-setuptools/blobs/sha256:b928da0e70d5c40af4b75d9efeb646dec9b7880af62acaf81ce2f0c00c7d9c53",
+          "sha256": "b928da0e70d5c40af4b75d9efeb646dec9b7880af62acaf81ce2f0c00c7d9c53"
         },
         "ventura": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/python-setuptools/blobs/sha256:160f5ed98d10a734a476a640bac00c01624e7b3736c9fd28d3f4ec33dc364988",
-          "sha256": "160f5ed98d10a734a476a640bac00c01624e7b3736c9fd28d3f4ec33dc364988"
+          "url": "https://ghcr.io/v2/homebrew/core/python-setuptools/blobs/sha256:b928da0e70d5c40af4b75d9efeb646dec9b7880af62acaf81ce2f0c00c7d9c53",
+          "sha256": "b928da0e70d5c40af4b75d9efeb646dec9b7880af62acaf81ce2f0c00c7d9c53"
         },
         "monterey": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/python-setuptools/blobs/sha256:160f5ed98d10a734a476a640bac00c01624e7b3736c9fd28d3f4ec33dc364988",
-          "sha256": "160f5ed98d10a734a476a640bac00c01624e7b3736c9fd28d3f4ec33dc364988"
+          "url": "https://ghcr.io/v2/homebrew/core/python-setuptools/blobs/sha256:b928da0e70d5c40af4b75d9efeb646dec9b7880af62acaf81ce2f0c00c7d9c53",
+          "sha256": "b928da0e70d5c40af4b75d9efeb646dec9b7880af62acaf81ce2f0c00c7d9c53"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/python-setuptools/blobs/sha256:426d87eeba12fcbbc9267807beb3aadf67d38b88fb2eeaa2432826976c7e654d",
-          "sha256": "426d87eeba12fcbbc9267807beb3aadf67d38b88fb2eeaa2432826976c7e654d"
+          "url": "https://ghcr.io/v2/homebrew/core/python-setuptools/blobs/sha256:0139c810af38e882757150bb31ca921d42c420fdf099c1395a785a64baf27caf",
+          "sha256": "0139c810af38e882757150bb31ca921d42c420fdf099c1395a785a64baf27caf"
         }
       }
     }
@@ -99,46 +99,46 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "b07d15726760c2ae589672228d62a369ec493998",
+  "tap_git_head": "689e017e3c2617137e171c0d30e834f493b7d16d",
   "ruby_source_path": "Formula/p/python-setuptools.rb",
   "ruby_source_checksum": {
-    "sha256": "df60e0996e4fc8228e78f877835757996e20cb339fc41298af69a4013330b66e"
+    "sha256": "5b05115e2b2f81ee6d6f721ef64affbd1b81a66f7c3aa07ec097cf1f27e442d1"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "python-setuptools": 67660,
-        "python-setuptools --HEAD": 20
+        "python-setuptools": 67035,
+        "python-setuptools --HEAD": 22
       },
       "90d": {
-        "python-setuptools": 139705,
-        "python-setuptools --HEAD": 42
+        "python-setuptools": 146314,
+        "python-setuptools --HEAD": 47
       },
       "365d": {
-        "python-setuptools": 700243,
-        "python-setuptools --HEAD": 69
+        "python-setuptools": 715135,
+        "python-setuptools --HEAD": 77
       }
     },
     "install_on_request": {
       "30d": {
-        "python-setuptools": 11020,
-        "python-setuptools --HEAD": 20
+        "python-setuptools": 11967,
+        "python-setuptools --HEAD": 23
       },
       "90d": {
-        "python-setuptools": 21859,
-        "python-setuptools --HEAD": 42
+        "python-setuptools": 24235,
+        "python-setuptools --HEAD": 47
       },
       "365d": {
-        "python-setuptools": 36359,
-        "python-setuptools --HEAD": 65
+        "python-setuptools": 39790,
+        "python-setuptools --HEAD": 72
       }
     },
     "build_error": {
       "30d": {
-        "python-setuptools": 51
+        "python-setuptools": 49
       }
     }
   },
-  "generated_date": "2024-07-22"
+  "generated_date": "2024-07-29"
 }
