@@ -13,7 +13,7 @@
   ],
   "desc": "Cryptography and SSL/TLS Toolkit",
   "license": "Apache-2.0",
-  "homepage": "https://openssl.org/",
+  "homepage": "https://openssl-library.org",
   "versions": {
     "stable": "3.3.1",
     "head": null,
@@ -108,7 +108,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1721024191,
+      "time": 1721657257,
       "runtime_dependencies": [
         {
           "full_name": "ca-certificates",
@@ -133,46 +133,46 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "b07d15726760c2ae589672228d62a369ec493998",
+  "tap_git_head": "689e017e3c2617137e171c0d30e834f493b7d16d",
   "ruby_source_path": "Formula/o/openssl@3.rb",
   "ruby_source_checksum": {
-    "sha256": "949900601f10bbd40eebfd0e74f77af8c05580628d04b8eac1f9d1b3ebce6a48"
+    "sha256": "43a5d5932f7a1f28652411d38bc32b14254ab919a97e4250e0bb5cd4b8842e3d"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "openssl@3": 418356,
-        "openssl@3 --HEAD": 57
+        "openssl@3": 404710,
+        "openssl@3 --HEAD": 54
       },
       "90d": {
-        "openssl@3": 1354966,
-        "openssl@3 --HEAD": 254
+        "openssl@3": 1336234,
+        "openssl@3 --HEAD": 243
       },
       "365d": {
-        "openssl@3": 4987218,
+        "openssl@3": 4996936,
         "openssl@3 --HEAD": 1010
       }
     },
     "install_on_request": {
       "30d": {
-        "openssl@3": 48226,
-        "openssl@3 --HEAD": 55
+        "openssl@3": 43588,
+        "openssl@3 --HEAD": 52
       },
       "90d": {
-        "openssl@3": 173392,
-        "openssl@3 --HEAD": 248
+        "openssl@3": 164276,
+        "openssl@3 --HEAD": 237
       },
       "365d": {
-        "openssl@3": 630307,
-        "openssl@3 --HEAD": 976
+        "openssl@3": 633293,
+        "openssl@3 --HEAD": 977
       }
     },
     "build_error": {
       "30d": {
-        "openssl@3": 3035
+        "openssl@3": 3112
       }
     }
   },
-  "generated_date": "2024-07-22"
+  "generated_date": "2024-07-29"
 }

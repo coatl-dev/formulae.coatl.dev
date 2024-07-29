@@ -9,17 +9,17 @@
   "license": "Apache-2.0",
   "homepage": "https://mesonbuild.com/",
   "versions": {
-    "stable": "1.5.0",
+    "stable": "1.5.1",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/mesonbuild/meson/releases/download/1.5.0/meson-1.5.0.tar.gz",
+      "url": "https://github.com/mesonbuild/meson/releases/download/1.5.1/meson-1.5.1.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "45d7b8653c1e5139df35b33be2dd5b2d040c5b2c6129f9a7c890d507e33312b8"
+      "checksum": "567e533adf255de73a2de35049b99923caf872a455af9ce03e01077e0d384bed"
     },
     "head": {
       "url": "https://github.com/mesonbuild/meson.git",
@@ -36,38 +36,38 @@
       "files": {
         "arm64_sonoma": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/meson/blobs/sha256:4e7fe0a4e6ae2f009bd1c7c648b8c7715e9ed021e96b471bd28109b36095eac4",
-          "sha256": "4e7fe0a4e6ae2f009bd1c7c648b8c7715e9ed021e96b471bd28109b36095eac4"
+          "url": "https://ghcr.io/v2/homebrew/core/meson/blobs/sha256:538ebaeac79dccff22a262d09fa590f7e538ea24928f4a35142485e3c3feea80",
+          "sha256": "538ebaeac79dccff22a262d09fa590f7e538ea24928f4a35142485e3c3feea80"
         },
         "arm64_ventura": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/meson/blobs/sha256:4e7fe0a4e6ae2f009bd1c7c648b8c7715e9ed021e96b471bd28109b36095eac4",
-          "sha256": "4e7fe0a4e6ae2f009bd1c7c648b8c7715e9ed021e96b471bd28109b36095eac4"
+          "url": "https://ghcr.io/v2/homebrew/core/meson/blobs/sha256:538ebaeac79dccff22a262d09fa590f7e538ea24928f4a35142485e3c3feea80",
+          "sha256": "538ebaeac79dccff22a262d09fa590f7e538ea24928f4a35142485e3c3feea80"
         },
         "arm64_monterey": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/meson/blobs/sha256:4e7fe0a4e6ae2f009bd1c7c648b8c7715e9ed021e96b471bd28109b36095eac4",
-          "sha256": "4e7fe0a4e6ae2f009bd1c7c648b8c7715e9ed021e96b471bd28109b36095eac4"
+          "url": "https://ghcr.io/v2/homebrew/core/meson/blobs/sha256:538ebaeac79dccff22a262d09fa590f7e538ea24928f4a35142485e3c3feea80",
+          "sha256": "538ebaeac79dccff22a262d09fa590f7e538ea24928f4a35142485e3c3feea80"
         },
         "sonoma": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/meson/blobs/sha256:04682d921a967d0d36f0d056a44e6cb2e9888e83b4d15f727a90fcd65a79f40b",
-          "sha256": "04682d921a967d0d36f0d056a44e6cb2e9888e83b4d15f727a90fcd65a79f40b"
+          "url": "https://ghcr.io/v2/homebrew/core/meson/blobs/sha256:1e54fd61d7161717c0ef89dad36a82423e5bbbfb1cbf94eb7ade6f6a0c8e4b0a",
+          "sha256": "1e54fd61d7161717c0ef89dad36a82423e5bbbfb1cbf94eb7ade6f6a0c8e4b0a"
         },
         "ventura": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/meson/blobs/sha256:04682d921a967d0d36f0d056a44e6cb2e9888e83b4d15f727a90fcd65a79f40b",
-          "sha256": "04682d921a967d0d36f0d056a44e6cb2e9888e83b4d15f727a90fcd65a79f40b"
+          "url": "https://ghcr.io/v2/homebrew/core/meson/blobs/sha256:1e54fd61d7161717c0ef89dad36a82423e5bbbfb1cbf94eb7ade6f6a0c8e4b0a",
+          "sha256": "1e54fd61d7161717c0ef89dad36a82423e5bbbfb1cbf94eb7ade6f6a0c8e4b0a"
         },
         "monterey": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/meson/blobs/sha256:04682d921a967d0d36f0d056a44e6cb2e9888e83b4d15f727a90fcd65a79f40b",
-          "sha256": "04682d921a967d0d36f0d056a44e6cb2e9888e83b4d15f727a90fcd65a79f40b"
+          "url": "https://ghcr.io/v2/homebrew/core/meson/blobs/sha256:1e54fd61d7161717c0ef89dad36a82423e5bbbfb1cbf94eb7ade6f6a0c8e4b0a",
+          "sha256": "1e54fd61d7161717c0ef89dad36a82423e5bbbfb1cbf94eb7ade6f6a0c8e4b0a"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/meson/blobs/sha256:25a373c667fb817cbbbe23f2fd1301069409903cfca7c15a9c20f75c16283810",
-          "sha256": "25a373c667fb817cbbbe23f2fd1301069409903cfca7c15a9c20f75c16283810"
+          "url": "https://ghcr.io/v2/homebrew/core/meson/blobs/sha256:d4941b3900a433dacad331eb52ba809f45dd3e439e19eb150ae442eebe9bcb3f",
+          "sha256": "d4941b3900a433dacad331eb52ba809f45dd3e439e19eb150ae442eebe9bcb3f"
         }
       }
     }
@@ -103,46 +103,46 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "b07d15726760c2ae589672228d62a369ec493998",
+  "tap_git_head": "689e017e3c2617137e171c0d30e834f493b7d16d",
   "ruby_source_path": "Formula/m/meson.rb",
   "ruby_source_checksum": {
-    "sha256": "845be3dc4d6bbae8378a336e86711ef1cb7d45ccd7fd874d5270da944ed81ca1"
+    "sha256": "d4d7ca779c97b4fad02c859186a57ccd062ec751a8eadf063c5167eaadbd0407"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "meson": 13762,
-        "meson --HEAD": 22
+        "meson": 16201,
+        "meson --HEAD": 23
       },
       "90d": {
-        "meson": 39616,
-        "meson --HEAD": 66
+        "meson": 42478,
+        "meson --HEAD": 72
       },
       "365d": {
-        "meson": 159532,
-        "meson --HEAD": 208
+        "meson": 161823,
+        "meson --HEAD": 210
       }
     },
     "install_on_request": {
       "30d": {
-        "meson": 6625,
-        "meson --HEAD": 22
+        "meson": 7899,
+        "meson --HEAD": 23
       },
       "90d": {
-        "meson": 16103,
-        "meson --HEAD": 66
+        "meson": 17731,
+        "meson --HEAD": 72
       },
       "365d": {
-        "meson": 69419,
-        "meson --HEAD": 208
+        "meson": 70660,
+        "meson --HEAD": 210
       }
     },
     "build_error": {
       "30d": {
-        "meson": 164
+        "meson": 167
       }
     }
   },
-  "generated_date": "2024-07-22"
+  "generated_date": "2024-07-29"
 }
