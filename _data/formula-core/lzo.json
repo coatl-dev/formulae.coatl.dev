@@ -124,7 +124,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1721657841,
+      "time": 1722201892,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -141,7 +141,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "689e017e3c2617137e171c0d30e834f493b7d16d",
+  "tap_git_head": "fb843d23965a77ca760de19193a3030d875188a8",
   "ruby_source_path": "Formula/l/lzo.rb",
   "ruby_source_checksum": {
     "sha256": "df79d0f261f5ec403327f5b57cfa469a57c3f7405a6e30659bc5f5b9f3ca124d"
@@ -150,29 +150,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "lzo": 44725,
-        "lzo --HEAD": 1
-      },
-      "90d": {
-        "lzo": 130097,
+        "lzo": 46129,
         "lzo --HEAD": 2
       },
+      "90d": {
+        "lzo": 133442,
+        "lzo --HEAD": 3
+      },
       "365d": {
-        "lzo": 445310,
-        "lzo --HEAD": 8
+        "lzo": 448668,
+        "lzo --HEAD": 9
       }
     },
     "install_on_request": {
       "30d": {
-        "lzo": 188,
+        "lzo": 204,
         "lzo --HEAD": 1
       },
       "90d": {
-        "lzo": 639,
+        "lzo": 657,
         "lzo --HEAD": 2
       },
       "365d": {
-        "lzo": 3708,
+        "lzo": 3673,
         "lzo --HEAD": 6
       }
     },
@@ -182,5 +182,5 @@
       }
     }
   },
-  "generated_date": "2024-07-29"
+  "generated_date": "2024-08-05"
 }
