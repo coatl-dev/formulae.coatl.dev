@@ -9,17 +9,17 @@
   "license": "MIT",
   "homepage": "https://www.x.org/",
   "versions": {
-    "stable": "1.8.9",
+    "stable": "1.8.10",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://www.x.org/archive/individual/lib/libX11-1.8.9.tar.gz",
+      "url": "https://www.x.org/archive/individual/lib/libX11-1.8.10.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "57ca5f07d263788ad661a86f4139412e8b699662e6b60c20f1f028c25a935e48"
+      "checksum": "b7a1a90d881bb7b94df5cf31509e6b03f15c0972d3ac25ab0441f5fbc789650f"
     }
   },
   "revision": 0,
@@ -31,38 +31,38 @@
       "files": {
         "arm64_sonoma": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:f9f790ea819b0549526b2200dc60f0faa26641639c6e83592ea507dd859c5162",
-          "sha256": "f9f790ea819b0549526b2200dc60f0faa26641639c6e83592ea507dd859c5162"
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:5467d41501260e483586e9b05ed3137393f7faf7d49901c31bbeb0b25bd7caf5",
+          "sha256": "5467d41501260e483586e9b05ed3137393f7faf7d49901c31bbeb0b25bd7caf5"
         },
         "arm64_ventura": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:19fa97fffd6ebd1b00afb572e6e645c237d12f896b6c8f0188bef4cb9de5a27f",
-          "sha256": "19fa97fffd6ebd1b00afb572e6e645c237d12f896b6c8f0188bef4cb9de5a27f"
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:144c9ca0fd07301773ec072adf505ba73a2c2561ad211cc7067b98b92034cb72",
+          "sha256": "144c9ca0fd07301773ec072adf505ba73a2c2561ad211cc7067b98b92034cb72"
         },
         "arm64_monterey": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:2c72d60940c554dbe21b6a9244104df58e559e2aa859ddf926733471c819e526",
-          "sha256": "2c72d60940c554dbe21b6a9244104df58e559e2aa859ddf926733471c819e526"
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:f323202b5650d3114a7215bcf8017cc144140c49baf122501a8bc31d3b24bfa7",
+          "sha256": "f323202b5650d3114a7215bcf8017cc144140c49baf122501a8bc31d3b24bfa7"
         },
         "sonoma": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:e351920dd44b0b6df2eeb6f42f249ed0b0ed4e6f4a1fe96c9c943aa6605dc51c",
-          "sha256": "e351920dd44b0b6df2eeb6f42f249ed0b0ed4e6f4a1fe96c9c943aa6605dc51c"
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:ae4c27d75532011351ec195f21e63640a1df4393a66985bf5078df0a446fee73",
+          "sha256": "ae4c27d75532011351ec195f21e63640a1df4393a66985bf5078df0a446fee73"
         },
         "ventura": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:84914fe802fccd05d3d1281e505a7ace64f7f5b3ad2690956d3bb732fca215a1",
-          "sha256": "84914fe802fccd05d3d1281e505a7ace64f7f5b3ad2690956d3bb732fca215a1"
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:220bce8f5d80d6894f7e25d02c32f1a3ec1d4d3f0ecf5f4ba619de7a80986a1a",
+          "sha256": "220bce8f5d80d6894f7e25d02c32f1a3ec1d4d3f0ecf5f4ba619de7a80986a1a"
         },
         "monterey": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:eb90de1b217dac58fbbff9265dc37b72341dc5f19418d3c13fc3041036dc7132",
-          "sha256": "eb90de1b217dac58fbbff9265dc37b72341dc5f19418d3c13fc3041036dc7132"
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:0989016905547b3899a956bbb45a95b6dc50fffab2af5afd6685486bea03281f",
+          "sha256": "0989016905547b3899a956bbb45a95b6dc50fffab2af5afd6685486bea03281f"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:51b67b10bfcc472bdad4beeff32730e273f2f09caccf59d9fd72a658b4e78b93",
-          "sha256": "51b67b10bfcc472bdad4beeff32730e273f2f09caccf59d9fd72a658b4e78b93"
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:12f965d5b1d09327b0040b9e0f385ca5d4db9ceb29f8c89e6fcbe6e98ecf71c6",
+          "sha256": "12f965d5b1d09327b0040b9e0f385ca5d4db9ceb29f8c89e6fcbe6e98ecf71c6"
         }
       }
     }
@@ -96,7 +96,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1721657841,
+      "time": 1722201892,
       "runtime_dependencies": [
         {
           "full_name": "xorgproto",
@@ -133,7 +133,7 @@
   ],
   "linked_keg": "1.8.9",
   "pinned": false,
-  "outdated": false,
+  "outdated": true,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -142,44 +142,46 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "689e017e3c2617137e171c0d30e834f493b7d16d",
+  "tap_git_head": "fb843d23965a77ca760de19193a3030d875188a8",
   "ruby_source_path": "Formula/lib/libx11.rb",
   "ruby_source_checksum": {
-    "sha256": "a4dafd868eea2d2074c480c946e3c42ec7eaad71531915063922ee9710c12cc1"
+    "sha256": "85b1ddf7bd0f391dee3f4e3bb596e94a081d536aabdbeccf8f2350ecd51dd2e2"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "libx11": 130969
+        "libx11": 148033,
+        "libx11 --HEAD": 4
       },
       "90d": {
-        "libx11": 427897,
-        "libx11 --HEAD": 3
+        "libx11": 442143,
+        "libx11 --HEAD": 6
       },
       "365d": {
-        "libx11": 1696293,
-        "libx11 --HEAD": 31
+        "libx11": 1710422,
+        "libx11 --HEAD": 35
       }
     },
     "install_on_request": {
       "30d": {
-        "libx11": 1254
+        "libx11": 2307,
+        "libx11 --HEAD": 3
       },
       "90d": {
-        "libx11": 4892,
-        "libx11 --HEAD": 2
+        "libx11": 5726,
+        "libx11 --HEAD": 5
       },
       "365d": {
-        "libx11": 25276,
-        "libx11 --HEAD": 23
+        "libx11": 26273,
+        "libx11 --HEAD": 26
       }
     },
     "build_error": {
       "30d": {
-        "libx11": 16
+        "libx11": 13
       }
     }
   },
-  "generated_date": "2024-07-29"
+  "generated_date": "2024-08-05"
 }
