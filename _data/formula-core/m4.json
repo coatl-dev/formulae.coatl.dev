@@ -118,7 +118,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "fb843d23965a77ca760de19193a3030d875188a8",
+  "tap_git_head": "c1cb900feabec32629125c55a82ca2dec859badd",
   "ruby_source_path": "Formula/m/m4.rb",
   "ruby_source_checksum": {
     "sha256": "8a64ab31841f112a3e2b060333e5b7e2c56feb52b6e5fa9862453fbddfdebf48"
@@ -127,37 +127,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "m4": 44148,
-        "m4 --HEAD": 3
+        "m4": 44075,
+        "m4 --HEAD": 2
       },
       "90d": {
-        "m4": 132179,
+        "m4": 134176,
         "m4 --HEAD": 3
       },
       "365d": {
-        "m4": 455602,
+        "m4": 458021,
         "m4 --HEAD": 13
       }
     },
     "install_on_request": {
       "30d": {
-        "m4": 488,
-        "m4 --HEAD": 3
+        "m4": 529,
+        "m4 --HEAD": 2
       },
       "90d": {
-        "m4": 1608,
+        "m4": 1612,
         "m4 --HEAD": 3
       },
       "365d": {
-        "m4": 5826,
+        "m4": 5907,
         "m4 --HEAD": 5
       }
     },
     "build_error": {
       "30d": {
-        "m4": 19
+        "m4": 22
       }
     }
   },
-  "generated_date": "2024-08-05"
+  "generated_date": "2024-08-12"
 }
