@@ -71,7 +71,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "c1cb900feabec32629125c55a82ca2dec859badd",
+  "tap_git_head": "6d9809e466069e04261b335d53515dd898715408",
   "ruby_source_path": "Formula/x/xcb-proto.rb",
   "ruby_source_checksum": {
     "sha256": "32f7d93f08d87c6de18d282c01a677ce07c3667b956e7449f086bb870f9af8cc"
@@ -80,25 +80,25 @@
   "analytics": {
     "install": {
       "30d": {
-        "xcb-proto": 742
+        "xcb-proto": 740
       },
       "90d": {
-        "xcb-proto": 2542
+        "xcb-proto": 2441
       },
       "365d": {
-        "xcb-proto": 12015,
+        "xcb-proto": 11813,
         "xcb-proto --HEAD": 1
       }
     },
     "install_on_request": {
       "30d": {
-        "xcb-proto": 29
+        "xcb-proto": 28
       },
       "90d": {
-        "xcb-proto": 114
+        "xcb-proto": 106
       },
       "365d": {
-        "xcb-proto": 912,
+        "xcb-proto": 790,
         "xcb-proto --HEAD": 1
       }
     },
@@ -108,5 +108,5 @@
       }
     }
   },
-  "generated_date": "2024-08-12"
+  "generated_date": "2024-08-19"
 }

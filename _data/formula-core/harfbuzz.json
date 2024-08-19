@@ -109,7 +109,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1722851055,
+      "time": 1723411397,
       "runtime_dependencies": [
         {
           "full_name": "libpng",
@@ -302,7 +302,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "c1cb900feabec32629125c55a82ca2dec859badd",
+  "tap_git_head": "6d9809e466069e04261b335d53515dd898715408",
   "ruby_source_path": "Formula/h/harfbuzz.rb",
   "ruby_source_checksum": {
     "sha256": "11a3f3ba4da4c2838ce16597333af6b7c32ce405408b62839a694569fcd72cf0"
@@ -311,37 +311,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "harfbuzz": 216226,
-        "harfbuzz --HEAD": 146
+        "harfbuzz": 199271,
+        "harfbuzz --HEAD": 145
       },
       "90d": {
-        "harfbuzz": 610286,
-        "harfbuzz --HEAD": 416
+        "harfbuzz": 616996,
+        "harfbuzz --HEAD": 423
       },
       "365d": {
-        "harfbuzz": 2246786,
-        "harfbuzz --HEAD": 1656
+        "harfbuzz": 2249979,
+        "harfbuzz --HEAD": 1677
       }
     },
     "install_on_request": {
       "30d": {
-        "harfbuzz": 93877,
+        "harfbuzz": 85505,
         "harfbuzz --HEAD": 146
       },
       "90d": {
-        "harfbuzz": 253282,
-        "harfbuzz --HEAD": 416
+        "harfbuzz": 257634,
+        "harfbuzz --HEAD": 423
       },
       "365d": {
-        "harfbuzz": 930399,
-        "harfbuzz --HEAD": 1651
+        "harfbuzz": 932743,
+        "harfbuzz --HEAD": 1672
       }
     },
     "build_error": {
       "30d": {
-        "harfbuzz": 7
+        "harfbuzz": 4
       }
     }
   },
-  "generated_date": "2024-08-12"
+  "generated_date": "2024-08-19"
 }

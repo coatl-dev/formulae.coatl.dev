@@ -111,7 +111,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "c1cb900feabec32629125c55a82ca2dec859badd",
+  "tap_git_head": "6d9809e466069e04261b335d53515dd898715408",
   "ruby_source_path": "Formula/n/ninja.rb",
   "ruby_source_checksum": {
     "sha256": "d8de6f957f87a057f2d4d27f86cad23e588fbbc7a0c36f3524aecc27ddcad905"
@@ -120,37 +120,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "ninja": 25744,
-        "ninja --HEAD": 11
+        "ninja": 25177,
+        "ninja --HEAD": 10
       },
       "90d": {
-        "ninja": 84406,
-        "ninja --HEAD": 52
+        "ninja": 81484,
+        "ninja --HEAD": 42
       },
       "365d": {
-        "ninja": 275343,
-        "ninja --HEAD": 170
+        "ninja": 277148,
+        "ninja --HEAD": 171
       }
     },
     "install_on_request": {
       "30d": {
-        "ninja": 15507,
-        "ninja --HEAD": 11
+        "ninja": 15201,
+        "ninja --HEAD": 10
       },
       "90d": {
-        "ninja": 48991,
-        "ninja --HEAD": 52
+        "ninja": 47991,
+        "ninja --HEAD": 42
       },
       "365d": {
-        "ninja": 142738,
-        "ninja --HEAD": 169
+        "ninja": 144876,
+        "ninja --HEAD": 170
       }
     },
     "build_error": {
       "30d": {
-        "ninja": 13
+        "ninja": 15
       }
     }
   },
-  "generated_date": "2024-08-12"
+  "generated_date": "2024-08-19"
 }
