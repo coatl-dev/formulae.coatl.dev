@@ -59,7 +59,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1722850376,
+      "time": 1723410819,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -76,7 +76,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "c1cb900feabec32629125c55a82ca2dec859badd",
+  "tap_git_head": "6d9809e466069e04261b335d53515dd898715408",
   "ruby_source_path": "Formula/c/ca-certificates.rb",
   "ruby_source_checksum": {
     "sha256": "6d56a34d4532ddd354362ebb792a0eee7c12dab3857ab5141381d041ed412e88"
@@ -85,30 +85,30 @@
   "analytics": {
     "install": {
       "30d": {
-        "ca-certificates": 366881,
-        "ca-certificates --HEAD": 20
+        "ca-certificates": 350780,
+        "ca-certificates --HEAD": 22
       },
       "90d": {
-        "ca-certificates": 1005522,
-        "ca-certificates --HEAD": 40
+        "ca-certificates": 1013767,
+        "ca-certificates --HEAD": 42
       },
       "365d": {
-        "ca-certificates": 3563747,
-        "ca-certificates --HEAD": 167
+        "ca-certificates": 3585866,
+        "ca-certificates --HEAD": 165
       }
     },
     "install_on_request": {
       "30d": {
-        "ca-certificates": 10270,
-        "ca-certificates --HEAD": 17
+        "ca-certificates": 9214,
+        "ca-certificates --HEAD": 19
       },
       "90d": {
-        "ca-certificates": 27497,
-        "ca-certificates --HEAD": 33
+        "ca-certificates": 27791,
+        "ca-certificates --HEAD": 35
       },
       "365d": {
-        "ca-certificates": 117508,
-        "ca-certificates --HEAD": 143
+        "ca-certificates": 116417,
+        "ca-certificates --HEAD": 141
       }
     },
     "build_error": {
@@ -117,5 +117,5 @@
       }
     }
   },
-  "generated_date": "2024-08-12"
+  "generated_date": "2024-08-19"
 }
