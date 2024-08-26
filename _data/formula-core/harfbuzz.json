@@ -109,7 +109,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1723411397,
+      "time": 1724051882,
       "runtime_dependencies": [
         {
           "full_name": "libpng",
@@ -120,9 +120,9 @@
         },
         {
           "full_name": "freetype",
-          "version": "2.13.2",
+          "version": "2.13.3",
           "revision": 0,
-          "pkg_version": "2.13.2",
+          "pkg_version": "2.13.3",
           "declared_directly": true
         },
         {
@@ -162,16 +162,16 @@
         },
         {
           "full_name": "readline",
-          "version": "8.2.10",
+          "version": "8.2.13",
           "revision": 0,
-          "pkg_version": "8.2.10",
+          "pkg_version": "8.2.13",
           "declared_directly": false
         },
         {
           "full_name": "sqlite",
-          "version": "3.46.0",
+          "version": "3.46.1",
           "revision": 0,
-          "pkg_version": "3.46.0",
+          "pkg_version": "3.46.1",
           "declared_directly": false
         },
         {
@@ -183,9 +183,9 @@
         },
         {
           "full_name": "python@3.12",
-          "version": "3.12.4",
+          "version": "3.12.5",
           "revision": 0,
-          "pkg_version": "3.12.4",
+          "pkg_version": "3.12.5",
           "declared_directly": true
         },
         {
@@ -302,7 +302,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "6d9809e466069e04261b335d53515dd898715408",
+  "tap_git_head": "5253537fbf00d1c148a710a8dd76095e3c4a3255",
   "ruby_source_path": "Formula/h/harfbuzz.rb",
   "ruby_source_checksum": {
     "sha256": "11a3f3ba4da4c2838ce16597333af6b7c32ce405408b62839a694569fcd72cf0"
@@ -311,37 +311,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "harfbuzz": 199271,
-        "harfbuzz --HEAD": 145
+        "harfbuzz": 186425,
+        "harfbuzz --HEAD": 146
       },
       "90d": {
-        "harfbuzz": 616996,
-        "harfbuzz --HEAD": 423
+        "harfbuzz": 622913,
+        "harfbuzz --HEAD": 426
       },
       "365d": {
-        "harfbuzz": 2249979,
-        "harfbuzz --HEAD": 1677
+        "harfbuzz": 2256105,
+        "harfbuzz --HEAD": 1692
       }
     },
     "install_on_request": {
       "30d": {
-        "harfbuzz": 85505,
+        "harfbuzz": 79674,
         "harfbuzz --HEAD": 146
       },
       "90d": {
-        "harfbuzz": 257634,
-        "harfbuzz --HEAD": 423
+        "harfbuzz": 261716,
+        "harfbuzz --HEAD": 426
       },
       "365d": {
-        "harfbuzz": 932743,
-        "harfbuzz --HEAD": 1672
+        "harfbuzz": 935872,
+        "harfbuzz --HEAD": 1687
       }
     },
     "build_error": {
       "30d": {
-        "harfbuzz": 4
+        "harfbuzz": 6
       }
     }
   },
-  "generated_date": "2024-08-19"
+  "generated_date": "2024-08-26"
 }
