@@ -141,7 +141,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1724051689,
+      "time": 1724765558,
       "runtime_dependencies": [
         {
           "full_name": "mpdecimal",
@@ -201,7 +201,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "5253537fbf00d1c148a710a8dd76095e3c4a3255",
+  "tap_git_head": "165c10a3abe3dd63b0168bd836a7ba0fbfc6a77a",
   "ruby_source_path": "Formula/p/python@3.12.rb",
   "ruby_source_checksum": {
     "sha256": "04532d48b82411ab4e93736cd42465909c72c6e2d23eb1c591668d124c4ea807"
@@ -221,37 +221,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.12": 337316,
-        "python@3.12 --HEAD": 233
+        "python@3.12": 348306,
+        "python@3.12 --HEAD": 266
       },
       "90d": {
-        "python@3.12": 968675,
-        "python@3.12 --HEAD": 636
+        "python@3.12": 983649,
+        "python@3.12 --HEAD": 669
       },
       "365d": {
-        "python@3.12": 2505386,
-        "python@3.12 --HEAD": 1358
+        "python@3.12": 2582553,
+        "python@3.12 --HEAD": 1432
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.12": 122163,
-        "python@3.12 --HEAD": 230
+        "python@3.12": 129711,
+        "python@3.12 --HEAD": 263
       },
       "90d": {
-        "python@3.12": 336604,
-        "python@3.12 --HEAD": 629
+        "python@3.12": 348138,
+        "python@3.12 --HEAD": 663
       },
       "365d": {
-        "python@3.12": 690064,
-        "python@3.12 --HEAD": 1349
+        "python@3.12": 721178,
+        "python@3.12 --HEAD": 1422
       }
     },
     "build_error": {
       "30d": {
-        "python@3.12": 1299
+        "python@3.12": 1297
       }
     }
   },
-  "generated_date": "2024-08-26"
+  "generated_date": "2024-09-02"
 }
