@@ -101,7 +101,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1724051881,
+      "time": 1724765750,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -118,7 +118,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "5253537fbf00d1c148a710a8dd76095e3c4a3255",
+  "tap_git_head": "165c10a3abe3dd63b0168bd836a7ba0fbfc6a77a",
   "ruby_source_path": "Formula/p/pixman.rb",
   "ruby_source_checksum": {
     "sha256": "ad9b09f696830b6a68444c8beba5395c1c45ab66ff544e3e87544837a3ef212e"
@@ -127,29 +127,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "pixman": 52098,
-        "pixman --HEAD": 2
-      },
-      "90d": {
-        "pixman": 151443,
+        "pixman": 50818,
         "pixman --HEAD": 3
       },
+      "90d": {
+        "pixman": 151340,
+        "pixman --HEAD": 4
+      },
       "365d": {
-        "pixman": 534449,
+        "pixman": 536237,
         "pixman --HEAD": 16
       }
     },
     "install_on_request": {
       "30d": {
-        "pixman": 468,
-        "pixman --HEAD": 2
-      },
-      "90d": {
-        "pixman": 1441,
+        "pixman": 513,
         "pixman --HEAD": 3
       },
+      "90d": {
+        "pixman": 1442,
+        "pixman --HEAD": 4
+      },
       "365d": {
-        "pixman": 13457,
+        "pixman": 13441,
         "pixman --HEAD": 14
       }
     },
@@ -159,5 +159,5 @@
       }
     }
   },
-  "generated_date": "2024-08-26"
+  "generated_date": "2024-09-02"
 }

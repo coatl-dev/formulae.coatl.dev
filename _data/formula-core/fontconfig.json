@@ -114,7 +114,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1724051871,
+      "time": 1724765741,
       "runtime_dependencies": [
         {
           "full_name": "libpng",
@@ -146,7 +146,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "5253537fbf00d1c148a710a8dd76095e3c4a3255",
+  "tap_git_head": "165c10a3abe3dd63b0168bd836a7ba0fbfc6a77a",
   "ruby_source_path": "Formula/f/fontconfig.rb",
   "ruby_source_checksum": {
     "sha256": "e331ba18541191b8dc210c46a2ecd8ad51fb36759aecaeb1e63a093b5d72b3a0"
@@ -235,37 +235,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "fontconfig": 95558,
+        "fontconfig": 93181,
         "fontconfig --HEAD": 3
       },
       "90d": {
-        "fontconfig": 298461,
-        "fontconfig --HEAD": 7
+        "fontconfig": 293955,
+        "fontconfig --HEAD": 6
       },
       "365d": {
-        "fontconfig": 1195279,
-        "fontconfig --HEAD": 53
+        "fontconfig": 1199867,
+        "fontconfig --HEAD": 52
       }
     },
     "install_on_request": {
       "30d": {
-        "fontconfig": 2050,
+        "fontconfig": 2086,
         "fontconfig --HEAD": 2
       },
       "90d": {
-        "fontconfig": 7000,
-        "fontconfig --HEAD": 6
+        "fontconfig": 6794,
+        "fontconfig --HEAD": 5
       },
       "365d": {
-        "fontconfig": 43016,
-        "fontconfig --HEAD": 48
+        "fontconfig": 42961,
+        "fontconfig --HEAD": 47
       }
     },
     "build_error": {
       "30d": {
-        "fontconfig": 349
+        "fontconfig": 357
       }
     }
   },
-  "generated_date": "2024-08-26"
+  "generated_date": "2024-09-02"
 }

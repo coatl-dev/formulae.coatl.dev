@@ -11,7 +11,7 @@
     "autoconf@2.13"
   ],
   "desc": "Automatic configure script builder",
-  "license": "GPL-3.0-or-later and (GPL-3.0-or-later with Autoconf-exception-3.0)",
+  "license": "GPL-3.0-or-later AND (GPL-3.0-or-later WITH Autoconf-exception-3.0)",
   "homepage": "https://www.gnu.org/software/autoconf/",
   "versions": {
     "stable": "2.72",
@@ -106,7 +106,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "5253537fbf00d1c148a710a8dd76095e3c4a3255",
+  "tap_git_head": "165c10a3abe3dd63b0168bd836a7ba0fbfc6a77a",
   "ruby_source_path": "Formula/a/autoconf.rb",
   "ruby_source_checksum": {
     "sha256": "460991f5f23e6227b0ce2fde76a86b4bd79639ba6eb024b14a5d3b867dc65a8c"
@@ -115,37 +115,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "autoconf": 55919,
+        "autoconf": 54871,
         "autoconf --HEAD": 15
       },
       "90d": {
-        "autoconf": 187212,
-        "autoconf --HEAD": 48
+        "autoconf": 182096,
+        "autoconf --HEAD": 45
       },
       "365d": {
-        "autoconf": 784995,
+        "autoconf": 792365,
         "autoconf --HEAD": 271
       }
     },
     "install_on_request": {
       "30d": {
-        "autoconf": 11155,
+        "autoconf": 11026,
         "autoconf --HEAD": 14
       },
       "90d": {
-        "autoconf": 40447,
-        "autoconf --HEAD": 47
+        "autoconf": 38983,
+        "autoconf --HEAD": 44
       },
       "365d": {
-        "autoconf": 175099,
+        "autoconf": 176556,
         "autoconf --HEAD": 268
       }
     },
     "build_error": {
       "30d": {
-        "autoconf": 22
+        "autoconf": 23
       }
     }
   },
-  "generated_date": "2024-08-26"
+  "generated_date": "2024-09-02"
 }

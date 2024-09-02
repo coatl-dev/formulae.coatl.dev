@@ -138,7 +138,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "5253537fbf00d1c148a710a8dd76095e3c4a3255",
+  "tap_git_head": "165c10a3abe3dd63b0168bd836a7ba0fbfc6a77a",
   "ruby_source_path": "Formula/lib/libslax.rb",
   "ruby_source_checksum": {
     "sha256": "a26e657cdb0af32cab45a3c24ef5aa4245ea9be4067aef5e85f895191248f28d"
@@ -147,24 +147,24 @@
   "analytics": {
     "install": {
       "30d": {
-        "libslax": 5
+        "libslax": 3
       },
       "90d": {
         "libslax": 25
       },
       "365d": {
-        "libslax": 171
+        "libslax": 165
       }
     },
     "install_on_request": {
       "30d": {
-        "libslax": 5
+        "libslax": 3
       },
       "90d": {
         "libslax": 22
       },
       "365d": {
-        "libslax": 111
+        "libslax": 108
       }
     },
     "build_error": {
@@ -173,5 +173,5 @@
       }
     }
   },
-  "generated_date": "2024-08-26"
+  "generated_date": "2024-09-02"
 }
