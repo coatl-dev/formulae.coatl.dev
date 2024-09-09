@@ -14,20 +14,20 @@
   "license": "Python-2.0",
   "homepage": "https://www.python.org/",
   "versions": {
-    "stable": "3.9.19",
+    "stable": "3.9.20",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://www.python.org/ftp/python/3.9.19/Python-3.9.19.tar.xz",
+      "url": "https://www.python.org/ftp/python/3.9.20/Python-3.9.20.tar.xz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "d4892cd1618f6458cb851208c030df1482779609d0f3939991bd38184f8c679e"
+      "checksum": "6b281279efd85294d2d6993e173983a57464c0133956fbbb5536ec9646beaf0c"
     }
   },
-  "revision": 1,
+  "revision": 0,
   "version_scheme": 0,
   "bottle": {
     "stable": {
@@ -36,38 +36,38 @@
       "files": {
         "arm64_sonoma": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:57f58fe8682f4dbcf39f5f4f1cedb0c7ce6f75275d7325fb1b314f9574d4842f",
-          "sha256": "57f58fe8682f4dbcf39f5f4f1cedb0c7ce6f75275d7325fb1b314f9574d4842f"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:498dedbc032adaf282c20fb5bd67570a05c740352bafde94b4988cd698d4f762",
+          "sha256": "498dedbc032adaf282c20fb5bd67570a05c740352bafde94b4988cd698d4f762"
         },
         "arm64_ventura": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:0cf6dafd4cd9dddf94cb283f4e7a481b2d1ec410b32ca511318330acaa2681ea",
-          "sha256": "0cf6dafd4cd9dddf94cb283f4e7a481b2d1ec410b32ca511318330acaa2681ea"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:3371da459d79669676fd975e730bf365eeb4658e59cdedfa0b22380bf4cc775c",
+          "sha256": "3371da459d79669676fd975e730bf365eeb4658e59cdedfa0b22380bf4cc775c"
         },
         "arm64_monterey": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:1170a572e201af538c79e5c0ab560365342137f589c763f7ab52baba0d2fb9c0",
-          "sha256": "1170a572e201af538c79e5c0ab560365342137f589c763f7ab52baba0d2fb9c0"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:9d64b062947225b6dc12543ae672c713823e1420220c5d5984a895a0aa47e214",
+          "sha256": "9d64b062947225b6dc12543ae672c713823e1420220c5d5984a895a0aa47e214"
         },
         "sonoma": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:55236c9f34924d02f9a8d99b7dc40708c3d9c05ae6f201d03ff22f50d49f8371",
-          "sha256": "55236c9f34924d02f9a8d99b7dc40708c3d9c05ae6f201d03ff22f50d49f8371"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:44dcef0a5a81d317ed5fe320030d40e36aabb8416b17fefaa31f7c750b09ec21",
+          "sha256": "44dcef0a5a81d317ed5fe320030d40e36aabb8416b17fefaa31f7c750b09ec21"
         },
         "ventura": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:29cdf8efa709b1155cef284f72d1025ca61532de66dcbe3af2b9b03064f0a44d",
-          "sha256": "29cdf8efa709b1155cef284f72d1025ca61532de66dcbe3af2b9b03064f0a44d"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:b83e9ef8729218438c3f937c4efc59603a8c100d2b0ef83bbcc0163fdc0075e4",
+          "sha256": "b83e9ef8729218438c3f937c4efc59603a8c100d2b0ef83bbcc0163fdc0075e4"
         },
         "monterey": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:b49781b3aad464300201752503999ff31eb0071f0fc7b9cb25b76e1129b34bbb",
-          "sha256": "b49781b3aad464300201752503999ff31eb0071f0fc7b9cb25b76e1129b34bbb"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:aa38dd87edf16ffde32390bd0e1bef2358a9c9beffd37f07cf5531eeb4c074f5",
+          "sha256": "aa38dd87edf16ffde32390bd0e1bef2358a9c9beffd37f07cf5531eeb4c074f5"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:b066eb67ff2a7672da5f1949a19b1f33f5fef35eab15a92aacc56f6db044f673",
-          "sha256": "b066eb67ff2a7672da5f1949a19b1f33f5fef35eab15a92aacc56f6db044f673"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.9/blobs/sha256:364db16648d7890e150959da20466065c7a6822cff008e9760c1776f1fed6232",
+          "sha256": "364db16648d7890e150959da20466065c7a6822cff008e9760c1776f1fed6232"
         }
       }
     }
@@ -127,10 +127,10 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "165c10a3abe3dd63b0168bd836a7ba0fbfc6a77a",
+  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
   "ruby_source_path": "Formula/p/python@3.9.rb",
   "ruby_source_checksum": {
-    "sha256": "c64133dd410177ec7781e7a619559e8be84b0a153eebfb8419c179f946201882"
+    "sha256": "f3e54b8438c57cc28c25293eb3b2f9aed46e73fd60ea9100673f085add19f0ea"
   },
   "variations": {
     "x86_64_linux": {
@@ -148,37 +148,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.9": 60221,
-        "python@3.9 --HEAD": 81
+        "python@3.9": 64278,
+        "python@3.9 --HEAD": 88
       },
       "90d": {
-        "python@3.9": 162080,
-        "python@3.9 --HEAD": 208
+        "python@3.9": 173156,
+        "python@3.9 --HEAD": 219
       },
       "365d": {
-        "python@3.9": 751339,
-        "python@3.9 --HEAD": 1038
+        "python@3.9": 747957,
+        "python@3.9 --HEAD": 1028
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.9": 57936,
-        "python@3.9 --HEAD": 81
+        "python@3.9": 61516,
+        "python@3.9 --HEAD": 88
       },
       "90d": {
-        "python@3.9": 153615,
-        "python@3.9 --HEAD": 208
+        "python@3.9": 163961,
+        "python@3.9 --HEAD": 219
       },
       "365d": {
-        "python@3.9": 682298,
-        "python@3.9 --HEAD": 1038
+        "python@3.9": 680688,
+        "python@3.9 --HEAD": 1028
       }
     },
     "build_error": {
       "30d": {
-        "python@3.9": 9
+        "python@3.9": 8
       }
     }
   },
-  "generated_date": "2024-09-02"
+  "generated_date": "2024-09-09"
 }

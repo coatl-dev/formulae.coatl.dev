@@ -117,7 +117,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1724765751,
+      "time": 1725374270,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -134,7 +134,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "165c10a3abe3dd63b0168bd836a7ba0fbfc6a77a",
+  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
   "ruby_source_path": "Formula/j/jpeg-turbo.rb",
   "ruby_source_checksum": {
     "sha256": "8abc89e99f7215160f2bbce3fb63d012d26cb548e5da325a2ee7d832503a6cdd"
@@ -210,35 +210,35 @@
   "analytics": {
     "install": {
       "30d": {
-        "jpeg-turbo": 113677
+        "jpeg-turbo": 109838
       },
       "90d": {
-        "jpeg-turbo": 383196,
+        "jpeg-turbo": 371673,
         "jpeg-turbo --HEAD": 7
       },
       "365d": {
-        "jpeg-turbo": 1529033,
-        "jpeg-turbo --HEAD": 46
+        "jpeg-turbo": 1529388,
+        "jpeg-turbo --HEAD": 45
       }
     },
     "install_on_request": {
       "30d": {
-        "jpeg-turbo": 909
+        "jpeg-turbo": 873
       },
       "90d": {
-        "jpeg-turbo": 3747,
+        "jpeg-turbo": 3483,
         "jpeg-turbo --HEAD": 6
       },
       "365d": {
-        "jpeg-turbo": 22135,
-        "jpeg-turbo --HEAD": 39
+        "jpeg-turbo": 22059,
+        "jpeg-turbo --HEAD": 38
       }
     },
     "build_error": {
       "30d": {
-        "jpeg-turbo": 0
+        "jpeg-turbo": 1
       }
     }
   },
-  "generated_date": "2024-09-02"
+  "generated_date": "2024-09-09"
 }

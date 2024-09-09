@@ -91,7 +91,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1724765557,
+      "time": 1725374072,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -108,7 +108,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "165c10a3abe3dd63b0168bd836a7ba0fbfc6a77a",
+  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
   "ruby_source_path": "Formula/m/mpdecimal.rb",
   "ruby_source_checksum": {
     "sha256": "a56e7a37df2044a479fe3c91ab245735e24f7a22ed1b0eb0746cdc1e6597965d"
@@ -117,36 +117,36 @@
   "analytics": {
     "install": {
       "30d": {
-        "mpdecimal": 143011,
+        "mpdecimal": 138108,
         "mpdecimal --HEAD": 1
       },
       "90d": {
-        "mpdecimal": 447953,
+        "mpdecimal": 441385,
         "mpdecimal --HEAD": 3
       },
       "365d": {
-        "mpdecimal": 1517165,
+        "mpdecimal": 1532865,
         "mpdecimal --HEAD": 21
       }
     },
     "install_on_request": {
       "30d": {
-        "mpdecimal": 552
+        "mpdecimal": 551
       },
       "90d": {
-        "mpdecimal": 1835,
+        "mpdecimal": 1820,
         "mpdecimal --HEAD": 1
       },
       "365d": {
-        "mpdecimal": 10106,
+        "mpdecimal": 10183,
         "mpdecimal --HEAD": 10
       }
     },
     "build_error": {
       "30d": {
-        "mpdecimal": 29
+        "mpdecimal": 32
       }
     }
   },
-  "generated_date": "2024-09-02"
+  "generated_date": "2024-09-09"
 }

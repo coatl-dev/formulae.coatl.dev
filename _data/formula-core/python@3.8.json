@@ -14,17 +14,17 @@
   "license": "Python-2.0",
   "homepage": "https://www.python.org/",
   "versions": {
-    "stable": "3.8.19",
+    "stable": "3.8.20",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://www.python.org/ftp/python/3.8.19/Python-3.8.19.tar.xz",
+      "url": "https://www.python.org/ftp/python/3.8.20/Python-3.8.20.tar.xz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "d2807ac69f69b84fd46a0b93bbd02a4fa48d3e70f4b2835ff0f72a2885040076"
+      "checksum": "6fb89a7124201c61125c0ab4cf7f6894df339a40c02833bfd28ab4d7691fafb4"
     }
   },
   "revision": 0,
@@ -36,38 +36,38 @@
       "files": {
         "arm64_sonoma": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.8/blobs/sha256:d09f8b721bce845fb4442c2fe463f693ba301c1b6de900557aa3f0f91e33dff2",
-          "sha256": "d09f8b721bce845fb4442c2fe463f693ba301c1b6de900557aa3f0f91e33dff2"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.8/blobs/sha256:49082bc289bc3547b509f24e962cc8cbefad015345c0675631e42b3b23d2ecc7",
+          "sha256": "49082bc289bc3547b509f24e962cc8cbefad015345c0675631e42b3b23d2ecc7"
         },
         "arm64_ventura": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.8/blobs/sha256:c69c13474e19eaaa99bb259bb350b992c6e882bfa47c662105109bd17bb0f329",
-          "sha256": "c69c13474e19eaaa99bb259bb350b992c6e882bfa47c662105109bd17bb0f329"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.8/blobs/sha256:d1b22ac3c7066fb48a1c5274f14bc5f0df724c25a309bd479b5880120c8e44a0",
+          "sha256": "d1b22ac3c7066fb48a1c5274f14bc5f0df724c25a309bd479b5880120c8e44a0"
         },
         "arm64_monterey": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.8/blobs/sha256:7b9cde42d8d02cf45416c444a874f63df7d2de315eebe158ac8a30bde2652b97",
-          "sha256": "7b9cde42d8d02cf45416c444a874f63df7d2de315eebe158ac8a30bde2652b97"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.8/blobs/sha256:339f24fcd11f9c005d7f1818a88bcc79683938b2bc1ff95dc236eab157f112a2",
+          "sha256": "339f24fcd11f9c005d7f1818a88bcc79683938b2bc1ff95dc236eab157f112a2"
         },
         "sonoma": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.8/blobs/sha256:92aed4e22e09a4aea102d31b174f9bea7d4022d4a401a2c5821bc146f801a2b8",
-          "sha256": "92aed4e22e09a4aea102d31b174f9bea7d4022d4a401a2c5821bc146f801a2b8"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.8/blobs/sha256:125c3d7416bee3f05086683dd74455604064ecda2808af868720e54c6b9e7e6a",
+          "sha256": "125c3d7416bee3f05086683dd74455604064ecda2808af868720e54c6b9e7e6a"
         },
         "ventura": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.8/blobs/sha256:b2d965f8246e14049fc2f074d4085fa0bd66d9fda7a03afb7d838236158816d7",
-          "sha256": "b2d965f8246e14049fc2f074d4085fa0bd66d9fda7a03afb7d838236158816d7"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.8/blobs/sha256:6760f38435697b00dcb5dc9f5dfd6adfd57df3c63158e03ebf486e88afb2cdc8",
+          "sha256": "6760f38435697b00dcb5dc9f5dfd6adfd57df3c63158e03ebf486e88afb2cdc8"
         },
         "monterey": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.8/blobs/sha256:a4e974c34845544e02eb0f952a3ad5e8a0d238a57f3c31c8ee07687d432a2cdb",
-          "sha256": "a4e974c34845544e02eb0f952a3ad5e8a0d238a57f3c31c8ee07687d432a2cdb"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.8/blobs/sha256:15cd39037b6f0aa7e9776c32f984862606c47252d668ecbb0be3d924aa5d245a",
+          "sha256": "15cd39037b6f0aa7e9776c32f984862606c47252d668ecbb0be3d924aa5d245a"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/python/3.8/blobs/sha256:ec186f971b5de1a11c2255124ad7f8056f2723074f0217b84e8861faa5b1bb10",
-          "sha256": "ec186f971b5de1a11c2255124ad7f8056f2723074f0217b84e8861faa5b1bb10"
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.8/blobs/sha256:35120e0281d3baffdb30ea545cc728b67f7bc3bd732e2e06dc26692f467b9d8c",
+          "sha256": "35120e0281d3baffdb30ea545cc728b67f7bc3bd732e2e06dc26692f467b9d8c"
         }
       }
     }
@@ -126,10 +126,10 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "165c10a3abe3dd63b0168bd836a7ba0fbfc6a77a",
+  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
   "ruby_source_path": "Formula/p/python@3.8.rb",
   "ruby_source_checksum": {
-    "sha256": "329290513aec3b1ed9d08490f43f6acd774f87369d74683f8644fa8267dbf348"
+    "sha256": "256a862e5bdeadf3c9e19032fae1fc0ebbb3469569a45037620e529ecb56d3e4"
   },
   "variations": {
     "x86_64_linux": {
@@ -148,37 +148,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.8": 11780,
+        "python@3.8": 14632,
         "python@3.8 --HEAD": 13
       },
       "90d": {
-        "python@3.8": 40427,
-        "python@3.8 --HEAD": 40
+        "python@3.8": 42432,
+        "python@3.8 --HEAD": 45
       },
       "365d": {
-        "python@3.8": 278370,
-        "python@3.8 --HEAD": 338
+        "python@3.8": 275901,
+        "python@3.8 --HEAD": 336
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.8": 11441,
+        "python@3.8": 14024,
         "python@3.8 --HEAD": 13
       },
       "90d": {
-        "python@3.8": 39283,
-        "python@3.8 --HEAD": 40
+        "python@3.8": 41066,
+        "python@3.8 --HEAD": 45
       },
       "365d": {
-        "python@3.8": 258357,
-        "python@3.8 --HEAD": 338
+        "python@3.8": 256380,
+        "python@3.8 --HEAD": 336
       }
     },
     "build_error": {
       "30d": {
-        "python@3.8": 4
+        "python@3.8": 5
       }
     }
   },
-  "generated_date": "2024-09-02"
+  "generated_date": "2024-09-09"
 }

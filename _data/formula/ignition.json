@@ -8,7 +8,7 @@
   ],
   "versioned_formulae": [],
   "desc": "Unlimited Platform for SCADA and so much more",
-  "license": "Cannot Represent",
+  "license": "LicenseRef-Homebrew-cannot-represent",
   "homepage": "https://inductiveautomation.com/",
   "versions": {
     "stable": "8.1.43",
