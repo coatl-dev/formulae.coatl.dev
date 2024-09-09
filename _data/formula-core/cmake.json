@@ -94,19 +94,19 @@
   "caveats": "To install the CMake documentation, run:\n  brew install cmake-docs\n",
   "installed": [
     {
-      "version": "3.30.2",
+      "version": "3.30.3",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1724765809,
+      "time": 1725374326,
       "runtime_dependencies": [],
       "installed_as_dependency": false,
       "installed_on_request": true
     }
   ],
-  "linked_keg": "3.30.2",
+  "linked_keg": "3.30.3",
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -115,7 +115,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "165c10a3abe3dd63b0168bd836a7ba0fbfc6a77a",
+  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
   "ruby_source_path": "Formula/c/cmake.rb",
   "ruby_source_checksum": {
     "sha256": "43c6b53da12688b6b15312fe57f4474c03e839e1e7f186777a3ef231b645ab7c"
@@ -130,37 +130,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "cmake": 119323,
-        "cmake --HEAD": 130
+        "cmake": 113501,
+        "cmake --HEAD": 128
       },
       "90d": {
-        "cmake": 408804,
-        "cmake --HEAD": 413
+        "cmake": 389203,
+        "cmake --HEAD": 391
       },
       "365d": {
-        "cmake": 1667916,
-        "cmake --HEAD": 1738
+        "cmake": 1673257,
+        "cmake --HEAD": 1743
       }
     },
     "install_on_request": {
       "30d": {
-        "cmake": 89787,
-        "cmake --HEAD": 130
+        "cmake": 84572,
+        "cmake --HEAD": 127
       },
       "90d": {
-        "cmake": 317863,
-        "cmake --HEAD": 413
+        "cmake": 299658,
+        "cmake --HEAD": 390
       },
       "365d": {
-        "cmake": 1311530,
-        "cmake --HEAD": 1736
+        "cmake": 1315019,
+        "cmake --HEAD": 1740
       }
     },
     "build_error": {
       "30d": {
-        "cmake": 400
+        "cmake": 394
       }
     }
   },
-  "generated_date": "2024-09-02"
+  "generated_date": "2024-09-09"
 }

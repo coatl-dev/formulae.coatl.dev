@@ -12,60 +12,60 @@
   "license": "Apache-2.0",
   "homepage": "https://openssl-library.org",
   "versions": {
-    "stable": "3.0.14",
+    "stable": "3.0.15",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/openssl/openssl/releases/download/openssl-3.0.14/openssl-3.0.14.tar.gz",
+      "url": "https://github.com/openssl/openssl/releases/download/openssl-3.0.15/openssl-3.0.15.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "eeca035d4dd4e84fc25846d952da6297484afa0650a6f84c682e39df3a4123ca"
+      "checksum": "23c666d0edf20f14249b3d8f0368acaee9ab585b09e1de82107c66e1f3ec9533"
     }
   },
   "revision": 0,
   "version_scheme": 0,
   "bottle": {
     "stable": {
-      "rebuild": 1,
+      "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_sonoma": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/3.0/blobs/sha256:4b9d08a98550729ea96497e779d9439a665da53b1e4f7254a289057c8385d052",
-          "sha256": "4b9d08a98550729ea96497e779d9439a665da53b1e4f7254a289057c8385d052"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3.0/blobs/sha256:5f48e4f3391e514597cf9959a95daaafc1295ce4df9a26964d3ce0cb705a041f",
+          "sha256": "5f48e4f3391e514597cf9959a95daaafc1295ce4df9a26964d3ce0cb705a041f"
         },
         "arm64_ventura": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/3.0/blobs/sha256:1ef02be64e1b21bd37602fda904fd62f4eb19a317e905e4e48c19512b00c6826",
-          "sha256": "1ef02be64e1b21bd37602fda904fd62f4eb19a317e905e4e48c19512b00c6826"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3.0/blobs/sha256:90d988c61932197830a7962e9dfe3997a139689489763ffa55ec54a607b69d0e",
+          "sha256": "90d988c61932197830a7962e9dfe3997a139689489763ffa55ec54a607b69d0e"
         },
         "arm64_monterey": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/3.0/blobs/sha256:06b6b04f2341cbfc62da8629b5a4d2387d32874d9f56b57cc94542c42c4b57c0",
-          "sha256": "06b6b04f2341cbfc62da8629b5a4d2387d32874d9f56b57cc94542c42c4b57c0"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3.0/blobs/sha256:4491fd5d9e0bd3f27cd45d6b3026f2f1e9f648b1dff73cd41514bdeb55d8bae4",
+          "sha256": "4491fd5d9e0bd3f27cd45d6b3026f2f1e9f648b1dff73cd41514bdeb55d8bae4"
         },
         "sonoma": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/3.0/blobs/sha256:18753268f80af56418e41cdadbf92d90c812bd568a215d29d8ecca5f755bdb69",
-          "sha256": "18753268f80af56418e41cdadbf92d90c812bd568a215d29d8ecca5f755bdb69"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3.0/blobs/sha256:49d60e1d467c46db85643ff1ec0fc0d7883698b878f0456467c4e36758ae6197",
+          "sha256": "49d60e1d467c46db85643ff1ec0fc0d7883698b878f0456467c4e36758ae6197"
         },
         "ventura": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/3.0/blobs/sha256:07ade2749aa1aaf20456e56fe4122adb520a1bd11218f68f77037486b9159d95",
-          "sha256": "07ade2749aa1aaf20456e56fe4122adb520a1bd11218f68f77037486b9159d95"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3.0/blobs/sha256:2330210545b943f2989ef8b30f712eeca2b2ba6762b6ac6de19f82d6f9c2d41f",
+          "sha256": "2330210545b943f2989ef8b30f712eeca2b2ba6762b6ac6de19f82d6f9c2d41f"
         },
         "monterey": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/3.0/blobs/sha256:85aa26b13c64c1ba59666bedabd0a76b91eafc6877f49c7ace3e495dd0f53252",
-          "sha256": "85aa26b13c64c1ba59666bedabd0a76b91eafc6877f49c7ace3e495dd0f53252"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3.0/blobs/sha256:e6815ce49c0657d581fac3ffdabbac99c47ea9903d43f5e812621091b8bd9921",
+          "sha256": "e6815ce49c0657d581fac3ffdabbac99c47ea9903d43f5e812621091b8bd9921"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/openssl/3.0/blobs/sha256:8b749cbdf46421dca06c85c7ed018d2013c81d6c8f517dd54db8c3f9e1f6b972",
-          "sha256": "8b749cbdf46421dca06c85c7ed018d2013c81d6c8f517dd54db8c3f9e1f6b972"
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3.0/blobs/sha256:88feaacad8c06a6308c1b1bf4d322e812d069b9e7a9808982debf89c5a226e39",
+          "sha256": "88feaacad8c06a6308c1b1bf4d322e812d069b9e7a9808982debf89c5a226e39"
         }
       }
     }
@@ -103,37 +103,39 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "165c10a3abe3dd63b0168bd836a7ba0fbfc6a77a",
+  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
   "ruby_source_path": "Formula/o/openssl@3.0.rb",
   "ruby_source_checksum": {
-    "sha256": "b9e7e9a6fe73b8a10005d8d3baf5549641aa2eacccea91ca1d41c0ab82e378de"
+    "sha256": "42bbee94aefb523aba7906035412513b9651ddf865fc99c0207c6a7a4929d94c"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "openssl@3.0": 468
-      },
-      "90d": {
-        "openssl@3.0": 2083,
+        "openssl@3.0": 681,
         "openssl@3.0 --HEAD": 1
       },
+      "90d": {
+        "openssl@3.0": 2018,
+        "openssl@3.0 --HEAD": 2
+      },
       "365d": {
-        "openssl@3.0": 7787,
-        "openssl@3.0 --HEAD": 10
+        "openssl@3.0": 8003,
+        "openssl@3.0 --HEAD": 11
       }
     },
     "install_on_request": {
       "30d": {
-        "openssl@3.0": 446
-      },
-      "90d": {
-        "openssl@3.0": 2006,
+        "openssl@3.0": 653,
         "openssl@3.0 --HEAD": 1
       },
+      "90d": {
+        "openssl@3.0": 1935,
+        "openssl@3.0 --HEAD": 2
+      },
       "365d": {
-        "openssl@3.0": 7642,
-        "openssl@3.0 --HEAD": 10
+        "openssl@3.0": 7848,
+        "openssl@3.0 --HEAD": 11
       }
     },
     "build_error": {
@@ -142,5 +144,5 @@
       }
     }
   },
-  "generated_date": "2024-09-02"
+  "generated_date": "2024-09-09"
 }

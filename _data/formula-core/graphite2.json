@@ -121,7 +121,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1724765751,
+      "time": 1725374269,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -138,7 +138,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "165c10a3abe3dd63b0168bd836a7ba0fbfc6a77a",
+  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
   "ruby_source_path": "Formula/g/graphite2.rb",
   "ruby_source_checksum": {
     "sha256": "a6319188b398488f45671775e3f1a4fb7cd810f0eab1193e320a90bae4c9c0c3"
@@ -154,25 +154,27 @@
   "analytics": {
     "install": {
       "30d": {
-        "graphite2": 55857
+        "graphite2": 54642,
+        "graphite2 --HEAD": 1
       },
       "90d": {
-        "graphite2": 164223
+        "graphite2": 163283,
+        "graphite2 --HEAD": 1
       },
       "365d": {
-        "graphite2": 549943,
-        "graphite2 --HEAD": 6
+        "graphite2": 553028,
+        "graphite2 --HEAD": 7
       }
     },
     "install_on_request": {
       "30d": {
-        "graphite2": 184
+        "graphite2": 183
       },
       "90d": {
-        "graphite2": 492
+        "graphite2": 490
       },
       "365d": {
-        "graphite2": 2100,
+        "graphite2": 2110,
         "graphite2 --HEAD": 4
       }
     },
@@ -182,5 +184,5 @@
       }
     }
   },
-  "generated_date": "2024-09-02"
+  "generated_date": "2024-09-09"
 }
