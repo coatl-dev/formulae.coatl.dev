@@ -29,6 +29,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:738c27ceee9a8b198f98438477ef7a513a96a965e3a434ac3aa8fb4ed76494b1",
+          "sha256": "738c27ceee9a8b198f98438477ef7a513a96a965e3a434ac3aa8fb4ed76494b1"
+        },
         "arm64_sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:e46d4ff0c800dd35b9d5cef74e61ade54edc0834231f35c695af206bed9e3608",
@@ -113,39 +118,39 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/r/readline.rb",
   "ruby_source_checksum": {
-    "sha256": "da295198e37d81551ef086a98b26f2a721c36b7099b00879050b6634bb9d1d0a"
+    "sha256": "c0a439e80dd186541165e8c7e43aa7fbf1ec1d4120c27e2e7b48c97f9a9cbb8e"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "readline": 294721,
+        "readline": 306226,
         "readline --HEAD": 35
       },
       "90d": {
-        "readline": 647715,
-        "readline --HEAD": 49
+        "readline": 654424,
+        "readline --HEAD": 50
       },
       "365d": {
-        "readline": 2275809,
-        "readline --HEAD": 206
+        "readline": 2290204,
+        "readline --HEAD": 207
       }
     },
     "install_on_request": {
       "30d": {
-        "readline": 18611,
-        "readline --HEAD": 32
+        "readline": 19266,
+        "readline --HEAD": 34
       },
       "90d": {
-        "readline": 29587,
-        "readline --HEAD": 46
+        "readline": 30091,
+        "readline --HEAD": 47
       },
       "365d": {
-        "readline": 119409,
-        "readline --HEAD": 194
+        "readline": 120057,
+        "readline --HEAD": 195
       }
     },
     "build_error": {
@@ -154,5 +159,5 @@
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

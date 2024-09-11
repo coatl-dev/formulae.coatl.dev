@@ -29,6 +29,11 @@
       "rebuild": 1,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/pixman/blobs/sha256:f215e1e85be34c4b7ba664ee965ad4c76c6af611884b3af4cf7a3ae36e13351c",
+          "sha256": "f215e1e85be34c4b7ba664ee965ad4c76c6af611884b3af4cf7a3ae36e13351c"
+        },
         "arm64_sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/pixman/blobs/sha256:d355a294d3f9152479c2c0905efbeb329aef9cb27b9ae12e2a4ea6a4f41f2174",
@@ -118,38 +123,38 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/p/pixman.rb",
   "ruby_source_checksum": {
-    "sha256": "ad9b09f696830b6a68444c8beba5395c1c45ab66ff544e3e87544837a3ef212e"
+    "sha256": "168a7bc7bc3aa85e3a5f4d1a887a31ce9ccaeda57e39dc648e20c9394a5dcb27"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "pixman": 49862,
+        "pixman": 50782,
         "pixman --HEAD": 3
       },
       "90d": {
-        "pixman": 150772,
+        "pixman": 149910,
         "pixman --HEAD": 4
       },
       "365d": {
-        "pixman": 539316,
+        "pixman": 540012,
         "pixman --HEAD": 16
       }
     },
     "install_on_request": {
       "30d": {
-        "pixman": 556,
+        "pixman": 577,
         "pixman --HEAD": 3
       },
       "90d": {
-        "pixman": 1452,
+        "pixman": 1458,
         "pixman --HEAD": 4
       },
       "365d": {
-        "pixman": 13367,
+        "pixman": 13327,
         "pixman --HEAD": 14
       }
     },
@@ -159,5 +164,5 @@
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

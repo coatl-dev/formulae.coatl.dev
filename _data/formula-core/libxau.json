@@ -29,6 +29,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxau/blobs/sha256:49cc37e73988074d48d1942e5d0d865a10a67692aa4752b5ac30c91a89ef4d79",
+          "sha256": "49cc37e73988074d48d1942e5d0d865a10a67692aa4752b5ac30c91a89ef4d79"
+        },
         "arm64_sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/libxau/blobs/sha256:5af5678065c243a7d199b76facc8be615dd6aa6de65d03778e9b403e8b2827d6",
@@ -129,23 +134,23 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/lib/libxau.rb",
   "ruby_source_checksum": {
-    "sha256": "f00e4df182e8fc54236e9b5b0748e9fd064dff86fcfa2d0505c9f935e63d1c4c"
+    "sha256": "ae545dd1ace294a9f849ebbaf3642e1b6498766138c3087d47b60d6918da0326"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "libxau": 53776
+        "libxau": 54692
       },
       "90d": {
-        "libxau": 163698,
+        "libxau": 162577,
         "libxau --HEAD": 2
       },
       "365d": {
-        "libxau": 580101,
+        "libxau": 580986,
         "libxau --HEAD": 7
       }
     },
@@ -158,7 +163,7 @@
         "libxau --HEAD": 1
       },
       "365d": {
-        "libxau": 1976,
+        "libxau": 1965,
         "libxau --HEAD": 2
       }
     },
@@ -168,5 +173,5 @@
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

@@ -35,6 +35,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:13cc290ab3a88f06dd43a9fe09c6f00befd30f953e945d9656966d1975b54bd7",
+          "sha256": "13cc290ab3a88f06dd43a9fe09c6f00befd30f953e945d9656966d1975b54bd7"
+        },
         "arm64_sonoma": {
           "cellar": "/opt/homebrew/Cellar",
           "url": "https://ghcr.io/v2/homebrew/core/openssl/3/blobs/sha256:df4760f0256178172f6193d8bb6c4cbeffd78ac646926ad345c5170331c5d55c",
@@ -133,47 +138,47 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/o/openssl@3.rb",
   "ruby_source_checksum": {
-    "sha256": "33577d6ae04735994de7d2479c4c9b4b740cd610506819f660bcc5940bc91f60"
+    "sha256": "cd99f7aacf521f5ea094a3fab7e09734ba0d70e5f1dac686421dab2bdc2c661a"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "openssl@3": 390198,
-        "openssl@3 --HEAD": 84
+        "openssl@3": 410307,
+        "openssl@3 --HEAD": 103
       },
       "90d": {
-        "openssl@3": 1252364,
-        "openssl@3 --HEAD": 218
+        "openssl@3": 1252462,
+        "openssl@3 --HEAD": 225
       },
       "365d": {
-        "openssl@3": 4963410,
-        "openssl@3 --HEAD": 1021
+        "openssl@3": 4980856,
+        "openssl@3 --HEAD": 1033
       }
     },
     "install_on_request": {
       "30d": {
-        "openssl@3": 47585,
-        "openssl@3 --HEAD": 80
+        "openssl@3": 52076,
+        "openssl@3 --HEAD": 100
       },
       "90d": {
-        "openssl@3": 145905,
-        "openssl@3 --HEAD": 211
+        "openssl@3": 146291,
+        "openssl@3 --HEAD": 218
       },
       "365d": {
-        "openssl@3": 637371,
-        "openssl@3 --HEAD": 997
+        "openssl@3": 641827,
+        "openssl@3 --HEAD": 1009
       }
     },
     "build_error": {
       "30d": {
-        "openssl@3": 3724,
+        "openssl@3": 3955,
         "openssl@3 --HEAD": 2
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

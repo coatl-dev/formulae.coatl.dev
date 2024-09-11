@@ -122,7 +122,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/o/openssl@1.1.rb",
   "ruby_source_checksum": {
     "sha256": "01f45521251ecdab86eeabfc2afb3ac50e165b5beda76ad96b05ee0c21a55993"
@@ -131,37 +131,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "openssl@1.1": 24615,
-        "openssl@1.1 --HEAD": 25
+        "openssl@1.1": 25118,
+        "openssl@1.1 --HEAD": 24
       },
       "90d": {
-        "openssl@1.1": 86317,
-        "openssl@1.1 --HEAD": 57
+        "openssl@1.1": 85137,
+        "openssl@1.1 --HEAD": 58
       },
       "365d": {
-        "openssl@1.1": 594521,
-        "openssl@1.1 --HEAD": 511
+        "openssl@1.1": 579817,
+        "openssl@1.1 --HEAD": 500
       }
     },
     "install_on_request": {
       "30d": {
-        "openssl@1.1": 15426,
+        "openssl@1.1": 15858,
         "openssl@1.1 --HEAD": 25
       },
       "90d": {
-        "openssl@1.1": 53725,
+        "openssl@1.1": 52827,
         "openssl@1.1 --HEAD": 57
       },
       "365d": {
-        "openssl@1.1": 296746,
-        "openssl@1.1 --HEAD": 510
+        "openssl@1.1": 292954,
+        "openssl@1.1 --HEAD": 499
       }
     },
     "build_error": {
       "30d": {
-        "openssl@1.1": 59
+        "openssl@1.1": 60
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

@@ -29,6 +29,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/python-setuptools/blobs/sha256:578730d2480c6dc8b5098b1e42320f314e91104c59c85d793ac506eafd2cd06a",
+          "sha256": "578730d2480c6dc8b5098b1e42320f314e91104c59c85d793ac506eafd2cd06a"
+        },
         "arm64_sonoma": {
           "cellar": ":any_skip_relocation",
           "url": "https://ghcr.io/v2/homebrew/core/python-setuptools/blobs/sha256:578730d2480c6dc8b5098b1e42320f314e91104c59c85d793ac506eafd2cd06a",
@@ -99,46 +104,46 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/p/python-setuptools.rb",
   "ruby_source_checksum": {
-    "sha256": "cd65ef4b3f185a06d71970d6a94e06725c8673c242fbbb0ad7b371d052b2e40c"
+    "sha256": "65e06d26e9c0d84dda7c2de59048834d1e787fdd667990238183da7a0d3ec055"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "python-setuptools": 49281,
-        "python-setuptools --HEAD": 27
+        "python-setuptools": 49636,
+        "python-setuptools --HEAD": 25
       },
       "90d": {
-        "python-setuptools": 169471,
+        "python-setuptools": 169727,
         "python-setuptools --HEAD": 66
       },
       "365d": {
-        "python-setuptools": 786537,
+        "python-setuptools": 788681,
         "python-setuptools --HEAD": 112
       }
     },
     "install_on_request": {
       "30d": {
-        "python-setuptools": 16098,
-        "python-setuptools --HEAD": 26
+        "python-setuptools": 16564,
+        "python-setuptools --HEAD": 25
       },
       "90d": {
-        "python-setuptools": 38525,
+        "python-setuptools": 39027,
         "python-setuptools --HEAD": 66
       },
       "365d": {
-        "python-setuptools": 61238,
-        "python-setuptools --HEAD": 109
+        "python-setuptools": 62136,
+        "python-setuptools --HEAD": 108
       }
     },
     "build_error": {
       "30d": {
-        "python-setuptools": 19
+        "python-setuptools": 20
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

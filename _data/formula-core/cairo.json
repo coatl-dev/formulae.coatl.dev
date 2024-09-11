@@ -34,6 +34,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/cairo/blobs/sha256:d74a4f1916b9fe1254268c0b20c50d8a5e8cb101c914450d2c5a34066837a366",
+          "sha256": "d74a4f1916b9fe1254268c0b20c50d8a5e8cb101c914450d2c5a34066837a366"
+        },
         "arm64_sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/cairo/blobs/sha256:8d7d5bc22a123340ce7092b9bf1438ce8e959157e38b784226f48b616a76122a",
@@ -286,10 +291,10 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/c/cairo.rb",
   "ruby_source_checksum": {
-    "sha256": "1147cc39e17c1082e5849493ff3ef28dd320047156f3ce5593ed525e31574401"
+    "sha256": "87384edbe163e439baba741a15400995cec3ab0faccd6cd262687d2e28913537"
   },
   "variations": {
     "x86_64_linux": {
@@ -310,37 +315,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "cairo": 104619,
-        "cairo --HEAD": 54
+        "cairo": 115353,
+        "cairo --HEAD": 68
       },
       "90d": {
-        "cairo": 246752,
-        "cairo --HEAD": 94
+        "cairo": 255162,
+        "cairo --HEAD": 108
       },
       "365d": {
-        "cairo": 1054451,
-        "cairo --HEAD": 466
+        "cairo": 1065830,
+        "cairo --HEAD": 481
       }
     },
     "install_on_request": {
       "30d": {
-        "cairo": 26758,
-        "cairo --HEAD": 54
+        "cairo": 32121,
+        "cairo --HEAD": 68
       },
       "90d": {
-        "cairo": 50544,
-        "cairo --HEAD": 95
+        "cairo": 55652,
+        "cairo --HEAD": 108
       },
       "365d": {
-        "cairo": 273764,
-        "cairo --HEAD": 459
+        "cairo": 279261,
+        "cairo --HEAD": 475
       }
     },
     "build_error": {
       "30d": {
-        "cairo": 15
+        "cairo": 17
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

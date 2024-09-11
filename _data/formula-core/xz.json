@@ -29,6 +29,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:166443025fea929acab2ac50520c42a7bf9f2eff385b69e9313136bc59027719",
+          "sha256": "166443025fea929acab2ac50520c42a7bf9f2eff385b69e9313136bc59027719"
+        },
         "arm64_sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:5ec389ac6a0b190914be00c62d2de0a18265c39d1243420d08841afea16ff7f9",
@@ -106,46 +111,46 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/x/xz.rb",
   "ruby_source_checksum": {
-    "sha256": "700b0cb0d7004809e5bd37cad2e6e4132c88d3cc69dd0955ffd4a8cd83ae7a03"
+    "sha256": "6f41fa545da60a1dc0cba5d6ec5ea18f85a3a295c6ddc1a7306950c42e2ac127"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "xz": 310083,
-        "xz --HEAD": 228
+        "xz": 314728,
+        "xz --HEAD": 240
       },
       "90d": {
-        "xz": 938856,
-        "xz --HEAD": 626
+        "xz": 939170,
+        "xz --HEAD": 630
       },
       "365d": {
-        "xz": 3266643,
-        "xz --HEAD": 1237
+        "xz": 3273572,
+        "xz --HEAD": 1255
       }
     },
     "install_on_request": {
       "30d": {
-        "xz": 78599,
-        "xz --HEAD": 227
+        "xz": 81585,
+        "xz --HEAD": 239
       },
       "90d": {
-        "xz": 257470,
-        "xz --HEAD": 623
+        "xz": 255653,
+        "xz --HEAD": 627
       },
       "365d": {
-        "xz": 816590,
-        "xz --HEAD": 1222
+        "xz": 819846,
+        "xz --HEAD": 1241
       }
     },
     "build_error": {
       "30d": {
-        "xz": 1207
+        "xz": 1126
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

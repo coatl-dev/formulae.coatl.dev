@@ -29,6 +29,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxrender/blobs/sha256:ae75035fb02f10c04b256a0dcb5b51498e5e99f98baebdcbc9819c35fddbb704",
+          "sha256": "ae75035fb02f10c04b256a0dcb5b51498e5e99f98baebdcbc9819c35fddbb704"
+        },
         "arm64_sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/libxrender/blobs/sha256:387261107110957df83504ec68c9328d84b3ce5a1f2a8e01f7d8f9112d8372ad",
@@ -157,32 +162,32 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/lib/libxrender.rb",
   "ruby_source_checksum": {
-    "sha256": "e894644959f98ee9d35ccc2f051a1f3b898a2c50298896ce6df19989c0f86e45"
+    "sha256": "04a0ea67ac08847aa57ee9ab115e46a0a5de7f9a777da63ea075c5607556bf57"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "libxrender": 49289
+        "libxrender": 50100
       },
       "90d": {
-        "libxrender": 148634,
+        "libxrender": 147681,
         "libxrender --HEAD": 1
       },
       "365d": {
-        "libxrender": 524495,
+        "libxrender": 525179,
         "libxrender --HEAD": 2
       }
     },
     "install_on_request": {
       "30d": {
-        "libxrender": 126
+        "libxrender": 131
       },
       "90d": {
-        "libxrender": 417
+        "libxrender": 419
       },
       "365d": {
         "libxrender": 1899
@@ -194,5 +199,5 @@
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

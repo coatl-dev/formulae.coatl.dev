@@ -31,6 +31,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pkg-config/blobs/sha256:ee6fe55249da7637626c82195cba7f4251c64066cc067935d35317c484460a09",
+          "sha256": "ee6fe55249da7637626c82195cba7f4251c64066cc067935d35317c484460a09"
+        },
         "arm64_sonoma": {
           "cellar": "/opt/homebrew/Cellar",
           "url": "https://ghcr.io/v2/homebrew/core/pkg-config/blobs/sha256:7b59abc0b5381065b1eab174217307af9324e0d02edf903171b29250ae58aeaf",
@@ -137,46 +142,46 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/p/pkg-config.rb",
   "ruby_source_checksum": {
-    "sha256": "d1cccb8e5c7289b9498b0b622ed189fce4a6e2752dce1bf8073271929aa1128e"
+    "sha256": "8e54e3d4214bf3883288e93802f6d440c9039972d37585c0bcf0c63d35adbff0"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "pkg-config": 62058,
+        "pkg-config": 62392,
         "pkg-config --HEAD": 21
       },
       "90d": {
-        "pkg-config": 187155,
-        "pkg-config --HEAD": 66
+        "pkg-config": 186468,
+        "pkg-config --HEAD": 65
       },
       "365d": {
-        "pkg-config": 649849,
-        "pkg-config --HEAD": 324
+        "pkg-config": 651121,
+        "pkg-config --HEAD": 322
       }
     },
     "install_on_request": {
       "30d": {
-        "pkg-config": 16765,
+        "pkg-config": 16902,
         "pkg-config --HEAD": 20
       },
       "90d": {
-        "pkg-config": 49925,
-        "pkg-config --HEAD": 65
+        "pkg-config": 49667,
+        "pkg-config --HEAD": 64
       },
       "365d": {
-        "pkg-config": 184887,
-        "pkg-config --HEAD": 319
+        "pkg-config": 184925,
+        "pkg-config --HEAD": 317
       }
     },
     "build_error": {
       "30d": {
-        "pkg-config": 321
+        "pkg-config": 323
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }
