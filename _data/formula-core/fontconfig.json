@@ -34,6 +34,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/fontconfig/blobs/sha256:032ec9dfdfc3005bf76ea31b943073c7ac6d4cb42151798d6ba7a05dd90fd267",
+          "sha256": "032ec9dfdfc3005bf76ea31b943073c7ac6d4cb42151798d6ba7a05dd90fd267"
+        },
         "arm64_sonoma": {
           "cellar": "/opt/homebrew/Cellar",
           "url": "https://ghcr.io/v2/homebrew/core/fontconfig/blobs/sha256:4732e8c8cd6f940fa3ace12a5a5428baaef29bdccf9bc520fa4d37a1f0bf639c",
@@ -146,10 +151,10 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/f/fontconfig.rb",
   "ruby_source_checksum": {
-    "sha256": "e331ba18541191b8dc210c46a2ecd8ad51fb36759aecaeb1e63a093b5d72b3a0"
+    "sha256": "1520e10e82eb0630d5272b277e85956bab903f3bc0847c09e723da77624a8c6d"
   },
   "head_dependencies": {
     "build_dependencies": [
@@ -235,37 +240,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "fontconfig": 91008,
-        "fontconfig --HEAD": 4
+        "fontconfig": 92167,
+        "fontconfig --HEAD": 3
       },
       "90d": {
-        "fontconfig": 289310,
+        "fontconfig": 287018,
         "fontconfig --HEAD": 6
       },
       "365d": {
-        "fontconfig": 1206287,
+        "fontconfig": 1207696,
         "fontconfig --HEAD": 51
       }
     },
     "install_on_request": {
       "30d": {
-        "fontconfig": 2020,
+        "fontconfig": 2057,
         "fontconfig --HEAD": 3
       },
       "90d": {
-        "fontconfig": 6585,
+        "fontconfig": 6520,
         "fontconfig --HEAD": 5
       },
       "365d": {
-        "fontconfig": 42913,
+        "fontconfig": 42929,
         "fontconfig --HEAD": 46
       }
     },
     "build_error": {
       "30d": {
-        "fontconfig": 317
+        "fontconfig": 315
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

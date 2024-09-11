@@ -36,6 +36,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:a5a4627a27bd2c560743d7344f53f050bafc9fc613196a6bca686c1633ca4576",
+          "sha256": "a5a4627a27bd2c560743d7344f53f050bafc9fc613196a6bca686c1633ca4576"
+        },
         "arm64_sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/jpeg-turbo/blobs/sha256:9ea422966185251d1073ba0f4a75c34b4ec497fc7819ea8de80f69fe8e6be18d",
@@ -134,10 +139,10 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/j/jpeg-turbo.rb",
   "ruby_source_checksum": {
-    "sha256": "8abc89e99f7215160f2bbce3fb63d012d26cb548e5da325a2ee7d832503a6cdd"
+    "sha256": "464b4807be5a0d40f3936fbb316fbf553221af988aca2952f97a5858c79571d5"
   },
   "variations": {
     "sequoia": {
@@ -210,27 +215,27 @@
   "analytics": {
     "install": {
       "30d": {
-        "jpeg-turbo": 109838
+        "jpeg-turbo": 111142
       },
       "90d": {
-        "jpeg-turbo": 371673,
-        "jpeg-turbo --HEAD": 7
+        "jpeg-turbo": 367771,
+        "jpeg-turbo --HEAD": 6
       },
       "365d": {
-        "jpeg-turbo": 1529388,
+        "jpeg-turbo": 1529660,
         "jpeg-turbo --HEAD": 45
       }
     },
     "install_on_request": {
       "30d": {
-        "jpeg-turbo": 873
+        "jpeg-turbo": 866
       },
       "90d": {
-        "jpeg-turbo": 3483,
-        "jpeg-turbo --HEAD": 6
+        "jpeg-turbo": 3413,
+        "jpeg-turbo --HEAD": 5
       },
       "365d": {
-        "jpeg-turbo": 22059,
+        "jpeg-turbo": 22043,
         "jpeg-turbo --HEAD": 38
       }
     },
@@ -240,5 +245,5 @@
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

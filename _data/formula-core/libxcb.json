@@ -29,6 +29,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:424cfa4a90faa3e8a83924ab33e339fe7f332c05428fd7ff64e39fbdebc20732",
+          "sha256": "424cfa4a90faa3e8a83924ab33e339fe7f332c05428fd7ff64e39fbdebc20732"
+        },
         "arm64_sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/libxcb/blobs/sha256:73d103661722410b7789107ff2dc6d4290e6d6b3a48fe1311665bb4593110dc1",
@@ -135,39 +140,39 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/lib/libxcb.rb",
   "ruby_source_checksum": {
-    "sha256": "bfb979cfc5006d12c2b3434e57e4c9671fce61386b80f909e24c035874cc5ab3"
+    "sha256": "1f77a6ad4b597cd8a4f7a64620a762a5bb763d986bd3af6f835e7df04edfd785"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "libxcb": 95702,
+        "libxcb": 96691,
         "libxcb --HEAD": 3
       },
       "90d": {
-        "libxcb": 316921,
+        "libxcb": 313721,
         "libxcb --HEAD": 5
       },
       "365d": {
-        "libxcb": 1370579,
-        "libxcb --HEAD": 32
+        "libxcb": 1364843,
+        "libxcb --HEAD": 31
       }
     },
     "install_on_request": {
       "30d": {
-        "libxcb": 495,
+        "libxcb": 500,
         "libxcb --HEAD": 3
       },
       "90d": {
-        "libxcb": 1899,
+        "libxcb": 1883,
         "libxcb --HEAD": 4
       },
       "365d": {
-        "libxcb": 13901,
-        "libxcb --HEAD": 25
+        "libxcb": 13704,
+        "libxcb --HEAD": 24
       }
     },
     "build_error": {
@@ -176,5 +181,5 @@
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

@@ -33,6 +33,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/bison/blobs/sha256:d45a8c193646a25d281a6d3fd62d6f756d4e392cc2948e605a62f3d88ccbf188",
+          "sha256": "d45a8c193646a25d281a6d3fd62d6f756d4e392cc2948e605a62f3d88ccbf188"
+        },
         "arm64_sonoma": {
           "cellar": ":any_skip_relocation",
           "url": "https://ghcr.io/v2/homebrew/core/bison/blobs/sha256:d4c06638f63876867e8fc485129ea6683487a249f0b2bc98bfaa6f1dab4ff6a4",
@@ -126,38 +131,38 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/b/bison.rb",
   "ruby_source_checksum": {
-    "sha256": "44f9b4ee0ba2a8ea87edbf3bd8306c910fa05ed168ac1701df9f80c236aa547d"
+    "sha256": "1f94da2f43686d9a036c6614b23a1f07cfe151793185e428e375595fb12af97c"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "bison": 8663,
+        "bison": 8720,
         "bison --HEAD": 7
       },
       "90d": {
-        "bison": 26895,
+        "bison": 26797,
         "bison --HEAD": 15
       },
       "365d": {
-        "bison": 116403,
+        "bison": 116367,
         "bison --HEAD": 82
       }
     },
     "install_on_request": {
       "30d": {
-        "bison": 2919,
+        "bison": 2977,
         "bison --HEAD": 7
       },
       "90d": {
-        "bison": 9408,
+        "bison": 9409,
         "bison --HEAD": 15
       },
       "365d": {
-        "bison": 43437,
+        "bison": 43331,
         "bison --HEAD": 81
       }
     },
@@ -167,5 +172,5 @@
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

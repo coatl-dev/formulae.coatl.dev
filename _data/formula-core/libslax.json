@@ -34,6 +34,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libslax/blobs/sha256:9a912d3e7a8335a0a88118983dae826c6a6342217fe4dcca0777e60b49c937b0",
+          "sha256": "9a912d3e7a8335a0a88118983dae826c6a6342217fe4dcca0777e60b49c937b0"
+        },
         "arm64_sonoma": {
           "cellar": "/opt/homebrew/Cellar",
           "url": "https://ghcr.io/v2/homebrew/core/libslax/blobs/sha256:702b5c70a2022383582b60356878b121b09e192f024ce03c88acd6d29c7f7e8f",
@@ -138,33 +143,33 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/lib/libslax.rb",
   "ruby_source_checksum": {
-    "sha256": "a26e657cdb0af32cab45a3c24ef5aa4245ea9be4067aef5e85f895191248f28d"
+    "sha256": "04d475e87affb88b0606abb7f016409fd146bd9939dbc45d625cb03890af6bd8"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "libslax": 7
+        "libslax": 8
       },
       "90d": {
         "libslax": 24
       },
       "365d": {
-        "libslax": 167
+        "libslax": 168
       }
     },
     "install_on_request": {
       "30d": {
-        "libslax": 7
+        "libslax": 8
       },
       "90d": {
         "libslax": 21
       },
       "365d": {
-        "libslax": 112
+        "libslax": 113
       }
     },
     "build_error": {
@@ -173,5 +178,5 @@
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

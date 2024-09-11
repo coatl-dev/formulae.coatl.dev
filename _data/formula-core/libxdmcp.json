@@ -29,6 +29,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxdmcp/blobs/sha256:b09a915dae5b45371a86f20a4ccce13c16c7a8eadc843b665e91bc5b2d2143ce",
+          "sha256": "b09a915dae5b45371a86f20a4ccce13c16c7a8eadc843b665e91bc5b2d2143ce"
+        },
         "arm64_sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/libxdmcp/blobs/sha256:789326aa88d1b6dbe5dd565e9e70e5031bf63fac39d22cd30d11c1dfc49ffbfb",
@@ -118,23 +123,23 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/lib/libxdmcp.rb",
   "ruby_source_checksum": {
-    "sha256": "a3c09cead76d03044b914f9e1c90a872afe13b82e5340b57a59189f1b8797456"
+    "sha256": "13158abbbf6851c7e06a6593f555918f156c0a95990064e2d8d3d9f37ba3b21e"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "libxdmcp": 72015
+        "libxdmcp": 73282
       },
       "90d": {
-        "libxdmcp": 230346,
+        "libxdmcp": 228384,
         "libxdmcp --HEAD": 1
       },
       "365d": {
-        "libxdmcp": 836587,
+        "libxdmcp": 838837,
         "libxdmcp --HEAD": 5
       }
     },
@@ -143,11 +148,11 @@
         "libxdmcp": 203
       },
       "90d": {
-        "libxdmcp": 642,
+        "libxdmcp": 638,
         "libxdmcp --HEAD": 1
       },
       "365d": {
-        "libxdmcp": 4047,
+        "libxdmcp": 4048,
         "libxdmcp --HEAD": 3
       }
     },
@@ -157,5 +162,5 @@
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

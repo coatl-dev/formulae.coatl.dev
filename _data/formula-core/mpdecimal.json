@@ -31,6 +31,11 @@
       "rebuild": 1,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mpdecimal/blobs/sha256:0f5f269bed0e6be2de3edfc4b52867e656f993e5bcff40717f26ee94dd0d2211",
+          "sha256": "0f5f269bed0e6be2de3edfc4b52867e656f993e5bcff40717f26ee94dd0d2211"
+        },
         "arm64_sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/mpdecimal/blobs/sha256:2965eec8a30f462b3bd6a8cc2756c1645e75f4399471594e434e36e886239e2e",
@@ -108,45 +113,45 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/m/mpdecimal.rb",
   "ruby_source_checksum": {
-    "sha256": "a56e7a37df2044a479fe3c91ab245735e24f7a22ed1b0eb0746cdc1e6597965d"
+    "sha256": "f6dd29f14a0b46ac7c6036681b17dcf2f42f83e7066aec7150c0c77612af41d6"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "mpdecimal": 138108,
+        "mpdecimal": 140520,
         "mpdecimal --HEAD": 1
       },
       "90d": {
-        "mpdecimal": 441385,
+        "mpdecimal": 439427,
         "mpdecimal --HEAD": 3
       },
       "365d": {
-        "mpdecimal": 1532865,
-        "mpdecimal --HEAD": 21
+        "mpdecimal": 1538581,
+        "mpdecimal --HEAD": 20
       }
     },
     "install_on_request": {
       "30d": {
-        "mpdecimal": 551
+        "mpdecimal": 572
       },
       "90d": {
-        "mpdecimal": 1820,
+        "mpdecimal": 1803,
         "mpdecimal --HEAD": 1
       },
       "365d": {
-        "mpdecimal": 10183,
-        "mpdecimal --HEAD": 10
+        "mpdecimal": 10206,
+        "mpdecimal --HEAD": 9
       }
     },
     "build_error": {
       "30d": {
-        "mpdecimal": 32
+        "mpdecimal": 30
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

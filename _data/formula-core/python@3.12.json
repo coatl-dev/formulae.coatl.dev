@@ -38,6 +38,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.12/blobs/sha256:27e2aeca98ebad5afc7a2937f9571826ee3c8bd724306f7d85de5e47d9dce571",
+          "sha256": "27e2aeca98ebad5afc7a2937f9571826ee3c8bd724306f7d85de5e47d9dce571"
+        },
         "arm64_sonoma": {
           "cellar": "/opt/homebrew/Cellar",
           "url": "https://ghcr.io/v2/homebrew/core/python/3.12/blobs/sha256:00871488a4207f0265eab8e339146f63874e7454487169e819a1e4a5bd13a62b",
@@ -201,10 +206,10 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/p/python@3.12.rb",
   "ruby_source_checksum": {
-    "sha256": "9e14e8392e5c0eebdd41c49fb2c107687f0cb58674f0d9b5e95d91d8a418f9d8"
+    "sha256": "8fcda0cfa110929bc832e2415a7c2aa846cc3a9dce13fb4af981e73bce743938"
   },
   "variations": {
     "x86_64_linux": {
@@ -222,37 +227,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.12": 368014,
-        "python@3.12 --HEAD": 309
+        "python@3.12": 390345,
+        "python@3.12 --HEAD": 337
       },
       "90d": {
-        "python@3.12": 1008203,
-        "python@3.12 --HEAD": 708
+        "python@3.12": 1026603,
+        "python@3.12 --HEAD": 734
       },
       "365d": {
-        "python@3.12": 2665975,
-        "python@3.12 --HEAD": 1516
+        "python@3.12": 2702469,
+        "python@3.12 --HEAD": 1551
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.12": 142156,
-        "python@3.12 --HEAD": 306
+        "python@3.12": 151465,
+        "python@3.12 --HEAD": 335
       },
       "90d": {
-        "python@3.12": 363837,
-        "python@3.12 --HEAD": 701
+        "python@3.12": 372350,
+        "python@3.12 --HEAD": 729
       },
       "365d": {
-        "python@3.12": 754844,
-        "python@3.12 --HEAD": 1506
+        "python@3.12": 769213,
+        "python@3.12 --HEAD": 1542
       }
     },
     "build_error": {
       "30d": {
-        "python@3.12": 1298
+        "python@3.12": 1365
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

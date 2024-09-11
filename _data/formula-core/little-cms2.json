@@ -31,6 +31,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/little-cms2/blobs/sha256:cbd8af49cc4b8454636a2cdcfae87b7005f11cbb7466994f0bf419968f33ea5d",
+          "sha256": "cbd8af49cc4b8454636a2cdcfae87b7005f11cbb7466994f0bf419968f33ea5d"
+        },
         "arm64_sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/little-cms2/blobs/sha256:d1ed5796de3f00d4b1301e9062cb54b2337c8e8dcf2ae9be8e03f3ed7af791e0",
@@ -147,39 +152,39 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/l/little-cms2.rb",
   "ruby_source_checksum": {
-    "sha256": "ee7fdcf537baee0b30e8ee5b2e4ae95306addc86d0aea8f1bfd8ca09ad50f5ed"
+    "sha256": "2114484dab11197413436a1890af1f7b18f41f1894554dc29feafecc21bcfc6d"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "little-cms2": 87427,
-        "little-cms2 --HEAD": 10
+        "little-cms2": 88873,
+        "little-cms2 --HEAD": 13
       },
       "90d": {
-        "little-cms2": 279945,
-        "little-cms2 --HEAD": 53
+        "little-cms2": 278114,
+        "little-cms2 --HEAD": 54
       },
       "365d": {
-        "little-cms2": 1273292,
-        "little-cms2 --HEAD": 331
+        "little-cms2": 1272769,
+        "little-cms2 --HEAD": 332
       }
     },
     "install_on_request": {
       "30d": {
-        "little-cms2": 8659,
-        "little-cms2 --HEAD": 10
+        "little-cms2": 8762,
+        "little-cms2 --HEAD": 13
       },
       "90d": {
-        "little-cms2": 28615,
-        "little-cms2 --HEAD": 52
+        "little-cms2": 28248,
+        "little-cms2 --HEAD": 53
       },
       "365d": {
-        "little-cms2": 195116,
-        "little-cms2 --HEAD": 327
+        "little-cms2": 194724,
+        "little-cms2 --HEAD": 328
       }
     },
     "build_error": {
@@ -188,5 +193,5 @@
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

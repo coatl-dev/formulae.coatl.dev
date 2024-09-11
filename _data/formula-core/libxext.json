@@ -29,6 +29,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/libxext/blobs/sha256:a0434e871b6dfa64f18757e5d6df179308bcf1b53e5fa233c7d54222be8d513b",
+          "sha256": "a0434e871b6dfa64f18757e5d6df179308bcf1b53e5fa233c7d54222be8d513b"
+        },
         "arm64_sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/libxext/blobs/sha256:50a9b29c594f9b93690466d66b52f2ac36461d956016b135a85d3dfbc883e336",
@@ -147,38 +152,38 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/lib/libxext.rb",
   "ruby_source_checksum": {
-    "sha256": "9db0f6f39db6a6a5b4b167dd16d66a15d0223e8b6302caf8de9463370cfc1e74"
+    "sha256": "b269acf0b8699e4fcc4d797c382504e676b7e85fb2ccd0fa73e27ca2b30f8b0f"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "libxext": 81195,
+        "libxext": 82387,
         "libxext --HEAD": 1
       },
       "90d": {
-        "libxext": 258022,
+        "libxext": 255901,
         "libxext --HEAD": 2
       },
       "365d": {
-        "libxext": 957918,
+        "libxext": 960278,
         "libxext --HEAD": 13
       }
     },
     "install_on_request": {
       "30d": {
-        "libxext": 620,
+        "libxext": 619,
         "libxext --HEAD": 1
       },
       "90d": {
-        "libxext": 1821,
+        "libxext": 1802,
         "libxext --HEAD": 2
       },
       "365d": {
-        "libxext": 9603,
+        "libxext": 9620,
         "libxext --HEAD": 12
       }
     },
@@ -188,5 +193,5 @@
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

@@ -29,6 +29,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/xorgproto/blobs/sha256:91066363512e4a3b01644398886815eb370bc8f62611f7ee20c23c7350b4422e",
+          "sha256": "91066363512e4a3b01644398886815eb370bc8f62611f7ee20c23c7350b4422e"
+        },
         "arm64_sonoma": {
           "cellar": ":any_skip_relocation",
           "url": "https://ghcr.io/v2/homebrew/core/xorgproto/blobs/sha256:3307601f0a03f6c51b640fb11064ef2c2264cc9c20de0604a255370edee3f7f4",
@@ -111,37 +116,36 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/x/xorgproto.rb",
   "ruby_source_checksum": {
-    "sha256": "33174371c64bd33781b98f4433e1ece291a1199c95e0dd0315d89cdbe94f0c2f"
+    "sha256": "03712747772b9e82dca5d14fce7f289d282cd46e0bb661affc7344ed8afd816d"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "xorgproto": 89976,
-        "xorgproto --HEAD": 1
+        "xorgproto": 91148
       },
       "90d": {
-        "xorgproto": 293217,
+        "xorgproto": 290160,
         "xorgproto --HEAD": 3
       },
       "365d": {
-        "xorgproto": 1100626,
+        "xorgproto": 1100845,
         "xorgproto --HEAD": 18
       }
     },
     "install_on_request": {
       "30d": {
-        "xorgproto": 319
+        "xorgproto": 325
       },
       "90d": {
-        "xorgproto": 2230,
+        "xorgproto": 2147,
         "xorgproto --HEAD": 1
       },
       "365d": {
-        "xorgproto": 9110,
+        "xorgproto": 9101,
         "xorgproto --HEAD": 14
       }
     },
@@ -151,5 +155,5 @@
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

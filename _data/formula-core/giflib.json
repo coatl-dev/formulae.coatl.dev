@@ -31,6 +31,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:bf188a3d3e386e0b100831ca92173118c74645b033b56b4a7c148a91c2cfecb5",
+          "sha256": "bf188a3d3e386e0b100831ca92173118c74645b033b56b4a7c148a91c2cfecb5"
+        },
         "arm64_sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/giflib/blobs/sha256:c6b05aecad00588daf749dbde717fb6a03ce83fb9723b15f5786e7b974ef4c02",
@@ -108,38 +113,38 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/g/giflib.rb",
   "ruby_source_checksum": {
-    "sha256": "aeb68fa0060d6ebbbe8c9978ed512f5d3c9772d0762b3e09fb3cddb801a260bf"
+    "sha256": "30ccea55238ddbda89e831030295f9b47951b67d7e9b90a17e897b078d7aa635"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "giflib": 96729,
+        "giflib": 98187,
         "giflib --HEAD": 12
       },
       "90d": {
-        "giflib": 316058,
-        "giflib --HEAD": 33
+        "giflib": 313555,
+        "giflib --HEAD": 34
       },
       "365d": {
-        "giflib": 938175,
+        "giflib": 941747,
         "giflib --HEAD": 86
       }
     },
     "install_on_request": {
       "30d": {
-        "giflib": 5695,
-        "giflib --HEAD": 11
+        "giflib": 5902,
+        "giflib --HEAD": 12
       },
       "90d": {
-        "giflib": 15101,
-        "giflib --HEAD": 32
+        "giflib": 15211,
+        "giflib --HEAD": 33
       },
       "365d": {
-        "giflib": 40048,
+        "giflib": 40385,
         "giflib --HEAD": 79
       }
     },
@@ -149,5 +154,5 @@
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

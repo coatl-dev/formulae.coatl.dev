@@ -34,6 +34,11 @@
       "rebuild": 1,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/lz4/blobs/sha256:5bd143b7b784989e549637ea4e484af85ba481e640dde69bc35f3843ae25abc6",
+          "sha256": "5bd143b7b784989e549637ea4e484af85ba481e640dde69bc35f3843ae25abc6"
+        },
         "arm64_sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/lz4/blobs/sha256:6590245dc4a919c46afa16366914cd4b5c0c4a8f4fb35a4f6ab89053f289ae5d",
@@ -111,38 +116,38 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/l/lz4.rb",
   "ruby_source_checksum": {
-    "sha256": "d4036c383caa16707c7db86edc009662d8315c2337fb5cbabe508fbb0eea2cf8"
+    "sha256": "ea76f3b905ac38d59fb3d0b27fa9910cebc9241eaa2801cc469ef9bfadf05418"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "lz4": 226012,
+        "lz4": 236449,
         "lz4 --HEAD": 11
       },
       "90d": {
-        "lz4": 436489,
+        "lz4": 443796,
         "lz4 --HEAD": 20
       },
       "365d": {
-        "lz4": 1222288,
+        "lz4": 1232832,
         "lz4 --HEAD": 34
       }
     },
     "install_on_request": {
       "30d": {
-        "lz4": 4795,
+        "lz4": 4926,
         "lz4 --HEAD": 9
       },
       "90d": {
-        "lz4": 6343,
+        "lz4": 6506,
         "lz4 --HEAD": 17
       },
       "365d": {
-        "lz4": 15069,
+        "lz4": 15188,
         "lz4 --HEAD": 31
       }
     },
@@ -152,5 +157,5 @@
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

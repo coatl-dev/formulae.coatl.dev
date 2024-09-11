@@ -29,6 +29,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:c6f87c76459254b07fff761beac4092db78f520edc26b0fb489b5f9c6b767fa5",
+          "sha256": "c6f87c76459254b07fff761beac4092db78f520edc26b0fb489b5f9c6b767fa5"
+        },
         "arm64_sonoma": {
           "cellar": "/opt/homebrew/Cellar",
           "url": "https://ghcr.io/v2/homebrew/core/libx11/blobs/sha256:5467d41501260e483586e9b05ed3137393f7faf7d49901c31bbeb0b25bd7caf5",
@@ -142,46 +147,46 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/lib/libx11.rb",
   "ruby_source_checksum": {
-    "sha256": "85b1ddf7bd0f391dee3f4e3bb596e94a081d536aabdbeccf8f2350ecd51dd2e2"
+    "sha256": "236007b6d9af4de8358217b473b16f6d46739aebe9ea84dfa00f8420e0da1c66"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "libx11": 179550,
+        "libx11": 179538,
         "libx11 --HEAD": 5
       },
       "90d": {
-        "libx11": 483580,
+        "libx11": 483463,
         "libx11 --HEAD": 11
       },
       "365d": {
-        "libx11": 1783848,
+        "libx11": 1787647,
         "libx11 --HEAD": 36
       }
     },
     "install_on_request": {
       "30d": {
-        "libx11": 2967,
+        "libx11": 2861,
         "libx11 --HEAD": 5
       },
       "90d": {
-        "libx11": 7496,
+        "libx11": 7530,
         "libx11 --HEAD": 9
       },
       "365d": {
-        "libx11": 28812,
+        "libx11": 28870,
         "libx11 --HEAD": 28
       }
     },
     "build_error": {
       "30d": {
-        "libx11": 6
+        "libx11": 7
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

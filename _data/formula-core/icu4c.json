@@ -29,6 +29,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:ec52c07656afec651345fb9d1ddc4557982de778ad38bdfe584bf910d49286da",
+          "sha256": "ec52c07656afec651345fb9d1ddc4557982de778ad38bdfe584bf910d49286da"
+        },
         "arm64_sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/icu4c/blobs/sha256:3facc22a7821e01d93a38e371e377f13275299d518929222ed34c77a4f4a65d3",
@@ -109,46 +114,46 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/i/icu4c.rb",
   "ruby_source_checksum": {
-    "sha256": "cd450bcf6a97e1fea0979efce468acf4a45bbc3d301178f7d4ee2776ec7aef6c"
+    "sha256": "cb4d32c35a69f520d33391591301e432998a1566d8f4fd60732bcc6860cbb520"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "icu4c": 154013,
+        "icu4c": 156348,
         "icu4c --HEAD": 5
       },
       "90d": {
-        "icu4c": 498049,
+        "icu4c": 495117,
         "icu4c --HEAD": 13
       },
       "365d": {
-        "icu4c": 1964494,
-        "icu4c --HEAD": 97
+        "icu4c": 1964660,
+        "icu4c --HEAD": 95
       }
     },
     "install_on_request": {
       "30d": {
-        "icu4c": 3449,
+        "icu4c": 3520,
         "icu4c --HEAD": 5
       },
       "90d": {
-        "icu4c": 11914,
+        "icu4c": 11765,
         "icu4c --HEAD": 10
       },
       "365d": {
-        "icu4c": 64977,
-        "icu4c --HEAD": 86
+        "icu4c": 64754,
+        "icu4c --HEAD": 84
       }
     },
     "build_error": {
       "30d": {
-        "icu4c": 37
+        "icu4c": 35
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

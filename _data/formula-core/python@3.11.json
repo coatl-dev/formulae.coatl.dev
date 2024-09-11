@@ -34,6 +34,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:7714868c49f6a308654e858e704d432bda9da45abb44cd6e99784b22cd59db25",
+          "sha256": "7714868c49f6a308654e858e704d432bda9da45abb44cd6e99784b22cd59db25"
+        },
         "arm64_sonoma": {
           "cellar": "/opt/homebrew/Cellar",
           "url": "https://ghcr.io/v2/homebrew/core/python/3.11/blobs/sha256:a8668bf5daafd02b7f1a3859add54d621ab4468354158634895c6f1e1fb81188",
@@ -181,10 +186,10 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/p/python@3.11.rb",
   "ruby_source_checksum": {
-    "sha256": "0e196e1b4cbc701ee7eadd54e7cb8bd515cb2456797f2d18999758a1aba991b3"
+    "sha256": "0343f5eb221f692d2b687f4cd80da3b641b3df743838cd40cc2d6dbb1ea2d647"
   },
   "variations": {
     "x86_64_linux": {
@@ -201,30 +206,30 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.11": 108697,
-        "python@3.11 --HEAD": 136
+        "python@3.11": 115916,
+        "python@3.11 --HEAD": 153
       },
       "90d": {
-        "python@3.11": 321478,
-        "python@3.11 --HEAD": 371
+        "python@3.11": 328141,
+        "python@3.11 --HEAD": 390
       },
       "365d": {
-        "python@3.11": 2195135,
-        "python@3.11 --HEAD": 2641
+        "python@3.11": 2190671,
+        "python@3.11 --HEAD": 2633
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.11": 67978,
-        "python@3.11 --HEAD": 135
+        "python@3.11": 72361,
+        "python@3.11 --HEAD": 152
       },
       "90d": {
-        "python@3.11": 197045,
-        "python@3.11 --HEAD": 369
+        "python@3.11": 201361,
+        "python@3.11 --HEAD": 388
       },
       "365d": {
-        "python@3.11": 1357441,
-        "python@3.11 --HEAD": 2636
+        "python@3.11": 1355524,
+        "python@3.11 --HEAD": 2628
       }
     },
     "build_error": {
@@ -233,5 +238,5 @@
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }

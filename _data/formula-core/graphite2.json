@@ -34,6 +34,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/graphite2/blobs/sha256:150b286ab4cfc8696fcd3fa4e7fa24c9825f024ef991899850b850e6f334100f",
+          "sha256": "150b286ab4cfc8696fcd3fa4e7fa24c9825f024ef991899850b850e6f334100f"
+        },
         "arm64_sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/graphite2/blobs/sha256:4cdee055db9958e12662c53661fab627057d3553974d15b289e2955b439f4a9d",
@@ -138,10 +143,10 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a1d170a9138ce407f4911fdaf0a24d58ef8c7e9e",
+  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
   "ruby_source_path": "Formula/g/graphite2.rb",
   "ruby_source_checksum": {
-    "sha256": "a6319188b398488f45671775e3f1a4fb7cd810f0eab1193e320a90bae4c9c0c3"
+    "sha256": "0ce2e3c9e15793e1ef839481f169a0106f42b1860e8b7eb2d0fcb54b6062e5da"
   },
   "variations": {
     "x86_64_linux": {
@@ -154,28 +159,28 @@
   "analytics": {
     "install": {
       "30d": {
-        "graphite2": 54642,
+        "graphite2": 55519,
         "graphite2 --HEAD": 1
       },
       "90d": {
-        "graphite2": 163283,
+        "graphite2": 162320,
         "graphite2 --HEAD": 1
       },
       "365d": {
-        "graphite2": 553028,
-        "graphite2 --HEAD": 7
+        "graphite2": 554089,
+        "graphite2 --HEAD": 6
       }
     },
     "install_on_request": {
       "30d": {
-        "graphite2": 183
+        "graphite2": 180
       },
       "90d": {
-        "graphite2": 490
+        "graphite2": 491
       },
       "365d": {
-        "graphite2": 2110,
-        "graphite2 --HEAD": 4
+        "graphite2": 2104,
+        "graphite2 --HEAD": 3
       }
     },
     "build_error": {
@@ -184,5 +189,5 @@
       }
     }
   },
-  "generated_date": "2024-09-09"
+  "generated_date": "2024-09-11"
 }
