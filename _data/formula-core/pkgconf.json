@@ -34,6 +34,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": "/opt/homebrew/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pkgconf/blobs/sha256:18c4da47fd2032c4edfac853b772e1a16a745a0c67335b86931fb2bec8c10933",
+          "sha256": "18c4da47fd2032c4edfac853b772e1a16a745a0c67335b86931fb2bec8c10933"
+        },
         "arm64_sonoma": {
           "cellar": "/opt/homebrew/Cellar",
           "url": "https://ghcr.io/v2/homebrew/core/pkgconf/blobs/sha256:4d7c5803943bf2dcc8cb9ff8c838ea4283eeab24f49982df044cbc3031856fd8",
@@ -48,6 +53,11 @@
           "cellar": "/opt/homebrew/Cellar",
           "url": "https://ghcr.io/v2/homebrew/core/pkgconf/blobs/sha256:ac13529811ba6f3e57f7f4048711720d073e10a8797768073626f5d6daabbf76",
           "sha256": "ac13529811ba6f3e57f7f4048711720d073e10a8797768073626f5d6daabbf76"
+        },
+        "sequoia": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/pkgconf/blobs/sha256:9b44fe313d296fa10617d6b58ea1eab78bf217b6f00478ad98b01e0375475472",
+          "sha256": "9b44fe313d296fa10617d6b58ea1eab78bf217b6f00478ad98b01e0375475472"
         },
         "sonoma": {
           "cellar": "/usr/local/Cellar",
@@ -104,10 +114,10 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
+  "tap_git_head": "4ffdc0913f404724e39481013f173ea1071d1859",
   "ruby_source_path": "Formula/p/pkgconf.rb",
   "ruby_source_checksum": {
-    "sha256": "86b8ecedc043dfc4b82040aba93ccc7f9636a1412a253f2d3dd287ae334d3e52"
+    "sha256": "fc9ad6afdbe36479ca2d8bc241ff85cc67ef9e73ba653611b59f31593ec9edb3"
   },
   "head_dependencies": {
     "build_dependencies": [
@@ -126,29 +136,29 @@
   "analytics": {
     "install": {
       "30d": {
-        "pkgconf": 147,
+        "pkgconf": 132,
         "pkgconf --HEAD": 1
       },
       "90d": {
-        "pkgconf": 371,
+        "pkgconf": 382,
         "pkgconf --HEAD": 1
       },
       "365d": {
-        "pkgconf": 1475,
+        "pkgconf": 1441,
         "pkgconf --HEAD": 3
       }
     },
     "install_on_request": {
       "30d": {
-        "pkgconf": 147,
+        "pkgconf": 132,
         "pkgconf --HEAD": 1
       },
       "90d": {
-        "pkgconf": 365,
+        "pkgconf": 380,
         "pkgconf --HEAD": 1
       },
       "365d": {
-        "pkgconf": 1336,
+        "pkgconf": 1331,
         "pkgconf --HEAD": 3
       }
     },
@@ -158,5 +168,5 @@
       }
     }
   },
-  "generated_date": "2024-09-11"
+  "generated_date": "2024-09-16"
 }

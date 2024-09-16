@@ -56,6 +56,11 @@
           "url": "https://ghcr.io/v2/homebrew/core/zstd/blobs/sha256:7f12fa16033d6576099c481f93a7423a526a7b3252a0ea0921ea0016c18f49f8",
           "sha256": "7f12fa16033d6576099c481f93a7423a526a7b3252a0ea0921ea0016c18f49f8"
         },
+        "sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/zstd/blobs/sha256:eb32988fe6b57b6a5f46ed6de10f0e7c74177c8971f4ae1f9c6e7cd4af539a77",
+          "sha256": "eb32988fe6b57b6a5f46ed6de10f0e7c74177c8971f4ae1f9c6e7cd4af539a77"
+        },
         "sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/zstd/blobs/sha256:09953f22fd56bc85e0d7ceac8de7e35ed622f3affe78dd782154e5e21623037b",
@@ -110,7 +115,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1725373673,
+      "time": 1726089225,
       "runtime_dependencies": [
         {
           "full_name": "lz4",
@@ -142,46 +147,46 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
+  "tap_git_head": "4ffdc0913f404724e39481013f173ea1071d1859",
   "ruby_source_path": "Formula/z/zstd.rb",
   "ruby_source_checksum": {
-    "sha256": "6b1130c399d08fb0d153fcd288fb8aae8d9bdd09aadf15f7fe96e671e5af91f2"
+    "sha256": "1a12238aae77ed6d16ee6d86572ab04ecd944a32a8e11aa78b70fec1ba0ddb3e"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "zstd": 152437,
+        "zstd": 149593,
         "zstd --HEAD": 16
       },
       "90d": {
-        "zstd": 475422,
-        "zstd --HEAD": 49
+        "zstd": 473151,
+        "zstd --HEAD": 50
       },
       "365d": {
-        "zstd": 1662495,
-        "zstd --HEAD": 159
+        "zstd": 1669633,
+        "zstd --HEAD": 161
       }
     },
     "install_on_request": {
       "30d": {
-        "zstd": 6263,
+        "zstd": 6006,
         "zstd --HEAD": 16
       },
       "90d": {
-        "zstd": 21166,
-        "zstd --HEAD": 47
+        "zstd": 20743,
+        "zstd --HEAD": 48
       },
       "365d": {
-        "zstd": 73423,
-        "zstd --HEAD": 152
+        "zstd": 73955,
+        "zstd --HEAD": 154
       }
     },
     "build_error": {
       "30d": {
-        "zstd": 35
+        "zstd": 22
       }
     }
   },
-  "generated_date": "2024-09-11"
+  "generated_date": "2024-09-16"
 }

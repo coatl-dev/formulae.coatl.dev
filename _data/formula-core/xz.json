@@ -49,6 +49,11 @@
           "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:e45fcf2977a8541a97f7efef3ccbc0fc782c597b3c340616ada6868e7cf31452",
           "sha256": "e45fcf2977a8541a97f7efef3ccbc0fc782c597b3c340616ada6868e7cf31452"
         },
+        "sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:4cd5f568fa7a413bcdc80ef71ffd7e68d231a65abda95b06071e769e3bfe40dd",
+          "sha256": "4cd5f568fa7a413bcdc80ef71ffd7e68d231a65abda95b06071e769e3bfe40dd"
+        },
         "sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:b940be1e4e0492a9000c11ba2b23d4c57f0f9870c8535acfe149370a82bf73e4",
@@ -94,7 +99,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1725373672,
+      "time": 1726089225,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -111,46 +116,46 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
+  "tap_git_head": "4ffdc0913f404724e39481013f173ea1071d1859",
   "ruby_source_path": "Formula/x/xz.rb",
   "ruby_source_checksum": {
-    "sha256": "6f41fa545da60a1dc0cba5d6ec5ea18f85a3a295c6ddc1a7306950c42e2ac127"
+    "sha256": "d69de9365874dc17e068a88e12e27c2df91db8244a315a3b3fbf05038932435e"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "xz": 314728,
-        "xz --HEAD": 240
+        "xz": 300319,
+        "xz --HEAD": 226
       },
       "90d": {
-        "xz": 939170,
-        "xz --HEAD": 630
+        "xz": 942168,
+        "xz --HEAD": 629
       },
       "365d": {
-        "xz": 3273572,
-        "xz --HEAD": 1255
+        "xz": 3284521,
+        "xz --HEAD": 1272
       }
     },
     "install_on_request": {
       "30d": {
-        "xz": 81585,
-        "xz --HEAD": 239
+        "xz": 76487,
+        "xz --HEAD": 225
       },
       "90d": {
-        "xz": 255653,
-        "xz --HEAD": 627
+        "xz": 252140,
+        "xz --HEAD": 626
       },
       "365d": {
-        "xz": 819846,
-        "xz --HEAD": 1241
+        "xz": 823773,
+        "xz --HEAD": 1258
       }
     },
     "build_error": {
       "30d": {
-        "xz": 1126
+        "xz": 888
       }
     }
   },
-  "generated_date": "2024-09-11"
+  "generated_date": "2024-09-16"
 }
