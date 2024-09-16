@@ -54,6 +54,11 @@
           "url": "https://ghcr.io/v2/homebrew/core/m4/blobs/sha256:ea1be04e51645f9e31c8d2cab6d144bb7f47efb1f35214b9f1014e27db5a3bc1",
           "sha256": "ea1be04e51645f9e31c8d2cab6d144bb7f47efb1f35214b9f1014e27db5a3bc1"
         },
+        "sequoia": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/m4/blobs/sha256:16d2da5d758ce23c24fe59d1659ff7ecf076f51105fc4797e0d6b0e6c28fbdc5",
+          "sha256": "16d2da5d758ce23c24fe59d1659ff7ecf076f51105fc4797e0d6b0e6c28fbdc5"
+        },
         "sonoma": {
           "cellar": ":any_skip_relocation",
           "url": "https://ghcr.io/v2/homebrew/core/m4/blobs/sha256:8434a67a4383836b2531a6180e068640c5b482ee6781b673d65712e4fc86ca76",
@@ -123,46 +128,46 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
+  "tap_git_head": "4ffdc0913f404724e39481013f173ea1071d1859",
   "ruby_source_path": "Formula/m/m4.rb",
   "ruby_source_checksum": {
-    "sha256": "99272672bc5f0314962c0c3621663a8450747c76c87367d16f14387fb35d2135"
+    "sha256": "4c265e1d7f070a950c43d76b6783552a61680e3caf5a0679ce48060bfd683e9b"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "m4": 43170,
+        "m4": 43507,
         "m4 --HEAD": 2
       },
       "90d": {
-        "m4": 131821,
+        "m4": 133207,
         "m4 --HEAD": 5
       },
       "365d": {
-        "m4": 467512,
+        "m4": 469910,
         "m4 --HEAD": 15
       }
     },
     "install_on_request": {
       "30d": {
-        "m4": 528,
+        "m4": 547,
         "m4 --HEAD": 2
       },
       "90d": {
-        "m4": 1566,
+        "m4": 1584,
         "m4 --HEAD": 5
       },
       "365d": {
-        "m4": 6122,
+        "m4": 6149,
         "m4 --HEAD": 7
       }
     },
     "build_error": {
       "30d": {
-        "m4": 38
+        "m4": 45
       }
     }
   },
-  "generated_date": "2024-09-11"
+  "generated_date": "2024-09-16"
 }

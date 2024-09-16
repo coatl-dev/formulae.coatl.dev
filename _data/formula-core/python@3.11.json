@@ -122,11 +122,11 @@
   "caveats": "Python has been installed as\n  $HOMEBREW_PREFIX/bin/python3.11\n\nUnversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to\n`python3.11`, `python3.11-config`, `pip3.11` etc., respectively, have been installed into\n  $HOMEBREW_PREFIX/opt/python@3.11/libexec/bin\n\nYou can install Python packages with\n  pip3.11 install <package>\nThey will install into the site-package directory\n  $HOMEBREW_PREFIX/lib/python3.11/site-packages\n\ntkinter is no longer included with this formula, but it is available separately:\n  brew install python-tk@3.11\n\ngdbm (`dbm.gnu`) is no longer included in this formula, but it is available separately:\n  brew install python-gdbm@3.11\n`dbm.ndbm` changed database backends in Homebrew Python 3.11.\nIf you need to read a database from a previous Homebrew Python created via `dbm.ndbm`,\nyou'll need to read your database using the older version of Homebrew Python and convert to another format.\n`dbm` still defaults to `dbm.gnu` when it is installed.\n\nIf you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:\n  brew install python3\n\nFor more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python\n",
   "installed": [
     {
-      "version": "3.11.9_1",
+      "version": "3.11.10",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1725374296,
+      "time": 1726089812,
       "runtime_dependencies": [
         {
           "full_name": "mpdecimal",
@@ -144,9 +144,9 @@
         },
         {
           "full_name": "openssl@3",
-          "version": "3.3.1",
+          "version": "3.3.2",
           "revision": 0,
-          "pkg_version": "3.3.1",
+          "pkg_version": "3.3.2",
           "declared_directly": true
         },
         {
@@ -175,9 +175,9 @@
       "installed_on_request": false
     }
   ],
-  "linked_keg": "3.11.9_1",
+  "linked_keg": "3.11.10",
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -186,7 +186,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
+  "tap_git_head": "4ffdc0913f404724e39481013f173ea1071d1859",
   "ruby_source_path": "Formula/p/python@3.11.rb",
   "ruby_source_checksum": {
     "sha256": "0343f5eb221f692d2b687f4cd80da3b641b3df743838cd40cc2d6dbb1ea2d647"
@@ -206,37 +206,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.11": 115916,
-        "python@3.11 --HEAD": 153
+        "python@3.11": 121430,
+        "python@3.11 --HEAD": 157
       },
       "90d": {
-        "python@3.11": 328141,
-        "python@3.11 --HEAD": 390
+        "python@3.11": 338503,
+        "python@3.11 --HEAD": 395
       },
       "365d": {
-        "python@3.11": 2190671,
-        "python@3.11 --HEAD": 2633
+        "python@3.11": 2172053,
+        "python@3.11 --HEAD": 2584
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.11": 72361,
-        "python@3.11 --HEAD": 152
+        "python@3.11": 75707,
+        "python@3.11 --HEAD": 156
       },
       "90d": {
-        "python@3.11": 201361,
-        "python@3.11 --HEAD": 388
+        "python@3.11": 208175,
+        "python@3.11 --HEAD": 394
       },
       "365d": {
-        "python@3.11": 1355524,
-        "python@3.11 --HEAD": 2628
+        "python@3.11": 1346208,
+        "python@3.11 --HEAD": 2579
       }
     },
     "build_error": {
       "30d": {
-        "python@3.11": 45
+        "python@3.11": 42
       }
     }
   },
-  "generated_date": "2024-09-11"
+  "generated_date": "2024-09-16"
 }

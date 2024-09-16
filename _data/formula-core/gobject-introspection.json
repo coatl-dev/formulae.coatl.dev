@@ -9,20 +9,20 @@
   "license": "GPL-2.0-or-later AND LGPL-2.0-or-later AND MIT",
   "homepage": "https://gi.readthedocs.io/en/latest/",
   "versions": {
-    "stable": "1.80.1",
+    "stable": "1.82.0",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://download.gnome.org/sources/gobject-introspection/1.80/gobject-introspection-1.80.1.tar.xz",
+      "url": "https://download.gnome.org/sources/gobject-introspection/1.82/gobject-introspection-1.82.0.tar.xz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "a1df7c424e15bda1ab639c00e9051b9adf5cea1a9e512f8a603b53cd199bc6d8"
+      "checksum": "0f5a4c1908424bf26bc41e9361168c363685080fbdb87a196c891c8401ca2f09"
     }
   },
-  "revision": 1,
+  "revision": 0,
   "version_scheme": 0,
   "bottle": {
     "stable": {
@@ -31,43 +31,33 @@
       "files": {
         "arm64_sequoia": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/gobject-introspection/blobs/sha256:820c8845333c838652f962bdc24b244a0b5e854844e949f6aeb7945d554ec6a6",
-          "sha256": "820c8845333c838652f962bdc24b244a0b5e854844e949f6aeb7945d554ec6a6"
+          "url": "https://ghcr.io/v2/homebrew/core/gobject-introspection/blobs/sha256:8d74abd27df2b62211a8e14c6d8900f258d5b3590956d801dae80ea4f6f1f4df",
+          "sha256": "8d74abd27df2b62211a8e14c6d8900f258d5b3590956d801dae80ea4f6f1f4df"
         },
         "arm64_sonoma": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/gobject-introspection/blobs/sha256:e28f50144066ecbc4215381aa26c238e8dac6ca0362b1e603784ff48dc6e5e7a",
-          "sha256": "e28f50144066ecbc4215381aa26c238e8dac6ca0362b1e603784ff48dc6e5e7a"
+          "url": "https://ghcr.io/v2/homebrew/core/gobject-introspection/blobs/sha256:140e00fb8669877b8af6cbb7b0d3e3b88385e3b1478a6cf0a82aa5d78affaf62",
+          "sha256": "140e00fb8669877b8af6cbb7b0d3e3b88385e3b1478a6cf0a82aa5d78affaf62"
         },
         "arm64_ventura": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/gobject-introspection/blobs/sha256:f89a382a4431e4c45ecb3de881344e6c5cd1a4a3d5ba5e589bffbc6af4015478",
-          "sha256": "f89a382a4431e4c45ecb3de881344e6c5cd1a4a3d5ba5e589bffbc6af4015478"
-        },
-        "arm64_monterey": {
-          "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/gobject-introspection/blobs/sha256:e86c150176699e055c782a3ce9ae54ca7f11aa2f49cb513ea034ea8548a38daf",
-          "sha256": "e86c150176699e055c782a3ce9ae54ca7f11aa2f49cb513ea034ea8548a38daf"
+          "url": "https://ghcr.io/v2/homebrew/core/gobject-introspection/blobs/sha256:72b7d5b987719b01b2d1a55b8401eea731299b6ae636a15e5ff1ddbbd4650f78",
+          "sha256": "72b7d5b987719b01b2d1a55b8401eea731299b6ae636a15e5ff1ddbbd4650f78"
         },
         "sonoma": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/gobject-introspection/blobs/sha256:2ae0d61dd15cefe025aa2d2fcff53f59922ee4617de110dd53890b83a0c7fe87",
-          "sha256": "2ae0d61dd15cefe025aa2d2fcff53f59922ee4617de110dd53890b83a0c7fe87"
+          "url": "https://ghcr.io/v2/homebrew/core/gobject-introspection/blobs/sha256:0065754b9e716fe32e180e8a130cd83f16797704b8a310fa300fa2511c42b12b",
+          "sha256": "0065754b9e716fe32e180e8a130cd83f16797704b8a310fa300fa2511c42b12b"
         },
         "ventura": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/gobject-introspection/blobs/sha256:778bbc5bdd75e7d532116dc6db6a3e65ed7ce6382d93c9478e7f63f1635f77be",
-          "sha256": "778bbc5bdd75e7d532116dc6db6a3e65ed7ce6382d93c9478e7f63f1635f77be"
-        },
-        "monterey": {
-          "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/gobject-introspection/blobs/sha256:93689c0323a853f42ba85ffab5856267b11b88d497b53faaffc60e6411f105a2",
-          "sha256": "93689c0323a853f42ba85ffab5856267b11b88d497b53faaffc60e6411f105a2"
+          "url": "https://ghcr.io/v2/homebrew/core/gobject-introspection/blobs/sha256:7c874e6c4e301f867f7825084975240d3dc23311c92f460f48af59378409c1c4",
+          "sha256": "7c874e6c4e301f867f7825084975240d3dc23311c92f460f48af59378409c1c4"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/gobject-introspection/blobs/sha256:a45a7a0410ff701fd481e4c9ae57920cb19b9676f357c956dd72e6e60b95dd29",
-          "sha256": "a45a7a0410ff701fd481e4c9ae57920cb19b9676f357c956dd72e6e60b95dd29"
+          "url": "https://ghcr.io/v2/homebrew/core/gobject-introspection/blobs/sha256:c69de82d45cb1788871624ed192f58955055696ed0ea1f714e1cd178184bb283",
+          "sha256": "c69de82d45cb1788871624ed192f58955055696ed0ea1f714e1cd178184bb283"
         }
       }
     }
@@ -119,46 +109,46 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
+  "tap_git_head": "4ffdc0913f404724e39481013f173ea1071d1859",
   "ruby_source_path": "Formula/g/gobject-introspection.rb",
   "ruby_source_checksum": {
-    "sha256": "6df99e33f89922187331d3e8eb0de834a90d0e30d973fccc30605ddf219d5a72"
+    "sha256": "b79004768c7d4ea4616162c379ff078c4ac86d4c9c5d2221c6d88d7c92849e44"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "gobject-introspection": 26967,
-        "gobject-introspection --HEAD": 29
+        "gobject-introspection": 34058,
+        "gobject-introspection --HEAD": 37
       },
       "90d": {
-        "gobject-introspection": 70427,
-        "gobject-introspection --HEAD": 48
+        "gobject-introspection": 75726,
+        "gobject-introspection --HEAD": 60
       },
       "365d": {
-        "gobject-introspection": 404455,
-        "gobject-introspection --HEAD": 388
+        "gobject-introspection": 398253,
+        "gobject-introspection --HEAD": 382
       }
     },
     "install_on_request": {
       "30d": {
-        "gobject-introspection": 18268,
-        "gobject-introspection --HEAD": 29
+        "gobject-introspection": 23330,
+        "gobject-introspection --HEAD": 37
       },
       "90d": {
-        "gobject-introspection": 44024,
-        "gobject-introspection --HEAD": 48
+        "gobject-introspection": 48321,
+        "gobject-introspection --HEAD": 60
       },
       "365d": {
-        "gobject-introspection": 269117,
-        "gobject-introspection --HEAD": 388
+        "gobject-introspection": 266180,
+        "gobject-introspection --HEAD": 382
       }
     },
     "build_error": {
       "30d": {
-        "gobject-introspection": 80
+        "gobject-introspection": 64
       }
     }
   },
-  "generated_date": "2024-09-11"
+  "generated_date": "2024-09-16"
 }

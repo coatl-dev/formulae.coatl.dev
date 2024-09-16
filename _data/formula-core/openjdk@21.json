@@ -33,6 +33,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/21/blobs/sha256:b752e9bd3c7fd27fe39407564f827ac1bb7897ef4dcd697ab5acfcf8f2ea71c5",
+          "sha256": "b752e9bd3c7fd27fe39407564f827ac1bb7897ef4dcd697ab5acfcf8f2ea71c5"
+        },
         "arm64_sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/openjdk/21/blobs/sha256:9c746b162f12f2c3ac7ef4cca58676e7c4a6c1234b2b35b2fe2c1d6dba4ef3d8",
@@ -144,10 +149,10 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
+  "tap_git_head": "4ffdc0913f404724e39481013f173ea1071d1859",
   "ruby_source_path": "Formula/o/openjdk@21.rb",
   "ruby_source_checksum": {
-    "sha256": "1d928c741f8562a78cd6e0afa0d11f42f46c5236f3a374850cc9bd5a534de578"
+    "sha256": "26e9797555a648bbadb32c6ef995feedb51a0c7a3fb0a1b2a895776d15a60e84"
   },
   "variations": {
     "x86_64_linux": {
@@ -174,37 +179,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "openjdk@21": 10646,
-        "openjdk@21 --HEAD": 11
+        "openjdk@21": 10500,
+        "openjdk@21 --HEAD": 10
       },
       "90d": {
-        "openjdk@21": 27206,
-        "openjdk@21 --HEAD": 22
+        "openjdk@21": 27514,
+        "openjdk@21 --HEAD": 23
       },
       "365d": {
-        "openjdk@21": 30629,
-        "openjdk@21 --HEAD": 25
+        "openjdk@21": 32346,
+        "openjdk@21 --HEAD": 27
       }
     },
     "install_on_request": {
       "30d": {
-        "openjdk@21": 4179,
-        "openjdk@21 --HEAD": 11
+        "openjdk@21": 4207,
+        "openjdk@21 --HEAD": 10
       },
       "90d": {
-        "openjdk@21": 11918,
-        "openjdk@21 --HEAD": 21
+        "openjdk@21": 12087,
+        "openjdk@21 --HEAD": 22
       },
       "365d": {
-        "openjdk@21": 13329,
-        "openjdk@21 --HEAD": 24
+        "openjdk@21": 14060,
+        "openjdk@21 --HEAD": 26
       }
     },
     "build_error": {
       "30d": {
-        "openjdk@21": 61
+        "openjdk@21": 48
       }
     }
   },
-  "generated_date": "2024-09-11"
+  "generated_date": "2024-09-16"
 }

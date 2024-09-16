@@ -101,7 +101,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1725374268,
+      "time": 1726089784,
       "runtime_dependencies": [
         {
           "full_name": "xorgproto",
@@ -147,7 +147,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "d15c4e9fee45d9f8c8653e7611543cf18c84a52c",
+  "tap_git_head": "4ffdc0913f404724e39481013f173ea1071d1859",
   "ruby_source_path": "Formula/lib/libx11.rb",
   "ruby_source_checksum": {
     "sha256": "236007b6d9af4de8358217b473b16f6d46739aebe9ea84dfa00f8420e0da1c66"
@@ -156,37 +156,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "libx11": 179538,
-        "libx11 --HEAD": 5
+        "libx11": 174581,
+        "libx11 --HEAD": 3
       },
       "90d": {
-        "libx11": 483463,
+        "libx11": 489727,
         "libx11 --HEAD": 11
       },
       "365d": {
-        "libx11": 1787647,
+        "libx11": 1795970,
         "libx11 --HEAD": 36
       }
     },
     "install_on_request": {
       "30d": {
-        "libx11": 2861,
-        "libx11 --HEAD": 5
+        "libx11": 2494,
+        "libx11 --HEAD": 3
       },
       "90d": {
-        "libx11": 7530,
+        "libx11": 7611,
         "libx11 --HEAD": 9
       },
       "365d": {
-        "libx11": 28870,
+        "libx11": 28988,
         "libx11 --HEAD": 28
       }
     },
     "build_error": {
       "30d": {
-        "libx11": 7
+        "libx11": 8
       }
     }
   },
-  "generated_date": "2024-09-11"
+  "generated_date": "2024-09-16"
 }
