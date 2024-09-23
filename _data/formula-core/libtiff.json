@@ -9,17 +9,17 @@
   "license": "libtiff",
   "homepage": "https://libtiff.gitlab.io/libtiff/",
   "versions": {
-    "stable": "4.6.0",
+    "stable": "4.7.0",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://download.osgeo.org/libtiff/tiff-4.6.0.tar.gz",
+      "url": "https://download.osgeo.org/libtiff/tiff-4.7.0.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "88b3979e6d5c7e32b50d7ec72fb15af724f6ab2cbf7e10880c360a77e4b5d99a"
+      "checksum": "67160e3457365ab96c5b3286a0903aa6e78bdc44c4bc737d2e486bcecb6ba976"
     }
   },
   "revision": 0,
@@ -31,53 +31,33 @@
       "files": {
         "arm64_sequoia": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:8f7adcae099f9d84445a5a5a7bf8908e3dd0059f0db1b02510fdebf56665dbea",
-          "sha256": "8f7adcae099f9d84445a5a5a7bf8908e3dd0059f0db1b02510fdebf56665dbea"
+          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:8562d5a43bac7a9e4e615d0ba4bb72b8d1cebdf52a1b92f924f7358b587d139d",
+          "sha256": "8562d5a43bac7a9e4e615d0ba4bb72b8d1cebdf52a1b92f924f7358b587d139d"
         },
         "arm64_sonoma": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:a9cafbce08b697fb25e326ea1dd3a0e01c3acc3f8f616e844940e49b33386ab3",
-          "sha256": "a9cafbce08b697fb25e326ea1dd3a0e01c3acc3f8f616e844940e49b33386ab3"
+          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:90bc1ab8734f27d41ceaeadc9e999de4c18766cf4b62e8fed1449dc828ea2395",
+          "sha256": "90bc1ab8734f27d41ceaeadc9e999de4c18766cf4b62e8fed1449dc828ea2395"
         },
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:12f3e1b0e5cd225a05d914692cf6de0f86f29ba1f51b806723237da2f85a7b13",
-          "sha256": "12f3e1b0e5cd225a05d914692cf6de0f86f29ba1f51b806723237da2f85a7b13"
-        },
-        "arm64_monterey": {
-          "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:8a7ed5ea7efe9534f15bca3ae2134d9f35bd08372da5949c33d025f80ae1d47e",
-          "sha256": "8a7ed5ea7efe9534f15bca3ae2134d9f35bd08372da5949c33d025f80ae1d47e"
-        },
-        "arm64_big_sur": {
-          "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:53b3bed3893804a56efa2ef20af3c2087298ba313b44e4cc6531d0bcfc54aaa9",
-          "sha256": "53b3bed3893804a56efa2ef20af3c2087298ba313b44e4cc6531d0bcfc54aaa9"
+          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:7276c94db8b9a550cb79d37a97fd0d3a64765399640d9d37b791b4aa3b3a2341",
+          "sha256": "7276c94db8b9a550cb79d37a97fd0d3a64765399640d9d37b791b4aa3b3a2341"
         },
         "sonoma": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:a89a2671064dbf7af6b84a9f2d20546b3dff82ed4b6f95c17bdfe48ce6c615fc",
-          "sha256": "a89a2671064dbf7af6b84a9f2d20546b3dff82ed4b6f95c17bdfe48ce6c615fc"
+          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:746c2b4389ee7163e708c081ee1b967c60bb28a7d46fe8883f4798f137e897a0",
+          "sha256": "746c2b4389ee7163e708c081ee1b967c60bb28a7d46fe8883f4798f137e897a0"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:7347c37cf98bec3f956296caee0ecee54e7bfcc7b32d6e2e02b9ae04c80e3ca6",
-          "sha256": "7347c37cf98bec3f956296caee0ecee54e7bfcc7b32d6e2e02b9ae04c80e3ca6"
-        },
-        "monterey": {
-          "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:8e3e1d5d4da3485867a6e0e2b35cf79e37f1b00e3e5399cf9b36996b1cbbff0c",
-          "sha256": "8e3e1d5d4da3485867a6e0e2b35cf79e37f1b00e3e5399cf9b36996b1cbbff0c"
-        },
-        "big_sur": {
-          "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:e0e6f2c0bc25665bfffb66505ebc9fc410aeeed3435edf770e9ecee88c7bc0e1",
-          "sha256": "e0e6f2c0bc25665bfffb66505ebc9fc410aeeed3435edf770e9ecee88c7bc0e1"
+          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:84ecc0430f40983d58c2c8cb2107846b2a20d99d9f089c27464b97260e3091d6",
+          "sha256": "84ecc0430f40983d58c2c8cb2107846b2a20d99d9f089c27464b97260e3091d6"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:9a6e0bb56c39b72a33b0a5629dc3fd49e4f1391513bcf7d04a764523cc0321c8",
-          "sha256": "9a6e0bb56c39b72a33b0a5629dc3fd49e4f1391513bcf7d04a764523cc0321c8"
+          "url": "https://ghcr.io/v2/homebrew/core/libtiff/blobs/sha256:95966f571ddb04072257468f8545c9204a1aee180015a9f6c44db8113e57f060",
+          "sha256": "95966f571ddb04072257468f8545c9204a1aee180015a9f6c44db8113e57f060"
         }
       }
     }
@@ -112,13 +92,13 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1726089786,
+      "time": 1726695858,
       "runtime_dependencies": [
         {
           "full_name": "jpeg-turbo",
-          "version": "3.0.3",
+          "version": "3.0.4",
           "revision": 0,
-          "pkg_version": "3.0.3",
+          "pkg_version": "3.0.4",
           "declared_directly": true
         },
         {
@@ -149,7 +129,7 @@
   ],
   "linked_keg": "4.6.0",
   "pinned": false,
-  "outdated": false,
+  "outdated": true,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -158,46 +138,46 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "4ffdc0913f404724e39481013f173ea1071d1859",
+  "tap_git_head": "d29292bd43e4a54fbb32d37bfb4f3fff95eeb2ec",
   "ruby_source_path": "Formula/lib/libtiff.rb",
   "ruby_source_checksum": {
-    "sha256": "6503625803993ed45b58cd42f12f890d6f0dd5013e700ff0ad9cfd50afdeb7d7"
+    "sha256": "798ca75f50a6bc0cd198d0c6bfd0cc9d9e6d1b9d484c747040c413a6c27d4410"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "libtiff": 80054,
-        "libtiff --HEAD": 4
-      },
-      "90d": {
-        "libtiff": 248601,
+        "libtiff": 109274,
         "libtiff --HEAD": 22
       },
+      "90d": {
+        "libtiff": 277331,
+        "libtiff --HEAD": 43
+      },
       "365d": {
-        "libtiff": 1196923,
-        "libtiff --HEAD": 276
+        "libtiff": 1215640,
+        "libtiff --HEAD": 289
       }
     },
     "install_on_request": {
       "30d": {
-        "libtiff": 4602,
-        "libtiff --HEAD": 4
+        "libtiff": 11445,
+        "libtiff --HEAD": 22
       },
       "90d": {
-        "libtiff": 15113,
-        "libtiff --HEAD": 21
+        "libtiff": 21710,
+        "libtiff --HEAD": 42
       },
       "365d": {
-        "libtiff": 156823,
-        "libtiff --HEAD": 271
+        "libtiff": 161375,
+        "libtiff --HEAD": 284
       }
     },
     "build_error": {
       "30d": {
-        "libtiff": 0
+        "libtiff": 2
       }
     }
   },
-  "generated_date": "2024-09-16"
+  "generated_date": "2024-09-23"
 }

@@ -99,7 +99,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1726089225,
+      "time": 1726695263,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -116,7 +116,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "4ffdc0913f404724e39481013f173ea1071d1859",
+  "tap_git_head": "d29292bd43e4a54fbb32d37bfb4f3fff95eeb2ec",
   "ruby_source_path": "Formula/x/xz.rb",
   "ruby_source_checksum": {
     "sha256": "d69de9365874dc17e068a88e12e27c2df91db8244a315a3b3fbf05038932435e"
@@ -125,37 +125,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "xz": 300319,
-        "xz --HEAD": 226
+        "xz": 289483,
+        "xz --HEAD": 227
       },
       "90d": {
-        "xz": 942168,
-        "xz --HEAD": 629
+        "xz": 944943,
+        "xz --HEAD": 624
       },
       "365d": {
-        "xz": 3284521,
-        "xz --HEAD": 1272
+        "xz": 3297900,
+        "xz --HEAD": 1304
       }
     },
     "install_on_request": {
       "30d": {
-        "xz": 76487,
-        "xz --HEAD": 225
+        "xz": 73044,
+        "xz --HEAD": 229
       },
       "90d": {
-        "xz": 252140,
-        "xz --HEAD": 626
+        "xz": 247100,
+        "xz --HEAD": 621
       },
       "365d": {
-        "xz": 823773,
-        "xz --HEAD": 1258
+        "xz": 830442,
+        "xz --HEAD": 1289
       }
     },
     "build_error": {
       "30d": {
-        "xz": 888
+        "xz": 567
       }
     }
   },
-  "generated_date": "2024-09-16"
+  "generated_date": "2024-09-23"
 }
