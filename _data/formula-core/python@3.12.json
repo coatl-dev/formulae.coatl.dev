@@ -58,6 +58,11 @@
           "url": "https://ghcr.io/v2/homebrew/core/python/3.12/blobs/sha256:d9c70d61697dc082c561f47bf8bde3cf2dcdb1070f0705a65d9acd67ff3acf65",
           "sha256": "d9c70d61697dc082c561f47bf8bde3cf2dcdb1070f0705a65d9acd67ff3acf65"
         },
+        "sequoia": {
+          "cellar": "/usr/local/Cellar",
+          "url": "https://ghcr.io/v2/homebrew/core/python/3.12/blobs/sha256:723e1c33533e84a6762051f25180b64f36942f47f988bccd9b1956c1852d39c4",
+          "sha256": "723e1c33533e84a6762051f25180b64f36942f47f988bccd9b1956c1852d39c4"
+        },
         "sonoma": {
           "cellar": "/usr/local/Cellar",
           "url": "https://ghcr.io/v2/homebrew/core/python/3.12/blobs/sha256:ac351a070751905ceb68a1f570601ff0b712613830e2b6c14063c7243b2bb259",
@@ -146,7 +151,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1726089589,
+      "time": 1726695653,
       "runtime_dependencies": [
         {
           "full_name": "mpdecimal",
@@ -206,10 +211,10 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "4ffdc0913f404724e39481013f173ea1071d1859",
+  "tap_git_head": "d29292bd43e4a54fbb32d37bfb4f3fff95eeb2ec",
   "ruby_source_path": "Formula/p/python@3.12.rb",
   "ruby_source_checksum": {
-    "sha256": "8fcda0cfa110929bc832e2415a7c2aa846cc3a9dce13fb4af981e73bce743938"
+    "sha256": "15790abac6e7cb93a25c7fa3c36f8b2e612ba9829d1c6708d30ec79590bff944"
   },
   "variations": {
     "x86_64_linux": {
@@ -227,37 +232,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.12": 373353,
-        "python@3.12 --HEAD": 334
+        "python@3.12": 373112,
+        "python@3.12 --HEAD": 321
       },
       "90d": {
-        "python@3.12": 1014543,
-        "python@3.12 --HEAD": 753
+        "python@3.12": 1013775,
+        "python@3.12 --HEAD": 759
       },
       "365d": {
-        "python@3.12": 2770802,
-        "python@3.12 --HEAD": 1604
+        "python@3.12": 2857583,
+        "python@3.12 --HEAD": 1663
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.12": 148702,
-        "python@3.12 --HEAD": 333
+        "python@3.12": 148963,
+        "python@3.12 --HEAD": 321
       },
       "90d": {
-        "python@3.12": 374928,
-        "python@3.12 --HEAD": 747
+        "python@3.12": 379984,
+        "python@3.12 --HEAD": 753
       },
       "365d": {
-        "python@3.12": 796474,
-        "python@3.12 --HEAD": 1594
+        "python@3.12": 830688,
+        "python@3.12 --HEAD": 1653
       }
     },
     "build_error": {
       "30d": {
-        "python@3.12": 1374
+        "python@3.12": 1860
       }
     }
   },
-  "generated_date": "2024-09-16"
+  "generated_date": "2024-09-23"
 }

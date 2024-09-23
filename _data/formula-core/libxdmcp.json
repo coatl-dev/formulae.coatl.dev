@@ -98,7 +98,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1726089781,
+      "time": 1726695853,
       "runtime_dependencies": [
         {
           "full_name": "xorgproto",
@@ -123,7 +123,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "4ffdc0913f404724e39481013f173ea1071d1859",
+  "tap_git_head": "d29292bd43e4a54fbb32d37bfb4f3fff95eeb2ec",
   "ruby_source_path": "Formula/lib/libxdmcp.rb",
   "ruby_source_checksum": {
     "sha256": "13158abbbf6851c7e06a6593f555918f156c0a95990064e2d8d3d9f37ba3b21e"
@@ -132,28 +132,28 @@
   "analytics": {
     "install": {
       "30d": {
-        "libxdmcp": 72632,
+        "libxdmcp": 74551,
         "libxdmcp --HEAD": 1
       },
       "90d": {
-        "libxdmcp": 227879,
+        "libxdmcp": 228219,
         "libxdmcp --HEAD": 2
       },
       "365d": {
-        "libxdmcp": 843890,
+        "libxdmcp": 852355,
         "libxdmcp --HEAD": 6
       }
     },
     "install_on_request": {
       "30d": {
-        "libxdmcp": 205
+        "libxdmcp": 215
       },
       "90d": {
-        "libxdmcp": 635,
+        "libxdmcp": 640,
         "libxdmcp --HEAD": 1
       },
       "365d": {
-        "libxdmcp": 4050,
+        "libxdmcp": 4077,
         "libxdmcp --HEAD": 3
       }
     },
@@ -163,5 +163,5 @@
       }
     }
   },
-  "generated_date": "2024-09-16"
+  "generated_date": "2024-09-23"
 }

@@ -51,6 +51,11 @@
           "url": "https://ghcr.io/v2/homebrew/core/mpdecimal/blobs/sha256:57311ecd036fae8d74c541ab5a30944a5a5cfea7abaa6b8c936b7376821edafd",
           "sha256": "57311ecd036fae8d74c541ab5a30944a5a5cfea7abaa6b8c936b7376821edafd"
         },
+        "sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/mpdecimal/blobs/sha256:3d6f4fb042ca6910f8926a094363ccfa1ec8ced0816dc75c6c52f066490d2dc0",
+          "sha256": "3d6f4fb042ca6910f8926a094363ccfa1ec8ced0816dc75c6c52f066490d2dc0"
+        },
         "sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/mpdecimal/blobs/sha256:377dc5e30dd1292ac1666dd43a447b861ad283024f70a3e914c7e11572ae869e",
@@ -96,7 +101,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1726089588,
+      "time": 1726695651,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -113,46 +118,46 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "4ffdc0913f404724e39481013f173ea1071d1859",
+  "tap_git_head": "d29292bd43e4a54fbb32d37bfb4f3fff95eeb2ec",
   "ruby_source_path": "Formula/m/mpdecimal.rb",
   "ruby_source_checksum": {
-    "sha256": "f6dd29f14a0b46ac7c6036681b17dcf2f42f83e7066aec7150c0c77612af41d6"
+    "sha256": "ad0dc0c3615e72ba452196c328d5180fa81b10c0f7a7c931319ee95d212493a3"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "mpdecimal": 137708,
-        "mpdecimal --HEAD": 2
+        "mpdecimal": 135237,
+        "mpdecimal --HEAD": 1
       },
       "90d": {
-        "mpdecimal": 436505,
+        "mpdecimal": 431231,
         "mpdecimal --HEAD": 4
       },
       "365d": {
-        "mpdecimal": 1550025,
+        "mpdecimal": 1564358,
         "mpdecimal --HEAD": 21
       }
     },
     "install_on_request": {
       "30d": {
-        "mpdecimal": 586,
+        "mpdecimal": 648,
         "mpdecimal --HEAD": 1
       },
       "90d": {
-        "mpdecimal": 1819,
+        "mpdecimal": 1851,
         "mpdecimal --HEAD": 2
       },
       "365d": {
-        "mpdecimal": 10265,
+        "mpdecimal": 10403,
         "mpdecimal --HEAD": 10
       }
     },
     "build_error": {
       "30d": {
-        "mpdecimal": 34
+        "mpdecimal": 49
       }
     }
   },
-  "generated_date": "2024-09-16"
+  "generated_date": "2024-09-23"
 }

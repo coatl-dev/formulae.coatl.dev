@@ -49,6 +49,11 @@
           "url": "https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:c3245660eb2d39b76441960dd6c80212debcec51de1ef4d6f86bb13d9a5f1fe3",
           "sha256": "c3245660eb2d39b76441960dd6c80212debcec51de1ef4d6f86bb13d9a5f1fe3"
         },
+        "sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:becf6fdd835be191881959acd788745c1075eeb70cb1fd9ee646a3080597ea6f",
+          "sha256": "becf6fdd835be191881959acd788745c1075eeb70cb1fd9ee646a3080597ea6f"
+        },
         "sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/readline/blobs/sha256:0cf2cae0b9bb71bee1f9f9b3ab1e5dfc27b32f474db7f2d38b8b2dffd02da5ff",
@@ -101,7 +106,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1726089588,
+      "time": 1726695651,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -118,46 +123,46 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "4ffdc0913f404724e39481013f173ea1071d1859",
+  "tap_git_head": "d29292bd43e4a54fbb32d37bfb4f3fff95eeb2ec",
   "ruby_source_path": "Formula/r/readline.rb",
   "ruby_source_checksum": {
-    "sha256": "c0a439e80dd186541165e8c7e43aa7fbf1ec1d4120c27e2e7b48c97f9a9cbb8e"
+    "sha256": "602720ffb5d9652741c015978f660d753d1159100d0f4e5123587340fc86705e"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "readline": 299705,
-        "readline --HEAD": 28
+        "readline": 278055,
+        "readline --HEAD": 20
       },
       "90d": {
-        "readline": 668820,
+        "readline": 685959,
         "readline --HEAD": 53
       },
       "365d": {
-        "readline": 2319794,
+        "readline": 2356876,
         "readline --HEAD": 208
       }
     },
     "install_on_request": {
       "30d": {
-        "readline": 16424,
-        "readline --HEAD": 27
+        "readline": 12528,
+        "readline --HEAD": 20
       },
       "90d": {
-        "readline": 30937,
+        "readline": 32073,
         "readline --HEAD": 50
       },
       "365d": {
-        "readline": 121069,
-        "readline --HEAD": 196
+        "readline": 122519,
+        "readline --HEAD": 197
       }
     },
     "build_error": {
       "30d": {
-        "readline": 10
+        "readline": 9
       }
     }
   },
-  "generated_date": "2024-09-16"
+  "generated_date": "2024-09-23"
 }
