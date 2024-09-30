@@ -88,11 +88,11 @@
   "caveats": null,
   "installed": [
     {
-      "version": "4.6.0",
+      "version": "4.7.0",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1726695858,
+      "time": 1727040249,
       "runtime_dependencies": [
         {
           "full_name": "jpeg-turbo",
@@ -127,9 +127,9 @@
       "installed_on_request": false
     }
   ],
-  "linked_keg": "4.6.0",
+  "linked_keg": "4.7.0",
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -138,7 +138,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "d29292bd43e4a54fbb32d37bfb4f3fff95eeb2ec",
+  "tap_git_head": "a392d8456ce4ed3f7d7656ea13411344adc04660",
   "ruby_source_path": "Formula/lib/libtiff.rb",
   "ruby_source_checksum": {
     "sha256": "798ca75f50a6bc0cd198d0c6bfd0cc9d9e6d1b9d484c747040c413a6c27d4410"
@@ -147,30 +147,30 @@
   "analytics": {
     "install": {
       "30d": {
-        "libtiff": 109274,
-        "libtiff --HEAD": 22
+        "libtiff": 147682,
+        "libtiff --HEAD": 55
       },
       "90d": {
-        "libtiff": 277331,
-        "libtiff --HEAD": 43
+        "libtiff": 313130,
+        "libtiff --HEAD": 75
       },
       "365d": {
-        "libtiff": 1215640,
-        "libtiff --HEAD": 289
+        "libtiff": 1214202,
+        "libtiff --HEAD": 303
       }
     },
     "install_on_request": {
       "30d": {
-        "libtiff": 11445,
-        "libtiff --HEAD": 22
+        "libtiff": 24214,
+        "libtiff --HEAD": 55
       },
       "90d": {
-        "libtiff": 21710,
-        "libtiff --HEAD": 42
+        "libtiff": 34321,
+        "libtiff --HEAD": 74
       },
       "365d": {
-        "libtiff": 161375,
-        "libtiff --HEAD": 284
+        "libtiff": 165801,
+        "libtiff --HEAD": 298
       }
     },
     "build_error": {
@@ -179,5 +179,5 @@
       }
     }
   },
-  "generated_date": "2024-09-23"
+  "generated_date": "2024-09-30"
 }
