@@ -35,6 +35,11 @@
       "rebuild": 0,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
+        "arm64_sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:b73c6e875074c710623034f21a5310a7a0b7cae2601612c8841fa12ae2af7117",
+          "sha256": "b73c6e875074c710623034f21a5310a7a0b7cae2601612c8841fa12ae2af7117"
+        },
         "arm64_sonoma": {
           "cellar": ":any",
           "url": "https://ghcr.io/v2/homebrew/core/openjdk/11/blobs/sha256:55565ebdad224446b1fc7dfb95ff248b474592e897e0f37fee42a926ba682853",
@@ -85,6 +90,7 @@
     "pkg-config"
   ],
   "dependencies": [
+    "freetype",
     "giflib",
     "harfbuzz",
     "jpeg-turbo",
@@ -123,14 +129,15 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "d29292bd43e4a54fbb32d37bfb4f3fff95eeb2ec",
+  "tap_git_head": "a392d8456ce4ed3f7d7656ea13411344adc04660",
   "ruby_source_path": "Formula/o/openjdk@11.rb",
   "ruby_source_checksum": {
-    "sha256": "5a06e779b60009ee0459a82eb09adf7dbc3e041a5785e498d238b7595130572e"
+    "sha256": "e2f7a472bfe9fdcee73d996b1c13e1b7a76ce5137f597e6c65cefb0a5d56ac79"
   },
   "variations": {
     "x86_64_linux": {
       "dependencies": [
+        "freetype",
         "giflib",
         "harfbuzz",
         "jpeg-turbo",
@@ -138,7 +145,6 @@
         "little-cms2",
         "alsa-lib",
         "fontconfig",
-        "freetype",
         "libx11",
         "libxext",
         "libxi",
@@ -153,30 +159,30 @@
   "analytics": {
     "install": {
       "30d": {
-        "openjdk@11": 21444,
+        "openjdk@11": 20509,
         "openjdk@11 --HEAD": 38
       },
       "90d": {
-        "openjdk@11": 77189,
-        "openjdk@11 --HEAD": 121
+        "openjdk@11": 76906,
+        "openjdk@11 --HEAD": 124
       },
       "365d": {
-        "openjdk@11": 338730,
-        "openjdk@11 --HEAD": 514
+        "openjdk@11": 336211,
+        "openjdk@11 --HEAD": 516
       }
     },
     "install_on_request": {
       "30d": {
-        "openjdk@11": 17447,
+        "openjdk@11": 16486,
         "openjdk@11 --HEAD": 38
       },
       "90d": {
-        "openjdk@11": 60482,
-        "openjdk@11 --HEAD": 121
+        "openjdk@11": 60437,
+        "openjdk@11 --HEAD": 124
       },
       "365d": {
-        "openjdk@11": 256142,
-        "openjdk@11 --HEAD": 514
+        "openjdk@11": 254238,
+        "openjdk@11 --HEAD": 516
       }
     },
     "build_error": {
@@ -185,5 +191,5 @@
       }
     }
   },
-  "generated_date": "2024-09-23"
+  "generated_date": "2024-09-30"
 }
