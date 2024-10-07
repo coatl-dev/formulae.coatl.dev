@@ -3,8 +3,12 @@
   "full_name": "icu4c",
   "tap": "homebrew/core",
   "oldnames": [],
-  "aliases": [],
-  "versioned_formulae": [],
+  "aliases": [
+    "icu4c@74"
+  ],
+  "versioned_formulae": [
+    "icu4c@75"
+  ],
   "desc": "C/C++ and Java libraries for Unicode and globalization",
   "license": "ICU",
   "homepage": "https://icu.unicode.org/home",
@@ -114,7 +118,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a392d8456ce4ed3f7d7656ea13411344adc04660",
+  "tap_git_head": "d1f66f8d0315e23dc6b327cea67f25150c9619c5",
   "ruby_source_path": "Formula/i/icu4c.rb",
   "ruby_source_checksum": {
     "sha256": "cb4d32c35a69f520d33391591301e432998a1566d8f4fd60732bcc6860cbb520"
@@ -123,37 +127,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "icu4c": 154833,
-        "icu4c --HEAD": 3
+        "icu4c": 149342,
+        "icu4c --HEAD": 1
       },
       "90d": {
-        "icu4c": 485712,
+        "icu4c": 475673,
         "icu4c --HEAD": 11
       },
       "365d": {
-        "icu4c": 1965676,
+        "icu4c": 1961646,
         "icu4c --HEAD": 87
       }
     },
     "install_on_request": {
       "30d": {
-        "icu4c": 3290,
-        "icu4c --HEAD": 3
+        "icu4c": 3165,
+        "icu4c --HEAD": 1
       },
       "90d": {
-        "icu4c": 10828,
-        "icu4c --HEAD": 8
+        "icu4c": 10455,
+        "icu4c --HEAD": 9
       },
       "365d": {
-        "icu4c": 63632,
-        "icu4c --HEAD": 78
+        "icu4c": 63257,
+        "icu4c --HEAD": 79
       }
     },
     "build_error": {
       "30d": {
-        "icu4c": 21
+        "icu4c": 26
       }
     }
   },
-  "generated_date": "2024-09-30"
+  "generated_date": "2024-10-07"
 }
