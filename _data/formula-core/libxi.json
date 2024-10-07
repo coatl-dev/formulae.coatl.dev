@@ -111,7 +111,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a392d8456ce4ed3f7d7656ea13411344adc04660",
+  "tap_git_head": "d1f66f8d0315e23dc6b327cea67f25150c9619c5",
   "ruby_source_path": "Formula/lib/libxi.rb",
   "ruby_source_checksum": {
     "sha256": "0539a7987f1625f0e484ea3512eb4a173abc579372d0a3edd6e43fd08a9abce0"
@@ -120,30 +120,30 @@
   "analytics": {
     "install": {
       "30d": {
-        "libxi": 37549,
-        "libxi --HEAD": 3
+        "libxi": 33794,
+        "libxi --HEAD": 2
       },
       "90d": {
-        "libxi": 73236,
-        "libxi --HEAD": 3
+        "libxi": 75027,
+        "libxi --HEAD": 4
       },
       "365d": {
-        "libxi": 187731,
-        "libxi --HEAD": 4
+        "libxi": 191544,
+        "libxi --HEAD": 5
       }
     },
     "install_on_request": {
       "30d": {
-        "libxi": 733,
+        "libxi": 635,
         "libxi --HEAD": 2
       },
       "90d": {
-        "libxi": 927,
-        "libxi --HEAD": 2
+        "libxi": 998,
+        "libxi --HEAD": 3
       },
       "365d": {
-        "libxi": 2192,
-        "libxi --HEAD": 3
+        "libxi": 2227,
+        "libxi --HEAD": 4
       }
     },
     "build_error": {
@@ -152,5 +152,5 @@
       }
     }
   },
-  "generated_date": "2024-09-30"
+  "generated_date": "2024-10-07"
 }

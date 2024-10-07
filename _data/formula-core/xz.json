@@ -9,17 +9,17 @@
   "license": "0BSD AND GPL-2.0-or-later",
   "homepage": "https://tukaani.org/xz/",
   "versions": {
-    "stable": "5.6.2",
+    "stable": "5.6.3",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/tukaani-project/xz/releases/download/v5.6.2/xz-5.6.2.tar.gz",
+      "url": "https://github.com/tukaani-project/xz/releases/download/v5.6.3/xz-5.6.3.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "8bfd20c0e1d86f0402f2497cfa71c6ab62d4cd35fd704276e3140bfb71414519"
+      "checksum": "b1d45295d3f71f25a4c9101bd7c8d16cb56348bbef3bbc738da0351e17c73317"
     }
   },
   "revision": 0,
@@ -31,48 +31,33 @@
       "files": {
         "arm64_sequoia": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:166443025fea929acab2ac50520c42a7bf9f2eff385b69e9313136bc59027719",
-          "sha256": "166443025fea929acab2ac50520c42a7bf9f2eff385b69e9313136bc59027719"
+          "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:743c3d366f11b139445c5a7c923ac937d825cd172e316e138f021a9156145fb0",
+          "sha256": "743c3d366f11b139445c5a7c923ac937d825cd172e316e138f021a9156145fb0"
         },
         "arm64_sonoma": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:5ec389ac6a0b190914be00c62d2de0a18265c39d1243420d08841afea16ff7f9",
-          "sha256": "5ec389ac6a0b190914be00c62d2de0a18265c39d1243420d08841afea16ff7f9"
+          "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:c54997c6e29b576cf426815663aa21a3be2f7805d540e4a1da66cdcb834ae85f",
+          "sha256": "c54997c6e29b576cf426815663aa21a3be2f7805d540e4a1da66cdcb834ae85f"
         },
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:102957fe805b6182ed63b96ccf7eb027032867f318348b045a7b7cedf3534a2f",
-          "sha256": "102957fe805b6182ed63b96ccf7eb027032867f318348b045a7b7cedf3534a2f"
-        },
-        "arm64_monterey": {
-          "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:e45fcf2977a8541a97f7efef3ccbc0fc782c597b3c340616ada6868e7cf31452",
-          "sha256": "e45fcf2977a8541a97f7efef3ccbc0fc782c597b3c340616ada6868e7cf31452"
-        },
-        "sequoia": {
-          "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:4cd5f568fa7a413bcdc80ef71ffd7e68d231a65abda95b06071e769e3bfe40dd",
-          "sha256": "4cd5f568fa7a413bcdc80ef71ffd7e68d231a65abda95b06071e769e3bfe40dd"
+          "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:1e04553da7c89433bb37ad67e9d75ff87e367d422ef5675a39f9b4e26644751e",
+          "sha256": "1e04553da7c89433bb37ad67e9d75ff87e367d422ef5675a39f9b4e26644751e"
         },
         "sonoma": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:b940be1e4e0492a9000c11ba2b23d4c57f0f9870c8535acfe149370a82bf73e4",
-          "sha256": "b940be1e4e0492a9000c11ba2b23d4c57f0f9870c8535acfe149370a82bf73e4"
+          "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:0bed43466b3cbe8c8f7b307b31122d3ea9f18aa72c7e8ee82ce2bf40664d02d8",
+          "sha256": "0bed43466b3cbe8c8f7b307b31122d3ea9f18aa72c7e8ee82ce2bf40664d02d8"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:1f1b9f77e5e1938c2702db2834c0fa856d0134fa8ea14c1ab979dadda2952043",
-          "sha256": "1f1b9f77e5e1938c2702db2834c0fa856d0134fa8ea14c1ab979dadda2952043"
-        },
-        "monterey": {
-          "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:4eb1665050b038767bf09f561882b5c9b51233d6738b81427e262deaac2b3c1a",
-          "sha256": "4eb1665050b038767bf09f561882b5c9b51233d6738b81427e262deaac2b3c1a"
+          "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:25e2f54237603458eb5a06772eda87bc748e28f658d8e2e62a18412f06c0a724",
+          "sha256": "25e2f54237603458eb5a06772eda87bc748e28f658d8e2e62a18412f06c0a724"
         },
         "x86_64_linux": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:ab97999c22de61b2efa61c2a3f62d28085ce3f15601035955e41b8d783b89725",
-          "sha256": "ab97999c22de61b2efa61c2a3f62d28085ce3f15601035955e41b8d783b89725"
+          "url": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:360e9e63603136e0a4af1c9d0a6c28429fca9008fa5210cc12c2934117223c39",
+          "sha256": "360e9e63603136e0a4af1c9d0a6c28429fca9008fa5210cc12c2934117223c39"
         }
       }
     }
@@ -107,7 +92,7 @@
   ],
   "linked_keg": "5.6.2",
   "pinned": false,
-  "outdated": false,
+  "outdated": true,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -116,46 +101,46 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "a392d8456ce4ed3f7d7656ea13411344adc04660",
+  "tap_git_head": "d1f66f8d0315e23dc6b327cea67f25150c9619c5",
   "ruby_source_path": "Formula/x/xz.rb",
   "ruby_source_checksum": {
-    "sha256": "d69de9365874dc17e068a88e12e27c2df91db8244a315a3b3fbf05038932435e"
+    "sha256": "57c6e570e9562d4ec5ba16e6bd018943bc6bfbc23f819d249b0396b774d2ca9e"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "xz": 278772,
-        "xz --HEAD": 195
+        "xz": 310253,
+        "xz --HEAD": 210
       },
       "90d": {
-        "xz": 948843,
-        "xz --HEAD": 627
+        "xz": 995407,
+        "xz --HEAD": 658
       },
       "365d": {
-        "xz": 3310706,
-        "xz --HEAD": 1334
+        "xz": 3363637,
+        "xz --HEAD": 1406
       }
     },
     "install_on_request": {
       "30d": {
-        "xz": 70175,
-        "xz --HEAD": 195
+        "xz": 76940,
+        "xz --HEAD": 208
       },
       "90d": {
-        "xz": 243703,
-        "xz --HEAD": 624
+        "xz": 252223,
+        "xz --HEAD": 653
       },
       "365d": {
-        "xz": 837202,
-        "xz --HEAD": 1321
+        "xz": 851736,
+        "xz --HEAD": 1391
       }
     },
     "build_error": {
       "30d": {
-        "xz": 238
+        "xz": 137
       }
     }
   },
-  "generated_date": "2024-09-30"
+  "generated_date": "2024-10-07"
 }
