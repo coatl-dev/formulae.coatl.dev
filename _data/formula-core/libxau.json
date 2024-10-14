@@ -109,7 +109,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1727040243,
+      "time": 1728273433,
       "runtime_dependencies": [
         {
           "full_name": "xorgproto",
@@ -134,7 +134,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "d1f66f8d0315e23dc6b327cea67f25150c9619c5",
+  "tap_git_head": "3400a2030bd6c8607fd4a7aa035ca963d1d8eba2",
   "ruby_source_path": "Formula/lib/libxau.rb",
   "ruby_source_checksum": {
     "sha256": "ae545dd1ace294a9f849ebbaf3642e1b6498766138c3087d47b60d6918da0326"
@@ -143,27 +143,27 @@
   "analytics": {
     "install": {
       "30d": {
-        "libxau": 62953
+        "libxau": 63672
       },
       "90d": {
-        "libxau": 173911,
-        "libxau --HEAD": 2
+        "libxau": 175463,
+        "libxau --HEAD": 1
       },
       "365d": {
-        "libxau": 597155,
+        "libxau": 600437,
         "libxau --HEAD": 7
       }
     },
     "install_on_request": {
       "30d": {
-        "libxau": 173
+        "libxau": 164
       },
       "90d": {
-        "libxau": 435,
+        "libxau": 440,
         "libxau --HEAD": 1
       },
       "365d": {
-        "libxau": 1911,
+        "libxau": 1898,
         "libxau --HEAD": 2
       }
     },
@@ -173,5 +173,5 @@
       }
     }
   },
-  "generated_date": "2024-10-07"
+  "generated_date": "2024-10-14"
 }

@@ -5,6 +5,7 @@
   "oldnames": [],
   "aliases": [],
   "versioned_formulae": [
+    "python@3.13",
     "python@3.12",
     "python@3.10",
     "python@3.9",
@@ -126,7 +127,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1727040275,
+      "time": 1728273466,
       "runtime_dependencies": [
         {
           "full_name": "mpdecimal",
@@ -137,9 +138,9 @@
         },
         {
           "full_name": "ca-certificates",
-          "version": "2024-07-02",
+          "version": "2024-09-24",
           "revision": 0,
-          "pkg_version": "2024-07-02",
+          "pkg_version": "2024-09-24",
           "declared_directly": false
         },
         {
@@ -165,9 +166,9 @@
         },
         {
           "full_name": "xz",
-          "version": "5.6.2",
+          "version": "5.6.3",
           "revision": 0,
-          "pkg_version": "5.6.2",
+          "pkg_version": "5.6.3",
           "declared_directly": true
         }
       ],
@@ -186,7 +187,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "d1f66f8d0315e23dc6b327cea67f25150c9619c5",
+  "tap_git_head": "3400a2030bd6c8607fd4a7aa035ca963d1d8eba2",
   "ruby_source_path": "Formula/p/python@3.11.rb",
   "ruby_source_checksum": {
     "sha256": "0343f5eb221f692d2b687f4cd80da3b641b3df743838cd40cc2d6dbb1ea2d647"
@@ -206,37 +207,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.11": 122181,
-        "python@3.11 --HEAD": 169
+        "python@3.11": 92585,
+        "python@3.11 --HEAD": 139
       },
       "90d": {
-        "python@3.11": 350856,
-        "python@3.11 --HEAD": 429
+        "python@3.11": 351002,
+        "python@3.11 --HEAD": 440
       },
       "365d": {
-        "python@3.11": 2066187,
-        "python@3.11 --HEAD": 2465
+        "python@3.11": 1995352,
+        "python@3.11 --HEAD": 2386
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.11": 80454,
-        "python@3.11 --HEAD": 169
+        "python@3.11": 62801,
+        "python@3.11 --HEAD": 138
       },
       "90d": {
-        "python@3.11": 221660,
-        "python@3.11 --HEAD": 427
+        "python@3.11": 223591,
+        "python@3.11 --HEAD": 439
       },
       "365d": {
-        "python@3.11": 1296841,
-        "python@3.11 --HEAD": 2460
+        "python@3.11": 1261893,
+        "python@3.11 --HEAD": 2381
       }
     },
     "build_error": {
       "30d": {
-        "python@3.11": 106
+        "python@3.11": 110
       }
     }
   },
-  "generated_date": "2024-10-07"
+  "generated_date": "2024-10-14"
 }

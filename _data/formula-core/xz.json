@@ -80,19 +80,19 @@
   "caveats": null,
   "installed": [
     {
-      "version": "5.6.2",
+      "version": "5.6.3",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1727039608,
+      "time": 1728272789,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
     }
   ],
-  "linked_keg": "5.6.2",
+  "linked_keg": "5.6.3",
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -101,7 +101,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "d1f66f8d0315e23dc6b327cea67f25150c9619c5",
+  "tap_git_head": "3400a2030bd6c8607fd4a7aa035ca963d1d8eba2",
   "ruby_source_path": "Formula/x/xz.rb",
   "ruby_source_checksum": {
     "sha256": "57c6e570e9562d4ec5ba16e6bd018943bc6bfbc23f819d249b0396b774d2ca9e"
@@ -110,37 +110,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "xz": 310253,
-        "xz --HEAD": 210
+        "xz": 336060,
+        "xz --HEAD": 225
       },
       "90d": {
-        "xz": 995407,
-        "xz --HEAD": 658
+        "xz": 1035348,
+        "xz --HEAD": 679
       },
       "365d": {
-        "xz": 3363637,
-        "xz --HEAD": 1406
+        "xz": 3414911,
+        "xz --HEAD": 1459
       }
     },
     "install_on_request": {
       "30d": {
-        "xz": 76940,
-        "xz --HEAD": 208
+        "xz": 79341,
+        "xz --HEAD": 223
       },
       "90d": {
-        "xz": 252223,
-        "xz --HEAD": 653
+        "xz": 255868,
+        "xz --HEAD": 674
       },
       "365d": {
-        "xz": 851736,
-        "xz --HEAD": 1391
+        "xz": 863015,
+        "xz --HEAD": 1446
       }
     },
     "build_error": {
       "30d": {
-        "xz": 137
+        "xz": 197
       }
     }
   },
-  "generated_date": "2024-10-07"
+  "generated_date": "2024-10-14"
 }

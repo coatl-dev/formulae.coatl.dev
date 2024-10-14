@@ -119,17 +119,24 @@
   "caveats": null,
   "installed": [
     {
-      "version": "2.82.0",
+      "version": "2.82.1",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1727040242,
+      "time": 1728273431,
       "runtime_dependencies": [
         {
           "full_name": "pcre2",
           "version": "10.44",
           "revision": 0,
           "pkg_version": "10.44",
+          "declared_directly": true
+        },
+        {
+          "full_name": "python-packaging",
+          "version": "24.1",
+          "revision": 0,
+          "pkg_version": "24.1",
           "declared_directly": true
         },
         {
@@ -141,9 +148,9 @@
         },
         {
           "full_name": "ca-certificates",
-          "version": "2024-07-02",
+          "version": "2024-09-24",
           "revision": 0,
-          "pkg_version": "2024-07-02",
+          "pkg_version": "2024-09-24",
           "declared_directly": false
         },
         {
@@ -169,16 +176,16 @@
         },
         {
           "full_name": "xz",
-          "version": "5.6.2",
+          "version": "5.6.3",
           "revision": 0,
-          "pkg_version": "5.6.2",
+          "pkg_version": "5.6.3",
           "declared_directly": false
         },
         {
           "full_name": "python@3.12",
-          "version": "3.12.6",
+          "version": "3.12.7",
           "revision": 0,
-          "pkg_version": "3.12.6",
+          "pkg_version": "3.12.7",
           "declared_directly": true
         },
         {
@@ -193,9 +200,9 @@
       "installed_on_request": false
     }
   ],
-  "linked_keg": "2.82.0",
+  "linked_keg": "2.82.1",
   "pinned": false,
-  "outdated": true,
+  "outdated": false,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
@@ -204,7 +211,7 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "d1f66f8d0315e23dc6b327cea67f25150c9619c5",
+  "tap_git_head": "3400a2030bd6c8607fd4a7aa035ca963d1d8eba2",
   "ruby_source_path": "Formula/g/glib.rb",
   "ruby_source_checksum": {
     "sha256": "5c6a4d4e4f2a9637f15422cac1495ae611c470dd3905e083ee2f8a8afe59d653"
@@ -223,37 +230,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "glib": 309886,
-        "glib --HEAD": 224
+        "glib": 289683,
+        "glib --HEAD": 254
       },
       "90d": {
-        "glib": 807864,
-        "glib --HEAD": 521
+        "glib": 779251,
+        "glib --HEAD": 547
       },
       "365d": {
-        "glib": 2913383,
-        "glib --HEAD": 1325
+        "glib": 2927051,
+        "glib --HEAD": 1377
       }
     },
     "install_on_request": {
       "30d": {
-        "glib": 111705,
-        "glib --HEAD": 222
+        "glib": 113543,
+        "glib --HEAD": 250
       },
       "90d": {
-        "glib": 276464,
-        "glib --HEAD": 518
+        "glib": 275134,
+        "glib --HEAD": 543
       },
       "365d": {
-        "glib": 846064,
-        "glib --HEAD": 1313
+        "glib": 860492,
+        "glib --HEAD": 1364
       }
     },
     "build_error": {
       "30d": {
-        "glib": 1784
+        "glib": 1027
       }
     }
   },
-  "generated_date": "2024-10-07"
+  "generated_date": "2024-10-14"
 }

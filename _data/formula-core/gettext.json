@@ -100,7 +100,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1727039619,
+      "time": 1728272804,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
@@ -117,7 +117,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "d1f66f8d0315e23dc6b327cea67f25150c9619c5",
+  "tap_git_head": "3400a2030bd6c8607fd4a7aa035ca963d1d8eba2",
   "ruby_source_path": "Formula/g/gettext.rb",
   "ruby_source_checksum": {
     "sha256": "a23b56e395367acd8451565b2448dfabd874f266ebd7927a01d065ae820c072b"
@@ -126,37 +126,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "gettext": 146129,
-        "gettext --HEAD": 11
+        "gettext": 139945,
+        "gettext --HEAD": 8
       },
       "90d": {
-        "gettext": 457549,
-        "gettext --HEAD": 28
+        "gettext": 449182,
+        "gettext --HEAD": 24
       },
       "365d": {
-        "gettext": 2393283,
-        "gettext --HEAD": 191
+        "gettext": 2353569,
+        "gettext --HEAD": 184
       }
     },
     "install_on_request": {
       "30d": {
-        "gettext": 4417,
-        "gettext --HEAD": 9
+        "gettext": 4355,
+        "gettext --HEAD": 7
       },
       "90d": {
-        "gettext": 15540,
-        "gettext --HEAD": 23
+        "gettext": 14913,
+        "gettext --HEAD": 19
       },
       "365d": {
-        "gettext": 140650,
-        "gettext --HEAD": 174
+        "gettext": 136114,
+        "gettext --HEAD": 167
       }
     },
     "build_error": {
       "30d": {
-        "gettext": 93
+        "gettext": 78
       }
     }
   },
-  "generated_date": "2024-10-07"
+  "generated_date": "2024-10-14"
 }

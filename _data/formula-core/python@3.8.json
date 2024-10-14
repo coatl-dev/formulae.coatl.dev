@@ -5,6 +5,7 @@
   "oldnames": [],
   "aliases": [],
   "versioned_formulae": [
+    "python@3.13",
     "python@3.12",
     "python@3.11",
     "python@3.10",
@@ -123,15 +124,15 @@
   "linked_keg": null,
   "pinned": false,
   "outdated": false,
-  "deprecated": true,
+  "deprecated": false,
   "deprecation_date": null,
-  "deprecation_reason": "deprecated_upstream",
-  "disabled": false,
+  "deprecation_reason": null,
+  "disabled": true,
   "disable_date": "2024-10-14",
-  "disable_reason": null,
+  "disable_reason": "deprecated_upstream",
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "d1f66f8d0315e23dc6b327cea67f25150c9619c5",
+  "tap_git_head": "3400a2030bd6c8607fd4a7aa035ca963d1d8eba2",
   "ruby_source_path": "Formula/p/python@3.8.rb",
   "ruby_source_checksum": {
     "sha256": "ec2eec1f166d6c3781a637abe6396cc15ebdc1aa9c3d052fc697fa050e91f6db"
@@ -153,30 +154,30 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.8": 24462,
+        "python@3.8": 19194,
         "python@3.8 --HEAD": 26
       },
       "90d": {
-        "python@3.8": 49413,
-        "python@3.8 --HEAD": 55
+        "python@3.8": 49829,
+        "python@3.8 --HEAD": 61
       },
       "365d": {
-        "python@3.8": 270938,
-        "python@3.8 --HEAD": 320
+        "python@3.8": 269398,
+        "python@3.8 --HEAD": 317
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.8": 23332,
-        "python@3.8 --HEAD": 27
+        "python@3.8": 18507,
+        "python@3.8 --HEAD": 26
       },
       "90d": {
-        "python@3.8": 47565,
-        "python@3.8 --HEAD": 55
+        "python@3.8": 47960,
+        "python@3.8 --HEAD": 61
       },
       "365d": {
-        "python@3.8": 252384,
-        "python@3.8 --HEAD": 320
+        "python@3.8": 251005,
+        "python@3.8 --HEAD": 317
       }
     },
     "build_error": {
@@ -185,5 +186,5 @@
       }
     }
   },
-  "generated_date": "2024-10-07"
+  "generated_date": "2024-10-14"
 }
