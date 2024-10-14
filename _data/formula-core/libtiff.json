@@ -92,7 +92,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1727040249,
+      "time": 1728273438,
       "runtime_dependencies": [
         {
           "full_name": "jpeg-turbo",
@@ -103,9 +103,9 @@
         },
         {
           "full_name": "xz",
-          "version": "5.6.2",
+          "version": "5.6.3",
           "revision": 0,
-          "pkg_version": "5.6.2",
+          "pkg_version": "5.6.3",
           "declared_directly": true
         },
         {
@@ -138,7 +138,7 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "d1f66f8d0315e23dc6b327cea67f25150c9619c5",
+  "tap_git_head": "3400a2030bd6c8607fd4a7aa035ca963d1d8eba2",
   "ruby_source_path": "Formula/lib/libtiff.rb",
   "ruby_source_checksum": {
     "sha256": "798ca75f50a6bc0cd198d0c6bfd0cc9d9e6d1b9d484c747040c413a6c27d4410"
@@ -147,37 +147,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "libtiff": 176218,
-        "libtiff --HEAD": 95
+        "libtiff": 203723,
+        "libtiff --HEAD": 135
       },
       "90d": {
-        "libtiff": 341184,
-        "libtiff --HEAD": 113
+        "libtiff": 369014,
+        "libtiff --HEAD": 151
       },
       "365d": {
-        "libtiff": 1220337,
-        "libtiff --HEAD": 323
+        "libtiff": 1231517,
+        "libtiff --HEAD": 346
       }
     },
     "install_on_request": {
       "30d": {
-        "libtiff": 35432,
-        "libtiff --HEAD": 93
+        "libtiff": 49261,
+        "libtiff --HEAD": 133
       },
       "90d": {
-        "libtiff": 45280,
-        "libtiff --HEAD": 109
+        "libtiff": 58821,
+        "libtiff --HEAD": 148
       },
       "365d": {
-        "libtiff": 169716,
-        "libtiff --HEAD": 316
+        "libtiff": 177022,
+        "libtiff --HEAD": 340
       }
     },
     "build_error": {
       "30d": {
-        "libtiff": 4
+        "libtiff": 7
       }
     }
   },
-  "generated_date": "2024-10-07"
+  "generated_date": "2024-10-14"
 }

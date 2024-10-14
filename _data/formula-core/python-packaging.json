@@ -1,28 +1,28 @@
 {
-  "name": "ca-certificates",
-  "full_name": "ca-certificates",
+  "name": "python-packaging",
+  "full_name": "python-packaging",
   "tap": "homebrew/core",
   "oldnames": [],
   "aliases": [],
   "versioned_formulae": [],
-  "desc": "Mozilla CA certificate store",
-  "license": "MPL-2.0",
-  "homepage": "https://curl.se/docs/caextract.html",
+  "desc": "Core utilities for Python packages",
+  "license": "Apache-2.0 OR BSD-2-Clause",
+  "homepage": "https://packaging.pypa.io/",
   "versions": {
-    "stable": "2024-09-24",
+    "stable": "24.1",
     "head": null,
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://curl.se/ca/cacert-2024-09-24.pem",
+      "url": "https://files.pythonhosted.org/packages/51/65/50db4dda066951078f0a96cf12f4b9ada6e4b811516bf0262c0f4f7064d4/packaging-24.1.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "189d3cf6d103185fba06d76c1af915263c6d42225481a1759e853b33ac857540"
+      "checksum": "026ed72c8ed3fcce5bf8950572258698927fd1dbda10a5e981cdf0ac37f4f002"
     }
   },
-  "revision": 0,
+  "revision": 1,
   "version_scheme": 0,
   "bottle": {
     "stable": {
@@ -31,8 +31,8 @@
       "files": {
         "all": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:212f2576348d5f5797d8d3905eb70d0d9bf8829345bce9e20e2fd0336f344648",
-          "sha256": "212f2576348d5f5797d8d3905eb70d0d9bf8829345bce9e20e2fd0336f344648"
+          "url": "https://ghcr.io/v2/homebrew/core/python-packaging/blobs/sha256:575595301a31862ca4d2d0f6a39fd8e209adb81ff0926d65a81e7f1173f7d30d",
+          "sha256": "575595301a31862ca4d2d0f6a39fd8e209adb81ff0926d65a81e7f1173f7d30d"
         }
       }
     }
@@ -41,9 +41,17 @@
   "keg_only": false,
   "keg_only_reason": null,
   "options": [],
-  "build_dependencies": [],
+  "build_dependencies": [
+    "python@3.11",
+    "python@3.12",
+    "python@3.13"
+  ],
   "dependencies": [],
-  "test_dependencies": [],
+  "test_dependencies": [
+    "python@3.11",
+    "python@3.12",
+    "python@3.13"
+  ],
   "recommended_dependencies": [],
   "optional_dependencies": [],
   "uses_from_macos": [],
@@ -55,65 +63,63 @@
   "caveats": null,
   "installed": [
     {
-      "version": "2024-09-24",
+      "version": "24.1",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1728272774,
+      "time": 1728273431,
       "runtime_dependencies": [],
       "installed_as_dependency": true,
       "installed_on_request": false
     }
   ],
-  "linked_keg": "2024-09-24",
+  "linked_keg": "24.1",
   "pinned": false,
-  "outdated": false,
+  "outdated": true,
   "deprecated": false,
   "deprecation_date": null,
   "deprecation_reason": null,
   "disabled": false,
   "disable_date": null,
   "disable_reason": null,
-  "post_install_defined": true,
+  "post_install_defined": false,
   "service": null,
   "tap_git_head": "3400a2030bd6c8607fd4a7aa035ca963d1d8eba2",
-  "ruby_source_path": "Formula/c/ca-certificates.rb",
+  "ruby_source_path": "Formula/p/python-packaging.rb",
   "ruby_source_checksum": {
-    "sha256": "077ad83be565b06e1a41b696080773ed509364c310911df189f823521518b7a7"
+    "sha256": "5ec084b4a2b0d14d8c2b9aed6f83e33730f76b8f8f91c0d4e9ee1ee1345c2246"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "ca-certificates": 379023,
-        "ca-certificates --HEAD": 32
+        "python-packaging": 166826,
+        "python-packaging --HEAD": 5
       },
       "90d": {
-        "ca-certificates": 1051675,
-        "ca-certificates --HEAD": 66
+        "python-packaging": 177178,
+        "python-packaging --HEAD": 5
       },
       "365d": {
-        "ca-certificates": 3626587,
-        "ca-certificates --HEAD": 178
+        "python-packaging": 453670,
+        "python-packaging --HEAD": 17
       }
     },
     "install_on_request": {
       "30d": {
-        "ca-certificates": 13537,
-        "ca-certificates --HEAD": 24
+        "python-packaging": 1201
       },
       "90d": {
-        "ca-certificates": 31037,
-        "ca-certificates --HEAD": 54
+        "python-packaging": 2005
       },
       "365d": {
-        "ca-certificates": 114970,
-        "ca-certificates --HEAD": 148
+        "python-packaging": 7632,
+        "python-packaging --HEAD": 7
       }
     },
     "build_error": {
       "30d": {
-        "ca-certificates": 0
+        "python-packaging": 1
       }
     }
   },

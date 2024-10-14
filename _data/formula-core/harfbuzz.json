@@ -31,38 +31,38 @@
   "version_scheme": 0,
   "bottle": {
     "stable": {
-      "rebuild": 0,
+      "rebuild": 1,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_sequoia": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:9929dbfee478a7df8af8a4dc20064b06075269a69c85c3ac7987debf32eb1613",
-          "sha256": "9929dbfee478a7df8af8a4dc20064b06075269a69c85c3ac7987debf32eb1613"
+          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:4a924069e0783e226a57ed0ce2f9b95d261f9a33b58f7810938d0624f5be9d4b",
+          "sha256": "4a924069e0783e226a57ed0ce2f9b95d261f9a33b58f7810938d0624f5be9d4b"
         },
         "arm64_sonoma": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:385db025846a56597809370f470ce1c387d818895c4f9151ece6d1fe6bd557d3",
-          "sha256": "385db025846a56597809370f470ce1c387d818895c4f9151ece6d1fe6bd557d3"
+          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:8b14b8bbc667af5a01a311e9928d7dac53770dd322731480f3e3ab65ea38f7ca",
+          "sha256": "8b14b8bbc667af5a01a311e9928d7dac53770dd322731480f3e3ab65ea38f7ca"
         },
         "arm64_ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:d9048c6446a50919c93ebac94a1b5ffbe5b53f33be4c42a76272d272b7c287b8",
-          "sha256": "d9048c6446a50919c93ebac94a1b5ffbe5b53f33be4c42a76272d272b7c287b8"
+          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:f98ec690b0fb7890beb4979de8c7705f6a3ea0aa255a464d64a399dc0c81fb59",
+          "sha256": "f98ec690b0fb7890beb4979de8c7705f6a3ea0aa255a464d64a399dc0c81fb59"
         },
         "sonoma": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:820ef457c7a3272aa5164b8231cb9f7a80751684ab73b4fe2878f69177ab5640",
-          "sha256": "820ef457c7a3272aa5164b8231cb9f7a80751684ab73b4fe2878f69177ab5640"
+          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:b8590c108de2eca0ae5e6d92ab357f726f7143a020f14a4aa1c6da5aa637fa1f",
+          "sha256": "b8590c108de2eca0ae5e6d92ab357f726f7143a020f14a4aa1c6da5aa637fa1f"
         },
         "ventura": {
           "cellar": ":any",
-          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:2da1ef5e13bb060f10654db7f573f5ca8fd6a96799c1a8b7c1b3f6caaaf40b6a",
-          "sha256": "2da1ef5e13bb060f10654db7f573f5ca8fd6a96799c1a8b7c1b3f6caaaf40b6a"
+          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:28516fdc43f471c1b7e8e85f9aa76276379e9341b51da0ddc338b635fb065994",
+          "sha256": "28516fdc43f471c1b7e8e85f9aa76276379e9341b51da0ddc338b635fb065994"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:0e3cce49524e68d3d89f703c7faca12791a4f5d0b674870bdba92ba5286e79da",
-          "sha256": "0e3cce49524e68d3d89f703c7faca12791a4f5d0b674870bdba92ba5286e79da"
+          "url": "https://ghcr.io/v2/homebrew/core/harfbuzz/blobs/sha256:82d5f95395dbaf51b6a561de5f931722f4a97d4899d44af032bd0afa30bc5edb",
+          "sha256": "82d5f95395dbaf51b6a561de5f931722f4a97d4899d44af032bd0afa30bc5edb"
         }
       }
     }
@@ -76,7 +76,7 @@
     "meson",
     "ninja",
     "pkg-config",
-    "python@3.12"
+    "python@3.13"
   ],
   "dependencies": [
     "cairo",
@@ -86,7 +86,7 @@
     "icu4c@75"
   ],
   "test_dependencies": [
-    "python@3.12",
+    "python@3.13",
     "pygobject3"
   ],
   "recommended_dependencies": [],
@@ -100,11 +100,11 @@
   "caveats": null,
   "installed": [
     {
-      "version": "9.0.0",
+      "version": "10.0.1",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1727040248,
+      "time": 1728273437,
       "runtime_dependencies": [
         {
           "full_name": "libpng",
@@ -135,6 +135,13 @@
           "declared_directly": false
         },
         {
+          "full_name": "python-packaging",
+          "version": "24.1",
+          "revision": 0,
+          "pkg_version": "24.1",
+          "declared_directly": false
+        },
+        {
           "full_name": "mpdecimal",
           "version": "4.0.0",
           "revision": 0,
@@ -143,9 +150,9 @@
         },
         {
           "full_name": "ca-certificates",
-          "version": "2024-07-02",
+          "version": "2024-09-24",
           "revision": 0,
-          "pkg_version": "2024-07-02",
+          "pkg_version": "2024-09-24",
           "declared_directly": false
         },
         {
@@ -171,16 +178,16 @@
         },
         {
           "full_name": "xz",
-          "version": "5.6.2",
+          "version": "5.6.3",
           "revision": 0,
-          "pkg_version": "5.6.2",
+          "pkg_version": "5.6.3",
           "declared_directly": false
         },
         {
           "full_name": "python@3.12",
-          "version": "3.12.6",
+          "version": "3.12.7",
           "revision": 0,
-          "pkg_version": "3.12.6",
+          "pkg_version": "3.12.7",
           "declared_directly": true
         },
         {
@@ -192,9 +199,9 @@
         },
         {
           "full_name": "glib",
-          "version": "2.82.0",
+          "version": "2.82.1",
           "revision": 0,
-          "pkg_version": "2.82.0",
+          "pkg_version": "2.82.1",
           "declared_directly": true
         },
         {
@@ -286,7 +293,7 @@
       "installed_on_request": false
     }
   ],
-  "linked_keg": "9.0.0",
+  "linked_keg": "10.0.1",
   "pinned": false,
   "outdated": true,
   "deprecated": false,
@@ -297,46 +304,46 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "d1f66f8d0315e23dc6b327cea67f25150c9619c5",
+  "tap_git_head": "3400a2030bd6c8607fd4a7aa035ca963d1d8eba2",
   "ruby_source_path": "Formula/h/harfbuzz.rb",
   "ruby_source_checksum": {
-    "sha256": "0659223db953025088497ad764a1efd9fa68930b637bcc995abe502ccf1b5afa"
+    "sha256": "8505179bcbd54eff2b94cff26807b158308bff25b00a0d25fe47add407e8a32f"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "harfbuzz": 228066,
-        "harfbuzz --HEAD": 216
+        "harfbuzz": 265168,
+        "harfbuzz --HEAD": 288
       },
       "90d": {
-        "harfbuzz": 635547,
-        "harfbuzz --HEAD": 503
+        "harfbuzz": 639899,
+        "harfbuzz --HEAD": 569
       },
       "365d": {
-        "harfbuzz": 2267525,
-        "harfbuzz --HEAD": 1726
+        "harfbuzz": 2304382,
+        "harfbuzz --HEAD": 1795
       }
     },
     "install_on_request": {
       "30d": {
-        "harfbuzz": 93230,
-        "harfbuzz --HEAD": 213
+        "harfbuzz": 114089,
+        "harfbuzz --HEAD": 286
       },
       "90d": {
-        "harfbuzz": 267151,
-        "harfbuzz --HEAD": 501
+        "harfbuzz": 274008,
+        "harfbuzz --HEAD": 566
       },
       "365d": {
-        "harfbuzz": 947635,
-        "harfbuzz --HEAD": 1720
+        "harfbuzz": 967405,
+        "harfbuzz --HEAD": 1789
       }
     },
     "build_error": {
       "30d": {
-        "harfbuzz": 43
+        "harfbuzz": 59
       }
     }
   },
-  "generated_date": "2024-10-07"
+  "generated_date": "2024-10-14"
 }

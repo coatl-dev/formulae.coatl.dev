@@ -118,13 +118,13 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1727039605,
+      "time": 1728272785,
       "runtime_dependencies": [
         {
           "full_name": "ca-certificates",
-          "version": "2024-07-02",
+          "version": "2024-09-24",
           "revision": 0,
-          "pkg_version": "2024-07-02",
+          "pkg_version": "2024-09-24",
           "declared_directly": true
         }
       ],
@@ -143,46 +143,46 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "d1f66f8d0315e23dc6b327cea67f25150c9619c5",
+  "tap_git_head": "3400a2030bd6c8607fd4a7aa035ca963d1d8eba2",
   "ruby_source_path": "Formula/o/openssl@3.rb",
   "ruby_source_checksum": {
-    "sha256": "bf7f40b7b59f240bee43b412cc62ef73dee9b707db35fff0ac6f58a88127c6bd"
+    "sha256": "aa218f64e71fbba1b88dbcdb58bcc86d4e77e98e7fa193122a09d7603487e061"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "openssl@3": 456357,
-        "openssl@3 --HEAD": 132
+        "openssl@3": 415526,
+        "openssl@3 --HEAD": 113
       },
       "90d": {
-        "openssl@3": 1231354,
-        "openssl@3 --HEAD": 257
+        "openssl@3": 1227026,
+        "openssl@3 --HEAD": 271
       },
       "365d": {
-        "openssl@3": 4979785,
-        "openssl@3 --HEAD": 1044
+        "openssl@3": 4975938,
+        "openssl@3 --HEAD": 1052
       }
     },
     "install_on_request": {
       "30d": {
-        "openssl@3": 67330,
-        "openssl@3 --HEAD": 127
+        "openssl@3": 56981,
+        "openssl@3 --HEAD": 109
       },
       "90d": {
-        "openssl@3": 150963,
-        "openssl@3 --HEAD": 246
+        "openssl@3": 150977,
+        "openssl@3 --HEAD": 262
       },
       "365d": {
-        "openssl@3": 647867,
-        "openssl@3 --HEAD": 1016
+        "openssl@3": 647013,
+        "openssl@3 --HEAD": 1026
       }
     },
     "build_error": {
       "30d": {
-        "openssl@3": 3573
+        "openssl@3": 3498
       }
     }
   },
-  "generated_date": "2024-10-07"
+  "generated_date": "2024-10-14"
 }
