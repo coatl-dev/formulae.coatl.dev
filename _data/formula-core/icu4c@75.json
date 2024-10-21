@@ -1,0 +1,146 @@
+{
+  "name": "icu4c@75",
+  "full_name": "icu4c@75",
+  "tap": "homebrew/core",
+  "oldnames": [],
+  "aliases": [],
+  "versioned_formulae": [],
+  "desc": "C/C++ and Java libraries for Unicode and globalization",
+  "license": "ICU",
+  "homepage": "https://icu.unicode.org/home",
+  "versions": {
+    "stable": "75.1",
+    "head": null,
+    "bottle": true
+  },
+  "urls": {
+    "stable": {
+      "url": "https://github.com/unicode-org/icu/releases/download/release-75-1/icu4c-75_1-src.tgz",
+      "tag": null,
+      "revision": null,
+      "using": null,
+      "checksum": "cb968df3e4d2e87e8b11c49a5d01c787bd13b9545280fc6642f826527618caef"
+    }
+  },
+  "revision": 0,
+  "version_scheme": 0,
+  "bottle": {
+    "stable": {
+      "rebuild": 0,
+      "root_url": "https://ghcr.io/v2/homebrew/core",
+      "files": {
+        "arm64_sequoia": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/icu4c/75/blobs/sha256:a7e245c13a6a784dbdfc1b0e52abab9f159d684f8ae6d9293c585bd21b441e75",
+          "sha256": "a7e245c13a6a784dbdfc1b0e52abab9f159d684f8ae6d9293c585bd21b441e75"
+        },
+        "arm64_sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/icu4c/75/blobs/sha256:3da9b88cf2f84e5f37d964400a7a8e1a2042d3dda33acf7eb9c2d81e785e0532",
+          "sha256": "3da9b88cf2f84e5f37d964400a7a8e1a2042d3dda33acf7eb9c2d81e785e0532"
+        },
+        "arm64_ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/icu4c/75/blobs/sha256:760542f48a7cc4e7aff89d5a9c3030fe549e51753a5f7167d838f48fa9a8df38",
+          "sha256": "760542f48a7cc4e7aff89d5a9c3030fe549e51753a5f7167d838f48fa9a8df38"
+        },
+        "sonoma": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/icu4c/75/blobs/sha256:b8d525ce3c6f163981641f69920b6ed92cf4bfef7dab84979dc8f49777d7ea3b",
+          "sha256": "b8d525ce3c6f163981641f69920b6ed92cf4bfef7dab84979dc8f49777d7ea3b"
+        },
+        "ventura": {
+          "cellar": ":any",
+          "url": "https://ghcr.io/v2/homebrew/core/icu4c/75/blobs/sha256:e040d0d6cb994165a20ce9fdcc691ea15043b1c583c9af9a18e7a2ac63aaabcf",
+          "sha256": "e040d0d6cb994165a20ce9fdcc691ea15043b1c583c9af9a18e7a2ac63aaabcf"
+        },
+        "x86_64_linux": {
+          "cellar": ":any_skip_relocation",
+          "url": "https://ghcr.io/v2/homebrew/core/icu4c/75/blobs/sha256:ab60784f7aee6a4a7827bbff1cf524c1c357a76be2898fdbf144ffa1df145eff",
+          "sha256": "ab60784f7aee6a4a7827bbff1cf524c1c357a76be2898fdbf144ffa1df145eff"
+        }
+      }
+    }
+  },
+  "pour_bottle_only_if": null,
+  "keg_only": true,
+  "keg_only_reason": {
+    "reason": ":versioned_formula",
+    "explanation": ""
+  },
+  "options": [],
+  "build_dependencies": [],
+  "dependencies": [],
+  "test_dependencies": [],
+  "recommended_dependencies": [],
+  "optional_dependencies": [],
+  "uses_from_macos": [],
+  "uses_from_macos_bounds": [],
+  "requirements": [],
+  "conflicts_with": [],
+  "conflicts_with_reasons": [],
+  "link_overwrite": [],
+  "caveats": null,
+  "installed": [
+    {
+      "version": "75.1",
+      "used_options": [],
+      "built_as_bottle": true,
+      "poured_from_bottle": true,
+      "time": 1728878239,
+      "runtime_dependencies": [],
+      "installed_as_dependency": true,
+      "installed_on_request": false
+    }
+  ],
+  "linked_keg": null,
+  "pinned": false,
+  "outdated": false,
+  "deprecated": false,
+  "deprecation_date": null,
+  "deprecation_reason": null,
+  "disabled": false,
+  "disable_date": null,
+  "disable_reason": null,
+  "post_install_defined": false,
+  "service": null,
+  "tap_git_head": "54dec2718dc6535b183837c0633a7fb09f46ed8d",
+  "ruby_source_path": "Formula/i/icu4c@75.rb",
+  "ruby_source_checksum": {
+    "sha256": "07a3ac6e250120321337989299b7d7fbbbc41a0b0d4990495528b63fef10dc86"
+  },
+  "variations": {},
+  "analytics": {
+    "install": {
+      "30d": {
+        "icu4c@75": 166724,
+        "icu4c@75 --HEAD": 3
+      },
+      "90d": {
+        "icu4c@75": 166758,
+        "icu4c@75 --HEAD": 3
+      },
+      "365d": {
+        "icu4c@75": 166814,
+        "icu4c@75 --HEAD": 3
+      }
+    },
+    "install_on_request": {
+      "30d": {
+        "icu4c@75": 204
+      },
+      "90d": {
+        "icu4c@75": 222
+      },
+      "365d": {
+        "icu4c@75": 285
+      }
+    },
+    "build_error": {
+      "30d": {
+        "icu4c@75": 570
+      }
+    }
+  },
+  "generated_date": "2024-10-21"
+}

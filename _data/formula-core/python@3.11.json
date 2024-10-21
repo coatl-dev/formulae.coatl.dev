@@ -120,14 +120,14 @@
   "conflicts_with": [],
   "conflicts_with_reasons": [],
   "link_overwrite": [],
-  "caveats": "Python has been installed as\n  $HOMEBREW_PREFIX/bin/python3.11\n\nUnversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to\n`python3.11`, `python3.11-config`, `pip3.11` etc., respectively, have been installed into\n  $HOMEBREW_PREFIX/opt/python@3.11/libexec/bin\n\nYou can install Python packages with\n  pip3.11 install <package>\nThey will install into the site-package directory\n  $HOMEBREW_PREFIX/lib/python3.11/site-packages\n\ntkinter is no longer included with this formula, but it is available separately:\n  brew install python-tk@3.11\n\ngdbm (`dbm.gnu`) is no longer included in this formula, but it is available separately:\n  brew install python-gdbm@3.11\n`dbm.ndbm` changed database backends in Homebrew Python 3.11.\nIf you need to read a database from a previous Homebrew Python created via `dbm.ndbm`,\nyou'll need to read your database using the older version of Homebrew Python and convert to another format.\n`dbm` still defaults to `dbm.gnu` when it is installed.\n\nIf you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:\n  brew install python3\n\nFor more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python\n",
+  "caveats": "Python is installed as\n  $HOMEBREW_PREFIX/bin/python3.11\n\nUnversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to\n`python3.11`, `python3.11-config`, `pip3.11` etc., respectively, are installed into\n  $HOMEBREW_PREFIX/opt/python@3.11/libexec/bin\n\nYou can install Python packages with\n  pip3.11 install <package>\nThey will install into the site-package directory\n  $HOMEBREW_PREFIX/lib/python3.11/site-packages\n\ntkinter is no longer included with this formula, but it is available separately:\n  brew install python-tk@3.11\n\ngdbm (`dbm.gnu`) is no longer included in this formula, but it is available separately:\n  brew install python-gdbm@3.11\n`dbm.ndbm` changed database backends in Homebrew Python 3.11.\nIf you need to read a database from a previous Homebrew Python created via `dbm.ndbm`,\nyou'll need to read your database using the older version of Homebrew Python and convert to another format.\n`dbm` still defaults to `dbm.gnu` when it is installed.\n\nIf you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:\n  brew install python3\n\nFor more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python\n",
   "installed": [
     {
       "version": "3.11.10",
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1728273466,
+      "time": 1728878340,
       "runtime_dependencies": [
         {
           "full_name": "mpdecimal",
@@ -187,10 +187,10 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "3400a2030bd6c8607fd4a7aa035ca963d1d8eba2",
+  "tap_git_head": "54dec2718dc6535b183837c0633a7fb09f46ed8d",
   "ruby_source_path": "Formula/p/python@3.11.rb",
   "ruby_source_checksum": {
-    "sha256": "0343f5eb221f692d2b687f4cd80da3b641b3df743838cd40cc2d6dbb1ea2d647"
+    "sha256": "394219b9cd33d9e2eaadad9d72a5dd8d8fc5aa6d017066e9e3938994362c9668"
   },
   "variations": {
     "x86_64_linux": {
@@ -207,37 +207,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "python@3.11": 92585,
-        "python@3.11 --HEAD": 139
+        "python@3.11": 82923,
+        "python@3.11 --HEAD": 128
       },
       "90d": {
-        "python@3.11": 351002,
-        "python@3.11 --HEAD": 440
+        "python@3.11": 321205,
+        "python@3.11 --HEAD": 412
       },
       "365d": {
-        "python@3.11": 1995352,
-        "python@3.11 --HEAD": 2386
+        "python@3.11": 1948161,
+        "python@3.11 --HEAD": 2322
       }
     },
     "install_on_request": {
       "30d": {
-        "python@3.11": 62801,
-        "python@3.11 --HEAD": 138
+        "python@3.11": 57615,
+        "python@3.11 --HEAD": 128
       },
       "90d": {
-        "python@3.11": 223591,
-        "python@3.11 --HEAD": 439
+        "python@3.11": 207266,
+        "python@3.11 --HEAD": 411
       },
       "365d": {
-        "python@3.11": 1261893,
-        "python@3.11 --HEAD": 2381
+        "python@3.11": 1235961,
+        "python@3.11 --HEAD": 2317
       }
     },
     "build_error": {
       "30d": {
-        "python@3.11": 110
+        "python@3.11": 83
       }
     }
   },
-  "generated_date": "2024-10-14"
+  "generated_date": "2024-10-21"
 }

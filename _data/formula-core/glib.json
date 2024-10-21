@@ -28,38 +28,38 @@
   "version_scheme": 0,
   "bottle": {
     "stable": {
-      "rebuild": 0,
+      "rebuild": 1,
       "root_url": "https://ghcr.io/v2/homebrew/core",
       "files": {
         "arm64_sequoia": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:922c92018e72eb1b0aa972a39f9b04227dd50c2600434943584727f3d78fd672",
-          "sha256": "922c92018e72eb1b0aa972a39f9b04227dd50c2600434943584727f3d78fd672"
+          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:f2abd982579380fa01cf4bde3fba4e4e8c3f637968ed5f877abe9b2f03867546",
+          "sha256": "f2abd982579380fa01cf4bde3fba4e4e8c3f637968ed5f877abe9b2f03867546"
         },
         "arm64_sonoma": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:be85658ed18ee50aa6f9c9ca016bdc97bd665129f1de350a2c0ae45bd5cea1a8",
-          "sha256": "be85658ed18ee50aa6f9c9ca016bdc97bd665129f1de350a2c0ae45bd5cea1a8"
+          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:59b2f7c8083f75518cf7389076d53273da8dd3408b64c96d16b1b98a4fcfbfd5",
+          "sha256": "59b2f7c8083f75518cf7389076d53273da8dd3408b64c96d16b1b98a4fcfbfd5"
         },
         "arm64_ventura": {
           "cellar": "/opt/homebrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:ddfe7b3569d9e0ef8c279ad311910a0f5f238a97425f4aecc9c568430c6fc5f9",
-          "sha256": "ddfe7b3569d9e0ef8c279ad311910a0f5f238a97425f4aecc9c568430c6fc5f9"
+          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:03f99542d1f48c8f4a3219523ea4dcd854959a45d5024b69fb9fed312cfc03ab",
+          "sha256": "03f99542d1f48c8f4a3219523ea4dcd854959a45d5024b69fb9fed312cfc03ab"
         },
         "sonoma": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:d84c34b9572aca1b723f915debdbcc676e1ce3528b0c6ced48c92adbe0ecb917",
-          "sha256": "d84c34b9572aca1b723f915debdbcc676e1ce3528b0c6ced48c92adbe0ecb917"
+          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:4d6212217fd522c5771a970cf836090ac0e61dc8e71fc87348bb02f16133d1de",
+          "sha256": "4d6212217fd522c5771a970cf836090ac0e61dc8e71fc87348bb02f16133d1de"
         },
         "ventura": {
           "cellar": "/usr/local/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:319c0b60fad79996858ca4b440f58798b2ed45f0971881ff6b0b164a75de1619",
-          "sha256": "319c0b60fad79996858ca4b440f58798b2ed45f0971881ff6b0b164a75de1619"
+          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:3a1546e0953f0dc82f81a8bcff6d0a58ec12cc646532ae7682313e4b8c0a19fd",
+          "sha256": "3a1546e0953f0dc82f81a8bcff6d0a58ec12cc646532ae7682313e4b8c0a19fd"
         },
         "x86_64_linux": {
           "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:67d479d1efa505b1c6af6ed6e4fb75cc8d51c0275f50fc44ef954c73e94eecb9",
-          "sha256": "67d479d1efa505b1c6af6ed6e4fb75cc8d51c0275f50fc44ef954c73e94eecb9"
+          "url": "https://ghcr.io/v2/homebrew/core/glib/blobs/sha256:5ab4a7c3a7b616b4a472fde55d9341fb65d048258b6d63a85b4005fc85a4652b",
+          "sha256": "5ab4a7c3a7b616b4a472fde55d9341fb65d048258b6d63a85b4005fc85a4652b"
         }
       }
     }
@@ -79,7 +79,7 @@
   "dependencies": [
     "pcre2",
     "python-packaging",
-    "python@3.12",
+    "python@3.13",
     "gettext"
   ],
   "test_dependencies": [],
@@ -123,7 +123,7 @@
       "used_options": [],
       "built_as_bottle": true,
       "poured_from_bottle": true,
-      "time": 1728273431,
+      "time": 1728878305,
       "runtime_dependencies": [
         {
           "full_name": "pcre2",
@@ -135,8 +135,8 @@
         {
           "full_name": "python-packaging",
           "version": "24.1",
-          "revision": 0,
-          "pkg_version": "24.1",
+          "revision": 1,
+          "pkg_version": "24.1_1",
           "declared_directly": true
         },
         {
@@ -184,8 +184,8 @@
         {
           "full_name": "python@3.12",
           "version": "3.12.7",
-          "revision": 0,
-          "pkg_version": "3.12.7",
+          "revision": 1,
+          "pkg_version": "3.12.7_1",
           "declared_directly": true
         },
         {
@@ -211,17 +211,17 @@
   "disable_reason": null,
   "post_install_defined": true,
   "service": null,
-  "tap_git_head": "3400a2030bd6c8607fd4a7aa035ca963d1d8eba2",
+  "tap_git_head": "54dec2718dc6535b183837c0633a7fb09f46ed8d",
   "ruby_source_path": "Formula/g/glib.rb",
   "ruby_source_checksum": {
-    "sha256": "5c6a4d4e4f2a9637f15422cac1495ae611c470dd3905e083ee2f8a8afe59d653"
+    "sha256": "ceb1eb2c4d0725a3d6cc6e7a8b211d4689159740c63177d0586c6021cb0dda5e"
   },
   "variations": {
     "x86_64_linux": {
       "dependencies": [
         "pcre2",
         "python-packaging",
-        "python@3.12",
+        "python@3.13",
         "dbus",
         "util-linux"
       ]
@@ -230,37 +230,37 @@
   "analytics": {
     "install": {
       "30d": {
-        "glib": 289683,
-        "glib --HEAD": 254
+        "glib": 275074,
+        "glib --HEAD": 257
       },
       "90d": {
-        "glib": 779251,
-        "glib --HEAD": 547
+        "glib": 768621,
+        "glib --HEAD": 555
       },
       "365d": {
-        "glib": 2927051,
-        "glib --HEAD": 1377
+        "glib": 2939286,
+        "glib --HEAD": 1401
       }
     },
     "install_on_request": {
       "30d": {
-        "glib": 113543,
-        "glib --HEAD": 250
+        "glib": 115628,
+        "glib --HEAD": 255
       },
       "90d": {
-        "glib": 275134,
-        "glib --HEAD": 543
+        "glib": 276638,
+        "glib --HEAD": 551
       },
       "365d": {
-        "glib": 860492,
-        "glib --HEAD": 1364
+        "glib": 874156,
+        "glib --HEAD": 1388
       }
     },
     "build_error": {
       "30d": {
-        "glib": 1027
+        "glib": 1145
       }
     }
   },
-  "generated_date": "2024-10-14"
+  "generated_date": "2024-10-21"
 }
