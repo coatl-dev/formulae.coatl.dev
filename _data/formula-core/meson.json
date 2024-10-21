@@ -9,17 +9,17 @@
   "license": "Apache-2.0",
   "homepage": "https://mesonbuild.com/",
   "versions": {
-    "stable": "1.5.2",
+    "stable": "1.6.0",
     "head": "HEAD",
     "bottle": true
   },
   "urls": {
     "stable": {
-      "url": "https://github.com/mesonbuild/meson/releases/download/1.5.2/meson-1.5.2.tar.gz",
+      "url": "https://github.com/mesonbuild/meson/releases/download/1.6.0/meson-1.6.0.tar.gz",
       "tag": null,
       "revision": null,
       "using": null,
-      "checksum": "f955e09ab0d71ef180ae85df65991d58ed8430323de7d77a37e11c9ea630910b"
+      "checksum": "999b65f21c03541cf11365489c1fad22e2418bb0c3d50ca61139f2eec09d5496"
     },
     "head": {
       "url": "https://github.com/mesonbuild/meson.git",
@@ -27,7 +27,7 @@
       "using": null
     }
   },
-  "revision": 1,
+  "revision": 0,
   "version_scheme": 0,
   "bottle": {
     "stable": {
@@ -36,8 +36,8 @@
       "files": {
         "all": {
           "cellar": ":any_skip_relocation",
-          "url": "https://ghcr.io/v2/homebrew/core/meson/blobs/sha256:a3b43478b98b0d04f647668cb8740c8e75446a9dd15a34587fde96bebbf401c7",
-          "sha256": "a3b43478b98b0d04f647668cb8740c8e75446a9dd15a34587fde96bebbf401c7"
+          "url": "https://ghcr.io/v2/homebrew/core/meson/blobs/sha256:77eb91483991e1b615c3fe1dcea843e43706ac3eb011b0556fcf70e3a3e097fb",
+          "sha256": "77eb91483991e1b615c3fe1dcea843e43706ac3eb011b0556fcf70e3a3e097fb"
         }
       }
     }
@@ -73,46 +73,46 @@
   "disable_reason": null,
   "post_install_defined": false,
   "service": null,
-  "tap_git_head": "3400a2030bd6c8607fd4a7aa035ca963d1d8eba2",
+  "tap_git_head": "54dec2718dc6535b183837c0633a7fb09f46ed8d",
   "ruby_source_path": "Formula/m/meson.rb",
   "ruby_source_checksum": {
-    "sha256": "1cfd050825fcd6584c839ed9677b3243b0050898e13d6034a08ba2aa9db158a9"
+    "sha256": "472646aa1b06131fc928fbf4e5d6c210837ef98c40884c3fce80ec31394d7f5b"
   },
   "variations": {},
   "analytics": {
     "install": {
       "30d": {
-        "meson": 20733,
-        "meson --HEAD": 22
+        "meson": 21745,
+        "meson --HEAD": 26
       },
       "90d": {
-        "meson": 47398,
-        "meson --HEAD": 55
+        "meson": 48511,
+        "meson --HEAD": 56
       },
       "365d": {
-        "meson": 168456,
+        "meson": 169999,
         "meson --HEAD": 220
       }
     },
     "install_on_request": {
       "30d": {
-        "meson": 8339,
-        "meson --HEAD": 21
+        "meson": 8676,
+        "meson --HEAD": 25
       },
       "90d": {
-        "meson": 20440,
-        "meson --HEAD": 54
+        "meson": 20664,
+        "meson --HEAD": 55
       },
       "365d": {
-        "meson": 71434,
+        "meson": 72022,
         "meson --HEAD": 219
       }
     },
     "build_error": {
       "30d": {
-        "meson": 212
+        "meson": 0
       }
     }
   },
-  "generated_date": "2024-10-14"
+  "generated_date": "2024-10-21"
 }
